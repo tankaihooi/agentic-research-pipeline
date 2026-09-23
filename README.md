@@ -22,7 +22,7 @@ back when evidence is one-sided, a **Writer** drafts the sections in parallel, a
 Measured on three frozen real runs with planted fabrications
 ([method, full tables, caveats](evals/results/RESULTS.md)):
 
-| | |
+| Metric | Result |
 |---|---|
 | Planted fabrications the Critic catches | **97%** (range 97-98% over 3 repeats, 116 plants) |
 | Genuine findings it wrongly rejects | **3%** (range 3-4%) |
