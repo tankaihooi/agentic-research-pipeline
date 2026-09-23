@@ -3,16 +3,20 @@
 from __future__ import annotations
 
 import asyncio
+import json
 import signal
-from typing import Annotated
+from pathlib import Path
+from typing import Annotated, Any
 
 import typer
 from dotenv import find_dotenv, load_dotenv
 from pydantic import BaseModel
 from rich.console import Console
+from rich.markdown import Markdown
 from rich.table import Table
 
-from deep_research.config import Depth, Tier, get_settings
+from deep_research.config import PRESETS, Depth, Tier, get_settings
+from deep_research.events import EventLog
 from deep_research.graph.state import ResearchState
 from deep_research.llm import OpenAILLM
 from deep_research.models import Agent
@@ -23,7 +27,8 @@ from deep_research.observability import (
     tracing_enabled,
 )
 from deep_research.runner import RunInfo, execute, metrics, new_run_id
-from deep_research.ui.terminal import EventPrinter
+from deep_research.ui.terminal import EventPrinter, LiveDashboard
+from deep_research.ui.terminal import replay as replay_events
 
 app = typer.Typer(no_args_is_help=True, add_completion=False)
 console = Console()
@@ -35,54 +40,107 @@ def main() -> None:
     load_dotenv(find_dotenv(usecwd=True))
 
 
+PlainOption = Annotated[
+    bool, typer.Option("--plain", help="Print one line per event instead of the live dashboard.")
+]
+
+
 @app.command()
 def run(
     prompt: Annotated[str, typer.Argument(help="The research request.")],
     depth: Annotated[Depth, typer.Option(help="quick | standard | deep")] = Depth.STANDARD,
+    plain: PlainOption = False,
 ) -> None:
     """Start a new research run."""
     info = RunInfo(run_id=new_run_id(prompt), prompt=prompt, depth=depth)
-    _execute(info, resume=False)
+    _execute(info, resume=False, plain=plain)
 
 
 @app.command()
 def resume(
     run_id: Annotated[str, typer.Argument(help="Run id (the folder name under runs/).")],
+    plain: PlainOption = False,
 ) -> None:
     """Continue an interrupted run from its last checkpoint."""
-    settings = get_settings()
-    run_dir = settings.runs_dir / run_id
-    if not (run_dir / "run.json").exists():
-        console.print(f"[red]No run found at {run_dir}[/]")
-        raise typer.Exit(1)
-    _execute(RunInfo.load(run_dir), resume=True)
+    _execute(_load_run(run_id), resume=True, plain=plain)
 
 
 @app.command()
 def rewrite(
     run_id: Annotated[str, typer.Argument(help="Run id of a finished run.")],
+    plain: PlainOption = False,
 ) -> None:
     """Re-run only the writing stage on a finished run's stored research (no new scraping)."""
-    settings = get_settings()
-    run_dir = settings.runs_dir / run_id
+    _execute(_load_run(run_id), resume=False, rewind_to="writer_outline", plain=plain)
+
+
+@app.command()
+def replay(
+    run_id: Annotated[str, typer.Argument(help="Run id to replay from its events.jsonl.")],
+    speed: Annotated[float, typer.Option(help="Playback speed multiplier.")] = 8.0,
+    max_gap: Annotated[float, typer.Option(help="Longest pause between events, seconds.")] = 1.5,
+    hold: Annotated[float, typer.Option(help="Seconds to hold the final frame.")] = 4.0,
+    plain: PlainOption = False,
+) -> None:
+    """Re-render a recorded run at a chosen speed (for demos and the time-lapse video)."""
+    info = _load_run(run_id)
+    run_dir = get_settings().runs_dir / run_id
+    events = EventLog.read(run_dir / "events.jsonl")
+
+    async def play() -> None:
+        if plain or not console.is_terminal:
+            await replay_events(events, EventPrinter(console), speed=speed, max_gap_s=max_gap)
+            return
+        async with LiveDashboard(console, virtual_clock=True) as dashboard:
+            preset = PRESETS[info.depth]
+            dashboard.state.prompt, dashboard.state.run_id = info.prompt, info.run_id
+            dashboard.state.depth, dashboard.state.deadline_s = info.depth.value, preset.deadline_s
+            dashboard.state.max_cost_usd = preset.max_cost_usd
+            await replay_events(events, dashboard, speed=speed, max_gap_s=max_gap)
+            await asyncio.sleep(hold)
+
+    asyncio.run(play())
+    if (run_dir / "metrics.json").exists():
+        _print_summary(info, json.loads((run_dir / "metrics.json").read_text()), run_dir)
+
+
+@app.command()
+def show(run_id: Annotated[str, typer.Argument(help="Run id whose report to display.")]) -> None:
+    """Render a run's report in the terminal."""
+    report = get_settings().runs_dir / run_id / "report.md"
+    if not report.exists():
+        console.print(f"[red]No report at {report}[/]")
+        raise typer.Exit(1)
+    markdown = Markdown(report.read_text(encoding="utf-8"), hyperlinks=True)
+    if console.is_terminal:
+        with console.pager(styles=True):
+            console.print(markdown)
+    else:
+        console.print(markdown)
+
+
+def _load_run(run_id: str) -> RunInfo:
+    run_dir = get_settings().runs_dir / run_id
     if not (run_dir / "run.json").exists():
         console.print(f"[red]No run found at {run_dir}[/]")
         raise typer.Exit(1)
-    _execute(RunInfo.load(run_dir), resume=False, rewind_to="writer_outline")
+    return RunInfo.load(run_dir)
 
 
-def _execute(info: RunInfo, *, resume: bool, rewind_to: str | None = None) -> None:
+def _execute(info: RunInfo, *, resume: bool, plain: bool, rewind_to: str | None = None) -> None:
     settings = get_settings()
-    try:
-        state = asyncio.run(
-            execute(
-                settings,
-                info,
-                resume=resume,
-                on_event=EventPrinter(console),
-                rewind_to=rewind_to,
+
+    async def go() -> ResearchState:
+        if plain or not console.is_terminal:
+            sink = EventPrinter(console)
+            return await execute(settings, info, resume=resume, on_event=sink, rewind_to=rewind_to)
+        async with LiveDashboard(console) as dashboard:
+            return await execute(
+                settings, info, resume=resume, on_event=dashboard, rewind_to=rewind_to
             )
-        )
+
+    try:
+        state = asyncio.run(go())
     except KeyboardInterrupt:
         # Ctrl-C reaches both `uv` and Python, so a second SIGINT can land during shutdown.
         signal.signal(signal.SIGINT, signal.SIG_IGN)
@@ -91,11 +149,10 @@ def _execute(info: RunInfo, *, resume: bool, rewind_to: str | None = None) -> No
             f"research resume {info.run_id}"
         )
         raise typer.Exit(130) from None
-    _summary(info, state, settings.runs_dir / info.run_id)
+    _print_summary(info, metrics(state), settings.runs_dir / info.run_id)
 
 
-def _summary(info: RunInfo, state: ResearchState, run_dir: object) -> None:
-    m = metrics(state)
+def _print_summary(info: RunInfo, m: dict[str, Any], run_dir: Path) -> None:
     counts, tokens, total = m["counts"], m["tokens"], m["total"]
     table = Table(title=f"Run {info.run_id} · {info.status}", show_header=False)
     table.add_row("Elapsed", f"{m['elapsed_s']}s")
@@ -130,8 +187,8 @@ def _summary(info: RunInfo, state: ResearchState, run_dir: object) -> None:
             f"{usage['output_tokens']:,} out · {usage['embedding_tokens']:,} embedded · "
             f"${usage['cost_usd']:.4f}",
         )
-    report = m["report"]
-    if report["words"]:
+    report = m.get("report", {})
+    if report.get("words"):
         rounds = " → ".join(f"{r['flagged']} flagged" for r in report["audit_rounds"])
         table.add_row(
             "Report",
@@ -139,7 +196,7 @@ def _summary(info: RunInfo, state: ResearchState, run_dir: object) -> None:
             f" · {len(report['citation_problems'])} citation issue(s)",
         )
     table.add_row("Total cost", f"${total['cost_usd']:.4f}")
-    table.add_row("Output", f"{run_dir}/report.md" if report["words"] else str(run_dir))
+    table.add_row("Output", str(run_dir / "report.md") if report.get("words") else str(run_dir))
     if info.traces and info.traces[-1].startswith("http"):
         table.add_row("Trace", info.traces[-1])
     console.print(table)

@@ -15,7 +15,12 @@ See [docs/architecture.md](docs/architecture.md) for the design.
 uv sync
 cp .env.example .env        # add OPENAI_API_KEY, TAVILY_API_KEY, LANGSMITH_API_KEY
 uv run research doctor      # verifies keys and makes one traced LLM call
+uv run research run "Give me a competitive analysis of Stripe's new billing features"
+uv run research replay <run_id> --speed 8   # watch a recorded run as a time-lapse
+uv run research show <run_id>               # read the report in the terminal
 ```
+
+![Live dashboard](docs/dashboard.svg)
 
 ## Development
 

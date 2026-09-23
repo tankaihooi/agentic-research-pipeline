@@ -176,6 +176,30 @@ flagged 2 of 82 statements, both genuine nuances.
 - Independently of LangSmith, every run writes `metrics.json` (per-agent tokens, cost and
   latency) and `events.jsonl` (the narrated agent log used by the terminal UI and replay).
 
+## Terminal dashboard and replay
+
+![Live dashboard during the Critic stage](dashboard.svg)
+
+- Every agent narrates through `emit(...)`, which writes LangGraph custom-stream events. The
+  runner also turns top-level `updates` into two synthetic event kinds: `stage` (pipeline
+  position) and `usage` (running cost and tokens). Only top-level updates count: a scraper
+  branch's usage arrives once, in the parent `research` node's update, so counting subgraph
+  updates too would double it.
+- `DashboardState` folds events into counters (pure and unit-tested), and `Dashboard` renders
+  it with Rich: pipeline stages, time and cost budget bars, one row per agent with current
+  activity and counters, a token funnel, a verdict bar, and a colour-coded activity log.
+- Redraws come from an asyncio ticker on the same event loop that applies events, with Rich's
+  auto-refresh off, so no background thread reads state while it changes.
+- A node's `stage` update lands only when the node finishes, so the pipeline marker also follows
+  each agent's own events. Otherwise the screen would say "Writing" while the Auditor is visibly
+  flagging.
+- `research replay <run_id> --speed 8` plays `events.jsonl` back through the same dashboard on
+  a virtual clock, capping long pauses. A 110-second run replays in about 15 seconds. This is
+  how the time-lapse video is filmed: from a real run's log, without paying for another run.
+  `research show <run_id>` renders the report for the closing shot. `scripts/render_frame.py`
+  renders any moment of a run to SVG (this page's screenshot is a real frame).
+- Non-TTY output (pipes, CI) and `--plain` fall back to one line per event.
+
 ## Key decisions and trade-offs
 
 | Decision | Why | Trade-off accepted |

@@ -120,9 +120,17 @@ async def execute(
                 subgraphs=True,  # events emitted inside the scraper subgraph
                 durability="sync",  # persist each step before the next, so a crash loses nothing
             )
-            async for _namespace, mode, chunk in stream:
+            tracker = UpdateTracker()
+            if resume or rewind_to:  # carry the meters over from the checkpoint
+                prior = (await graph.aget_state(start_config)).values
+                tracker.usage = prior.get("usage", Usage())
+                tracker.stage = prior.get("stage")
+            async for namespace, mode, chunk in stream:
                 if mode == "custom" and (event := event_from_stream_chunk(chunk)):
                     sink(event)
+                elif mode == "updates":
+                    for event in tracker.events(namespace, chunk):
+                        sink(event)
             snapshot = await graph.aget_state(config)  # latest checkpoint of the thread
             state: ResearchState = snapshot.values  # type: ignore[assignment]
             info.status = "interrupted" if snapshot.next else "complete"
@@ -162,11 +170,67 @@ def _archive_report(run_dir: Path) -> None:
 
 def _orchestrator_event(kind: str, info: RunInfo, resume: bool) -> AgentEvent:
     verb = "Resuming" if resume else "Starting"
+    preset = PRESETS[info.depth]
     return AgentEvent(
         agent=Agent.ORCHESTRATOR,
         kind=kind,
         message=f"{verb} run {info.run_id} ({info.depth.value}): {info.prompt}",
+        data={
+            "run_id": info.run_id,
+            "prompt": info.prompt,
+            "depth": info.depth.value,
+            "deadline_s": preset.deadline_s,
+            "max_cost_usd": preset.max_cost_usd,
+        },
     )
+
+
+class UpdateTracker:
+    """Turns LangGraph `updates` into events: stage changes and a running cost meter.
+
+    Only top-level updates count. A scraper branch's usage arrives once, in the parent `research`
+    node's update, so also counting the subgraph's inner updates would double it.
+    """
+
+    def __init__(self) -> None:
+        self.stage: Stage | None = None
+        self.usage = Usage()
+
+    def events(self, namespace: object, chunk: Any) -> list[AgentEvent]:
+        if namespace or not isinstance(chunk, dict):
+            return []
+        out: list[AgentEvent] = []
+        for node, update in chunk.items():
+            if not isinstance(update, dict):
+                continue
+            if (stage := update.get("stage")) and stage != self.stage:
+                self.stage = Stage(stage)
+                out.append(
+                    AgentEvent(
+                        agent=Agent.ORCHESTRATOR,
+                        kind="stage",
+                        message=f"stage → {self.stage.value}",
+                        data={"stage": self.stage.value, "node": node},
+                    )
+                )
+            if isinstance(delta := update.get("usage"), Usage):
+                self.usage += delta
+                total = self.usage.total
+                out.append(
+                    AgentEvent(
+                        agent=Agent.ORCHESTRATOR,
+                        kind="usage",
+                        message=f"${total.cost_usd:.4f} spent",
+                        data={
+                            "cost_usd": total.cost_usd,
+                            "input_tokens": total.input_tokens,
+                            "output_tokens": total.output_tokens,
+                            "embedding_tokens": total.embedding_tokens,
+                            "llm_calls": total.calls,
+                        },
+                    )
+                )
+        return out
 
 
 def metrics(state: ResearchState) -> dict[str, Any]:

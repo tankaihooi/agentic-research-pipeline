@@ -436,6 +436,10 @@ async def verify(
         f"{counts[VerdictStatus.CONTRADICTED]} contradicted, "
         f"{counts[VerdictStatus.SINGLE_SOURCE]} single-source",
         check="cross_reference",
+        verified=counts[VerdictStatus.VERIFIED],
+        first_party=sum(v.first_party for v in xref.values()),
+        contradicted=counts[VerdictStatus.CONTRADICTED],
+        single_source=counts[VerdictStatus.SINGLE_SOURCE],
     )
     return verdicts, usage
 
