@@ -1,36 +1,43 @@
-# Demo video: storyboard and recording guide
+# Demo video: how it was recorded
 
-A 75-90 second time-lapse for the top of the README and LinkedIn. Every frame comes from a real
-run: the dashboard replays the run's recorded `events.jsonl` at 8×, so nothing is staged or
-re-run.
+The video at the top of the README is a single terminal recording. The dashboard replays the
+Stripe run's recorded `examples/stripe-billing/events.jsonl` at 4×, with waits over 3 s
+trimmed. The same events drove the dashboard during the live run, so nothing is staged or
+re-run. The header shows a `REPLAY 4×` badge throughout.
 
-## Setup
+## Recording it again
 
-- Terminal at **140×36** (the dashboard's design size), dark theme, 15-16 pt monospace font.
-- Screen recorder: QuickTime (File → New Screen Recording, select the terminal window) or Loom.
-- Rehearse once with `--speed 8 --hold 4`, then record.
+Run the script in Terminal.app or iTerm2. An editor's terminal panel can't be resized to the
+140×36 the dashboard is designed for. Use a dark theme.
 
 ```bash
-uv run research replay examples/stripe-billing --speed 8 --hold 5
-uv run research show examples/stripe-billing
+scripts/record_demo.sh              # or: scripts/record_demo.sh examples/vector-databases
 ```
 
-## Shots
+The script sizes the window, then waits for Enter at three points:
 
-| Time | On screen | Voice-over / caption |
-|---|---|---|
-| 0:00-0:06 | Type `research run "Give me a competitive analysis of Stripe's new billing features"` (hit enter, cut) | "One prompt. Five agents. About four minutes of research, sped up 8×." |
-| 0:06-0:12 | Replay starts: Planner row active, 5 research questions appear in the log | "The Planner splits the request into questions, one per company, aimed at official sources." |
-| 0:12-0:28 | Scraper: parallel `navigating …` lines; token funnel bars fill (raw → cleaned → distilled) | "Scrapers run in parallel. Hundreds of thousands of tokens of web pages are distilled into short, quote-backed findings, so no prompt ever holds the raw web." |
-| 0:28-0:46 | Critic: red `✗ rejected … (entailment): overstates its quote` lines, orange contradictions, verdict bar fills | "The Critic checks every quote against its source and every claim against its quote, and cross-references other sources. Anything unsupported is dropped with a reason." |
-| 0:46-0:52 | `↻ requesting more evidence` (gap loop), scrapers restart | "Where the evidence is one-sided, it sends the scrapers back for independent sources." |
-| 0:52-1:02 | Writer drafts sections in parallel; Auditor `⚑` flags, `Revising §n` | "The Writer drafts every section in parallel from its own findings only. An Auditor checks every sentence against what it cites." |
-| 1:02-1:14 | `research show`: scroll the executive summary, one section with `[n]` citations, Methodology & limitations, References | "The result: a multi-page, cited briefing whose methodology section is computed from the run, not written by the model." |
-| 1:14-1:24 | LangSmith trace tree (public link), then `evals/results/RESULTS.md` table | "Every agent step is traced. Against planted fabrications, the Critic catches 97%." |
-| 1:24-1:28 | End card: repo URL | |
+1. **Before typing.** Set the font with ⌘+ / ⌘− (15 pt fits a 1440-point-wide screen). Start a
+   screen recording with ⌘⇧5 → Record Selected Portion, then press Enter. The script types the
+   prompt and the replay runs by itself, taking about 55 seconds.
+2. **On the run summary** (per-agent tokens and cost). Press Enter to move on.
+3. **In the report pager.** Hold ↓ to scroll. Type `/Methodology` and press Enter to jump to
+   that section, and press `q` to finish.
 
-## Honesty notes for the caption
+To add a recording to the README, drag the MP4 into the README editor on github.com. GitHub
+uploads it and inserts a `github.com/user-attachments/...` link, which plays inline. The upload
+limit for videos on a free account is 10 MB.
 
-- Say "8× replay of a real run". The replay is exact, only faster.
-- Quote headline numbers from `evals/results/RESULTS.md` with their caveats (synthetic plants,
-  model-made reference labels).
+## What happens when
+
+Times from the start of the replay, for the Stripe run:
+
+| Replay time | On screen |
+|---|---|
+| 0:00-0:03 | Planner: the prompt becomes 5 research questions, one per company |
+| 0:03-0:11 | Scrapers in parallel: `navigating …`, then pages read, cleaned and distilled into quote-backed findings. The token funnel fills. |
+| 0:11-0:17 | Critic: every quote checked against its page, every claim against its quote. The first red `✗ rejected … (entailment)` lines appear. |
+| 0:17-0:26 | `↻ requesting more evidence` ×4: the evidence is one-sided, so the scrapers go back for independent sources |
+| 0:26-0:32 | Critic, second pass: more rejections, and orange `⚠ contradicted` lines where sources disagree |
+| 0:32-0:41 | Writer: outline, then 7 sections drafted in parallel, each from its own verified findings |
+| 0:41-0:51 | Auditor: `⚑` flags statements that go beyond what they cite, 4 sections are revised, and a second audit round runs. The report is assembled. |
+| after | Run summary (tokens and cost per agent), then the report with its `[n]` citations and generated Methodology & limitations section |

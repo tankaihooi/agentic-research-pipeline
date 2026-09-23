@@ -11,11 +11,13 @@ web pages, a **Critic** rejects any claim its source does not support and sends 
 back when evidence is one-sided, a **Writer** drafts the sections in parallel, and an
 **Auditor** checks every sentence against what it cites.
 
-- ▶ **Demo video:** _coming soon_ ([storyboard](docs/video.md))
+https://github.com/user-attachments/assets/19695237-23cd-4a3d-808d-29b7627946eb
+
+*A real run of the Stripe prompt, replayed from its event log at 4× with waits over 3 s trimmed.
+Nothing is staged or re-run. [How it was recorded](docs/video.md).*
+
 - 🔎 **Public execution trace (LangSmith):** [the Stripe run, 409 spans](https://apac.smith.langchain.com/public/858a553f-9f6d-41df-b540-9fc6e62264aa/r) · [timeline and per-agent breakdown](docs/trace.md)
 - 📄 **Example report:** [Stripe billing competitive analysis](examples/stripe-billing/report.md) (3,702 words, 29 cited sources)
-
-![Live dashboard: the Critic rejects unsupported claims, flags one-sided evidence, and sends the scrapers back](docs/dashboard.svg)
 
 ## Results
 
@@ -143,7 +145,7 @@ writing stage with the Critic on and off, and LangSmith experiments for side-by-
 Building the eval surfaced a real grounding bug (a truncated markdown link swallowed text), now
 fixed with a regression test.
 
-**Quality.** 91 offline tests (fake LLM and search, in-memory Qdrant, the real graph end to end,
+**Quality.** 92 offline tests (fake LLM and search, in-memory Qdrant, the real graph end to end,
 crash-and-resume), ruff, pyright, and GitHub Actions CI.
 
 ## Examples

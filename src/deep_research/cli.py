@@ -98,6 +98,7 @@ def replay(
             dashboard.state.prompt, dashboard.state.run_id = info.prompt, info.run_id
             dashboard.state.depth, dashboard.state.deadline_s = info.depth.value, preset.deadline_s
             dashboard.state.max_cost_usd = preset.max_cost_usd
+            dashboard.state.replay_speed = speed
             await replay_events(events, dashboard, speed=speed, max_gap_s=max_gap)
             await asyncio.sleep(hold)
 

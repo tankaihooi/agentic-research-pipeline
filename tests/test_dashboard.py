@@ -138,6 +138,15 @@ def test_dashboard_renders_every_region() -> None:
         "$ 0.012 / 1.50",
     ):
         assert expected in text, expected
+    assert "REPLAY" not in text
+
+
+def test_replay_is_labelled_in_the_header() -> None:
+    state = _state(RUN[:5])
+    state.replay_speed = 4
+    console = Console(record=True, width=150, height=40, force_terminal=True, color_system=None)
+    console.print(Dashboard(state))
+    assert "REPLAY 4\u00d7" in console.export_text()
 
 
 def test_replay_delays_scale_and_cap_pauses() -> None:

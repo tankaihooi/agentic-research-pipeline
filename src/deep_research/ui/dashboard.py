@@ -89,6 +89,7 @@ class DashboardState:
     max_cost_usd: float = 0.0
     started: datetime | None = None
     clock: datetime | None = None  # replay drives a virtual clock; live runs use wall time
+    replay_speed: float = 0.0  # set by `research replay`, so every frame says it is a recording
     stage: Stage = Stage.PLANNING
     last_agent: Agent | None = None
     agents: dict[Agent, AgentStatus] = field(
@@ -269,6 +270,8 @@ def render_header(state: DashboardState) -> Panel:
         ProgressBar(total=cap, completed=min(state.cost_usd, cap), width=None),
     )
     title = Text.assemble(("◆ DEEP RESEARCH ", "bold"), (f"{state.depth} · {state.run_id}", "dim"))
+    if state.replay_speed:
+        title.append(f"  ▶ REPLAY {state.replay_speed:g}\u00d7 ", style="bold black on magenta")
     body = Group(Text(state.prompt or "…", style="bold"), pipeline, budget)
     return Panel(body, title=title, title_align="left", border_style="bright_black")
 
