@@ -9,6 +9,7 @@ from deep_research.tools.text import (
     cited_finding_ids,
     clean_page_markdown,
     count_tokens,
+    heading_trail,
     lint_citations,
     quote_grounding_score,
     renumber_citations,
@@ -181,3 +182,37 @@ def test_clean_page_is_idempotent_and_keeps_plain_text() -> None:
     assert clean_page_markdown(plain) == plain
     once = clean_page_markdown(NAV_PAGE)
     assert clean_page_markdown(once) == once
+
+
+# ------------------------------------------------------------------ heading trail
+
+CHANGELOG = """# Stripe changelog
+
+## 2026-05-27
+
+### Billing
+
+- Adds billing schedules to enable prebilling on subscriptions
+- Adds item-level discounts
+
+## 2026-04-22
+
+### Payments
+
+- Adds support for Pix recurring payments
+"""
+
+
+def test_heading_trail_finds_the_date_and_product_above_a_line() -> None:
+    trail = heading_trail("Adds billing schedules to enable prebilling on subscriptions", CHANGELOG)
+    assert trail == ["Stripe changelog", "2026-05-27", "Billing"]
+    # a sibling heading at the same level replaces the previous one
+    assert heading_trail("Adds support for Pix recurring payments", CHANGELOG) == [
+        "Stripe changelog",
+        "2026-04-22",
+        "Payments",
+    ]
+
+
+def test_heading_trail_empty_when_quote_absent() -> None:
+    assert heading_trail("completely unrelated sentence about llamas", CHANGELOG) == []

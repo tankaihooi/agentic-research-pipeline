@@ -103,29 +103,36 @@ class VectorStore:
         )
         return embedded.usage
 
-    @retriever_span(name="qdrant.search")
-    async def search(
+    async def embed_queries(
+        self, texts: list[str], *, agent: Agent
+    ) -> tuple[list[list[float]], Usage]:
+        """Embed many queries in one batched call (then search each with `search_vector`)."""
+        if not texts:
+            return [], Usage()
+        embedded = await self._llm.embed(texts, agent=agent)
+        return embedded.vectors, embedded.usage
+
+    @retriever_span(name="qdrant.search_vector")
+    async def search_vector(
         self,
-        query: str,
+        vector: list[float],
         *,
-        agent: Agent,
         source_ids: list[str] | None = None,
         exclude_source_ids: list[str] | None = None,
         limit: int = 5,
-    ) -> tuple[list[ChunkHit], Usage]:
-        embedded = await self._llm.embed([query], agent=agent)
+    ) -> list[ChunkHit]:
         must: list[models.Condition] = [_any("source_id", source_ids)] if source_ids else []
         must_not: list[models.Condition] = (
             [_any("source_id", exclude_source_ids)] if exclude_source_ids else []
         )
         response = await self._client.query_points(
             self.sources,
-            query=embedded.vectors[0],
+            query=vector,
             query_filter=models.Filter(must=must, must_not=must_not),
             limit=limit,
             with_payload=True,
         )
-        hits = [
+        return [
             ChunkHit(
                 source_id=p.payload["source_id"],
                 url=p.payload["url"],
@@ -137,7 +144,22 @@ class VectorStore:
             for p in response.points
             if p.payload is not None
         ]
-        return hits, embedded.usage
+
+    @retriever_span(name="qdrant.search")
+    async def search(
+        self,
+        query: str,
+        *,
+        agent: Agent,
+        source_ids: list[str] | None = None,
+        exclude_source_ids: list[str] | None = None,
+        limit: int = 5,
+    ) -> tuple[list[ChunkHit], Usage]:
+        vectors, usage = await self.embed_queries([query], agent=agent)
+        hits = await self.search_vector(
+            vectors[0], source_ids=source_ids, exclude_source_ids=exclude_source_ids, limit=limit
+        )
+        return hits, usage
 
 
 def _match(field: str, value: str) -> models.Filter:

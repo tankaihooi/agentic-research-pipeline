@@ -54,6 +54,10 @@ def append(current: list[RunError] | None, update: list[RunError] | None) -> lis
     return [*(current or []), *(update or [])]
 
 
+def append_unique(current: list[str] | None, update: list[str] | None) -> list[str]:
+    return list(dict.fromkeys([*(current or []), *(update or [])]))
+
+
 class ResearchState(TypedDict, total=False):
     run_id: str
     prompt: Required[str]
@@ -68,7 +72,9 @@ class ResearchState(TypedDict, total=False):
     sources: Annotated[list[Source], upsert_by_id]
     findings: Annotated[list[Finding], upsert_by_id]
     verdicts: Annotated[dict[str, Verdict], merge_verdicts]
+    researched_query_ids: Annotated[list[str], append_unique]
     gap_loops: int
+    stop_reason: str  # why research stopped: coverage met, loops exhausted, or budget
 
     outline: list[OutlineSection]
     sections: Annotated[list[Section], upsert_by_id]

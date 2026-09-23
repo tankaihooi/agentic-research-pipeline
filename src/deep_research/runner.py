@@ -29,7 +29,7 @@ from deep_research.events import EventLog, event_from_stream_chunk
 from deep_research.graph.checkpoint import open_checkpointer
 from deep_research.graph.state import ResearchState
 from deep_research.graph.workflow import build_graph
-from deep_research.models import Agent, AgentEvent, Stage, Usage, utcnow
+from deep_research.models import Agent, AgentEvent, Stage, Usage, VerdictStatus, utcnow
 from deep_research.observability import flush_traces, run_config, trace_url
 from deep_research.tools.text import count_tokens
 
@@ -144,6 +144,17 @@ def metrics(state: ResearchState) -> dict[str, Any]:
     raw = sum(s.raw_token_count for s in sources)
     clean = sum(s.token_count for s in sources)
     distilled = sum(count_tokens(f"{f.claim}\n{f.quote}") for f in findings)
+    verdicts = state.get("verdicts", {})
+    by_status = {status.value: 0 for status in VerdictStatus}
+    rejected_by = {"grounding": 0, "entailment": 0, "cross_reference": 0}
+    for v in verdicts.values():
+        by_status[v.status.value] += 1
+        if v.caught_by:
+            rejected_by[v.caught_by] += 1
+    usable_ids = {fid for fid, v in verdicts.items() if v.usable}
+    writer_input = sum(
+        count_tokens(f"{f.claim}\n{f.quote}") for f in findings if f.id in usable_ids
+    )
     return {
         "run_id": state.get("run_id"),
         "elapsed_s": round(time.time() - state.get("started_at", time.time()), 1),
@@ -159,7 +170,15 @@ def metrics(state: ResearchState) -> dict[str, Any]:
             "raw_scraped": raw,
             "after_cleaning": clean,
             "distilled_findings": distilled,
+            "verified_for_writer": writer_input,
             "compression_ratio": round(raw / distilled, 1) if distilled else None,
+        },
+        "critic": {
+            "verdicts": by_status,
+            "first_party": sum(v.first_party for v in verdicts.values()),
+            "rejected_by": rejected_by,
+            "gap_loops": state.get("gap_loops", 0),
+            "stop_reason": state.get("stop_reason"),
         },
         "usage": {agent.value: u.model_dump() for agent, u in usage.by_agent.items()},
         "total": usage.total.model_dump(),
@@ -175,4 +194,5 @@ def write_artefacts(run_dir: Path, state: ResearchState) -> None:
     dump("sources.json", list(state.get("sources", [])))
     dump("findings.json", list(state.get("findings", [])))
     dump("errors.json", list(state.get("errors", [])))
+    dump("verdicts.json", list(state.get("verdicts", {}).values()))
     (run_dir / "metrics.json").write_text(json.dumps(metrics(state), indent=2), encoding="utf-8")

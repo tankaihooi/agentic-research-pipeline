@@ -77,20 +77,48 @@ duplicating.
 
 ## The Critic
 
-The checks run from cheapest to most expensive:
+The checks run from cheapest to most expensive, and each sees only what survived the one before
+(`agents/critic.py`):
 
 1. **Grounding (deterministic, no LLM).** The quote must fuzzy-match the stored source text
-   (rapidfuzz). This catches quotes the extractor invented.
-2. **Entailment (fast model, batched per source).** Does the quote actually support the claim?
-   This catches distorted numbers, dates and scope.
-3. **Cross-reference (vector retrieval + fast model).** Do other sources corroborate or
-   contradict the claim? Primary sources (the vendor's own domain) count as authoritative for
-   first-party facts.
-4. **Coverage.** Sub-queries with too few verified findings produce gap queries. If loops and
-   budget remain, the router sends them back to the Scraper.
+   (rapidfuzz, threshold 85; short quotes must match exactly). This catches quotes the extractor
+   invented.
+2. **Entailment (fast model, batched per source).** Does the quote support the claim? The judge
+   sees the quote, about 500 characters around it, the page title, and the **heading trail**
+   above the quote (e.g. `Changelog > 2026-05-27 > Billing`). This catches changed numbers,
+   overreach, and claims credited to the wrong product or company.
+3. **Cross-reference (vector retrieval + fast model).** Claims are embedded in one batch, and
+   each retrieves the top chunks from *other* sources in the run. The judge marks each claim
+   corroborated, contradicted or no evidence, and may only cite sources it was shown. Facts a
+   vendor states about itself on its own domain are accepted as first-party without
+   corroboration.
+4. **Coverage.** A question is weak if it has too few verified findings, too few usable
+   findings, or evidence from only one site. Weak questions get one gap query each, targeted at
+   the stated weakness. A one-sided question gets a query that avoids the dominant site. Gap
+   loops are bounded by the depth preset and only start while at least half the time and cost
+   budget remains.
 
-Rejected findings never reach the Writer. The count and the reasons appear in the report's
-Methodology & Limitations section.
+Verdicts: `verified`, `single_source` (kept, reported with hedged wording), `contradicted` (kept,
+with the disagreement surfaced), and `rejected` (never reaches the Writer; counts and reasons
+go to Methodology & Limitations).
+
+**What live runs showed** (standard depth, Stripe competitive-analysis prompt):
+
+- Grounding passed 117/117 and 73/73 real quotes. Its value shows up against fabrications,
+  which the Phase 6 evaluation plants deliberately.
+- Entailment first rejected 37 of 177 claims. An audit found most rejections were missing
+  context: on changelogs the release date is a heading far above the quoted bullet. After
+  adding the heading trail, re-judging those 37 accepted 26. The 11 still rejected were real
+  errors: a feature dated September 2025 that the page dates June 2025; Pix/UPI/Twint recurring
+  payments (Stripe *Payments* entries) credited to Billing; and a reversed attribution of
+  Stripe's 0.70% rate to Chargebee.
+- Cross-reference contradictions were genuine disagreements between third-party sources, for
+  example Stripe's Metronome acquisition dated December 2025 by one source and January 2026 by
+  another, and "40+ gateways" against "35+ processors" for Chargebee.
+- The first pass is dominated by vendor documentation (100 of 111 verified findings were
+  first-party). The diversity check flagged those questions as one-sided, and the gap loop
+  brought in Forrester, Gartner coverage, Orb, Lago, Trustpilot and Reddit. A standard run
+  took about 105s and $0.05.
 
 ## Long-running execution
 
@@ -127,6 +155,7 @@ Methodology & Limitations section.
 | Tavily plus a trafilatura fallback | search and clean extraction in one API; fallback for pages Tavily cannot extract | third-party dependency and credit limits |
 | LangSmith region via `LANGSMITH_ENDPOINT` | keys are region-bound (US/EU/APAC); `research doctor` makes an authenticated call so a mismatch fails up front instead of silently dropping traces | one more env var |
 | Official-source preference in URL selection | search relevance is not authority; vendor docs, pricing and changelogs outrank SEO listicles (a live run went from 2/9 to 7/9 primary sources after this and per-company planning) | fewer independent third-party views per question |
+| Coverage = volume **and** site diversity | vendor docs alone are authoritative but one-sided; independent views are what make a competitive analysis | an extra loop on most standard runs (~15s, ~$0.01) |
 | Two model tiers | high-volume calls (extraction, critique) on the cheap tier, synthesis on the strong tier | two models to evaluate |
 
 ## Build phases

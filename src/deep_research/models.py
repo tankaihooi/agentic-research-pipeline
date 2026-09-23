@@ -49,6 +49,7 @@ class SubQuery(BaseModel):
     search_terms: list[str]
     rationale: str
     origin: Literal["plan", "gap"] = "plan"
+    avoid_domains: list[str] = Field(default_factory=list)  # gap loops seeking independent sources
 
 
 class Source(BaseModel):
@@ -94,12 +95,22 @@ class VerdictStatus(StrEnum):
     REJECTED = "rejected"
 
 
+CriticCheck = Literal["grounding", "entailment", "cross_reference"]
+
+
 class Verdict(BaseModel):
     finding_id: str
     status: VerdictStatus
     reasons: list[str] = Field(default_factory=list)
     corroborating_source_ids: list[str] = Field(default_factory=list)
-    caught_by: Literal["grounding", "entailment", "cross_reference"] | None = None
+    contradicting_source_ids: list[str] = Field(default_factory=list)
+    grounding_score: float | None = None
+    first_party: bool = False  # stated by the entity's own site, so authoritative on its own
+    caught_by: CriticCheck | None = None  # which check rejected it
+
+    @property
+    def usable(self) -> bool:
+        return self.status is not VerdictStatus.REJECTED
 
 
 class OutlineSection(BaseModel):

@@ -84,10 +84,23 @@ def _summary(info: RunInfo, state: ResearchState, run_dir: object) -> None:
         f"{counts['sources_from_cache']} cached) · {counts['errors']} errors",
     )
     table.add_row("Findings", str(counts["findings"]))
+    critic = m["critic"]
+    verdicts, rejected_by = critic["verdicts"], critic["rejected_by"]
+    table.add_row(
+        "Critic",
+        f"{verdicts['verified']} verified ({critic['first_party']} first-party) · "
+        f"{verdicts['single_source']} single-source · {verdicts['contradicted']} contradicted · "
+        f"{verdicts['rejected']} rejected (grounding {rejected_by['grounding']}, "
+        f"entailment {rejected_by['entailment']})",
+    )
+    table.add_row(
+        "Research loop", f"{critic['gap_loops']} gap loop(s) · stopped: {critic['stop_reason']}"
+    )
     table.add_row(
         "Token funnel",
         f"{tokens['raw_scraped']:,} raw → {tokens['after_cleaning']:,} clean → "
-        f"{tokens['distilled_findings']:,} distilled ({tokens['compression_ratio']}x smaller)",
+        f"{tokens['distilled_findings']:,} distilled ({tokens['compression_ratio']}x smaller) → "
+        f"{tokens['verified_for_writer']:,} verified for the Writer",
     )
     for agent, usage in m["usage"].items():
         table.add_row(

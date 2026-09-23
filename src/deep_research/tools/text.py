@@ -205,6 +205,54 @@ def quote_grounding_score(quote: str, source_text: str) -> float:
     return float(fuzz.partial_ratio(q, s))
 
 
+def quote_context(quote: str, source_text: str, window_chars: int = 500) -> str:
+    """The (normalised) passage around where `quote` best matches, so a judge sees what "it" is."""
+    q, s = normalize_for_match(quote), normalize_for_match(source_text)
+    if not q or not s:
+        return ""
+    start = s.find(q)
+    if start >= 0:
+        end = start + len(q)
+    else:
+        alignment = fuzz.partial_ratio_alignment(q, s)
+        if alignment is None:
+            return ""
+        start, end = alignment.dest_start, alignment.dest_end
+    lo, hi = max(0, start - window_chars), min(len(s), end + window_chars)
+    return ("…" if lo > 0 else "") + s[lo:hi] + ("…" if hi < len(s) else "")
+
+
+_HEADING = re.compile(r"^(#{1,4})\s+(.+?)\s*#*\s*$")
+
+
+def heading_trail(quote: str, source_text: str) -> list[str]:
+    """The markdown headings in force where `quote` appears, outermost first.
+
+    On changelogs and roadmaps the date or product a line belongs to sits in a heading far above
+    it, outside any local context window. A judge needs that trail to check dated claims.
+    """
+    if not quote.strip():
+        return []
+    lowered = source_text.lower()
+    position = lowered.find(quote.lower().strip())
+    if position < 0:
+        alignment = fuzz.partial_ratio_alignment(quote.lower(), lowered)
+        if alignment is None or alignment.score < 60:
+            return []
+        position = alignment.dest_start
+    trail: dict[int, str] = {}
+    offset = 0
+    for line in source_text.splitlines(keepends=True):
+        if offset > position:
+            break
+        if match := _HEADING.match(line.strip()):
+            level = len(match.group(1))
+            trail = {lvl: text for lvl, text in trail.items() if lvl < level}
+            trail[level] = match.group(2).strip(" *_")
+        offset += len(line)
+    return [trail[level] for level in sorted(trail)]
+
+
 # ---------------------------------------------------------------------------- citations
 
 FINDING_ID = r"F-[0-9a-f]{8}"

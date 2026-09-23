@@ -18,7 +18,7 @@ from langgraph.runtime import Runtime
 from deep_research.agents.extractor import extract_findings
 from deep_research.deps import Deps
 from deep_research.events import emit
-from deep_research.graph.state import append, merge_usage, upsert_by_id
+from deep_research.graph.state import append, append_unique, merge_usage, upsert_by_id
 from deep_research.models import (
     Agent,
     Finding,
@@ -57,10 +57,12 @@ PRIMARY_BOOST = 0.2
 
 class ScrapeState(TypedDict, total=False):
     sub_query: Required[SubQuery]
+    researched_query_ids: Annotated[list[str], append_unique]
     brief: str
     primary_domains: list[str]
     pages_per_query: int
     run_started_at: datetime
+    skip_urls: list[str]  # normalised URLs already read this run (gap-loop searches skip them)
     hits: list[SearchHit]  # private to the subgraph; raw page content is stripped
     sources: Annotated[list[Source], upsert_by_id]
     findings: Annotated[list[Finding], upsert_by_id]
@@ -69,6 +71,7 @@ class ScrapeState(TypedDict, total=False):
 
 
 class ScrapeOutput(TypedDict, total=False):
+    researched_query_ids: Annotated[list[str], append_unique]
     sources: Annotated[list[Source], upsert_by_id]
     findings: Annotated[list[Finding], upsert_by_id]
     usage: Annotated[Usage, merge_usage]
@@ -113,14 +116,21 @@ def select(state: ScrapeState) -> dict:
     per_host: dict[str, int] = {}
     chosen: list[SearchHit] = []
     primaries = set(state.get("primary_domains", []))
+    avoid = set(q.avoid_domains)
+    if avoid:  # this gap query exists because one site dominated; boosting it would undo that
+        primaries -= avoid
 
     def rank(hit: SearchHit) -> float:
         is_primary = registrable_domain(domain_of(hit.url)) in primaries
         return hit.score + (PRIMARY_BOOST if is_primary else 0.0)
 
+    already_read = set(state.get("skip_urls", []))
     for hit in sorted(state.get("hits", []), key=rank, reverse=True):
         host = domain_of(hit.url)
-        if registrable_domain(host) in SKIP_DOMAINS or per_host.get(host, 0) >= MAX_PER_HOST:
+        site = registrable_domain(host)
+        if site in SKIP_DOMAINS or site in avoid or per_host.get(host, 0) >= MAX_PER_HOST:
+            continue
+        if normalize_url(hit.url) in already_read:
             continue
         per_host[host] = per_host.get(host, 0) + 1
         chosen.append(hit)
@@ -230,6 +240,7 @@ async def extract(state: ScrapeState, runtime: Runtime[Deps]) -> dict:
     mine = [s for s in state.get("sources", []) if s.sub_query_id == q.id]
     results = await asyncio.gather(*(one(s) for s in mine))
     return {
+        "researched_query_ids": [q.id],
         "findings": [f for fs, _, _ in results for f in fs],
         "usage": sum((u for _, u, _ in results), Usage()),
         "errors": [e for _, _, e in results if e is not None],

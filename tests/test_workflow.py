@@ -10,6 +10,14 @@ import httpx
 import pytest
 from qdrant_client import AsyncQdrantClient
 
+from deep_research.agents.critic import (
+    CrossRefBatch,
+    CrossRefJudgment,
+    EntailmentBatch,
+    EntailmentJudgment,
+    GapPlan,
+    GapQuery,
+)
 from deep_research.agents.extractor import ExtractedFinding, Extraction
 from deep_research.agents.planner import PlannedQuery, ResearchPlan
 from deep_research.config import Depth, Settings
@@ -91,9 +99,53 @@ def _deps(tmp_path: Path, search: FakeSearch, llm: FakeLLM) -> tuple[Settings, D
     return settings, deps
 
 
+def _finding_ids(text: str) -> list[str]:
+    return list(dict.fromkeys(re.findall(r"\[(F-[0-9a-f]{8})\]", text)))
+
+
+def _entail(_: str, text: str) -> EntailmentBatch:
+    return EntailmentBatch(
+        judgments=[
+            EntailmentJudgment(finding_id=fid, verdict="supported", reason="ok")
+            for fid in _finding_ids(text)
+        ]
+    )
+
+
+def _xref(_: str, text: str) -> CrossRefBatch:
+    return CrossRefBatch(
+        judgments=[
+            CrossRefJudgment(finding_id=fid, verdict="no_evidence", source_ids=[], reason="none")
+            for fid in _finding_ids(text)
+        ]
+    )
+
+
+def _gaps(_: str, text: str) -> GapPlan:
+    return GapPlan(
+        queries=[
+            GapQuery(
+                for_query_id=qid,
+                question=f"More on {qid}?",
+                search_terms=[f"gap {qid}"],
+                rationale="thin",
+            )
+            for qid in dict.fromkeys(re.findall(r"\[(Q\d+)\]", text))
+        ]
+    )
+
+
 @pytest.fixture
 def llm() -> FakeLLM:
-    return FakeLLM(responses={ResearchPlan: _plan, Extraction: _extract})
+    return FakeLLM(
+        responses={
+            ResearchPlan: _plan,
+            Extraction: _extract,
+            EntailmentBatch: _entail,
+            CrossRefBatch: _xref,
+            GapPlan: _gaps,
+        }
+    )
 
 
 async def test_full_research_phase_offline(tmp_path: Path, llm: FakeLLM) -> None:
@@ -203,3 +255,72 @@ def test_select_prefers_primary_sources() -> None:
         "primary_domains": ["stripe.com"],
     }
     assert [h.url for h in select(state)["hits"]] == ["https://docs.stripe.com/billing"]
+
+
+async def test_gap_loop_researches_only_new_questions_and_new_pages(
+    tmp_path: Path, llm: FakeLLM
+) -> None:
+    results = {t: _hits(t) for t in TERMS}
+    already_read = _hits(TERMS[0])[0]  # a page Q1 read in the first pass
+    for qid in ("Q1", "Q2", "Q3"):
+        fresh = [
+            SearchHit(
+                url=f"https://docs.stripe.com/gap/{qid}/{i}",
+                title="gap page",
+                snippet="",
+                score=0.9,
+                raw_content=_page(i, f"gap {qid}"),
+            )
+            for i in range(2)
+        ]
+        results[f"gap {qid}"] = [already_read, *fresh]
+    search = FakeSearch(results=results)
+    settings, deps = _deps(tmp_path, search, llm)
+    await deps.store.setup()
+    events: list[AgentEvent] = []
+    info = RunInfo(run_id="test-run", prompt="Stripe billing", depth=Depth.STANDARD)
+
+    state = await execute(settings, info, resume=False, on_event=events.append, deps=deps)
+
+    # 3 findings per question is below the coverage bar, so the critic asked for exactly one loop
+    assert state["gap_loops"] == 1
+    gap_ids = [q.id for q in state["sub_queries"] if q.origin == "gap"]
+    assert gap_ids == ["Q1.g1", "Q2.g1", "Q3.g1", "Q4.g1"]  # one per weak question
+    assert set(gap_ids) <= set(state["researched_query_ids"])
+    # planned questions were searched once; each gap query once
+    gap_terms = ["gap Q1", "gap Q2", "gap Q3", "gap Q4"]
+    assert sorted(search.calls) == sorted(
+        [*TERMS, "an extra query the preset should drop", *gap_terms]
+    )
+    # the gap pass skipped the page already read and added two new pages per gap query
+    gap_sources = [s for s in state["sources"] if s.sub_query_id.endswith(".g1")]
+    assert len(gap_sources) == 6
+    assert all("/gap/" in s.url for s in gap_sources)
+    # every finding, including gap findings, was judged exactly once
+    assert set(state["verdicts"]) == {f.id for f in state["findings"]}
+    assert len(llm.calls_for(GapPlan)) == 1
+    assert state["stop_reason"].startswith("gap-loop limit")
+    assert sum(e.kind == "critic.gap" for e in events) == 4
+
+
+def test_gap_query_avoids_the_site_that_dominated() -> None:
+    hits = [
+        SearchHit(url="https://stripe.com/billing", title="", snippet="", score=0.95),
+        SearchHit(url="https://docs.stripe.com/billing", title="", snippet="", score=0.9),
+        SearchHit(url="https://review.example.com/stripe", title="", snippet="", score=0.5),
+    ]
+    q = SubQuery(
+        id="Q1.g1",
+        question="independent views?",
+        search_terms=["t"],
+        rationale="r",
+        origin="gap",
+        avoid_domains=["stripe.com"],
+    )
+    state: ScrapeState = {
+        "sub_query": q,
+        "hits": hits,
+        "pages_per_query": 3,
+        "primary_domains": ["stripe.com"],
+    }
+    assert [h.url for h in select(state)["hits"]] == ["https://review.example.com/stripe"]
