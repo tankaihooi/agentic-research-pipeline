@@ -1,0 +1,117 @@
+{
+  "run_id": "20260923-150634-what-obligations-does-the-eu-ai-98a2",
+  "elapsed_s": 248.6,
+  "counts": {
+    "sub_queries": 10,
+    "sources": 35,
+    "sources_from_cache": 0,
+    "primary_sources": 13,
+    "findings": 237,
+    "errors": 0
+  },
+  "tokens": {
+    "raw_scraped": 647894,
+    "after_cleaning": 566826,
+    "distilled_findings": 17113,
+    "verified_for_writer": 16367,
+    "compression_ratio": 37.9
+  },
+  "critic": {
+    "verdicts": {
+      "verified": 145,
+      "single_source": 75,
+      "contradicted": 7,
+      "rejected": 10
+    },
+    "first_party": 0,
+    "rejected_by": {
+      "grounding": 0,
+      "entailment": 10,
+      "cross_reference": 0
+    },
+    "gap_loops": 1,
+    "stop_reason": "coverage met"
+  },
+  "report": {
+    "sections": 6,
+    "words": 3080,
+    "audit_rounds": [
+      {
+        "round": 1,
+        "sections_checked": 6,
+        "statements_checked": 70,
+        "flagged": 4
+      },
+      {
+        "round": 2,
+        "sections_checked": 3,
+        "statements_checked": 34,
+        "flagged": 0
+      }
+    ],
+    "unresolved_flags": 0,
+    "citation_problems": []
+  },
+  "usage": {
+    "planner": {
+      "calls": 1,
+      "input_tokens": 621,
+      "cached_input_tokens": 0,
+      "output_tokens": 968,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 12879.932792042382,
+      "cost_usd": 0.010922
+    },
+    "scraper": {
+      "calls": 56,
+      "input_tokens": 239913,
+      "cached_input_tokens": 0,
+      "output_tokens": 26775,
+      "embedding_calls": 50,
+      "embedding_tokens": 1181436,
+      "latency_ms": 286044.4384566508,
+      "cost_usd": 0.06100752000000001
+    },
+    "critic": {
+      "calls": 76,
+      "input_tokens": 252558,
+      "cached_input_tokens": 0,
+      "output_tokens": 35358,
+      "embedding_calls": 2,
+      "embedding_tokens": 6509,
+      "latency_ms": 356325.3187550581,
+      "cost_usd": 0.04306498
+    },
+    "writer": {
+      "calls": 11,
+      "input_tokens": 36434,
+      "cached_input_tokens": 0,
+      "output_tokens": 8714,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 101376.82499806397,
+      "cost_usd": 0.16000799999999998
+    },
+    "auditor": {
+      "calls": 9,
+      "input_tokens": 25565,
+      "cached_input_tokens": 0,
+      "output_tokens": 2228,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 31908.986249938607,
+      "cost_usd": 0.0036704999999999997
+    }
+  },
+  "total": {
+    "calls": 153,
+    "input_tokens": 555091,
+    "cached_input_tokens": 0,
+    "output_tokens": 74043,
+    "embedding_calls": 52,
+    "embedding_tokens": 1187945,
+    "latency_ms": 788535.5012517539,
+    "cost_usd": 0.278673
+  }
+}

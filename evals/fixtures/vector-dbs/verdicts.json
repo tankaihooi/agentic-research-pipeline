@@ -1,0 +1,3617 @@
+[
+  {
+    "finding_id": "F-a992d87b",
+    "status": "rejected",
+    "reasons": [
+      "quote not found in source (80% best match)"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 80.13245033112582,
+    "first_party": false,
+    "caught_by": "grounding"
+  },
+  {
+    "finding_id": "F-32617af8",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: Availability, plans, and index needs match, but the claim adds April 2026; the supplied section gives no date."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-e3c6f423",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: Native hybrid retrieval with full-text search is stated, but Public Preview and May 7 are not."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 97.54098360655738,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-ea561793",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quoted gains imply the claimed scores, but do not explicitly identify them as Success @ 5 or name all four test sets."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-d178f626",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The text describes hybrid search but does not establish that this capability is specific to Weaviate v1.37."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-7a835035",
+    "status": "rejected",
+    "reasons": [
+      "unsupported: The quote is about 0.8.4 fixing possible corruption; the supplied section heading labels it 0.8.3."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 95.71428571428572,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-71749336",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The context supports 768 dimensions and the non-neutral caveat, but does not call the Qdrant figures production measurements."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-a17caa55",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone BYOC on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2388a4c0",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Builder plan on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-87414f40",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Builder plan on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-22f2639f",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Builder plan on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7408af5f",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Assistant on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-625f4dc9",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0c81eb60",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone full-text search on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2c8d7426",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 92.65536723163842,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-78dbe22d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d5a57d20",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1ec78925",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone serverless on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d156fcec",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone serverless indexes on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bd16cbc8",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Dedicated Read Nodes on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-900cfc64",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-764b0e2a",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on docs.pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2b8f178a",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-34aef448",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Dedicated Read Nodes on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-99f25fb3",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Dedicated Read Nodes on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d1b650cd",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone BYOC on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-441e50ec",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Nexus on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d12f2414",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Nexus and KnowQL on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cf718a86",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Nexus and KnowQL on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6f675dcb",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-67c2fa7d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bfbc0136",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-597bf5e9",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-114643ad",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c03497e2",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone Inference on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-195a99c0",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e4393405",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Pinecone on pinecone.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-91763437",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fcf21097",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-86aa43e2",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9b975b37",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6cc5ef4a",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant Cloud on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1aae9b94",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d70de31d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.9010989010989,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0b45786e",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-53a373a8",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2b9b276d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2f6d7d5a",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Qdrant on qdrant.tech"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5ab2fbe1",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c73c7cd8",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ca893c9e",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4081ed02",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-55cc424e",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-77929935",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a32dd339",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-66a8b834",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-536f06da",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6b76b5a5",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5a0f46d2",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-40562ce2",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.30508474576271,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8df20330",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4624fd9b",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fb89bcc0",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-95406713",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7c3b5993",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-35fee405",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6548ff07",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1b79cbdf",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate + Knowledge Universe integration on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2028f4c9",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate + Knowledge Universe integration on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-24cb74a6",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate + Knowledge Universe integration on forum.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-832531e4",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Cloud Explorer on docs.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0d67dfcc",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Cloud Explorer on docs.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7bffff71",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Cloud Explorer on docs.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-39c59520",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Cloud Explorer on docs.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 85.79881656804733,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-359692c5",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Cloud Explorer on docs.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-eebac9ee",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Weaviate Cloud on docs.weaviate.io"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2401fbee",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state pgvector 0.8.0’s release date or iterative index-scan addition."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0ae72b15",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address 0.8.0 improvements to HNSW scanning, insertion, or on-disk index builds."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dc84c0b4",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention 0.7.0 features but do not establish the claimed release date or complete feature set."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-15aba61f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss distance functions and indexing generally but do not attribute these features to 0.7.0."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ead47cc9",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address 0.6.0 changes to HNSW index builds."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a1f0e033",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state that 0.8.0 improved cost estimation for filtered index selection."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6e95de53",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt states pgvector 0.8.2’s release date or a buffer-overflow fix for parallel HNSW builds."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-638ceefd",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address whether pgvector performs exact nearest-neighbor search by default or guarantees perfect recall."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-65d064f5",
+    "status": "verified",
+    "reasons": [
+      "The excerpt discusses HNSW and IVFFlat index search and compares their query performance, consistent with approximate indexed search."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f4106ba6",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says HNSW has lower query latency, slower builds, and higher memory use than IVFFlat."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-75bff3e5",
+    "status": "verified",
+    "reasons": [
+      "The excerpt identifies HNSW as slower to build and more memory-intensive, and says it beats IVFFlat on query latency."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-153fce7f",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt explains post-scan filtering behavior or iterative index scans."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d393b80c",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address iterative index scans or their scan limits."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4f123bec",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state the vector storage formula or element representation."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-194bf67a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address the README’s recommended vertical or horizontal scaling approaches."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2a6da3b8",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Rivestack runs PostgreSQL with pgvector and pgvectorscale on single-tenant nodes with local NVMe."
+    ],
+    "corroborating_source_ids": [
+      "S-27d2361b"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-567dd770",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not say Rivestack creates or refreshes embeddings."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-314fcd02",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly says search is plain SQL and supports joining and filtering application data in the same query."
+    ],
+    "corroborating_source_ids": [
+      "S-27d2361b"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a52ba62f",
+    "status": "single_source",
+    "reasons": [
+      "No independent source excerpt addresses Rivestack’s included availability, pooling, backups, or monitoring features."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-aff0111c",
+    "status": "single_source",
+    "reasons": [
+      "No independent source excerpt confirms or conflicts with Rivestack’s pricing model or starting price."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bdfb7727",
+    "status": "single_source",
+    "reasons": [
+      "No independent source excerpt addresses Rivestack’s free shared tier."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4ee81f17",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not independently address the demo’s Hacker News data, chunk counts, or ingestion schedule."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f777d55a",
+    "status": "single_source",
+    "reasons": [
+      "No independent source excerpt addresses Rivestack’s publication of reproducible benchmarks."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c2d9d890",
+    "status": "single_source",
+    "reasons": [
+      "No independent excerpt confirms the same HNSW setup across plans or that it runs on one node."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c1de8c2c",
+    "status": "single_source",
+    "reasons": [
+      "No other excerpt independently addresses Rivestack’s PostgreSQL deployment architecture."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-40e94f25",
+    "status": "single_source",
+    "reasons": [
+      "No other excerpt independently discusses ScaleGrid’s plugins or BYOC savings."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c6955787",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt attributes the 50-million-vector result to a third-party comparison, not published vendor data."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-033a4348"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bdc35770",
+    "status": "single_source",
+    "reasons": [
+      "No other excerpt addresses the specified 10-million-vector latency results."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.40828402366864,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-267cb138",
+    "status": "single_source",
+    "reasons": [
+      "No other excerpt addresses the stated hybrid-retrieval latency or reranker elasticity."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c6d80207",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not establish the claimed 2025–2026 benchmark results or smooth recall-latency curves."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d3980ad0",
+    "status": "verified",
+    "reasons": [
+      "The excerpts recommend managed-Postgres pgvector for many sub-10–50M-vector projects and cite avoiding separate-database overhead."
+    ],
+    "corroborating_source_ids": [
+      "S-78ec8c49"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-056a0568",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Qdrant’s benchmarks are vendor-run and not a neutral comparison; it does not confirm the date or Tech Insider attribution."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e06d5b0d",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not give the claimed 41 and 471 QPS figures at 99% recall."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-57b57146",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Qdrant’s benchmarks as vendor-run and directional, but does not mention highest throughput or lowest latency."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.71751412429379,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1dbc7214",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address ann-benchmarks.com’s comparison coverage or benchmarkability outside Pinecone’s API."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.7560975609756,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ed2cc22c",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address the claimed tuning, dataset-shape, network, batch-size, or index-parameter effects."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4217ce47",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says the cost estimates are based on Pinecone’s published pricing, though it does not address invoices or guarantees."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e5f4eafb",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention Pinecone’s pricing meters but do not compare Weaviate’s or Qdrant’s billing metrics."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e5ac8e4c",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report the claimed one-million-vector benchmark results or matching QPS and latency figures."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-36a8ef21",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not provide these pgvector and Pinecone production measurements."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cfd832b8",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not establish the claimed vector dimensions, corpus size, or Qdrant test hardware."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fb1cbc36",
+    "status": "verified",
+    "reasons": [
+      "The excerpt identifies Qdrant’s benchmark suite as vendor-run and cautions that it is not an independent audit."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7521f1d6",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report these latency figures at five million vectors."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-71481d0c",
+    "status": "single_source",
+    "reasons": [
+      "Post-scan filtering is stated for pgvector, but Qdrant’s filtering inside graph traversal is not stated."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-84adfc6b",
+    "status": "single_source",
+    "reasons": [
+      "Qdrant is described as supporting hybrid search, but dense-and-sparse vectors and production readiness are not established."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d2b348a7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention pgvector HNSW options but do not compare four databases’ HNSW recall."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a914bb08",
+    "status": "verified",
+    "reasons": [
+      "pgvector filtering after index scans and Qdrant’s alternative addressing filtered-search accuracy are described."
+    ],
+    "corroborating_source_ids": [
+      "S-914a1371"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f1b19600",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not recommend testing databases on the evaluator’s own data over vendor benchmarks."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6fd83950",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss retrieval benchmark metrics but do not recommend Precision@K, MRR, or production-realistic QPS latency testing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6ca27d7f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report this client’s p99 latency change or confirm a same-hardware comparison."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c490fb83",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts address filtering, scale, and latency, but do not state that fastest choice depends on all listed workload factors, including concurrency."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-28c23cd7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss filtered search and recall-related issues, but not the claimed consequence above approximately 95% recall."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1db98101",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report pgvector HNSW rebuild times on datasets above 50–100 million chunks."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-15ad1a91",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: Deployment options and features match, but the quote gives no July 11, 2025 date."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-ede6c25c",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The 326 QPS figure is stated, but the comparison does not establish that workload or method are unspecified."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-0714a302",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: Qdrant’s SPLADE and miniCOIL support is stated, but ColBERT-style late interaction is described generally, not attributed to Qdrant."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-5ba9c76c",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The claim paraphrases “only for cluster size” as billing based on cluster size; the quote does not explicitly say “bills based on.”"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-a88f70ff",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote says keyword matching, not specifically BM25, and does not explicitly call the keyword method BM25."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-1beab507",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The table supports RAG below 50M, but does not recommend Weaviate for new projects with 10–100 million vectors."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-9cd7bf3d",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The page gives $96/month for the Droplet, but does not state that this estimate excludes engineering time."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-142af367",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote identifies Weaviate as open-source, but does not state zero software cost or Docker deployment."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-bedc67ba",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe Pinecone as managed and cloud-only, with no downloadable version for users to run themselves."
+    ],
+    "corroborating_source_ids": [
+      "S-e84dd235"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2ee9a383",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt dates Pinecone’s full commitment to serverless as the default to April 2026, not 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-e84dd235"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-587bb72e",
+    "status": "verified",
+    "reasons": [
+      "The excerpts support the $0.33/GB-month storage price and usage-based read and write charges."
+    ],
+    "corroborating_source_ids": [
+      "S-db6f7830"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-84e61e2c",
+    "status": "verified",
+    "reasons": [
+      "The excerpt estimates a roughly 10-million-vector index at about $70 monthly, with query costs varying by read volume."
+    ],
+    "corroborating_source_ids": [
+      "S-04206a8d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9476e6f7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not establish the stated 100-million-vector Pinecone and self-hosted cost comparison."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8f167d9b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt reports 90% recall in a competition benchmark, but does not establish serverless recall limits or tuning restrictions."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-27235492",
+    "status": "verified",
+    "reasons": [
+      "Describes the RAG retrieval workflow, storing document vectors and retrieving relevant chunks as LLM context."
+    ],
+    "corroborating_source_ids": [
+      "S-e8dc480e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2bca5cfb",
+    "status": "single_source",
+    "reasons": [
+      "Supports managed infrastructure and RAG suitability, but does not substantiate the roughly 50-million-vector threshold or quick deployment claim."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-475d81cf",
+    "status": "contradicted",
+    "reasons": [
+      "Reports different latency figures—45 ms P50 and 96 ms P99—at 135 million vectors, not the claimed figures."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-e01f7155"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8647391a",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts mention automatic scaling and managed operations, but not sharding, replication, or load balancing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-74746be4",
+    "status": "single_source",
+    "reasons": [
+      "Mentions Dedicated Read Nodes and a benchmark, but does not state they isolate reads from writes or provide predictable performance."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7946a876",
+    "status": "verified",
+    "reasons": [
+      "States BYOC supports running Pinecone inside an enterprise’s own Google Cloud account."
+    ],
+    "corroborating_source_ids": [
+      "S-69a01046"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0a3ba065",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not give the claimed $130–250 monthly total for the stated production workload."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3ed101e7",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states a 99.95% Enterprise uptime SLA and HIPAA support through Business Associate Agreements."
+    ],
+    "corroborating_source_ids": [
+      "S-e84dd235"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f5be2805",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes storage, read and write charges based on usage, replacing pre-provisioned capacity."
+    ],
+    "corroborating_source_ids": [
+      "S-5257e7af"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b0a353f2",
+    "status": "verified",
+    "reasons": [
+      "The excerpts give $0.33/GB storage, separate read/write charges, and a $50 Standard plan minimum."
+    ],
+    "corroborating_source_ids": [
+      "S-d00b3daa"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-eda77937",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address the specified 768-dimension workload or its estimated $70 monthly cost."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-898be18c",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt cites $700+ at 100 million vectors, conflicting with the claimed estimate of about $500."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-5257e7af"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d10d5306",
+    "status": "verified",
+    "reasons": [
+      "Sources describe usage-based billing for variable traffic, metered reads, and a $50 Standard plan minimum."
+    ],
+    "corroborating_source_ids": [
+      "S-d00b3daa"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ff8e0c51",
+    "status": "verified",
+    "reasons": [
+      "Sources state that reads are separately metered from storage and can increase costs for query-heavy workloads."
+    ],
+    "corroborating_source_ids": [
+      "S-d00b3daa",
+      "S-bfb6175f",
+      "S-5257e7af"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5747b387",
+    "status": "verified",
+    "reasons": [
+      "Sources describe Pinecone as entirely or exclusively managed, with no self-hosted production offering."
+    ],
+    "corroborating_source_ids": [
+      "S-e01f7155",
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-252a0e24",
+    "status": "single_source",
+    "reasons": [
+      "Sources mention Pinecone inside a customer’s Google Cloud account, but do not establish an Enterprise BYOC option across AWS, GCP, and Azure."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5781eeb7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address Pinecone Local’s persistence, production suitability, or performance limits."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2afcb14a",
+    "status": "verified",
+    "reasons": [
+      "Sources give storage pricing of $0.33 per GB per month and describe separate read- and write-unit billing."
+    ],
+    "corroborating_source_ids": [
+      "S-d00b3daa",
+      "S-5257e7af"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d0da20df",
+    "status": "verified",
+    "reasons": [
+      "Confirms Enterprise starts at $500/month, but does not address Starter or Standard pricing."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ec6dc245",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address billions of vectors with single-digit-millisecond query latency."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-298a41ca",
+    "status": "verified",
+    "reasons": [
+      "They estimate about $600 or more monthly at 10 million vectors, but do not specify 100,000 daily queries."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e",
+      "S-5257e7af"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ed652c39",
+    "status": "contradicted",
+    "reasons": [
+      "For 50 million vectors, it estimates Milvus at $500–1,000 versus Pinecone at $3,500, implying savings above 70%."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-2f953ab2"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-511204b8",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address BigANN 2023 results or the stated QPS and recall figures."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-721406cc",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address latency at 600 QPS with 135 million vectors."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c2c626e5",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Pinecone is managed and cloud-only, with no self-hosted production version."
+    ],
+    "corroborating_source_ids": [
+      "S-e84dd235"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cf806d25",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts confirm storage and read-operation prices, but do not confirm the claimed write-operation price."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a5134aef",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says serverless indexes scale read and write capacity automatically without user-configured node counts."
+    ],
+    "corroborating_source_ids": [
+      "S-e84dd235"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a35972a0",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says users do not tune HNSW parameters, supporting the claim that algorithm customization is unavailable."
+    ],
+    "corroborating_source_ids": [
+      "S-e84dd235"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-30e549b5",
+    "status": "verified",
+    "reasons": [
+      "The excerpt reports no neutral side-by-side benchmark under matched conditions, supporting the need for careful direct comparison."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-425af8c0",
+    "status": "single_source",
+    "reasons": [
+      "An excerpt confirms Pinecone Inference embedding generation, but none confirms Assistant or RAG-as-a-Service."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-41aad53e",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpts describe Hybrid Cloud as metered with no published rate; another lists $0.014/hour for a production node, not Hybrid Cloud."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-b639db5d",
+      "S-033a4348"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cf5ce975",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state that Qdrant provides single-digit millisecond vector-search latency."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ee7135f8",
+    "status": "single_source",
+    "reasons": [
+      "Cloud inference is mentioned, but the excerpts do not establish that it generates embeddings in-cluster or where answer generation occurs."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f4b5dc9e",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address named-collection or tenant multitenancy, quota controls, sharding, or tenant lifecycle APIs."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-051457c1",
+    "status": "single_source",
+    "reasons": [
+      "An excerpt supports SOC 2 Type II and HIPAA status, but none addresses bespoke deployment terms or publication of a formal HIPAA report."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-51010cfd",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss filtered-search accuracy and HNSW connectivity, but not custom filter settings to prevent missed results."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-feba306f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report the May 2025 99%-recall benchmark figures or the 50-million-vector comparison."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-940d82e2",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss hybrid search for Weaviate, but do not establish Qdrant's hybrid-search support or configuration requirements."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3bda3e65",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Qdrant as open source and says it offers Managed Cloud."
+    ],
+    "corroborating_source_ids": [
+      "S-b639db5d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4e5a303b",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt confirms a permanent free tier but lists Standard at $30–200 monthly, not $25."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-46f56f44"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-394db763",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt says Qdrant benchmarks show the highest RPS in almost all scenarios below roughly 100M vectors."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-b639db5d"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b709655d",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says Qdrant's free tier attracts prototyping, but does not give the under-10-million recommendation or compare it with ChromaDB."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a511b92b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention Qdrant and RAG, but do not confirm the recommendation, sub-100ms queries, hybrid search, or metadata filtering together."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fb5a372e",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address Qdrant's sparse vectors, multi-vector reranking, fusion methods, or Maximal Marginal Relevance."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2cc4b64a",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt confirms a permanent free tier but gives standard pricing as $30–200/month, not a $25 starting price; it does not confirm $99 Hybrid Cloud."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-46f56f44"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-11eb5f1f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts give other performance figures or benchmark context, but not 1ms p99, 626 QPS at 1M, or lower throughput above 10M."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c8968525",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss Qdrant performance generally but do not provide the claimed 50M-vector QPS comparison."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-895696e8",
+    "status": "verified",
+    "reasons": [
+      "The excerpt confirms Managed Cloud across AWS, GCP, and Azure, and Hybrid Cloud deployment within customer infrastructure."
+    ],
+    "corroborating_source_ids": [
+      "S-b639db5d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c43261b0",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Docker deployment and a Helm chart for Kubernetes."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-66061d76",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts show multiple filter conditions but do not mention JSON nested properties or query-planner optimization."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6ab0882a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss high-write workloads but do not report user issues under those workloads."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-278d05f0",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not recommend Qdrant or Pinecone for small teams building a first RAG prototype."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-765ffc43",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not compare the operational overhead of Qdrant with OpenSearch."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4d8ee7d7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not identify Qdrant as an option for a large shared knowledge base queried by many users."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2ed703f6",
+    "status": "verified",
+    "reasons": [
+      "The excerpt lists Qdrant Free at $0 with 0.5 vCPU, 1GB RAM, and about 4GB disk."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5bdc36cc",
+    "status": "single_source",
+    "reasons": [
+      "Hourly billing is stated, but the excerpts do not establish a 99.5% uptime SLA."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1b54c829",
+    "status": "single_source",
+    "reasons": [
+      "Neither excerpt gives pricing for a 2GB RAM, 1 vCPU, 20GB disk cluster."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dd6c909f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt supports custom pricing, 99.9% SLA, SSO, and private links, but not priority support."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-aa887cfc",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt confirms customer infrastructure and remote management, but describes metered billing, not a custom price."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-83d60a27",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states self-hosted Qdrant is free under Apache 2.0 and describes infrastructure as its cost."
+    ],
+    "corroborating_source_ids": [
+      "S-b639db5d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-aa770db5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report the DigitalOcean Droplet, 10-agent load, or claimed p99 latency."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-04112b26",
+    "status": "single_source",
+    "reasons": [
+      "An excerpt supports 95%+ recall, but none states the claimed RAM reduction from 61.4GB to 1.92GB."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fe5290bf",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Qdrant Cloud as free forever with 0.5 vCPU, 1GB RAM, and about 4GB disk."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cfd15ee3",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts provide other pricing estimates but do not state the claimed 2GB and 8GB cluster ranges."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b75677c4",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Premium includes a 99.9% SLA, SSO, Private VPC Links, and a minimum spend."
+    ],
+    "corroborating_source_ids": [
+      "S-b639db5d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-748eb7b8",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states Qdrant is free to self-host under an open-source license."
+    ],
+    "corroborating_source_ids": [
+      "S-b639db5d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c3b8e99a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state the 8GB RAM estimate or HNSW overhead for one million 1,536-dimensional vectors."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ab233dd6",
+    "status": "verified",
+    "reasons": [
+      "The excerpt specifies 32× Binary Quantization compression, but gives no 200MB estimate."
+    ],
+    "corroborating_source_ids": [
+      "S-bfb6175f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-719f4835",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not identify the cloud providers for Qdrant Cloud or the listed self-hosting platforms."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-05de4589",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report the cited LambdaDB benchmark or its median latency figures."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-198d069b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report Qdrant Cloud throughput at 16 or 32 concurrent clients."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.375,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-152aee81",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report the benchmark's p95 latency or Recall@10."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-736fbde9",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not describe the benchmark’s node count, hardware specifications, disk type, or replication factor."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-91b88665",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention other Qdrant Cloud pricing figures but not this tested configuration’s $1,673.73 monthly cost or utilization-independent billing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5ed70f6c",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not compare Qdrant Cloud’s provisioning model with LambdaDB’s serverless, pay-as-you-go model."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f7d6fea2",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address the claimed Cohere dataset subset, vector dimensions, or preloaded collection size."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a3bc6ecc",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state Qdrant’s G2 rating or review count, nor the claimed pricing-specific review themes."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-110e064b",
+    "status": "verified",
+    "reasons": [
+      "One excerpt describes hourly charges for allocated resources; another says Hybrid rates are unpublished and Private Cloud is sales-priced."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3b973733",
+    "status": "single_source",
+    "reasons": [
+      "An excerpt lists the free-tier resource amounts, but none confirms a single-node cluster or absence of high availability."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ecb84495",
+    "status": "verified",
+    "reasons": [
+      "The excerpt reports 41.47 QPS for Qdrant versus 471 QPS for pgvectorscale at 99% recall; it does not address tail latency."
+    ],
+    "corroborating_source_ids": [
+      "S-2f953ab2"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-93eeebe4",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss quantization and memory requirements, not a 500M-vector deployment’s cost or recall."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-374284e8",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Qdrant’s vendor-run benchmarks claim highest requests-per-second and lowest latency in almost all internal scenarios."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8e5ec8ea",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report this 20M-vector workload or the stated Pinecone monthly estimate."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-63d16333",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not establish the Apache 2.0 license or API consistency across deployment modes."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0cc9b620",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt supports open-source, managed, dimension-based pricing, and a 14-day trial, but lists Flex at $45/month, not $25."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bfb6175f"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0b978f55",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report Weaviate RAG latency or performance on 768-dimensional embeddings."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2cc573a1",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Weaviate hybrid search as built-in and a first-class feature with a clean API."
+    ],
+    "corroborating_source_ids": [
+      "S-37027a2e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7c7069d5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address Weaviate edge or on-device deployment, embedded modes, or resource efficiency."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8f695407",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not advise avoiding Weaviate for maximum vector performance or at scales above 100 million vectors."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-853c88ad",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpts say Weaviate Cloud Flex starts at $45/month, not $25; one excerpt also confirms the 14-day trial."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bfb6175f",
+      "S-033a4348"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fa4a99d3",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states self-hosted Weaviate OSS is free and users pay only infrastructure costs."
+    ],
+    "corroborating_source_ids": [
+      "S-bfb6175f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-04ebd821",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt compares hybrid-search capabilities between managed and self-hosted Weaviate."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-08890e07",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts mention hybrid search and metadata filters separately, but not simultaneous embeddings, BM25, and constraints."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e16bfe4c",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt gives query-time benchmarks or claims most RAG workflows stay below 100 ms."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1e675de9",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt supports the stated efficiency threshold below 50 million or resource concerns above 100 million vectors."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9e991a43",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts do not discuss GraphQL hybrid search or developer preference for REST."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-391a6168",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt explicitly says Weaviate's modular architecture supports plugging in embedding models, vectorizers, and rerankers."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-94a106df",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states version 1.30 introduced a native generative module that retrieves and forwards results to an LLM in one API call."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e3996ca9",
+    "status": "single_source",
+    "reasons": [
+      "The pricing excerpt mentions a former $25 Serverless price and AI-unit billing, but not $2.64 per AI unit or private-cloud custom pricing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-65ed63cd",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not report a Weaviate performance comparison of 791 queries per second."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3e9e45e5",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Weaviate as open-source and says it can be self-hosted in Docker or Kubernetes."
+    ],
+    "corroborating_source_ids": [
+      "S-2f953ab2"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5c8f588a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention Weaviate's HNSW index generally but provide no sub-50ms approximate-nearest-neighbor response claim."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-18ee8758",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss Weaviate’s search capabilities but do not mention Morningstar using it."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d5ac858b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention multi-tenant shards, but not tenant-aware classes, lifecycle endpoints, or ACLs."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a96b0ad0",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says Weaviate supports custom filtering to avoid missed results or compromising the HNSW graph."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2bef30eb",
+    "status": "contradicted",
+    "reasons": [
+      "It confirms the October 2025 model and Flex/Plus prices, but says Premium has custom pricing and no permanent free tier."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bfb6175f"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d14a7336",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts provide no matching latency comparison for Weaviate and pgvector on that test."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-609b2586",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Weaviate natively combines vector similarity, keyword matching, and metadata filtering."
+    ],
+    "corroborating_source_ids": [
+      "S-2f953ab2"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-06d8d5c0",
+    "status": "single_source",
+    "reasons": [
+      "An excerpt says Weaviate can run in Docker, but none says the author ran it locally."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3071e2b4",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address whether text2vec_openai automatically calls OpenAI’s embedding API on insertion."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4b7b9bf3",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not mention an exact invoice identifier, a first-result ranking, or an alpha=0.5 blend."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-72fe0c74",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss managed and self-hosted options but do not state these operational requirements."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b3f7e139",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Weaviate requires upfront schema definition before data ingestion."
+    ],
+    "corroborating_source_ids": [
+      "S-3670507e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f30fc60a",
+    "status": "verified",
+    "reasons": [
+      "The excerpts report a $45/month Flex minimum; S-bfb6175f also gives the $0.01668-per-million-dimensions rate."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-289ff289",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss Flex pricing but do not state Cloud Plus costs $280/month or that Premium is custom-priced."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1aa1025d",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says self-hosting requires users to manage it themselves and pay only infrastructure costs; it does not specify the BSD-3 license."
+    ],
+    "corroborating_source_ids": [
+      "S-2f953ab2"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1f6aa1f7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address this 5-million-vector workload or its stated monthly costs."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-51b9aac9",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not mention Flex including 30,000 Query Agent requests per month."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b3460741",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states Weaviate Shared has a 99.5% uptime SLA, but does not establish Cloud Plus deployment options or its 99.9% SLA."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4f67fae4",
+    "status": "verified",
+    "reasons": [
+      "The excerpt mentions a 14-day trial, but does not confirm it is the Sandbox or explain extension and expiration behavior."
+    ],
+    "corroborating_source_ids": [
+      "S-2f953ab2"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-981f1c88",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address AWS support timing or GCP as Weaviate’s primary cloud provider."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-09ad005e",
+    "status": "single_source",
+    "reasons": [
+      "They give other workload estimates and quantization effects, but not this 5-million-vector, 1,536-dimension example at approximately $64."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-59a991bb",
+    "status": "verified",
+    "reasons": [
+      "One excerpt gives Flex pricing from $45/month; another mentions Weaviate’s 14-day trial."
+    ],
+    "corroborating_source_ids": [
+      "S-033a4348",
+      "S-2f953ab2"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 95.16129032258065,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-258d72ae",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt discusses Flex pricing but does not mention 30,000 Query Agent requests."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b3cd54c9",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Binary Quantization reduces billed dimensions 32-fold, approximately a 97% reduction."
+    ],
+    "corroborating_source_ids": [
+      "S-d00b3daa"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-29a3c03a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt identifies Weaviate Shared Cloud’s Flex plan and states a 99.5% uptime SLA."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5d665683",
+    "status": "single_source",
+    "reasons": [
+      "Excerpt identifies Plus as offering dedicated or shared deployment and a 99.9% SLA."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8eb644a9",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt confirms both self-hosted OSS and Premium BYOC managed by Weaviate."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7a551894",
+    "status": "verified",
+    "reasons": [
+      "Excerpt describes the October 2025 model billing vector dimensions, object storage, and backup storage."
+    ],
+    "corroborating_source_ids": [
+      "S-bfb6175f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-49bb0713",
+    "status": "contradicted",
+    "reasons": [
+      "Excerpt gives Flex vector-dimension pricing as $0.01668 per million, not approximately $0.095."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bfb6175f"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-25aa809f",
+    "status": "single_source",
+    "reasons": [
+      "Excerpt confirms Flex's 99.5% SLA but does not state that it is pay-as-you-go."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-59c4b6a6",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts do not address data-transfer fees or the right to add them later."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4dad8199",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts describe native hybrid search but do not state it combines BM25 and dense search without additional storage cost."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5cd12dc0",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts discuss Weaviate Cloud costs, not self-hosted DigitalOcean cluster estimates."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-54d92bcc",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts contain feature, benchmark, and pricing comparisons but do not address the page’s stated scope or referrals to other posts."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f91915ce",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts support native hybrid search, but do not confirm BM25 specifically or the claimed lack of extra storage cost."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-949134c1",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpts list Flex/shared cloud from $45 monthly, not $25; they do not establish Dedicated pricing terms."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bfb6175f",
+      "S-033a4348"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dd3165d3",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt gives a $0.01668 per-million dimension rate, not $0.095; the described billing formula otherwise resembles it."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bfb6175f"
+    ],
+    "grounding_score": 96.96969696969697,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-af904802",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe BQ costs up to 50 million vectors but do not state the 100-million-vector comparison."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0a4c3520",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss Binary Quantization, not Product Quantization or its storage reduction."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bb4140ec",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention HIPAA options and free self-hosted software, but not a healthcare company’s deployment."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a0df88b7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention enterprise tiers and self-hosting, but do not give the claimed $120–$300 VPS estimate."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-49ed820e",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly lists a 16GB DigitalOcean Droplet at $96/month for self-hosted Weaviate."
+    ],
+    "corroborating_source_ids": [
+      "S-bfb6175f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-610c6280",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address BM25 search billing on Weaviate Shared Cloud."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-61996646",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss Weaviate compliance and self-hosting, but do not state this specific Dedicated Cloud or Kubernetes recommendation."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1f766585",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt gives dimension billing as linear in dimensions, so doubling dimensions would double—not quadruple—the cost at the same vector count."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bfb6175f"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  }
+]

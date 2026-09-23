@@ -1,0 +1,2603 @@
+[
+  {
+    "id": "F-a17caa55",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone offers Bring Your Own Cloud (BYOC) in public preview on AWS, GCP, and Azure, running the data plane inside the customer’s cloud account.",
+    "quote": "Bring Your Own Cloud (BYOC) is now available in public preview on AWS, GCP, and Azure. BYOC lets you run Pinecone’s data plane inside your own cloud account with a zero-access operating model — Pinecone never needs SSH, VPN, or inbound network access to your infrastructure.",
+    "entity": "Pinecone BYOC",
+    "category": "feature"
+  },
+  {
+    "id": "F-32617af8",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone Dedicated Read Nodes became generally available for Standard and Enterprise plans in April 2026 for large, high-throughput indexes needing predictable, low latency.",
+    "quote": "Dedicated Read Nodes are now generally available and recommended for production usage on Standard and Enterprise plans. You can provision read hardware for large, high-throughput indexes that need predictable, low latency using the console and API.",
+    "entity": "Pinecone Dedicated Read Nodes",
+    "category": "feature"
+  },
+  {
+    "id": "F-2388a4c0",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone’s Builder plan costs a flat $20 per month and has no usage overages.",
+    "quote": "The Builder plan is now available at **$20/month** (flat). Builder is designed for individual developers who need higher limits than Starter without committing to usage-based pricing.",
+    "entity": "Pinecone Builder plan",
+    "category": "pricing"
+  },
+  {
+    "id": "F-87414f40",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone’s Builder plan includes 10 serverless indexes, 10 GB of organization storage, and 100 namespaces per index.",
+    "quote": "* **10 serverless indexes** (up from 5)\n* **10 GB storage per organization**\n* **100 namespaces per index** (up from 20)",
+    "entity": "Pinecone Builder plan",
+    "category": "pricing"
+  },
+  {
+    "id": "F-22f2639f",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone’s Builder plan supports serverless indexes in all generally available cloud regions across AWS, GCP, and Azure as of June 2026.",
+    "quote": "The Builder plan now supports serverless indexes in every generally available cloud region, the same regions available on the Standard and Enterprise plans. Previously, Builder indexes were limited to the `us-east-1` region of AWS.",
+    "entity": "Pinecone Builder plan",
+    "category": "feature"
+  },
+  {
+    "id": "F-7408af5f",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone Assistant’s Starter plan includes monthly allowances of 500,000 chat input tokens, 300,000 chat output tokens, 500,000 context retrieval tokens, and 1,000 ingestion units.",
+    "quote": "For the Starter plan, Assistant included allowances are now monthly and reset each billing period (they are no longer all-time project totals). Starter includes **500,000 chat input tokens, 300,000 chat output tokens, 500,000 context retrieval tokens, and 1,000 ingestion units** per month.",
+    "entity": "Pinecone Assistant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-625f4dc9",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone charges Standard plan customers $190 per month for the optional HIPAA compliance add-on; HIPAA compliance is included with Enterprise.",
+    "quote": "HIPAA compliance is now available as an optional add-on for Standard plan customers. For **$190 per month**, you get HIPAA-ready infrastructure, encrypted data storage, audit logging, enhanced security controls, and BAA execution and compliance documentation support.Full HIPAA compliance remains included with the Enterprise plan.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-0c81eb60",
+    "sub_query_id": "Q1",
+    "source_id": "S-73bf67c0",
+    "claim": "Pinecone’s full-text search public preview supports BM25 text search, Lucene-style query-string search, dense-vector search, and sparse-vector search.",
+    "quote": "* **Four scoring methods** via `score_by`: `text` (BM25), `query_string` (Lucene syntax, including cross-field boolean queries), `dense_vector`, and `sparse_vector`.",
+    "entity": "Pinecone full-text search",
+    "category": "feature"
+  },
+  {
+    "id": "F-2c8d7426",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone’s Builder plan has a flat monthly minimum of $20 that covers included usage, and usage beyond Builder limits is blocked rather than billed.",
+    "quote": "| Builder | $20/month (flat) | On the Builder plan, the monthly minimum is a flat fee that covers included usage; additional usage beyond Builder limits is blocked rather than billed.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-78dbe22d",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone’s Standard plan has a monthly minimum usage commitment of $50.",
+    "quote": "| Standard | $50/month |",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-d5a57d20",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone’s Enterprise plan has a monthly minimum usage commitment of $500.",
+    "quote": "| Enterprise | $500/month |",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-1ec78925",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone serverless pricing is usage-based, covering stored data and operations, and idle indexes cost nothing.",
+    "quote": "Pinecone serverless is usage-based, so you pay only for the data you store and the operations you run. Idle indexes cost nothing.",
+    "entity": "Pinecone serverless",
+    "category": "pricing"
+  },
+  {
+    "id": "F-d156fcec",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone serverless indexes are priced using read units, write units, storage, and egress.",
+    "quote": "With serverless indexes, you pay for the amount of data stored and operations performed, based on four usage metrics: read units, write units, storage, and egress.",
+    "entity": "Pinecone serverless indexes",
+    "category": "pricing"
+  },
+  {
+    "id": "F-bd16cbc8",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone indexes can use dedicated read nodes, which are not subject to read-unit limits for query, fetch, and list operations.",
+    "quote": "Indexes built on Dedicated Read Nodes are not subject to read unit limits for query, fetch, and list operations.",
+    "entity": "Pinecone Dedicated Read Nodes",
+    "category": "feature"
+  },
+  {
+    "id": "F-900cfc64",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone hosts embedding models that can be used during upserting and querying or as standalone operations.",
+    "quote": "You can use a hosted model to embed your data as an integrated part of upserting and querying, or you can use a hosted model to embed your data as a standalone operation.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-764b0e2a",
+    "sub_query_id": "Q1",
+    "source_id": "S-db6f7830",
+    "claim": "Pinecone hosts reranking models that can be used in a query or as standalone operations.",
+    "quote": "You can use a hosted model to rerank results as an integrated part of a query, or you can use a hosted model to rerank results as a standalone operation.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-2b8f178a",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone offers a Builder Tier for $20 per month.",
+    "quote": "### Builder Tier — $20/Month\n\nFull access to Pinecone’s production-grade infrastructure for developers and small teams.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-34aef448",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone Dedicated Read Nodes provide dedicated, provisioned read capacity with a warm data path and fixed hourly per-node pricing.",
+    "quote": "Dedicated Read Nodes (DRN) gives you dedicated, provisioned read capacity with a warm data path. Vectors stay hot. No cold starts. No rate limits. Fixed hourly per-node pricing.",
+    "entity": "Pinecone Dedicated Read Nodes",
+    "category": "feature"
+  },
+  {
+    "id": "F-99f25fb3",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone says production workloads using Dedicated Read Nodes see 77–97% cost reduction at scale.",
+    "quote": "Production workloads see **77–97% cost reduction at scale.**",
+    "entity": "Pinecone Dedicated Read Nodes",
+    "category": "other"
+  },
+  {
+    "id": "F-d1b650cd",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone offers BYOC as a fully managed deployment within the customer’s cloud environment.",
+    "quote": "For organizations with data residency requirements, regulatory constraints or existing cloud commitments, BYOC deploys Pinecone fully managed within your cloud environment.",
+    "entity": "Pinecone BYOC",
+    "category": "feature"
+  },
+  {
+    "id": "F-e3c6f423",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone Database offers native hybrid retrieval with full-text search, which the page says is in Public Preview as of May 7.",
+    "quote": "The Foundation | Pinecone Database | Native hybrid retrieval with **full-text search**New. BYOC. DRN. **Builder tier**New at $20/mo.",
+    "entity": "Pinecone Database",
+    "category": "feature"
+  },
+  {
+    "id": "F-441e50ec",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone Nexus includes a context compiler and a composable retriever.",
+    "quote": "Nexus has two core components: a context compiler and a composable retriever. The context compiler builds and organizes knowledge around how your company operates. The composable retriever formats and serves responses precisely for how each agent needs knowledge to complete its task.",
+    "entity": "Pinecone Nexus",
+    "category": "feature"
+  },
+  {
+    "id": "F-d12f2414",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone says measured impact from Nexus and KnowQL includes task completion rates above 90% and 30x faster time-to-completion.",
+    "quote": "**Measured impact:** Task completion rates above 90%. 30x faster time-to-completion. Measurably improved precision and relevance, with every answer cited, scored, and auditable.",
+    "entity": "Pinecone Nexus and KnowQL",
+    "category": "other"
+  },
+  {
+    "id": "F-cf718a86",
+    "sub_query_id": "Q1",
+    "source_id": "S-2d7f6da7",
+    "claim": "Pinecone says Nexus and KnowQL are open for early access to customers and partners building agent-native applications.",
+    "quote": "*Early access for Pinecone Nexus and KnowQL is open now to customers and partners building agent-native applications in financial services, healthcare, legal, enterprise SaaS, and any domain where agents reason over complex, proprietary knowledge.*",
+    "entity": "Pinecone Nexus and KnowQL",
+    "category": "launch"
+  },
+  {
+    "id": "F-6f675dcb",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone runs on AWS, Azure, and Google Cloud, including inside a customer’s own cloud account.",
+    "quote": "Pinecone runs on AWS, Azure, and Google Cloud with the same API. For teams that cannot send data to a vendor-operated environment at all, bring your own cloud runs Pinecone inside their own account on any of the three, which keeps the data in their perimeter while Pinecone still operates the system.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-67c2fa7d",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone’s on-demand tier scales automatically without requiring customers to choose a node count.",
+    "quote": "Automatic on the on-demand tier, with no node count to choose. Dedicated Read Nodes are provisioned capacity, with shards and replicas set by hand today.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-bfbc0136",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone offers Dedicated Read Nodes as provisioned capacity, with shards and replicas configured manually.",
+    "quote": "Dedicated Read Nodes are provisioned capacity, with shards and replicas set by hand today.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-597bf5e9",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone charges on-demand customers for reads and writes, and an idle index costs close to storage alone.",
+    "quote": "Usage based. On-demand charges for the reads and writes you run, and an idle index costs close to storage alone.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-114643ad",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone supports dense and sparse indexes and offers reranking models.",
+    "quote": "Dense and sparse indexes, plus reranking models.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-c03497e2",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone Inference hosts embedding and reranking models next to the index.",
+    "quote": "Pinecone Inference hosts embedding and reranking models next to the index.",
+    "entity": "Pinecone Inference",
+    "category": "feature"
+  },
+  {
+    "id": "F-195a99c0",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone supports namespaces inside one index without per-tenant provisioning.",
+    "quote": "Namespaces inside one index, with no per-tenant provisioning.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-e4393405",
+    "sub_query_id": "Q1",
+    "source_id": "S-69a01046",
+    "claim": "Pinecone says writes are acknowledged immediately and become queryable in seconds.",
+    "quote": "Writes are acknowledged immediately, become queryable in seconds, and background compaction re-optimizes the data over time without a separate rebuild you schedule or fund.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-91763437",
+    "sub_query_id": "Q2",
+    "source_id": "S-04ea35a7",
+    "claim": "Qdrant’s Recommend API was used in MemoryAtlas with negative examples and a datetime payload filter to retrieve a recovery window.",
+    "quote": "Once a spiral is confirmed, the Recommend API treats the current entries as negative examples and applies a datetime payload filter to pull the recovery window that followed the last spiral.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-fcf21097",
+    "sub_query_id": "Q2",
+    "source_id": "S-04ea35a7",
+    "claim": "Qdrant supports hybrid retrieval, as used by the Sprouty project.",
+    "quote": "Sprouty takes 90 seconds or less of voice input, searches a curated gardening knowledge base with Qdrant’s hybrid retrieval, and returns a complete 12-week plan: crop list, weekly tasks, shopping list, and an AI-generated vision board of what the garden could look like.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-86aa43e2",
+    "sub_query_id": "Q2",
+    "source_id": "S-04ea35a7",
+    "claim": "Qdrant supports multi-vector prefetch with RRF fusion, payload-filtered HNSW traversal, and the Discovery API, as used by Cardinal.",
+    "quote": "Everything in between is Qdrant doing the work: Recommend with positive and negative anchors, multi-vector prefetch with RRF fusion, payload-filtered HNSW traversal, and the Discovery API.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-9b975b37",
+    "sub_query_id": "Q2",
+    "source_id": "S-04ea35a7",
+    "claim": "Qdrant supports storing multiple named vectors under a single point ID, as used by MemoryAtlas.",
+    "quote": "Every memory lands in Qdrant as six named vectors under a single point ID: semantic meaning, emotion distribution, audio prosody, linguistic structure, cross-modal dissonance, and raw audio.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-6cc5ef4a",
+    "sub_query_id": "Q2",
+    "source_id": "S-04ea35a7",
+    "claim": "Qdrant Cloud was used as the database deployment in the Synthara project.",
+    "quote": "Synthara is a memory-driven dark fantasy role-playing game built on Next.js 16, Google Gemini, and Qdrant Cloud, where the narrative is generated rather than scripted.",
+    "entity": "Qdrant Cloud",
+    "category": "other"
+  },
+  {
+    "id": "F-1aae9b94",
+    "sub_query_id": "Q2",
+    "source_id": "S-04ea35a7",
+    "claim": "Qdrant supports vector-similarity retrieval with rich metadata filters, as used by DejaPlay.",
+    "quote": "DejaPlay turns it into a visual semantic search problem: it encodes StatsBomb possessions into compact embeddings, indexes them in Qdrant with rich metadata filters, and retrieves matches by vector similarity or Mistral-powered natural-language queries.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-d70de31d",
+    "sub_query_id": "Q2",
+    "source_id": "S-04ea35a7",
+    "claim": "Qdrant supports `search_matrix_pairs` for computing a distance map across watched regions, as used by Afterimage.",
+    "quote": "On each sampled frame it runs three Qdrant queries: a filtered nearest-neighbor search against a data-derived floor of mean minus three sigma, a distance map across watched regions with search_matrix_pairs, and a best_score Recommend query to surface the strongest outlier.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-0b45786e",
+    "sub_query_id": "Q2",
+    "source_id": "S-914a1371",
+    "claim": "Qdrant says its filtering approach does not require pre-filtering or post-filtering and addresses the accuracy problem caused when filtering disconnects the HNSW graph.",
+    "quote": "Qdrant uses a different approach, not requiring pre- or post-filtering while addressing the accuracy problem.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-53a373a8",
+    "sub_query_id": "Q2",
+    "source_id": "S-914a1371",
+    "claim": "Qdrant’s filtered ANN benchmark datasets include synthetic and real-world datasets with filters ranging from keywords to geo-spatial queries.",
+    "quote": "It includes synthetic and real-world datasets with various filters, from keywords to geo-spatial queries.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-2b9b276d",
+    "sub_query_id": "Q2",
+    "source_id": "S-914a1371",
+    "claim": "Qdrant says it built a benchmark with 10 billion documents and ground truth.",
+    "quote": "We built the benchmark the industry was missing: 10 billion documents, with ground truth.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-2f6d7d5a",
+    "sub_query_id": "Q2",
+    "source_id": "S-914a1371",
+    "claim": "Qdrant published the filtered search benchmark on February 13, 2023.",
+    "quote": "February 13, 2023",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-5ab2fbe1",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "Weaviate Query Agent’s Search Mode is a compound retrieval system designed for accurate search.",
+    "quote": "Search Mode is a Compound Retrieval System built into the Query Agent that is optimized for highly accurate search.",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "feature"
+  },
+  {
+    "id": "F-c73c7cd8",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "Weaviate says Search Mode uses query expansion, query decomposition, schema introspection, and reranking.",
+    "quote": "Our benchmarks show that Search Mode significantly improves search accuracy by applying best-practice IR techniques such as query expansion, query decomposition, schema introspection, and reranking.",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "feature"
+  },
+  {
+    "id": "F-ca893c9e",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "In Weaviate’s benchmark, Search Mode’s mean results across the tested benchmarks improved Success @ 1 by 17% and Recall @ 5 by 11% over Hybrid Search.",
+    "quote": "The most significant gains appear in Success @ 1 (+17%) and Recall @ 5 (+11%), demonstrating Search Mode’s ability to surface the most relevant document first.",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "other"
+  },
+  {
+    "id": "F-4081ed02",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "On the BRIGHT Biology benchmark, Weaviate reported Search Mode nDCG @ 10 of 0.40, compared with 0.13 for Hybrid Search.",
+    "quote": "| nDCG @ 10 | 0.13 | 0.40 ± 0.011 |",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "other"
+  },
+  {
+    "id": "F-55cc424e",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "Weaviate reported that Search Mode exceeded the best methods in the original BRIGHT paper by 13.4, 9.6, 2.6, 12.2, and 8.8 nDCG @ 10 points on Biology, Earth Science, Economics, Psychology, and Robotics, respectively.",
+    "quote": "Search Mode outperforms these methods by absolute gains of 13.4, 9.6, 2.6, 12.2, and 8.8.",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "other"
+  },
+  {
+    "id": "F-ea561793",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "Weaviate reported Search Mode Success @ 5 scores exceeding ColBERTv2’s on all four LoTTe Lifestyle and Recreation search and forum test sets.",
+    "quote": "Search Mode outperforms these results by absolute gains of +0.09, +0.17, +0.13, and +0.09.",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "other"
+  },
+  {
+    "id": "F-77929935",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "Weaviate ran three trials to account for stochasticity in models used by Search Mode and reported fairly consistent performance across runs.",
+    "quote": "To account for the stochasticity of models used in Search Mode, we run our experiments for 3 trials, finding fairly consistent performance across runs.",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "other"
+  },
+  {
+    "id": "F-a32dd339",
+    "sub_query_id": "Q3",
+    "source_id": "S-77b353ac",
+    "claim": "Weaviate says Search Mode’s additional model inferences trade off some latency for higher quality, and suggests Hybrid Search may suit latency-sensitive use cases better.",
+    "quote": "These additional model inferences trade off some latency for higher quality. If your use case requires highly accurate search results, you should check out Search Mode! If you are latency-sensitive, Weaviate’s Hybrid Search may be a better fit.",
+    "entity": "Weaviate Query Agent Search Mode",
+    "category": "limitation"
+  },
+  {
+    "id": "F-d178f626",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate v1.37 provides hybrid search that combines vector similarity and BM25 keyword scoring, with the signals fused at query time.",
+    "quote": "Hybrid search combines two signals: **vector similarity** (semantic, meaning-based) and **BM25 keyword scoring** (exact-match, lexical). The two are fused at query time",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-66a8b834",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate lets users select a text tokenization method per property, including `word`, `lowercase`, `whitespace`, and `field`.",
+    "quote": "You set the method **per property**, not per collection.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-536f06da",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate supports accent folding for text properties, including configuration to exempt specified characters from folding.",
+    "quote": "The example below sets up three properties side-by-side: `text_default` as the unfolded baseline, `text_folded` with full ASCII folding, and `text_folded_keep_e` showing how to exempt a specific character (`é`) from folding:",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-6b76b5a5",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate supports named stopword presets at collection level and per-property stopword configuration.",
+    "quote": "Weaviate solves this two ways. First, you can declare **named stopword presets** at the collection level.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-5a0f46d2",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate stopwords are filtered at query time rather than removed from the index, so changing a stopword preset takes effect on the next query without reindexing.",
+    "quote": "**Stopwords are still indexed.** They're only filtered at *query* time. That means changing a stopword preset takes effect immediately on the next query, with no reindex.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-40562ce2",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate v1.37 exposes `POST /v1/tokenize` and a property-scoped tokenize endpoint that return indexed and query tokens separately.",
+    "quote": "Weaviate `v1.37` exposes two REST endpoints that turn the analyzer into a sandboxed, callable function:\n\n`POST /v1/tokenize`\n`POST /v1/schema/{className}/properties/{propertyName}/tokenize`\n\nBoth return a structured response that separates `indexed` tokens (what goes into the inverted index) from `query` tokens (what BM25 actually scores after stopword filtering):",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-8df20330",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate includes a built-in `trigram` tokenizer that produces 3-character n-grams for fuzzy and substring matching.",
+    "quote": "A `trigram` tokenizer is also built-in (always available, no env flag) and produces 3-character n-grams for fuzzy and substring matching — handy when you need partial-token recall over short identifiers.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-4624fd9b",
+    "sub_query_id": "Q3",
+    "source_id": "S-4cd13ba9",
+    "claim": "Weaviate provides opt-in language-specific tokenizers `gse`, `gse_ch`, `kagome_ja`, and `kagome_kr`, enabled through environment variables.",
+    "quote": "For non-whitespace-delimited languages, Weaviate also ships **language-specific tokenizers** that are opt-in via environment variables: `gse` (Japanese), `gse_ch` (Chinese), `kagome_ja` (Japanese morphological), and `kagome_kr` (Korean).",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-fb89bcc0",
+    "sub_query_id": "Q3",
+    "source_id": "S-bf389352",
+    "claim": "A Weaviate forum user reported that hybrid search over a class with close to 11 million objects, using a cross-reference filter and a vector, averaged 30 seconds and sometimes took up to two minutes.",
+    "quote": "We have close to 11 million objects in class Article and each of those objects has a Metadata as cross reference. Now when we try to do hybrid search on Article class with filters on hasMetadata and a vector for semantic search on Article it is taking on an average 30 seconds with some queries taking upto 2 minutes.",
+    "entity": "Weaviate",
+    "category": "limitation"
+  },
+  {
+    "id": "F-95406713",
+    "sub_query_id": "Q3",
+    "source_id": "S-bf389352",
+    "claim": "A Weaviate forum user said the Metadata class had close to 50 properties and that the properties to search on could not be finalized because use cases might change.",
+    "quote": "The thing is there are close to 50 properties in metadata. We can’t finalize properties to search on because the use cases might change in future and we might need to filter on more properties.",
+    "entity": "Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-7c3b5993",
+    "sub_query_id": "Q3",
+    "source_id": "S-4c2c4044",
+    "claim": "Weaviate said it was adding a boosting or soft-weighting feature in version 1.38 that could help with temporal decay.",
+    "quote": "We are adding a new boosting feature / soft-weighting feature to Weaviate in 1.38 that could help with this.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-35fee405",
+    "sub_query_id": "Q3",
+    "source_id": "S-4c2c4044",
+    "claim": "The proposed Weaviate `Boost.decay` query parameter can apply a decay curve to a property and boost results matching a filter.",
+    "quote": "It will allow for queries like this, where a `boost` parameter is provided to interact with the hybrid of vector score. You can boost with a decay curve, via a property (i.e likes or popularity), and also boost a particilar filter (i.e. price > $20).",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-6548ff07",
+    "sub_query_id": "Q3",
+    "source_id": "S-4c2c4044",
+    "claim": "A forum participant said the Weaviate `Boost.decay` feature had merged and was live.",
+    "quote": "@trengrj — congrats on merging Boost.decay!",
+    "entity": "Weaviate",
+    "category": "launch"
+  },
+  {
+    "id": "F-1b79cbdf",
+    "sub_query_id": "Q3",
+    "source_id": "S-4c2c4044",
+    "claim": "The forum post reports that a Weaviate-plus-Knowledge Universe integration reduced downstream LLM token burn by 40% to 50% during extended autonomous windows.",
+    "quote": "We dogfooded the Weaviate + KU integration over extended autonomous windows, and the telemetry is definitive: hard-gating stale context at the Weaviate retrieval layer, before it hits the agent & resulted in a **40% to 50% reduction in downstream LLM token burn**.",
+    "entity": "Weaviate + Knowledge Universe integration",
+    "category": "other"
+  },
+  {
+    "id": "F-2028f4c9",
+    "sub_query_id": "Q3",
+    "source_id": "S-4c2c4044",
+    "claim": "The forum post reports that the Weaviate-plus-Knowledge Universe integration uses local sentence-transformers and makes zero external API calls.",
+    "quote": "The integration uses `sentence-transformers` locally (no OpenAI dependency), stores KU decay scores at ingest time, and applies governance at query time with zero external API calls.",
+    "entity": "Weaviate + Knowledge Universe integration",
+    "category": "integration"
+  },
+  {
+    "id": "F-24cb74a6",
+    "sub_query_id": "Q3",
+    "source_id": "S-4c2c4044",
+    "claim": "The forum post reports these block rates for its regulated-pipeline benchmark: 20% for Clinical NLP at threshold 0.20, 70% for Financial Disclosure at threshold 0.35, and 20% for General RAG at threshold 0.60.",
+    "quote": "| Domain | Threshold | Block Rate | Passed |\n| --- | --- | --- | --- |\n| Clinical NLP | 0.20 | 20% | 8/10 |\n| Financial Disclosure | 0.35 | **70%** | 3/10 |\n| General RAG | 0.60 | 20% | 8/10 |",
+    "entity": "Weaviate + Knowledge Universe integration",
+    "category": "other"
+  },
+  {
+    "id": "F-832531e4",
+    "sub_query_id": "Q3",
+    "source_id": "S-0c5f242f",
+    "claim": "Weaviate Cloud’s Explorer tool supports hybrid search that blends keyword and vector search in one query.",
+    "quote": "`Hybrid` mode blends keyword and vector search in a single search, so an object can rank highly because it matches your search terms, because it matches your meaning, or both.",
+    "entity": "Weaviate Cloud Explorer",
+    "category": "feature"
+  },
+  {
+    "id": "F-0d67dfcc",
+    "sub_query_id": "Q3",
+    "source_id": "S-0c5f242f",
+    "claim": "Weaviate Cloud’s Explorer tool supports semantic search that ranks results by meaning rather than exact words.",
+    "quote": "`Semantic` mode ranks results by meaning rather than by exact words, so a relevant object can rank highly even if it shares no words with your search.",
+    "entity": "Weaviate Cloud Explorer",
+    "category": "feature"
+  },
+  {
+    "id": "F-7bffff71",
+    "sub_query_id": "Q3",
+    "source_id": "S-0c5f242f",
+    "claim": "Weaviate Cloud’s Explorer tool supports BM25 keyword search.",
+    "quote": "`Keyword` mode ranks results by BM25 relevance, so the objects that match your search terms most strongly come first.",
+    "entity": "Weaviate Cloud Explorer",
+    "category": "feature"
+  },
+  {
+    "id": "F-39c59520",
+    "sub_query_id": "Q3",
+    "source_id": "S-0c5f242f",
+    "claim": "Weaviate Cloud’s Explorer tool supports filters in every mode and sorting in Browse mode only.",
+    "quote": "Filters are available in every mode, including `Browse`. Click `Add condition` to build a filter condition, then click `Apply` to run it.\n\nSorting is available in `Browse` only.",
+    "entity": "Weaviate Cloud Explorer",
+    "category": "feature"
+  },
+  {
+    "id": "F-359692c5",
+    "sub_query_id": "Q3",
+    "source_id": "S-0c5f242f",
+    "claim": "The Explorer tool is available for collections hosted in Weaviate Cloud.",
+    "quote": "The Explorer tool is available for collections that are hosted in Weaviate Cloud.",
+    "entity": "Weaviate Cloud Explorer",
+    "category": "other"
+  },
+  {
+    "id": "F-eebac9ee",
+    "sub_query_id": "Q3",
+    "source_id": "S-0c5f242f",
+    "claim": "Weaviate removed the Query tool from the Weaviate Cloud console on September 14, 2026.",
+    "quote": "The Query tool was removed from the Weaviate Cloud console on **September 14, 2026**.",
+    "entity": "Weaviate Cloud",
+    "category": "launch"
+  },
+  {
+    "id": "F-2401fbee",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.8.0, released October 30, 2024, added support for iterative index scans.",
+    "quote": "## 0.8.0 (2024-10-30)\n\n* Added support for iterative index scans",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-0ae72b15",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.8.0 improved HNSW index-scan performance and HNSW insert and on-disk index-build performance.",
+    "quote": "* Improved performance of HNSW index scans\n* Improved performance of HNSW inserts and on-disk index builds",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-dc84c0b4",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.7.0, released April 29, 2024, added `halfvec` and `sparsevec` types and support for indexing `bit` values.",
+    "quote": "## 0.7.0 (2024-04-29)\n\n* Added `halfvec` type\n* Added `sparsevec` type\n* Added support for indexing `bit` type",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-15aba61f",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.7.0 added HNSW indexing for L1 distance and added binary quantization, Hamming-distance, and Jaccard-distance functions.",
+    "quote": "* Added support for indexing L1 distance with HNSW\n* Added `binary_quantize` function\n* Added `hamming_distance` function\n* Added `jaccard_distance` function",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-ead47cc9",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.6.0 added parallel index builds for HNSW and reduced memory usage and WAL generation for HNSW index builds.",
+    "quote": "## 0.6.0 (2024-01-29)\n\nIf upgrading with Postgres 12 or Docker, see these notes.\n\n* Added support for parallel index builds for HNSW\n* Added validation for GUC parameters\n* Changed storage for vector from `extended` to `external`\n* Improved performance of HNSW\n* Reduced memory usage for HNSW index builds\n* Reduced WAL generation for HNSW index builds",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-a1f0e033",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.8.0 improved cost estimation for better index selection when filtering.",
+    "quote": "* Improved cost estimation for better index selection when filtering",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-6e95de53",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.8.2, released February 25, 2026, fixed a buffer overflow with parallel HNSW index builds.",
+    "quote": "## 0.8.2 (2026-02-25)\n\n* Fixed buffer overflow with parallel HNSW index build - more info",
+    "entity": "pgvector",
+    "category": "limitation"
+  },
+  {
+    "id": "F-7a835035",
+    "sub_query_id": "Q4",
+    "source_id": "S-6c9c25a2",
+    "claim": "pgvector 0.8.4, released June 30, 2026, fixed possible index corruption with HNSW vacuuming.",
+    "quote": "## 0.8.4 (2026-06-30)\n\n* Fixed possible index corruption with HNSW vacuuming",
+    "entity": "pgvector",
+    "category": "limitation"
+  },
+  {
+    "id": "F-638ceefd",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "pgvector provides exact nearest-neighbor search by default, with perfect recall.",
+    "quote": "By default, pgvector performs exact nearest neighbor search, which provides perfect recall.",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-65d064f5",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "pgvector supports approximate nearest-neighbor search through indexes, trading some recall for speed.",
+    "quote": "You can add an index to use approximate nearest neighbor search, which trades some recall for speed.",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-f4106ba6",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "pgvector's HNSW indexes have a better speed-recall tradeoff than IVFFlat, but take longer to build and use more memory.",
+    "quote": "It has better query performance than IVFFlat (in terms of speed-recall tradeoff), but has slower build times and uses more memory.",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-75bff3e5",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "pgvector's IVFFlat indexes build faster and use less memory than HNSW, but have a lower speed-recall tradeoff.",
+    "quote": "It has faster build times and uses less memory than HNSW, but has lower query performance (in terms of speed-recall tradeoff).",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-153fce7f",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "In pgvector, approximate-index filtering happens after the index scan, which can reduce the number of matching results; iterative index scans can scan more of the index when needed.",
+    "quote": "With approximate indexes, filtering is applied *after* the index is scanned. If a condition matches 10% of rows, with HNSW and the default `hnsw.ef_search` of 40, only 4 rows will match on average. For more rows, enable iterative index scans, which will automatically scan more of the index when needed.",
+    "entity": "pgvector",
+    "category": "limitation"
+  },
+  {
+    "id": "F-d393b80c",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "Starting with pgvector 0.8.0, iterative index scans can continue scanning until enough results are found or a configured scan limit is reached.",
+    "quote": "Starting with 0.8.0, you can enable iterative index scans, which will automatically scan more of the index until enough results are found (or it reaches `hnsw.max_scan_tuples` or `ivfflat.max_probes`).",
+    "entity": "pgvector",
+    "category": "feature"
+  },
+  {
+    "id": "F-4f123bec",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "A pgvector `vector` uses `4 * dimensions + 8` bytes of storage, with each element stored as a single-precision floating-point number.",
+    "quote": "Each vector takes `4 * dimensions + 8` bytes of storage. Each element is a single-precision floating-point number (like the `real` type in Postgres), and all elements must be finite (no `NaN`, `Infinity` or `-Infinity`).",
+    "entity": "pgvector",
+    "category": "other"
+  },
+  {
+    "id": "F-194bf67a",
+    "sub_query_id": "Q4",
+    "source_id": "S-c6d1560c",
+    "claim": "The pgvector README recommends scaling vertically by increasing single-instance memory, CPU, and storage, or scaling horizontally with replicas or sharding approaches such as Citus or PgDog.",
+    "quote": "Scale vertically by increasing memory, CPU, and storage on a single instance. Use existing tools to tune parameters and monitor performance.\n\nScale horizontally with replicas, or use Citus, PgDog, or another approach for sharding (example).",
+    "entity": "pgvector",
+    "category": "other"
+  },
+  {
+    "id": "F-2a6da3b8",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack runs stock PostgreSQL with pgvector and pgvectorscale on single-tenant nodes with local NVMe storage.",
+    "quote": "Every database is stock PostgreSQL with pgvector and pgvectorscale, running on single-tenant nodes with local NVMe storage.",
+    "entity": "Rivestack",
+    "category": "feature"
+  },
+  {
+    "id": "F-567dd770",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack supports semantic and hybrid search using existing PostgreSQL tables, with embeddings created and refreshed by the service.",
+    "quote": "Rivestack is managed PostgreSQL for teams adding semantic and hybrid search to the data they already have. Point Rivestack at an existing table, choose the columns to index, and it creates and refreshes the embeddings for you.",
+    "entity": "Rivestack",
+    "category": "feature"
+  },
+  {
+    "id": "F-314fcd02",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack search uses plain SQL, allowing users to join and filter application data in the same query.",
+    "quote": "Search is plain SQL, so you can join and filter against your application data in the same query.",
+    "entity": "Rivestack",
+    "category": "feature"
+  },
+  {
+    "id": "F-a52ba62f",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack includes high availability with Patroni failover, PgBouncer connection pooling, daily backups with point-in-time recovery, and a monitoring dashboard.",
+    "quote": "Included: high availability with Patroni failover, PgBouncer connection pooling, daily backups with point-in-time recovery, a monitoring dashboard, IP allowlists, TLS on every connection, a Terraform provider, and a web workbench with a table editor, SQL editor, and search playground.",
+    "entity": "Rivestack",
+    "category": "feature"
+  },
+  {
+    "id": "F-aff0111c",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack offers fixed per-node monthly pricing starting at $29 per month, with no usage metering.",
+    "quote": "Fixed per-node monthly pricing with no usage metering, starting at $29 per month.",
+    "entity": "Rivestack",
+    "category": "pricing"
+  },
+  {
+    "id": "F-bdfb7727",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack offers a free shared tier for prototyping.",
+    "quote": "A free shared tier is available for prototyping.",
+    "entity": "Rivestack",
+    "category": "pricing"
+  },
+  {
+    "id": "F-4ee81f17",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack’s public demo searches several thousand Hacker News stories and tens of thousands of indexed text chunks, with new stories ingested and embedded daily.",
+    "quote": "ask.rivestack.io is a public demo running on Rivestack itself. It provides semantic search over several thousand Hacker News stories and tens of thousands of indexed text chunks, with new stories ingested and embedded automatically every day.",
+    "entity": "Rivestack",
+    "category": "other"
+  },
+  {
+    "id": "F-f777d55a",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack states that it publishes reproducible pgvector benchmarks rather than marketing numbers.",
+    "quote": "We publish reproducible pgvector benchmarks rather than marketing numbers.",
+    "entity": "Rivestack",
+    "category": "other"
+  },
+  {
+    "id": "F-c2d9d890",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack offers the same pgvector HNSW setup on every plan, running on a single node.",
+    "quote": "It uses the same pgvector HNSW setup available on every Rivestack plan, on a single Rivestack node.",
+    "entity": "Rivestack",
+    "category": "feature"
+  },
+  {
+    "id": "F-c1de8c2c",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Rivestack runs unmodified PostgreSQL with pgvector and pgvectorscale on single-tenant virtual machines with local NVMe storage.",
+    "quote": "Rivestack runs unmodified PostgreSQL with pgvector and pgvectorscale on single-tenant virtual machines with local NVMe storage, one customer per machine.",
+    "entity": "Rivestack",
+    "category": "feature"
+  },
+  {
+    "id": "F-a992d87b",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "Supabase includes vector search and supports the pgvector extension.",
+    "quote": "At its core is a scalable, production-ready Postgres database, enhanced with an integrated suite of tools including authentication, storage, edge functions, realtime updates, and vector search. [...] Supabase supports a wide range of Postgres extensions including pgvector, postgis, and Foreign Data Wrappers",
+    "entity": "Supabase",
+    "category": "feature"
+  },
+  {
+    "id": "F-40e94f25",
+    "sub_query_id": "Q4",
+    "source_id": "S-f2b1b6b8",
+    "claim": "ScaleGrid allows customers to install custom PostgreSQL plugins and offers a Bring Your Own Cloud model that it says can save up to 75% on long-term hosting costs.",
+    "quote": "ScaleGrid is the only managed PostgreSQL service that allows you to keep full Postgres super user access, SSH access to the underlying machines, and install custom plugins to accommodate your PostgreSQL needs with no restrictions. We also offer a unique \"Bring Your Own Cloud\" (BYOC) model that allows you to host in your own cloud account and leverage Virtual Private Clouds, Security Groups, and Reserved Instances to save up to 75% on long-term hosting costs.",
+    "entity": "ScaleGrid",
+    "category": "pricing"
+  },
+  {
+    "id": "F-c6955787",
+    "sub_query_id": "Q5",
+    "source_id": "S-d06de2b7",
+    "claim": "The page says its cited 50-million-vector, 99%-recall result is published vendor data, although it describes the result as consistent in magnitude across independent runs.",
+    "quote": "To put the relative order of magnitude into context, the research cites a published benchmark (vendor data, but consistent in magnitude across independent runs): at 50M vectors and 99% recall, Qdrant came in at 41 QPS versus pgvectorscale (StreamingDiskANN in Postgres) at 471 QPS.",
+    "entity": "Qdrant and pgvectorscale",
+    "category": "market"
+  },
+  {
+    "id": "F-bdc35770",
+    "sub_query_id": "Q5",
+    "source_id": "S-d06de2b7",
+    "claim": "For 10-million-vector, 1024-dimensional workloads on commodity hardware, the page reports HNSW in-memory top-10 latency under 10 ms for Qdrant, Weaviate, or pgvector when using a suitable ef_search.",
+    "quote": "Latency profiles for 1024-dim, 10M vectors on commodity hardware: HNSW in-memory top-10 under 10 ms end-to-end on Qdrant, Weaviate or pgvector with a suitable ef_search.",
+    "entity": "Qdrant, Weaviate, and pgvector",
+    "category": "market"
+  },
+  {
+    "id": "F-267cb138",
+    "sub_query_id": "Q5",
+    "source_id": "S-d06de2b7",
+    "claim": "The page reports 150–500 ms latency for hybrid retrieval plus a cross-encoder reranker and says the reranker is the latency-elastic part of that pipeline.",
+    "quote": "Hybrid plus cross-encoder reranker lands at 150-500 ms - the reranker being the latency-elastic part and the first thing to be dropped under hard sub-100 ms SLAs.",
+    "entity": "Hybrid retrieval with a cross-encoder reranker",
+    "category": "market"
+  },
+  {
+    "id": "F-c6d80207",
+    "sub_query_id": "Q5",
+    "source_id": "S-d06de2b7",
+    "claim": "The page says reproducible 2025–2026 benchmarks from VectorDBBench, ann-benchmarks forks, and independent harnesses show Qdrant and Weaviate on smooth HNSW recall-latency curves with strong filter performance.",
+    "quote": "Reproducible 2025-2026 benchmarks (VectorDBBench, ann-benchmarks forks, independent harnesses) paint a consistent picture: Qdrant and Weaviate sit on smooth HNSW recall-latency curves with strong filter performance.",
+    "entity": "Qdrant and Weaviate",
+    "category": "market"
+  },
+  {
+    "id": "F-d3980ad0",
+    "sub_query_id": "Q5",
+    "source_id": "S-d06de2b7",
+    "claim": "The page characterizes the 50-million-vector QPS comparison as evidence that pgvector/pgvectorscale on managed Postgres may be operationally simpler for DACH projects below roughly 50 million vectors, rather than as evidence that Qdrant is slow.",
+    "quote": "The lesson here is not \"Qdrant is slow\" but rather: for many DACH Mittelstand projects below ~50M vectors, pgvector/pgvectorscale on managed Postgres is often the operationally simpler and more sovereign choice - one database, one backup story, one GDPR DPA chain.",
+    "entity": "pgvector/pgvectorscale and Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-056a0568",
+    "sub_query_id": "Q5",
+    "source_id": "S-033a4348",
+    "claim": "Tech Insider reported in August 2026 that it found no neutral source benchmarking Pinecone, Weaviate, and Qdrant side by side under matched conditions.",
+    "quote": "We did not find a single neutral source that benchmarks Pinecone, Weaviate, and Qdrant side by side under matched conditions as of August 2026, and we are not going to invent one.",
+    "entity": "Pinecone, Weaviate, and Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-e06d5b0d",
+    "sub_query_id": "Q5",
+    "source_id": "S-033a4348",
+    "claim": "A third-party comparison cited Qdrant at 41 queries per second at 99 percent recall on a 50-million-vector dataset and pgvectorscale at 471 QPS under the same recall target.",
+    "quote": "A third-party comparison cited a Qdrant result of 41 queries per second at 99 percent recall on a 50-million-vector dataset, a scenario built to stress-test recall accuracy rather than raw throughput. That same source measured a different engine, pgvectorscale, at 471 QPS under the same recall target, illustrating how much index tuning and dataset shape affect results more than the vendor name.",
+    "entity": "Qdrant and pgvectorscale",
+    "category": "other"
+  },
+  {
+    "id": "F-57b57146",
+    "sub_query_id": "Q5",
+    "source_id": "S-033a4348",
+    "claim": "Tech Insider characterized Qdrant’s benchmark suite as vendor-run and said its claims of highest throughput and lowest latency in almost all tested scenarios should be treated as directional rather than neutral.",
+    "quote": "Qdrant’s own benchmark suite, published at qdrant.tech/benchmarks, claims the engine achieves the highest requests-per-second and lowest latency in “almost all” of its internal test scenarios against other open-source engines. This is a vendor-run benchmark, not an independent audit, so treat the specific multipliers as directional rather than neutral.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-1dbc7214",
+    "sub_query_id": "Q5",
+    "source_id": "S-033a4348",
+    "claim": "The ann-benchmarks.com project does not maintain an always-current three-way comparison of Pinecone, Weaviate, and Qdrant Cloud, and the page says Pinecone’s proprietary index cannot be benchmarked outside its managed API.",
+    "quote": "The ann-benchmarks.com project, the closest thing the industry has to a neutral, open benchmark harness for approximate nearest neighbor search, tracks HNSW and other index implementations broadly but does not maintain an always-current, three-way managed-service comparison of Pinecone, Weaviate, and Qdrant Cloud specifically, since Pinecone’s proprietary index cannot be benchmarked outside its managed API.",
+    "entity": "ann-benchmarks.com",
+    "category": "limitation"
+  },
+  {
+    "id": "F-ed2cc22c",
+    "sub_query_id": "Q5",
+    "source_id": "S-033a4348",
+    "claim": "The page says benchmark results vary with index tuning and dataset shape, and that real-world latency is affected by network round-trip time, embedding batch size, and index parameters such as ef_construction and ef_search.",
+    "quote": "Real-world latency will be dominated by network round-trip time to a managed endpoint, embedding batch size, and how well you tune index parameters like `ef_construction` and `ef_search`, not by which vendor’s logo is on the dashboard. If raw throughput at massive scale (100M-plus vectors) is your bottleneck, run your own benchmark against your actual embeddings before committing, because published numbers vary wildly by dataset shape and hardware.",
+    "entity": "Pinecone, Weaviate, and Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-4217ce47",
+    "sub_query_id": "Q5",
+    "source_id": "S-033a4348",
+    "claim": "The page says its monthly workload cost scenarios are estimates based on public pricing rather than vendor quotes, so they are directional planning figures, not guaranteed invoices.",
+    "quote": "These are estimates built from public pricing, not vendor quotes, so treat them as directional planning figures rather than guaranteed invoices.",
+    "entity": "Pinecone, Weaviate, and Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-e5f4eafb",
+    "sub_query_id": "Q5",
+    "source_id": "S-033a4348",
+    "claim": "The page says pricing is difficult to compare directly because Pinecone meters storage and read/write units, Weaviate meters storage and vector dimensions processed, and Qdrant charges hourly for allocated resources.",
+    "quote": "Pricing across vector databases is notoriously hard to compare directly because each vendor meters usage differently. Pinecone charges for storage plus read and write units. Weaviate charges for storage plus vector dimensions processed. Qdrant charges by the hour for allocated RAM, CPU, and disk.",
+    "entity": "Pinecone, Weaviate, and Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-e5ac8e4c",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page reports Qdrant-published benchmarks on 1 million 768-dimensional vectors using an HNSW index at approximately 99% recall, with Qdrant at approximately 850 QPS and 8 ms p95 latency and Weaviate at approximately 380 QPS and 18 ms p95 latency.",
+    "quote": "From Qdrant’s published benchmarks on 1M vectors (768 dims), HNSW index, ~99% recall:",
+    "entity": "Qdrant and Weaviate",
+    "category": "market"
+  },
+  {
+    "id": "F-36a8ef21",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page reports production measurements on 500,000–1 million 1,536-dimensional vectors: pgvector HNSW at approximately 220 QPS and 48 ms p95, pgvector HNSW with four parallel workers at approximately 360 QPS and 58 ms p95, pgvector IVFFlat at approximately 90 QPS and 70 ms p95, and Pinecone Serverless in us-east-1 at approximately 340 QPS and 28 ms p95.",
+    "quote": "From our own production measurements on 500K–1M vectors at 1536 dims:",
+    "entity": "pgvector and Pinecone",
+    "category": "market"
+  },
+  {
+    "id": "F-cfd832b8",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page says its benchmark conditions use 1,536-dimensional vectors and a 1-million-vector corpus unless otherwise noted, while the cited Qdrant benchmarks use 768-dimensional vectors on Qdrant’s test hardware.",
+    "quote": "Test conditions used throughout: 1536-dimensional vectors (OpenAI text-embedding-3-small dimensions), 1M vector corpus unless otherwise noted, cosine distance. Where we cite Qdrant’s benchmarks, those use 768-dimensional vectors on their test hardware.",
+    "entity": "pgvector, Pinecone, Qdrant, and Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-fb1cbc36",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page says its pgvector and Pinecone performance numbers come from production systems, while its Qdrant and Weaviate figures reference Qdrant-published benchmarks and the authors’ spot-check testing; it cautions that Qdrant’s benchmarks run on Qdrant’s own hardware.",
+    "quote": "Our pgvector and Pinecone numbers come from production systems. For Qdrant and Weaviate, we reference Qdrant’s published benchmarks and our own spot-check testing. Qdrant runs those benchmarks on their own hardware, so treat them as directionally correct, not a neutral comparison.",
+    "entity": "pgvector, Pinecone, Qdrant, and Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-7521f1d6",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page reports that at 5 million vectors, pgvector p95 latency rises to 80–140 ms depending on ef_search, while Pinecone stays under 30 ms on pod-based deployments.",
+    "quote": "One more number: at 5M vectors, pgvector p95 latency climbs to 80-140ms depending on `ef_search`. Pinecone stays under 30ms on pod-based deployments.",
+    "entity": "pgvector and Pinecone",
+    "category": "market"
+  },
+  {
+    "id": "F-71481d0c",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page says pgvector’s metadata filtering is a post-filter on the candidate set, whereas Qdrant applies filtering inside HNSW graph traversal.",
+    "quote": "Also: pgvector’s metadata filtering happens as a post-filter on the candidate set, not inside the HNSW graph. On a 5M vector collection with a 10% selectivity filter, you’re scanning 500K candidates to return 50K. Qdrant handles this inside the graph traversal and it’s materially faster for selective queries.",
+    "entity": "pgvector and Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-71749336",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page says Qdrant’s published benchmarks use 768-dimensional vectors, whereas its production measurements use 1,536-dimensional vectors, and cautions that the Qdrant figures are not a neutral comparison.",
+    "quote": "Where we cite Qdrant’s benchmarks, those use 768-dimensional vectors on their test hardware. We note this where it matters.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-84adfc6b",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page says Qdrant has production-ready hybrid search combining dense and sparse vectors.",
+    "quote": "Also: Qdrant’s hybrid search (dense + sparse vectors combined) is production-ready.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-d2b348a7",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page states that all four databases implement HNSW and achieve similar recall at comparable `ef_search` settings.",
+    "quote": "All four implement HNSW and achieve similar recall at comparable `ef_search` settings.",
+    "entity": "pgvector, Pinecone, Qdrant, and Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-a914bb08",
+    "sub_query_id": "Q5",
+    "source_id": "S-3670507e",
+    "claim": "The page states that pgvector applies metadata filters after candidate scanning, while Qdrant applies filters inside graph traversal, which it describes as more precise for aggressive filters.",
+    "quote": "pgvector’s post-filter approach scans more candidates before applying filters, which can miss relevant results if your filters are aggressive. Qdrant’s in-graph filtering is more precise for those workloads.",
+    "entity": "pgvector and Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-f1b19600",
+    "sub_query_id": "Q5",
+    "source_id": "S-e8dc480e",
+    "claim": "aiml.qa recommends testing vector databases on the evaluator’s actual data rather than relying on vendor benchmarks.",
+    "quote": "Test vector databases on your actual data, not vendor benchmarks:",
+    "entity": "aiml.qa",
+    "category": "other"
+  },
+  {
+    "id": "F-6fd83950",
+    "sub_query_id": "Q5",
+    "source_id": "S-e8dc480e",
+    "claim": "aiml.qa recommends measuring retrieval quality with Precision@K, Recall@K, and MRR, and performance with P95/P99 query latency at production-realistic QPS.",
+    "quote": "Measure retrieval quality - Precision@K, Recall@K, MRR for your golden set\n5. **Measure performance** - P95/P99 query latency at production-realistic QPS",
+    "entity": "aiml.qa",
+    "category": "other"
+  },
+  {
+    "id": "F-6ca27d7f",
+    "sub_query_id": "Q5",
+    "source_id": "S-78ec8c49",
+    "claim": "The article reports that one e-commerce client’s p99 retrieval latency fell from 180 ms to 32 ms after switching from Pinecone to Qdrant, on the same hardware footprint.",
+    "quote": "For one e-commerce client, switching from Pinecone to Qdrant cut their p99 retrieval latency from 180ms to 32ms on the same hardware footprint.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-c490fb83",
+    "sub_query_id": "Q5",
+    "source_id": "S-78ec8c49",
+    "claim": "The article says that which vector database is fastest depends on workload shape, including filtering, scale, latency tolerance, and concurrency.",
+    "quote": "The honest answer is that “fastest” depends on your workload shape — filter-heavy, scale, latency tolerance, and concurrency all matter.",
+    "entity": "Pinecone, Qdrant, Weaviate, and pgvector",
+    "category": "limitation"
+  },
+  {
+    "id": "F-28c23cd7",
+    "sub_query_id": "Q5",
+    "source_id": "S-78ec8c49",
+    "claim": "The article says filter performance is often more consequential than vector-recall improvements above approximately 95%.",
+    "quote": "Recall improvements above ~95% are typically not the bottleneck. Filter performance is.",
+    "entity": "Pinecone, Qdrant, Weaviate, and pgvector",
+    "category": "other"
+  },
+  {
+    "id": "F-1db98101",
+    "sub_query_id": "Q5",
+    "source_id": "S-78ec8c49",
+    "claim": "The article reports that pgvector HNSW index rebuilds took more than six hours on some production datasets beyond 50–100 million chunks.",
+    "quote": "Past 50–100M chunks, HNSW index rebuild times become painful (we’ve seen 6+ hour rebuilds on production datasets).",
+    "entity": "pgvector",
+    "category": "limitation"
+  },
+  {
+    "id": "F-bedc67ba",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "Pinecone is a fully managed service and has no version that users can download and run on their own servers.",
+    "quote": "Pinecone is a fully managed service only. There is no version of Pinecone you can download and run on your own servers.",
+    "entity": "Pinecone",
+    "category": "limitation"
+  },
+  {
+    "id": "F-2ee9a383",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "In 2025, Pinecone made serverless its default architecture, separating storage from compute and charging for usage rather than pre-provisioned capacity.",
+    "quote": "In 2025, Pinecone moved to serverless as its default architecture, which means the platform automatically separates storage from compute and bills you for what you actually use rather than for pre-provisioned capacity.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-587bb72e",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "The page states that Pinecone serverless storage costs $0.33 per GB per month, with additional charges for read and write units.",
+    "quote": "you pay for Pinecone vector database storage at $0.33 per GB per month, plus separate charges for read units and write units based on actual query and ingestion volume.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-84e61e2c",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "The page estimates that Pinecone serverless costs about $70 per month for 10 million vectors with moderate query volume.",
+    "quote": "Multiple independent 2026 cost comparisons put Pinecone serverless at roughly $70 per month for 10 million vectors with moderate query volume, which is in line with or cheaper than managed alternatives like Weaviate Cloud, and not far behind self-hosted options once you account for the engineering hours saved.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-9476e6f7",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "The page says Pinecone can cost $700 or more per month at 100 million vectors, compared with typically $100–$150 per month for self-hosted Qdrant or Milvus before engineering and operations costs.",
+    "quote": "At 100 million vectors, Pinecone can reach $700 or more per month, while self-hosted Qdrant or Milvus typically stays under $100 to $150 per month for equivalent capacity, before accounting for engineering and operations time.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-8f167d9b",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "The page reports that Pinecone serverless recall is roughly 90 percent and cannot be tuned further.",
+    "quote": "The tradeoff is that Pinecone offers no self-hosting option at all, and its serverless recall is fixed at roughly 90 percent with no way to tune it further, which matters for applications where search accuracy is the top priority.",
+    "entity": "Pinecone",
+    "category": "limitation"
+  },
+  {
+    "id": "F-27235492",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "The page describes Pinecone as a retrieval layer for RAG applications that stores document embeddings for retrieval of context at query time.",
+    "quote": "Pinecone is widely used as the retrieval layer behind large language model applications, storing document embeddings so an LLM can pull relevant context at query time rather than relying solely on its training data.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-2bca5cfb",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-5257e7af",
+    "claim": "The page says Pinecone is a practical fit for teams with limited operations capacity and datasets below roughly 50 million vectors that want to deploy RAG or semantic search quickly without managing infrastructure.",
+    "quote": "Choose Pinecone when: you are a startup or small team with limited operations capacity, your dataset is under roughly 50 million vectors, and you want to ship a working semantic search or retrieval augmented generation feature as fast as possible without managing infrastructure.",
+    "entity": "Pinecone",
+    "category": "other"
+  },
+  {
+    "id": "F-475d81cf",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-2e3f7bf4",
+    "claim": "Pinecone is reported at 33 ms p99 latency for dense queries over 10 million vectors, with 16 ms p50 and 21 ms p90 latency.",
+    "quote": "Pinecone: 33ms p99 (10M vectors, dense) — 16ms p50, 21ms p90",
+    "entity": "Pinecone",
+    "category": "other"
+  },
+  {
+    "id": "F-8647391a",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-2e3f7bf4",
+    "claim": "The page says Pinecone’s serverless architecture automatically handles sharding, replication, and load balancing.",
+    "quote": "Pinecone's serverless architecture automatically handles sharding, replication, and load balancing.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-74746be4",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-2e3f7bf4",
+    "claim": "Pinecone Dedicated Read Nodes, launched in December 2025, are described as isolating read workloads from writes to provide predictable performance.",
+    "quote": "New Dedicated Read Nodes (launched Dec 2025) provide predictable performance by isolating read workloads from writes.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-7946a876",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-2e3f7bf4",
+    "claim": "The page says Pinecone offers BYOC deployment, allowing enterprises to run it in their own cloud accounts.",
+    "quote": "With BYOC deployment now available, enterprises can run Pinecone in their own cloud accounts.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-0a3ba065",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-2e3f7bf4",
+    "claim": "The page estimates Pinecone’s Standard plan at $50 per month plus usage and total costs of about $130–250 per month for its stated production workload.",
+    "quote": "Standard plan: $50/month + usage\n* • DevOps: $0 (managed)\n* • Total: **~$130–250/month**",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-3ed101e7",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-2e3f7bf4",
+    "claim": "The page states that Pinecone is HIPAA certified and offers a 99.95% uptime SLA on Enterprise.",
+    "quote": "Pinecone: SOC 2, ISO 27001, HIPAA, and GDPR certified. Encrypted at rest and in transit, SSO/SAML support, BYOC deployment for full data isolation, 99.95% uptime SLA on Enterprise",
+    "entity": "Pinecone",
+    "category": "other"
+  },
+  {
+    "id": "F-f5be2805",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-04206a8d",
+    "claim": "In SpendArk’s 2026 pricing analysis, Pinecone Serverless charges for storage, reads, and writes, with no server to size.",
+    "quote": "Pinecone Serverless is the archetype: you pay for data stored, queries served, and vectors written, with no server to size.",
+    "entity": "Pinecone Serverless",
+    "category": "pricing"
+  },
+  {
+    "id": "F-b0a353f2",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-04206a8d",
+    "claim": "SpendArk lists Pinecone Serverless at $0.33/GB for storage plus reads and writes, with a $50/month plan minimum in 2026.",
+    "quote": "Pinecone Serverless | Consumption | $0.33/GB storage + reads + writes | $50/mo plan minimum",
+    "entity": "Pinecone Serverless",
+    "category": "pricing"
+  },
+  {
+    "id": "F-eda77937",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-04206a8d",
+    "claim": "SpendArk estimates a 10-million-vector Pinecone Serverless index at about $70 per month for 768-dimension embeddings, moderate query volume, and a single replica, without quantization.",
+    "quote": "The same workload — 768-dimension embeddings, moderate query volume, single replica — priced across all four. Treat these as planning estimates at 2026 list prices, not quotes; real bills move with dimensions, replication, and query rate.\n\n| Database | 1M vectors | 10M vectors | 100M vectors |\n| --- | --- | --- | --- |\n| pgvector (RDS) | ~$50/mo | ~$120/mo | ~$700/mo+ |\n| Qdrant Cloud | ~$25/mo | ~$65/mo | ~$550/mo |\n| Pinecone Serverless | $50/mo (min) | ~$70/mo | ~$500/mo |",
+    "entity": "Pinecone Serverless",
+    "category": "pricing"
+  },
+  {
+    "id": "F-898be18c",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-04206a8d",
+    "claim": "SpendArk estimates Pinecone Serverless at about $500 per month for a 100-million-vector index in its 2026 workload comparison.",
+    "quote": "| Pinecone Serverless | $50/mo (min) | ~$70/mo | ~$500/mo |",
+    "entity": "Pinecone Serverless",
+    "category": "pricing"
+  },
+  {
+    "id": "F-d10d5306",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-04206a8d",
+    "claim": "SpendArk says Pinecone Serverless can suit bursty or idle traffic because customers pay for usage, but it warns that reads are metered and the plan has a $50 floor.",
+    "quote": "You want zero ops and bursty/idle traffic → Pinecone Serverless. You pay for what you use and never size a server — just watch the read meter and the $50 floor.",
+    "entity": "Pinecone Serverless",
+    "category": "other"
+  },
+  {
+    "id": "F-ff8e0c51",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-04206a8d",
+    "claim": "SpendArk says query-heavy Pinecone workloads can cost more because reads are metered separately from storage.",
+    "quote": "A ~10M-vector index lands around $70/month, but query-heavy workloads pay more because reads are metered separately from storage.",
+    "entity": "Pinecone Serverless",
+    "category": "pricing"
+  },
+  {
+    "id": "F-5747b387",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review reports that Pinecone is a fully managed cloud service with no self-hosted production version.",
+    "quote": "Pinecone is a fully managed serverless vector database with no self-hosted production version.",
+    "entity": "Pinecone",
+    "category": "limitation"
+  },
+  {
+    "id": "F-252a0e24",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review says Pinecone Enterprise offers a BYOC option in which Pinecone runs in the customer’s AWS, GCP, or Azure account.",
+    "quote": "Pinecone Enterprise BYOC runs in your AWS, GCP, or Azure account and is the middle ground.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-5781eeb7",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review says Pinecone Local is an in-memory development emulator whose data does not persist across restarts and which is not built for production traffic, scale, or durability.",
+    "quote": "The catch is that it is for development only: data is in memory, so it does not persist across restarts, and it is not built for production traffic, scale, or durability.",
+    "entity": "Pinecone Local",
+    "category": "limitation"
+  },
+  {
+    "id": "F-2afcb14a",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review reports that Pinecone serverless charges $0.33 per GB per month for storage and bills operations in read and write units.",
+    "quote": "You pay for storage ($0.33/GB/month) and operations (read and write units).",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-d0da20df",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review lists Pinecone’s Starter tier as free, Standard as starting at $50 per month, and Enterprise as starting at $500 per month.",
+    "quote": "Pinecone offers a free Starter tier, a Standard plan from $50/month, and Enterprise from $500/month.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-ec6dc245",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review says Pinecone handles billions of vectors with single-digit-millisecond query latency.",
+    "quote": "Pinecone handles billions of vectors with single-digit millisecond query latency.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-298a41ca",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review estimates that Pinecone serverless costs $300–$800 per month or more for workloads with at least 10 million vectors and over 100,000 queries per day.",
+    "quote": "10 million or more vectors serving 100,000+ queries per day. This is where costs climb. Plan for $300-800/month, and potentially more if you're doing heavy writes (frequent index updates) or complex filtered queries.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-ed652c39",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e84dd235",
+    "claim": "The review estimates that self-hosted Weaviate or Milvus on right-sized hardware can cost 40–70% less than Pinecone serverless above roughly 50 million vectors and 1 million queries per day.",
+    "quote": "Above roughly 50 million vectors and 1 million queries per day, self-hosted Weaviate or Milvus on right-sized hardware tends to undercut Pinecone serverless by 40 to 70 percent.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-511204b8",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "Pinecone achieved 74,000 QPS at 90% recall in the BigANN 2023 competition on the YFCC-10M dataset under filtered-search conditions.",
+    "quote": "Pinecone achieved 74,000 QPS at 90% recall during the BigANN 2023 competition using the YFCC-10M dataset under filtered search conditions.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-721406cc",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "Pinecone had approximately 45 ms P50 latency and 96 ms P99 latency at sustained 600 QPS with 135 million vectors.",
+    "quote": "For typical workloads, Pinecone demonstrates P50 latency around 45ms and P99 latency around 96ms at sustained 600 QPS with 135M vectors.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-c2c626e5",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "Pinecone is available only as a managed service and does not offer self-hosted deployment.",
+    "quote": "Pinecone runs entirely as a managed service, which means you're trading infrastructure control for zero operational overhead.",
+    "entity": "Pinecone",
+    "category": "limitation"
+  },
+  {
+    "id": "F-cf806d25",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "Pinecone’s listed consumption-based prices are $0.33 per GB per month for storage, $16–24 per million read operations, and $4–6 per million write operations.",
+    "quote": "Consumption-based pricing model with storage costs of $0.33/GB per month, read operations at $16-24 per million, and write operations at $4-6 per million can become expensive at scale.",
+    "entity": "Pinecone",
+    "category": "pricing"
+  },
+  {
+    "id": "F-a5134aef",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "Pinecone’s serverless architecture automatically scales based on demand without manual cluster management.",
+    "quote": "Pinecone's serverless architecture automatically scales based on demand without manual cluster management, making it effective for applications with variable traffic patterns, though v5.4.1 signaled a strategic transition toward serverless with deprecation warnings for pod-based index creation.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-a35972a0",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "Pinecone’s proprietary algorithms cannot be optimized or customized by users, according to the article.",
+    "quote": "Proprietary algorithms prevent optimization or customization compared to open-source alternatives.",
+    "entity": "Pinecone",
+    "category": "limitation"
+  },
+  {
+    "id": "F-30e549b5",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "The article says Pinecone requires separate evaluation for direct cross-database performance comparisons under identical conditions.",
+    "quote": "Independent verification of vendor performance claims is limited: while ANN-Benchmarks provides standardized testing for Weaviate, Milvus, and Qdrant, Pinecone and ChromaDB require separate evaluation, making direct cross-database comparison under identical conditions unavailable.",
+    "entity": "Pinecone",
+    "category": "other"
+  },
+  {
+    "id": "F-425af8c0",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-e01f7155",
+    "claim": "Pinecone includes Assistant, described as RAG-as-a-Service, and an Inference API for native embedding generation.",
+    "quote": "Built-in features including Assistant (RAG-as-a-Service) and Inference API for native embedding generation.",
+    "entity": "Pinecone",
+    "category": "feature"
+  },
+  {
+    "id": "F-15ad1a91",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "As of July 11, 2025, Qdrant was offered as managed cloud, hybrid, and private deployments, with SSO, RBAC, TLS, Prometheus/Grafana integration, SOC 2, and HIPAA compliance listed as enterprise features.",
+    "quote": "Qdrant offers high-performance, open-source vector search with single-digit millisecond latency. Available as managed cloud, hybrid, or private deployments with enterprise features: SSO, RBAC, TLS, Prometheus/Grafana integration, SOC 2, and HIPAA compliance.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-41aad53e",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page lists Qdrant pricing as a free 1 GB cluster, hybrid cloud at $0.014 per hour, and custom pricing for private cloud.",
+    "quote": "* **Qdrant**: Free 1GB cluster → $0.014/hour hybrid cloud → Custom private cloud pricing",
+    "entity": "Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-ede6c25c",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page reports Qdrant at 326 queries per second in its performance comparison, without specifying the workload or measurement method in the comparison.",
+    "quote": "**Performance (QPS):**\n\n* **Weaviate**: 791 queries/second\n* **Qdrant**: 326 QPS\n* **Pinecone**: 150 QPS (p2 pods)",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-cf5ce975",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page characterizes Qdrant as providing single-digit millisecond vector-search latency.",
+    "quote": "Qdrant offers high-performance, open-source vector search with single-digit millisecond latency.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-ee7135f8",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "Qdrant’s Cloud Inference service brings embedding generation into the cluster, while answer generation remains in the application layer or an external LLM.",
+    "quote": "Qdrant’s new **Cloud Inference** service brings *embedding* generation into the cluster, unifying that half of the pipeline and cutting a network hop. However, **answer-generation still runs in the application layer or an external LLM**, so it’s one step short of a fully in-database RAG loop.",
+    "entity": "Qdrant",
+    "category": "limitation"
+  },
+  {
+    "id": "F-f4b5dc9e",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "Qdrant provides first-class multitenancy through named collections or tenants with quota controls, sharding, and tenant-level lifecycle APIs.",
+    "quote": "* **Qdrant** provides first-class multitenancy through named *collections/tenants* with quota controls, sharding, and tenant-level lifecycle APIs.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-051457c1",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page says Qdrant Cloud is SOC 2 Type II certified and markets HIPAA-readiness for bespoke enterprise deployments, but a formal HIPAA report had not been published at the time of the article.",
+    "quote": "* **Qdrant Cloud** is SOC 2 Type II certified and markets HIPAA-readiness for bespoke enterprise deployments, although a formal HIPAA report has not yet been published.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-51010cfd",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page says Qdrant supports custom filtering, which lets engineers fine-tune filter settings to avoid missing relevant results or compromising the HNSW graph.",
+    "quote": "Custom filtering, used by Weaviate and Qdrant, enables engineers to fine-tune their filter settings and avoid missing relevant results or compromising the HSNW graph.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-feba306f",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page reports that Qdrant achieved 41 QPS at 99% recall in May 2025 benchmarks, compared with pgvectorscale’s 471 QPS at the same recall on 50 million vectors.",
+    "quote": "Recent benchmarks challenge this assumption. `pgvectorscale` achieves 471 QPS (Queries Per Second) at 99% recall on 50M vectors. That's 11.4x better than Qdrant's 41 QPS at the same recall (May 2025 benchmarks).",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-0714a302",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page says Qdrant supports SPLADE and miniCOIL natively via FastEmbed, and supports ColBERT-style multi-vector late interaction.",
+    "quote": "Elasticsearch ships ELSER, Qdrant supports SPLADE and miniCOIL natively via FastEmbed, and Vespa treats sparse and dense retrieval as first-class citizens. On top of retrieval, multi-vector late-interaction models like ColBERT store a vector per token and rerank by taking the maximum similarity between each query token and every document token.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-940d82e2",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page lists Qdrant as supporting hybrid search without plugins or configuration.",
+    "quote": "Hybrid search (combining vector similarity, keyword search, and metadata filters in a single query) gives more precise results than vector search alone. Weaviate and Qdrant include this without plugins or configuration.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-3bda3e65",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page lists Qdrant as available as open-source software and as a managed service.",
+    "quote": "| Qdrant | OSS + Managed | <50M, filtering | Best free tier (1GB) | Lower throughput >10M | Free tier: 1GB forever | Paid: $25/mo |",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-4e5a303b",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page lists Qdrant’s free tier as 1 GB forever and its paid price as $25 per month.",
+    "quote": "| Qdrant | OSS + Managed | <50M, filtering | Best free tier (1GB) | Lower throughput >10M | Free tier: 1GB forever | Paid: $25/mo |",
+    "entity": "Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-394db763",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page characterizes Qdrant’s throughput as lower above 10 million vectors.",
+    "quote": "| Qdrant | OSS + Managed | <50M, filtering | Best free tier (1GB) | Lower throughput >10M | Free tier: 1GB forever | Paid: $25/mo |",
+    "entity": "Qdrant",
+    "category": "limitation"
+  },
+  {
+    "id": "F-b709655d",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page recommends Qdrant Cloud or ChromaDB for new projects with fewer than 10 million vectors, identifying Qdrant Cloud as having the best free tier.",
+    "quote": "| **New project** (<10M vectors) | Qdrant Cloud (best free tier) or ChromaDB (prototyping) |",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-a511b92b",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page recommends Qdrant among the databases for RAG applications, citing sub-100ms queries, hybrid search, and metadata filtering.",
+    "quote": "| **RAG applications** | Weaviate, Pinecone, Qdrant | Sub-100ms queries, hybrid search, excellent metadata filtering |",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-fb5a372e",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Qdrant supports native sparse vectors, ColBERT-style multi-vector late-interaction reranking, RRF or DBSF fusion, and Maximal Marginal Relevance.",
+    "quote": "It ships native support for sparse vectors (SPLADE, SPLADE++, and miniCOIL) alongside dense embeddings, ColBERT-style multi-vector late-interaction reranking, and RRF or DBSF fusion for combining results across multiple prefetches. Maximal Marginal Relevance (MMR) for diversifying results is also built in.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-2cc4b64a",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Qdrant offers 1GB of vector storage free forever, paid plans starting at $25 per month, and Hybrid Cloud at $99 per month.",
+    "quote": "| **Pricing** | 1GB free forever, $25/month paid, $99/month Hybrid Cloud |",
+    "entity": "Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-11eb5f1f",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page reports Qdrant performance of 1ms p99 on small datasets and 626 QPS at 1 million vectors, with lower throughput above 10 million vectors.",
+    "quote": "| **Performance** | 1ms p99 (small datasets), 626 QPS at 1M vectors, lower throughput >10M |",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-c8968525",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "At 50 million vectors and 99% recall, Qdrant achieves 41.47 QPS, compared with pgvectorscale's 471 QPS.",
+    "quote": "At 50 million vectors, Qdrant achieves 41.47 QPS at 99% recall, compared to pgvectorscale's 471 QPS.",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-895696e8",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Qdrant supports managed Qdrant Cloud and deployment on Azure, GCP, and AWS through its Hybrid Cloud offering.",
+    "quote": "Cloud deployment options include managed Qdrant Cloud, or you can deploy on Azure, GCP, and AWS using their Hybrid Cloud offering.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-c43261b0",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Qdrant can be self-hosted with Docker or Kubernetes.",
+    "quote": "Self-hosting is straightforward with Docker or Kubernetes.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-66061d76",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page says Qdrant supports JSON-based filters, including nested properties and multiple conditions, and that its query planner optimizes execution.",
+    "quote": "The database supports rich JSON-based filters that integrate with vector search efficiently. You can filter by nested properties, combine multiple conditions, and the query planner optimizes execution.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-6ab0882a",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Some users report issues with Qdrant under high write volumes, depending on configuration and hardware.",
+    "quote": "Some users report issues with high write volumes, though this depends on configuration and hardware.",
+    "entity": "Qdrant",
+    "category": "limitation"
+  },
+  {
+    "id": "F-278d05f0",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page recommends Qdrant or Pinecone for small teams building a first RAG prototype.",
+    "quote": "Small teams building a first RAG prototype should start with Qdrant or Pinecone; Vespa is what you graduate to when ranking becomes the bottleneck.",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-765ffc43",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page says purpose-built databases such as Qdrant have lower operational overhead than OpenSearch.",
+    "quote": "For greenfield vector workloads, purpose-built databases like Milvus or Qdrant still have lower operational overhead.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-4d8ee7d7",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page lists Qdrant as an option for a large shared knowledge base queried by many users.",
+    "quote": "If your use case is a large shared knowledge base queried by many users, Turso is the wrong fit - use Qdrant, Pinecone, or Milvus instead.",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-2ed703f6",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "Qdrant Cloud’s free tier in April 2026 provided 0.5 shared vCPU, 1GB RAM, 4GB disk, and no monthly charge.",
+    "quote": "vCPU0.5 (shared)\n\nRAM1GB\n\nDisk4GB\n\nCost$0/month",
+    "entity": "Qdrant Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-5bdc36cc",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "Qdrant Cloud Standard billed hourly for allocated cluster resources rather than query or write volume, and the page listed a 99.5% uptime SLA.",
+    "quote": "Standard tier charges by the hour for the resources allocated to your cluster. You pay for what is provisioned, not for query volume. No per-query billing. No per-write billing.",
+    "entity": "Qdrant Cloud Standard",
+    "category": "pricing"
+  },
+  {
+    "id": "F-1b54c829",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The page estimated Qdrant Cloud Standard pricing at approximately $30–60 per month for a 2GB RAM, 1 vCPU, 20GB disk cluster.",
+    "quote": "**Cluster: 2GB RAM, 1 vCPU, 20GB disk**\n\n* Approximate: $30–60/month (varies by region)",
+    "entity": "Qdrant Cloud Standard",
+    "category": "pricing"
+  },
+  {
+    "id": "F-dd6c909f",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "Qdrant Cloud Premium was listed with a 99.9% uptime SLA, custom billing with a minimum spend, SSO, private networking, and priority support.",
+    "quote": "**SLA:** 99.9% uptime | **Billing:** Custom — minimum spend requirement applies\n\n**Features:** SSO, private networking, priority support, dedicated account management",
+    "entity": "Qdrant Cloud Premium",
+    "category": "feature"
+  },
+  {
+    "id": "F-aa887cfc",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "Qdrant Hybrid Cloud runs on the customer’s infrastructure while Qdrant manages operations, and its price is custom.",
+    "quote": "**What it is:** Qdrant runs on your own infrastructure (AWS, GCP, Azure, DigitalOcean, on-premise) while Qdrant’s team manages the operational aspects — upgrades, monitoring, and support.\n\n**Cost:** Custom — contact Qdrant sales",
+    "entity": "Qdrant Hybrid Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-83d60a27",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The page says self-hosted Qdrant OSS has no license cost under Apache 2.0 and that infrastructure is the only cost.",
+    "quote": "Self-hosted Qdrant OSS is Apache 2.0 licensed — zero licensing cost at any scale. The only cost is your compute infrastructure.",
+    "entity": "Qdrant OSS",
+    "category": "pricing"
+  },
+  {
+    "id": "F-aa770db5",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The page reports that self-hosted Qdrant on a $96-per-month DigitalOcean 16GB Droplet achieved 26–35ms p99 retrieval latency with Binary Quantization under a 10-agent concurrent load.",
+    "quote": "10M+ vectors with Binary Quantization (1.92GB RAM → 14GB headroom)\n\n26–35ms p99 HNSW retrieval latency under 10-agent concurrent load",
+    "entity": "Qdrant OSS",
+    "category": "other"
+  },
+  {
+    "id": "F-04112b26",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The page claims Binary Quantization reduces the RAM needed for 10 million vectors from 61.4GB to 1.92GB and maintains 95%+ recall for standard embedding models.",
+    "quote": "10 million vectors with BQ fits in 1.92GB RAM on a single Droplet. Without BQ, 10 million vectors needs 61GB RAM — a $400+/month cluster. BQ maintains 95%+ recall for standard embedding models.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-fe5290bf",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "Qdrant Cloud’s free tier is described as permanently free and includes 0.5 vCPU, 1GB RAM, and 4GB disk.",
+    "quote": "The free tier is permanent 0.5 vCPU, 1GB RAM, 4GB disk, zero cost, no credit card required.",
+    "entity": "Qdrant Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-cfd15ee3",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The article estimates Qdrant Cloud Standard at $30–60 per month for a 2GB cluster and $120–200 per month for an 8GB cluster.",
+    "quote": "The standard tier uses hourly usage-based billing for dedicated cluster resources (RAM, vCPU, disk), estimated at $30–60/month for a 2GB cluster and $120–200/month for an 8GB cluster.",
+    "entity": "Qdrant Cloud Standard",
+    "category": "pricing"
+  },
+  {
+    "id": "F-b75677c4",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The article says Qdrant Cloud’s premium tier adds a 99.9% SLA, SSO, and private networking, with a minimum spend requirement.",
+    "quote": "The premium tier adds 99.9% SLA, SSO, and private networking with a minimum spend requirement.",
+    "entity": "Qdrant Cloud Premium",
+    "category": "feature"
+  },
+  {
+    "id": "F-748eb7b8",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "Qdrant OSS is described as free to self-host, with users paying for their own server rather than a license.",
+    "quote": "Self-hosting Qdrant OSS is always free you pay only for the server you run it on.",
+    "entity": "Qdrant OSS",
+    "category": "pricing"
+  },
+  {
+    "id": "F-c3b8e99a",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The article estimates that one million 1,536-dimension float32 vectors need approximately 8GB of RAM for production without quantization, including HNSW overhead.",
+    "quote": "One million 1,536-dimension vectors in float32 format requires approximately 6.14GB of RAM for the raw vector storage, plus approximately 20–30% overhead for the HNSW graph structure totaling approximately 8GB of RAM for a production deployment without quantization.",
+    "entity": "Qdrant",
+    "category": "other"
+  },
+  {
+    "id": "F-ab233dd6",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The article says Binary Quantization compresses vectors by 32× and estimates that one million 1,536-dimension vectors require approximately 200MB with it.",
+    "quote": "With Binary Quantization (32× compression), approximately 200MB.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-719f4835",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "Qdrant Cloud is described as running on DigitalOcean, AWS, or GCP, while self-hosted Qdrant can run on a DigitalOcean Droplet, AWS EC2, or on-premise.",
+    "quote": "Your data is in Qdrant’s cloud environment on DigitalOcean, AWS, or GCP. Qdrant self-hosted is the open-source Qdrant OSS running on your own\nserver (DigitalOcean Droplet, AWS EC2, on-premise).",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-5ba9c76c",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-46f56f44",
+    "claim": "The article says Qdrant Cloud charges zero for writes and bills based on cluster size, while Qdrant self-hosted charges for the server rather than writes.",
+    "quote": "Qdrant Cloud charges zero for writes only for cluster size. Qdrant self-hosted charges zero for everything except the $96/month Droplet.",
+    "entity": "Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-05de4589",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-722bf3b7",
+    "claim": "In LambdaDB’s May 19, 2026 benchmark, Qdrant Cloud’s median query latency was 33.54 ms, compared with 78.44 ms for LambdaDB and 53.44 ms for LambdaDB with 16 partitions.",
+    "quote": "Qdrant had the lowest median query latency: 33.54 ms p50, compared with 78.44 ms for LambdaDB and 53.44 ms for LambdaDB with 16 partitions.",
+    "entity": "Qdrant Cloud",
+    "category": "market"
+  },
+  {
+    "id": "F-198d069b",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-722bf3b7",
+    "claim": "In the benchmark, Qdrant Cloud reached 391.59 queries per second at 16 concurrent clients and 385.90 at 32 concurrent clients.",
+    "quote": "Qdrant scaled quickly at low concurrency, then flattened around the limit of this provisioned configuration.: 391.59 qps at 16 concurrency and 385.90 qps at 32.",
+    "entity": "Qdrant Cloud",
+    "category": "market"
+  },
+  {
+    "id": "F-152aee81",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-722bf3b7",
+    "claim": "The benchmark reported Qdrant Cloud p95 query latency of 157.11 ms and Recall@10 of 0.98.",
+    "quote": "Tail latency was close at p95: 157.11 ms for Qdrant, 170.34 ms for LambdaDB, and 150.45 ms for LambdaDB with 16 partitions. Recall@10 was also similar at 0.98, 0.97, and 0.97 respectively.",
+    "entity": "Qdrant Cloud",
+    "category": "market"
+  },
+  {
+    "id": "F-736fbde9",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-722bf3b7",
+    "claim": "The benchmark tested Qdrant Cloud on three nodes, each with 8 cores, 32 GB RAM, and 240 GB balanced disk, using replication factor 2.",
+    "quote": "Qdrant Cloud | 8 cores, 32 GB RAM, 240 GB balanced disk x 3 nodes for HA, replication factor 2, $1,673.73/month",
+    "entity": "Qdrant Cloud",
+    "category": "other"
+  },
+  {
+    "id": "F-91b88665",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-722bf3b7",
+    "claim": "The tested Qdrant Cloud configuration cost $1,673.73 per month, regardless of cluster utilization, according to the page.",
+    "quote": "Qdrant Cloud is priced around provisioned cluster capacity; in this run, the tested configuration was $1,673.73/month regardless of how fully the cluster is used.",
+    "entity": "Qdrant Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-5ed70f6c",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-722bf3b7",
+    "claim": "The page characterizes Qdrant Cloud as a provisioned cluster, in contrast with LambdaDB’s serverless, pay-as-you-go model.",
+    "quote": "Qdrant Cloud and LambdaDB use different operating models: Qdrant Cloud is a provisioned cluster, while LambdaDB is a serverless, pay-as-you-go database.",
+    "entity": "Qdrant Cloud",
+    "category": "other"
+  },
+  {
+    "id": "F-f7d6fea2",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-722bf3b7",
+    "claim": "The benchmark used an English subset of Cohere Wikipedia 2023-11 multilingual embeddings with 1024-dimensional vectors and queried a preloaded 10-million-vector collection.",
+    "quote": "| Dataset | Cohere Wikipedia 2023-11 multilingual embeddings; 1024-dimensional vectors; English subset |\n| Upsert workload | Ingest 1M vectors into a single collection with 2,000-document batches and 64 concurrent writers |\n| Query workload | Search a preloaded 10M-vector collection at 1, 2, 4, 8, 16, and 32 concurrent clients for 30 seconds each |",
+    "entity": "Qdrant Cloud",
+    "category": "other"
+  },
+  {
+    "id": "F-a3bc6ecc",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "Qdrant was rated 4.5/5 on G2 from 12 reviews, while the page says pricing-specific verified reviews were too sparse to identify like/dislike themes.",
+    "quote": "Qdrant holds a 4.5/5 rating on G2 from 12 reviews, TrustRadius lists zero reviews, no Trustpilot or Capterra listing exists, and pricing-specific verified reviews are too sparse to split into like/dislike themes.",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-110e064b",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "Qdrant Managed Cloud bills hourly based on actual resource usage, while Hybrid Cloud and Private Cloud pricing is custom or unpublished.",
+    "quote": "Qdrant is free to self-host under an Apache 2.0 license, bills its Managed Cloud hourly on actual resource usage, and quotes Hybrid and Private Cloud deployments custom for teams that need data control without running everything themselves.",
+    "entity": "Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-3b973733",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "Qdrant’s Managed Cloud free tier is a single-node cluster with 1 GB RAM, 4 GB disk, and 0.5 vCPU, with no high availability.",
+    "quote": "Yes — a forever-free single-node cluster with 1 GB RAM, 4 GB disk, and 0.5 vCPU, but no high availability.",
+    "entity": "Qdrant Managed Cloud",
+    "category": "limitation"
+  },
+  {
+    "id": "F-ecb84495",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "A comparison on identical AWS hardware reported pgvectorscale at 471.57 QPS and Qdrant at 41.47 QPS at 99% recall, while Qdrant had 39–48% lower tail latency.",
+    "quote": "A benchmark on identical AWS hardware measured pgvectorscale at 471.57 QPS versus Qdrant's 41.47 QPS at 99% recall, though Qdrant's tail latency stayed 39–48% lower.",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-93eeebe4",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "A reported 500M-vector Qdrant deployment using scalar INT8 quantization cost $8,200/month at 97.8% recall, compared with $30,200 for an all-RAM approach.",
+    "quote": "A documented 500M-vector deployment using scalar INT8 quantization ran at $8,200/month with 97.8% recall, versus $30,200 for an all-RAM approach.",
+    "entity": "Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-374284e8",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "The page reports that Qdrant benchmarks show the highest RPS and lowest latencies in almost all scenarios below roughly 100M vectors, where a single node handles the working set.",
+    "quote": "Choose Qdrant below roughly 100M vectors, where Qdrant benchmarks show the highest RPS and lowest latencies in almost all scenarios and a single node handles the working set.",
+    "entity": "Qdrant",
+    "category": "market"
+  },
+  {
+    "id": "F-8e5ec8ea",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "A benchmarked 20M-vector workload with 50K daily queries ran on a $96/month DigitalOcean droplet, while Pinecone Serverless was estimated at $2,483/month.",
+    "quote": "Choose Qdrant when you have engineering capacity and 5M+ vectors: a benchmarked 20M-vector workload with 50K daily queries ran on a $96/month DigitalOcean droplet, while Pinecone Serverless was estimated at $2,483/month.",
+    "entity": "Qdrant",
+    "category": "pricing"
+  },
+  {
+    "id": "F-63d16333",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-b639db5d",
+    "claim": "Qdrant’s core database is Apache 2.0 open source, and the page says its API is the same across self-hosted, managed, and hybrid deployment modes.",
+    "quote": "The core database is Apache 2.0 open source, so you can take a Managed Cloud workload and run the identical engine on your own hardware, and the API is the same across every deployment mode.",
+    "entity": "Qdrant",
+    "category": "feature"
+  },
+  {
+    "id": "F-a88f70ff",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Weaviate natively combines vector similarity, BM25 keyword search, and metadata constraints in a single hybrid-search query.",
+    "quote": "If you need to combine vector similarity, keyword matching, and metadata filtering in a single query, Weaviate handles it natively and well.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-0cc9b620",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The guide lists Weaviate as open-source with a managed option, and says Weaviate Cloud starts at $25 per month after a 14-day trial, with dimension-based pricing.",
+    "quote": "| **Type** | Open-source with managed option, hybrid search focused |\n| **Performance** | Sub-100ms for RAG, ~50ms on 768-dim embeddings, GraphQL API |\n| **Pricing** | OSS free, Cloud starts $25/month (dimension-based pricing) after 14-day trial |",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-0b978f55",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The guide reports sub-100ms RAG performance and approximately 50ms on 768-dimensional embeddings for Weaviate.",
+    "quote": "| **Performance** | Sub-100ms for RAG, ~50ms on 768-dim embeddings, GraphQL API |",
+    "entity": "Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-1beab507",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The guide recommends Weaviate for new projects with 10–100 million vectors and describes it as suited to RAG below 50 million vectors.",
+    "quote": "| Weaviate | OSS + Managed | RAG <50M, hybrid search | Best hybrid search | 14-day trial limit | Free (OSS) | Cloud: $25/mo (after trial) |",
+    "entity": "Weaviate",
+    "category": "market"
+  },
+  {
+    "id": "F-2cc573a1",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The guide says Weaviate has native hybrid search without plugins or configuration.",
+    "quote": "Hybrid search (combining vector similarity, keyword search, and metadata filters in a single query) gives more precise results than vector search alone. Weaviate and Qdrant include this without plugins or configuration.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-7c7069d5",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The guide identifies Weaviate as an option for edge or on-device deployment, citing embedded modes, compact footprint, and resource efficiency.",
+    "quote": "| **Edge/on-device deployment** | ChromaDB, Qdrant, Weaviate | Embedded modes, compact footprint, resource efficiency |",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-8f695407",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The guide advises avoiding Weaviate when maximum vector performance is required or at scales above 100 million vectors.",
+    "quote": "| **Avoid when** | Need max vector performance, very tight budget, >100M scale, prefer REST |",
+    "entity": "Weaviate",
+    "category": "limitation"
+  },
+  {
+    "id": "F-853c88ad",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Weaviate Cloud starts at $25 per month after a 14-day trial.",
+    "quote": "Pricing for Weaviate Cloud starts at $25 monthly after a 14-day trial.",
+    "entity": "Weaviate Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-fa4a99d3",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Weaviate can be self-hosted in Docker or Kubernetes, with infrastructure costs as the stated expense.",
+    "quote": "The open-source version works well for self-hosting. You can run Weaviate in Docker or Kubernetes, manage it yourself, and pay only infrastructure costs.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-04ebd821",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Weaviate’s managed and self-hosted options provide the same hybrid search capabilities.",
+    "quote": "Both managed and self-hosted options give you the same hybrid search capabilities.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-08890e07",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Weaviate processes vector embeddings, BM25 keyword filters, and metadata constraints simultaneously for hybrid search.",
+    "quote": "You query with a vector embedding, add keyword filters using BM25 (a ranking algorithm for full-text search), and apply metadata constraints. Weaviate processes all three simultaneously and returns ranked results.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-e16bfe4c",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Weaviate query times stay below 100 ms for most RAG workflows, according to the page.",
+    "quote": "Query times stay sub-100ms for most RAG workflows, which is fast enough for user-facing applications.",
+    "entity": "Weaviate",
+    "category": "market"
+  },
+  {
+    "id": "F-1e675de9",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page says Weaviate runs efficiently below 50 million vectors, while resource usage becomes a concern above 100 million vectors.",
+    "quote": "Resource usage becomes a concern above 100 million vectors. Teams report that Weaviate needs more memory and compute than alternatives at very large scale. Below 50 million vectors, it runs efficiently.",
+    "entity": "Weaviate",
+    "category": "limitation"
+  },
+  {
+    "id": "F-9e991a43",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "The page says Weaviate’s GraphQL API exposes hybrid search, though some developers prefer REST.",
+    "quote": "The GraphQL API exposes this cleanly, though some developers prefer REST.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-391a6168",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2f953ab2",
+    "claim": "Weaviate’s modular architecture lets users plug in different embedding models, vectorizers, and rerankers without rebuilding their application.",
+    "quote": "The modular architecture lets you plug in different embedding models, vectorizers, and rerankers without rebuilding your application.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-94a106df",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "Weaviate version 1.30 introduced a native generative module that can perform retrieval and send results to an LLM through a single API call.",
+    "quote": "Version 1.30 introduced a native `generative` module. You register an LLM provider (OpenAI, Cohere, Databricks, xAI, etc.) at collection-creation time, and a single API call then performs vector retrieval, forwards the results to the model, and returns the generated answer.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-e3996ca9",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page lists Weaviate Serverless at $25 per month and Weaviate Enterprise at $2.64 per AI unit, with custom pricing for private cloud.",
+    "quote": "* **Weaviate**: $25/month Serverless → $2.64/AI unit Enterprise → Custom private cloud",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-65ed63cd",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page lists Weaviate at 791 queries per second in its performance comparison.",
+    "quote": "* **Weaviate**: 791 queries/second\n* **Qdrant**: 326 QPS\n* **Pinecone**: 150 QPS (p2 pods)",
+    "entity": "Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-3e9e45e5",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page states that Weaviate supports open-source, self-hosted deployment options.",
+    "quote": "* **Pinecone**: Fully managed\n* **Qdrant & Weaviate**: Open-source, self-hosted options",
+    "entity": "Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-5c8f588a",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page describes Weaviate’s HNSW engine as supporting sub-50ms approximate-nearest-neighbor query response.",
+    "quote": "Weaviate combines cloud-native architecture with an optimized HNSW engine for sub-50ms ANN query response.",
+    "entity": "Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-18ee8758",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page reports that Morningstar used Weaviate for internal document search.",
+    "quote": "Notable users: Morningstar, a global finance and banking enterprise, used Weaviate to power internal document search, and Neople, one of the leading game publishers in South Korea, built an agentic customer service platform on top of the database.",
+    "entity": "Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-d5ac858b",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page says Weaviate implements tenant-aware classes with lifecycle endpoints, ACLs, and optional dedicated shards per tenant.",
+    "quote": "* **Weaviate** implements tenant-aware *classes* with lifecycle endpoints, ACLs, and optional dedicated shards per tenant.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-a96b0ad0",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-2765c51b",
+    "claim": "The page says Weaviate offers custom filtering that lets engineers adjust filter settings to avoid missing relevant results or compromising the HNSW graph.",
+    "quote": "Custom filtering, used by Weaviate and Qdrant, enables engineers to fine-tune their filter settings and avoid missing relevant results or compromising the HSNW graph.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-2bef30eb",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "Weaviate Cloud pricing moved to a vector-dimensions-stored model in October 2025, with a free tier, Flex from $45 per month, Plus from $280 per month, and Premium from $400 per month.",
+    "quote": "Weaviate Cloud moved to a vector-dimensions-stored model in October 2025: a free tier, then Flex from $45/mo, Plus from $280/mo, and Premium from $400/mo.",
+    "entity": "Weaviate Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-d14a7336",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "In the author’s test on 1 million 1,536-dimensional vectors using cosine similarity, Weaviate’s pure vector search latency was 18 ms, compared with 6 ms for pgvector.",
+    "quote": "Testing on 1M vectors (1536-dimensional, cosine similarity):\n\nStrong recall, good latency. Slower than pgvector for pure vector search (18ms vs 6ms) but adding hybrid search capabilities that pgvector doesn’t have natively.",
+    "entity": "Weaviate",
+    "category": "market"
+  },
+  {
+    "id": "F-609b2586",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "Weaviate provides built-in hybrid search combining semantic vector search and keyword search.",
+    "quote": "The solution is **hybrid search**: combine semantic search (vectors) with keyword search (BM25). Weaviate has this built in.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-06d8d5c0",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "The author ran Weaviate locally with Docker.",
+    "quote": "I ran Weaviate locally with Docker first:",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-3071e2b4",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "Weaviate’s `text2vec_openai` vectorizer automatically calls OpenAI’s embedding API when text is inserted.",
+    "quote": "The `text2vec_openai` vectorizer means Weaviate calls OpenAI's embedding API automatically when you insert text. You don't manage embeddings manually:",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-4b7b9bf3",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "The author reports that Weaviate’s hybrid search returned an exact invoice identifier as the first result using an `alpha=0.5` blend.",
+    "quote": "The invoice was now the first result. The `alpha=0.5` blend gave enough weight to keyword matching that exact identifiers scored high, while semantic matching still caught natural language queries.",
+    "entity": "Weaviate",
+    "category": "market"
+  },
+  {
+    "id": "F-72fe0c74",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "The author says Weaviate requires a separately run service with its own Docker container, backup process, and monitoring.",
+    "quote": "**Operational complexity.** Weaviate is a separate service you’re now running. Unlike pgvector (which is just Postgres, which you’re already running), Weaviate needs its own Docker container, its own backup process, its own monitoring.",
+    "entity": "Weaviate",
+    "category": "limitation"
+  },
+  {
+    "id": "F-b3f7e139",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-37027a2e",
+    "claim": "The author says Weaviate requires defining a schema upfront and that later schema changes require careful migration steps.",
+    "quote": "**Schema changes are painful.** Weaviate requires defining your schema upfront. Changing it later (adding a property, changing a data type) requires careful migration steps.",
+    "entity": "Weaviate",
+    "category": "limitation"
+  },
+  {
+    "id": "F-f30fc60a",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "As of April 2026, Weaviate Cloud Flex had a $45-per-month minimum and charged $0.01668 per million vector dimensions per month.",
+    "quote": "Flex Plan $45/month minimum\n\nPlus Plan $280/month (annual)\n\nDim Rate (Flex) $0.01668 / million dims",
+    "entity": "Weaviate Cloud Flex",
+    "category": "pricing"
+  },
+  {
+    "id": "F-289ff289",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "As of April 2026, the page listed Weaviate Cloud Plus at $280 per month with an annual commitment and Premium as custom-priced.",
+    "quote": "Flex plan\n\n$45/month minimum · shared cloud · 99.5% SLA\n · billing: $0.01668 per million vector dimensions + $0.255/GiB storage\n\nPlus plan\n\n$280/month minimum · annual commitment required\n · dedicated or shared · 99.9% SLA · SOC 2 Type II access\n\nPremium\n\ncustom pricing · dedicated or BYOC · 99.95% SLA · HIPAA BAA",
+    "entity": "Weaviate Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-1aa1025d",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says Weaviate self-hosted OSS has a BSD-3 license and no software license fee, with users paying infrastructure costs.",
+    "quote": "Self-hosted\n\nBSD-3 license · $0 software · pay only your infrastructure",
+    "entity": "Weaviate self-hosted OSS",
+    "category": "pricing"
+  },
+  {
+    "id": "F-1f6aa1f7",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page estimates that 5 million 1,536-dimensional vectors with replication factor 2 cost about $312 per month on Flex without Binary Quantization and about $64 per month with it.",
+    "quote": "WORKED EXAMPLE — 5M documents, 1,536-dim, RF=2, Flex (NO BQ):\n\nVector dimensions: 5,000,000 × 1,536 × 2 = 15,360,000,000 dims\n 15,360 million × $0.01668 = $256.21/month in dims\n Storage (200GB estimated): 200 × $0.255 = $51/month\n Backup (200GB, 7-day): 200 × $0.0264 = $5.28/month\n\nTotal: approximately $312/month\n\nWORKED EXAMPLE — Same 5M documents WITH BINARY QUANTIZATION:\n\nVector dimensions with BQ (32× compression): 5,000,000 × (1,536 ÷ 32) × 2 = 480,000,000 dims\n 480 million × $0.01668 = $8.01/month in dims\n Storage (200GB — objects unchanged): $51/month\n Backup: $5.28/month\n\nTotal with BQ: approximately $64/month",
+    "entity": "Weaviate Cloud Flex",
+    "category": "pricing"
+  },
+  {
+    "id": "F-51b9aac9",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says the Flex plan includes 30,000 Query Agent requests per month.",
+    "quote": "Flex plan\n\n$45/month minimum · shared cloud · 99.5% SLA\n · billing: $0.01668 per million vector dimensions + $0.255/GiB storage",
+    "entity": "Weaviate Cloud Flex",
+    "category": "feature"
+  },
+  {
+    "id": "F-b3460741",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page describes Weaviate Cloud Flex as shared cloud with a 99.5% uptime SLA and Weaviate Cloud Plus as shared or dedicated with a 99.9% uptime SLA.",
+    "quote": "| **Flex** | $45/mo | Shared | 99.5% uptime | 30,000/mo + usage threshold | Email NBD S1 |\n| **Plus** | $280/mo | Shared/Dedicated | 99.9% uptime | 30,000/mo + usage option | Dedicated channel higher plan options |",
+    "entity": "Weaviate Cloud",
+    "category": "feature"
+  },
+  {
+    "id": "F-4f67fae4",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says the Weaviate Sandbox is a 14-day trial that cannot be extended and expires with the cluster and its data.",
+    "quote": "The 14-day sandbox CANNOT BE EXTENDED. When it expires, your cluster is gone.",
+    "entity": "Weaviate Sandbox",
+    "category": "limitation"
+  },
+  {
+    "id": "F-981f1c88",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says AWS support for Weaviate Flex was announced as coming soon as of April 2026, while GCP was its primary cloud provider.",
+    "quote": "GCP is the primary cloud provider for Flex. AWS support for Flex was announced as “coming soon” as of April 2026.",
+    "entity": "Weaviate Cloud Flex",
+    "category": "other"
+  },
+  {
+    "id": "F-09ad005e",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "Weaviate Cloud Flex costs approximately $64 per month for the page’s example workload of 5 million 1,536-dimensional vectors when Binary Quantization is enabled.",
+    "quote": "WEAVIATE CLOUD FLEX (with BQ enabled)\n\nDims ($8.01) + Storage $51 + Backup $5.28 = **$64/month**\n Same workload. BQ makes Weaviate competitive.",
+    "entity": "Weaviate Cloud Flex",
+    "category": "pricing"
+  },
+  {
+    "id": "F-9cd7bf3d",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page estimates self-hosting Weaviate or Qdrant on a 16GB DigitalOcean Droplet at $96 per month, excluding engineering time.",
+    "quote": "SELF-HOSTED (Qdrant or Weaviate on DO 16GB)\n\n$96/month fixed · Zero query/write/dim billing\n **Total: $96/month regardless of workload**",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-59a991bb",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page estimates Weaviate Cloud Flex at $45 per month minimum and says it includes a 14-day free trial.",
+    "quote": "Weaviate Flex $45/month min · 14-day free trial · managed hybrid search · auto-backups · start here for teams without DevOps",
+    "entity": "Weaviate Cloud Flex",
+    "category": "pricing"
+  },
+  {
+    "id": "F-258d72ae",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says Weaviate Cloud Flex includes 30,000 Query Agent requests per month.",
+    "quote": "The **30K monthly Query Agent request limit** on Flex is exhausted by 60 enterprise users running standard agentic pipelines.",
+    "entity": "Weaviate Cloud Flex",
+    "category": "limitation"
+  },
+  {
+    "id": "F-b3cd54c9",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says Weaviate Binary Quantization reduces dimension billing by approximately 97%.",
+    "quote": "Binary Quantization (BQ) in Weaviate compresses each vector dimension\nfrom a 32-bit float to a single bit, achieving 32× compression. For\nWeaviate’s dimension-based billing, this reduces your dimension cost by\napproximately 97%.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-29a3c03a",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says Weaviate Cloud Flex uses shared cloud infrastructure and has a 99.5% SLA.",
+    "quote": "Flex is $45/month minimum on shared cloud infrastructure with 99.5%\nSLA and email support (next-business-day severity-1 response).",
+    "entity": "Weaviate Cloud Flex",
+    "category": "other"
+  },
+  {
+    "id": "F-5d665683",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says Weaviate Plus offers an optional dedicated-cloud configuration and a 99.9% SLA.",
+    "quote": "Plus starts at $280/month on annual commitment, adds the option for dedicated\ncloud infrastructure (isolated resources versus shared), upgrades to\n99.9% SLA, and provides SOC 2 Type II audit report access and a dedicated\nsupport channel.",
+    "entity": "Weaviate Cloud Plus",
+    "category": "pricing"
+  },
+  {
+    "id": "F-8eb644a9",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-bfb6175f",
+    "claim": "The page says Weaviate can be deployed as self-hosted OSS or through Premium BYOC, with BYOC running in the customer’s cloud and managed by Weaviate.",
+    "quote": "→ Weaviate Premium BYOC: your cloud, Weaviate-managed\n→ Self-hosted Weaviate OSS: your cloud, you manage",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-7a551894",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "Weaviate Cloud’s pricing model, updated in October 2025, bills for stored vector dimensions, persistent object storage, and backup storage.",
+    "quote": "Weaviate Cloud updated its pricing model in October 2025 (verified from weaviate.io/blog/weaviate-cloud-pricing-update). New billing structure: three dimensions vector dimensions stored, persistent storage of objects, and backup storage.",
+    "entity": "Weaviate Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-49bb0713",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page estimates Weaviate Cloud vector-dimension pricing at approximately $0.095 per million dimensions per month.",
+    "quote": "At ~$0.095/million dimensions/month: $1,459/month before compression.",
+    "entity": "Weaviate Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-25aa809f",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page says Weaviate Cloud’s Flex plan is pay-as-you-go and has a 99.5% uptime SLA.",
+    "quote": "Weaviate Shared Cloud (March 2026): Flex plan (pay-as-you-go), 99.5% uptime SLA.",
+    "entity": "Weaviate Shared Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-59c4b6a6",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page says Weaviate Cloud currently charges no additional fees for data transfer, while reserving the right to introduce them later.",
+    "quote": "Egress: currently no additional charges for data transfer per weaviate.io/pricing note: ‘Weaviate reserves the right to introduce data transfer charges in the future, with any changes communicated in advance.’",
+    "entity": "Weaviate Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-4dad8199",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page says Weaviate hybrid search combines BM25 and dense search without additional storage cost.",
+    "quote": "Hybrid search (BM25 + dense) is included at no extra storage cost.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-5cd12dc0",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page estimates self-hosted Weaviate on DigitalOcean at $40–$120 per month, depending on cluster size.",
+    "quote": "| Self-Hosted Weaviate (DO) | DigitalOcean Droplet flat rate | Hybrid search, full ownership | $40–$120 (Cluster size) |",
+    "entity": "Self-Hosted Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-54d92bcc",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page states that its analysis focuses exclusively on financial considerations and directs architecture-feature and benchmark comparisons to other posts.",
+    "quote": "This post operates **exclusively through the financial lens**. Architecture features, benchmark comparisons, hybrid search depth, and multi-tenancy patterns are covered in the cluster posts linked throughout.",
+    "entity": "RankSquire pricing comparison",
+    "category": "other"
+  },
+  {
+    "id": "F-f91915ce",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "Weaviate provides native BM25 keyword search and dense vector search in one query, which the page says incurs no extra storage cost.",
+    "quote": "The only vector database where BM25 keyword search and dense vector search run natively in one query at no extra storage cost.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-142af367",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "Weaviate can be deployed as self-hosted software at no software cost, and the page identifies Docker as a deployment option.",
+    "quote": "Weaviate (weaviate.io) Primary vector database for hybrid search sovereign stack. Open-source (BSD-3). Built in Go. Shared Cloud from $25/month. Dedicated Cloud: contact sales.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-949134c1",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "Weaviate Shared Cloud starts at $25 per month, while Dedicated Cloud pricing requires contacting sales.",
+    "quote": "Weaviate (weaviate.io) Primary vector database for hybrid search sovereign stack. Open-source (BSD-3). Built in Go. Shared Cloud from $25/month. Dedicated Cloud: contact sales.",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-dd3165d3",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page describes Weaviate Cloud billing as dimension-based, with a formula of vector count × dimension size × replication factor × $0.095 per million dimensions.",
+    "quote": "💡 Cost watch: billing formula = vector_count × dimension_size × replication_factor × $0.095/M dims.",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-af904802",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page claims that enabling Binary Quantization can reduce Weaviate Cloud costs for 100 million vectors from $1,459 per month to about $45 per month.",
+    "quote": "Dimension-based billing — enable Binary Quantization (32× compression) to reduce 100M vectors from $1,459/month to ~$45/month.",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-0a4c3520",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page says Weaviate Product Quantization reduces storage by 4×–8×.",
+    "quote": "Weaviate Product Quantization (PQ) delivers 4x–8x reduction.",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-bb4140ec",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page reports that a healthcare AI company requiring HIPAA deployed Weaviate self-hosted on Kubernetes for data residency at zero licensing cost.",
+    "quote": "A **Healthcare AI company** requiring HIPAA deployed Weaviate self-hosted on Kubernetes — zero licensing cost, full data residency.",
+    "entity": "Weaviate",
+    "category": "other"
+  },
+  {
+    "id": "F-a0df88b7",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page says Weaviate Dedicated or self-hosted deployment is an option for enterprise compliance, with self-hosted VPS costs estimated at $120–$300 per month.",
+    "quote": "| Enterprise Compliance | Any Volume + HIPAA/SOC2 | Weaviate Dedicated or self-hosted | Sales or $120–$300/mo VPS |",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-49ed820e",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page states that a 16GB, 8-vCPU DigitalOcean Droplet costs $96 per month and can run self-hosted Weaviate, with capacity estimates depending on quantization.",
+    "quote": "A $96/month 16GB / 8 vCPU Droplet handles 10–20M vectors without quantization, 40M with Scalar Quantization, 320M logical vectors with Binary Quantization.",
+    "entity": "Weaviate",
+    "category": "pricing"
+  },
+  {
+    "id": "F-610c6280",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page says Weaviate Shared Cloud includes BM25 search without extra billing.",
+    "quote": "Semantic + keyword search in one query → Weaviate Shared Cloud (BM25 included, no extra billing)",
+    "entity": "Weaviate Shared Cloud",
+    "category": "pricing"
+  },
+  {
+    "id": "F-61996646",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page recommends Weaviate Dedicated Cloud or self-hosted Kubernetes for HIPAA, SOC2, or data-residency requirements.",
+    "quote": "HIPAA / SOC2 / data residency required → Weaviate Dedicated Cloud or self-hosted Kubernetes",
+    "entity": "Weaviate",
+    "category": "feature"
+  },
+  {
+    "id": "F-1f766585",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-d00b3daa",
+    "claim": "The page claims that using 3,072-dimensional rather than 1,536-dimensional embeddings quadruples Weaviate dimension billing at the same vector count.",
+    "quote": "3,072-dim embeddings quadruple Weaviate dimension billing vs. 1,536-dim at identical vector count.",
+    "entity": "Weaviate",
+    "category": "pricing"
+  }
+]

@@ -1,0 +1,2656 @@
+{
+  "overall": {
+    "plants": {
+      "caught": {
+        "n": 114,
+        "of": 116,
+        "rate": 0.983
+      },
+      "by_type": {
+        "fabricated_quote": {
+          "n": 30,
+          "of": 30,
+          "rate": 1.0
+        },
+        "unsupported_claim": {
+          "n": 30,
+          "of": 30,
+          "rate": 1.0
+        },
+        "distorted_number": {
+          "n": 29,
+          "of": 30,
+          "rate": 0.967
+        },
+        "wrong_entity": {
+          "n": 25,
+          "of": 26,
+          "rate": 0.962
+        }
+      },
+      "caught_by_layer": {
+        "entailment": 84,
+        "grounding": 30
+      },
+      "cumulative_by_layer": {
+        "up_to_grounding": {
+          "n": 30,
+          "of": 116,
+          "rate": 0.259
+        },
+        "up_to_entailment": {
+          "n": 114,
+          "of": 116,
+          "rate": 0.983
+        },
+        "up_to_cross_reference": {
+          "n": 114,
+          "of": 116,
+          "rate": 0.983
+        }
+      },
+      "missed_but_hedged": {
+        "contradicted": 1,
+        "verified": 1
+      }
+    },
+    "genuine": {
+      "sampled": 120,
+      "reference_supported": 113,
+      "false_rejections": {
+        "n": 3,
+        "of": 113,
+        "rate": 0.027
+      },
+      "reference_unsupported_caught": {
+        "n": 5,
+        "of": 7,
+        "rate": 0.714
+      },
+      "rejection_precision": {
+        "n": 5,
+        "of": 8,
+        "rate": 0.625
+      }
+    }
+  },
+  "repeats": [
+    {
+      "plants": {
+        "caught": {
+          "n": 114,
+          "of": 116,
+          "rate": 0.983
+        },
+        "by_type": {
+          "fabricated_quote": {
+            "n": 30,
+            "of": 30,
+            "rate": 1.0
+          },
+          "unsupported_claim": {
+            "n": 30,
+            "of": 30,
+            "rate": 1.0
+          },
+          "distorted_number": {
+            "n": 29,
+            "of": 30,
+            "rate": 0.967
+          },
+          "wrong_entity": {
+            "n": 25,
+            "of": 26,
+            "rate": 0.962
+          }
+        },
+        "caught_by_layer": {
+          "entailment": 84,
+          "grounding": 30
+        },
+        "cumulative_by_layer": {
+          "up_to_grounding": {
+            "n": 30,
+            "of": 116,
+            "rate": 0.259
+          },
+          "up_to_entailment": {
+            "n": 114,
+            "of": 116,
+            "rate": 0.983
+          },
+          "up_to_cross_reference": {
+            "n": 114,
+            "of": 116,
+            "rate": 0.983
+          }
+        },
+        "missed_but_hedged": {
+          "contradicted": 1,
+          "verified": 1
+        }
+      },
+      "genuine": {
+        "sampled": 120,
+        "reference_supported": 113,
+        "false_rejections": {
+          "n": 3,
+          "of": 113,
+          "rate": 0.027
+        },
+        "reference_unsupported_caught": {
+          "n": 5,
+          "of": 7,
+          "rate": 0.714
+        },
+        "rejection_precision": {
+          "n": 5,
+          "of": 8,
+          "rate": 0.625
+        }
+      }
+    },
+    {
+      "plants": {
+        "caught": {
+          "n": 112,
+          "of": 116,
+          "rate": 0.966
+        },
+        "by_type": {
+          "fabricated_quote": {
+            "n": 30,
+            "of": 30,
+            "rate": 1.0
+          },
+          "unsupported_claim": {
+            "n": 30,
+            "of": 30,
+            "rate": 1.0
+          },
+          "distorted_number": {
+            "n": 29,
+            "of": 30,
+            "rate": 0.967
+          },
+          "wrong_entity": {
+            "n": 23,
+            "of": 26,
+            "rate": 0.885
+          }
+        },
+        "caught_by_layer": {
+          "entailment": 82,
+          "grounding": 30
+        },
+        "cumulative_by_layer": {
+          "up_to_grounding": {
+            "n": 30,
+            "of": 116,
+            "rate": 0.259
+          },
+          "up_to_entailment": {
+            "n": 112,
+            "of": 116,
+            "rate": 0.966
+          },
+          "up_to_cross_reference": {
+            "n": 112,
+            "of": 116,
+            "rate": 0.966
+          }
+        },
+        "missed_but_hedged": {
+          "contradicted": 1,
+          "single_source": 1,
+          "verified": 2
+        }
+      },
+      "genuine": {
+        "sampled": 120,
+        "reference_supported": 113,
+        "false_rejections": {
+          "n": 4,
+          "of": 113,
+          "rate": 0.035
+        },
+        "reference_unsupported_caught": {
+          "n": 5,
+          "of": 7,
+          "rate": 0.714
+        },
+        "rejection_precision": {
+          "n": 5,
+          "of": 9,
+          "rate": 0.556
+        }
+      }
+    },
+    {
+      "plants": {
+        "caught": {
+          "n": 113,
+          "of": 116,
+          "rate": 0.974
+        },
+        "by_type": {
+          "fabricated_quote": {
+            "n": 30,
+            "of": 30,
+            "rate": 1.0
+          },
+          "unsupported_claim": {
+            "n": 30,
+            "of": 30,
+            "rate": 1.0
+          },
+          "distorted_number": {
+            "n": 29,
+            "of": 30,
+            "rate": 0.967
+          },
+          "wrong_entity": {
+            "n": 24,
+            "of": 26,
+            "rate": 0.923
+          }
+        },
+        "caught_by_layer": {
+          "entailment": 83,
+          "grounding": 30
+        },
+        "cumulative_by_layer": {
+          "up_to_grounding": {
+            "n": 30,
+            "of": 116,
+            "rate": 0.259
+          },
+          "up_to_entailment": {
+            "n": 113,
+            "of": 116,
+            "rate": 0.974
+          },
+          "up_to_cross_reference": {
+            "n": 113,
+            "of": 116,
+            "rate": 0.974
+          }
+        },
+        "missed_but_hedged": {
+          "contradicted": 1,
+          "single_source": 1,
+          "verified": 1
+        }
+      },
+      "genuine": {
+        "sampled": 120,
+        "reference_supported": 113,
+        "false_rejections": {
+          "n": 4,
+          "of": 113,
+          "rate": 0.035
+        },
+        "reference_unsupported_caught": {
+          "n": 5,
+          "of": 7,
+          "rate": 0.714
+        },
+        "rejection_precision": {
+          "n": 5,
+          "of": 9,
+          "rate": 0.556
+        }
+      }
+    }
+  ],
+  "per_fixture": {
+    "eu-ai-act": {
+      "plants": {
+        "caught": {
+          "n": 34,
+          "of": 36,
+          "rate": 0.944
+        },
+        "by_type": {
+          "fabricated_quote": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "unsupported_claim": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "distorted_number": {
+            "n": 9,
+            "of": 10,
+            "rate": 0.9
+          },
+          "wrong_entity": {
+            "n": 5,
+            "of": 6,
+            "rate": 0.833
+          }
+        },
+        "caught_by_layer": {
+          "entailment": 24,
+          "grounding": 10
+        },
+        "cumulative_by_layer": {
+          "up_to_grounding": {
+            "n": 10,
+            "of": 36,
+            "rate": 0.278
+          },
+          "up_to_entailment": {
+            "n": 34,
+            "of": 36,
+            "rate": 0.944
+          },
+          "up_to_cross_reference": {
+            "n": 34,
+            "of": 36,
+            "rate": 0.944
+          }
+        },
+        "missed_but_hedged": {
+          "contradicted": 1,
+          "verified": 1
+        }
+      },
+      "genuine": {
+        "sampled": 40,
+        "reference_supported": 39,
+        "false_rejections": {
+          "n": 2,
+          "of": 39,
+          "rate": 0.051
+        },
+        "reference_unsupported_caught": {
+          "n": 1,
+          "of": 1,
+          "rate": 1.0
+        },
+        "rejection_precision": {
+          "n": 1,
+          "of": 3,
+          "rate": 0.333
+        }
+      },
+      "cost_usd": 0.00763045
+    },
+    "stripe-billing": {
+      "plants": {
+        "caught": {
+          "n": 40,
+          "of": 40,
+          "rate": 1.0
+        },
+        "by_type": {
+          "fabricated_quote": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "unsupported_claim": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "distorted_number": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "wrong_entity": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          }
+        },
+        "caught_by_layer": {
+          "entailment": 30,
+          "grounding": 10
+        },
+        "cumulative_by_layer": {
+          "up_to_grounding": {
+            "n": 10,
+            "of": 40,
+            "rate": 0.25
+          },
+          "up_to_entailment": {
+            "n": 40,
+            "of": 40,
+            "rate": 1.0
+          },
+          "up_to_cross_reference": {
+            "n": 40,
+            "of": 40,
+            "rate": 1.0
+          }
+        },
+        "missed_but_hedged": {}
+      },
+      "genuine": {
+        "sampled": 40,
+        "reference_supported": 36,
+        "false_rejections": {
+          "n": 1,
+          "of": 36,
+          "rate": 0.028
+        },
+        "reference_unsupported_caught": {
+          "n": 3,
+          "of": 4,
+          "rate": 0.75
+        },
+        "rejection_precision": {
+          "n": 3,
+          "of": 4,
+          "rate": 0.75
+        }
+      },
+      "cost_usd": 0.004335290000000001
+    },
+    "vector-dbs": {
+      "plants": {
+        "caught": {
+          "n": 40,
+          "of": 40,
+          "rate": 1.0
+        },
+        "by_type": {
+          "fabricated_quote": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "unsupported_claim": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "distorted_number": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          },
+          "wrong_entity": {
+            "n": 10,
+            "of": 10,
+            "rate": 1.0
+          }
+        },
+        "caught_by_layer": {
+          "entailment": 30,
+          "grounding": 10
+        },
+        "cumulative_by_layer": {
+          "up_to_grounding": {
+            "n": 10,
+            "of": 40,
+            "rate": 0.25
+          },
+          "up_to_entailment": {
+            "n": 40,
+            "of": 40,
+            "rate": 1.0
+          },
+          "up_to_cross_reference": {
+            "n": 40,
+            "of": 40,
+            "rate": 1.0
+          }
+        },
+        "missed_but_hedged": {}
+      },
+      "genuine": {
+        "sampled": 40,
+        "reference_supported": 38,
+        "false_rejections": {
+          "n": 0,
+          "of": 38,
+          "rate": 0.0
+        },
+        "reference_unsupported_caught": {
+          "n": 1,
+          "of": 2,
+          "rate": 0.5
+        },
+        "rejection_precision": {
+          "n": 1,
+          "of": 1,
+          "rate": 1.0
+        }
+      },
+      "cost_usd": 0.00425638
+    }
+  },
+  "items": [
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-66a8ef83",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpt lists all four Article 55 duties and says providers are not exempt from any obligations."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-f540b9e2",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote supports the justification and gap-analysis requirements, but applies to providers who neither sign nor adhere."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-b7613f17",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Both excerpts say providers must maintain technical documentation covering training, testing, and evaluation results."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-640364fa",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpts state systemic-risk providers must assess systemic risks."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-528afc1a",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpts state systemic-risk providers must assess and mitigate systemic risks."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-3c52d9f1",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts give general 2026 application dates but do not address when the Commission’s enforcement powers apply."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-2a8a3ee5",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Both excerpts state that GPAI obligations began applying on 2 August 2025."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-9d6fd60f",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "It explicitly requires systemic-risk GPAI providers to ensure adequate cybersecurity protection for the model and physical infrastructure."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-f1ca9483",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not state the compliance deadline for models already on the market."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-bfb0fa53",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpts describe current technical documentation, Annex XI information, and providing it to authorities upon request."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-0d69eb2e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "It explicitly requires state-of-the-art standardized evaluation, including conducting and documenting adversarial testing."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-7f2b8c1f",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt requires information for downstream AI-system providers and a policy to comply with Union copyright law."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-21289b5e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpts require a detailed public training-content summary and describe the Commission's template as simple and effective."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-3e0ff5fd",
+      "kind": "genuine",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote supports the security and safety rules, but does not state the claimed 2 August 2026 start date."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-836cf8f9",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Both excerpts explicitly state that GPAI model rules or obligations began applying on 2 August 2025."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-c8c57ebb",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The text limits this to the most advanced or impactful systemic-risk models exceeding 10^25 FLOP, not all such providers."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-8052d758",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts describe training summaries and technical documentation, but not the claimed training-content template fields."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-55191dbf",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpt identifies Article 53(1)(c) as requiring a policy to comply with the EU Copyright Directive."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-723e31f8",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts mention proactive notification and AI Office cooperation, but do not say providers must notify without delay."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-6b8d135f",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not establish whether the open-source exception applies to GPAI models with systemic risk."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-a43c96d0",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpts state that copyright policy and training-summary obligations applied from 2 August 2025."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-98c9fde9",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "Excerpts describe systemic risk and value-chain propagation, but do not state the duty to identify risk sources and emergence along the value chain."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-e1090f3e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Both excerpts state that Article 53(1)(d) requires a sufficiently detailed public summary of training content."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-dbe5df7d",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Both excerpts state that GPAI provider obligations apply from 2 August 2025."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-a30448e7",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt states that AI Office and national competent authority enforcement powers apply from 2 August 2026, including for GPAI obligations."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-c4cc2d8b",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt directly states both the interim reliance on Article 56 codes and the presumption of conformity from harmonised standards."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-c04f4378",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts give 2025, 2026, and 2027 dates but do not establish the claimed one-year and two-year enforcement timelines by model category."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-070ecb9e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "Excerpts describe provider rules and systemic-risk obligations, but do not state that the AI Office enforces them."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-0465d32a",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "Excerpts mention technical documentation and systemic-risk duties, but not risk-assessment documentation made available to the AI Office on request."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-db153fa5",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "Excerpts mention systemic-risk assessment generally, but not ongoing assessments covering the listed specific issues."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-2290de09",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Both excerpts require state-of-the-art or standardized model evaluation protocols and adversarial testing."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-0ed761bc",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Excerpts explicitly list Article 55 obligations additional to baseline obligations for systemic-risk GPAI providers."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-37bc0796",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Excerpts state that exceeding 10^25 FLOPs creates a presumption of systemic risk."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-1d910e65",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "Excerpts support adversarial testing and incident reporting, but do not mention disclosure of energy-efficiency metrics."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-7cced147",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt states GPAI rules and governance provisions began applying on 2 August 2025."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-bf594643",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "contradicted",
+      "caught_by": null,
+      "reason": "The timeline places governance and GPAI obligations in 2025 and high-risk rules in 2027–2028, not 2 August 2026."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-414c2b82",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt states GPAI non-compliance fines may reach 3% of worldwide annual turnover or a euro-denominated amount."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-dfd16f1e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpt discusses downstream entities integrating GPAI models but does not give the claimed definition or contractual-relations condition."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-45a93941",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt directly states serious incidents and corrective measures must be tracked, documented, and reported without undue delay to the named authorities."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-f7a78278",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpt directly states the Code adds detail for Article 53(1)(a)–(c), while the template concerns the Article 53(1)(d) summary."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-747f8837",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote lists general application on 02/08/2026, not the claimed 4 August 2026."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-091155ae",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The policy obligation is supported, but the claim says Article 8(3); the quote specifies Article 4(3)."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-6cdd1760",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The claim changes the non-compliance fine cap from €15 million to €30 million; the prohibited-practices cap matches."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-1516aa80",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "contradicted",
+      "caught_by": null,
+      "reason": "The excerpts give August 2, 2025—not August 9—for GPAI obligations; they support the 2026 and 2027 dates."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-2070fb2c",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote supports the obligation but names Directive (EU) 2019/790, not 2018/790."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-e0b1fd6b",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The obligation is supported, but the claim cites Article 106(1)(d) instead of Article 53(1)(d)."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-0e09289a",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote lists partial application on 02/02/2025, not the claimed 4 February 2025."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-bd475125",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote gives August 2, 2025, not August 9; the August 2, 2027 transitional deadline matches."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-254a5601",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote gives 3% of global annual turnover, not 6%; the EUR 15 million figure matches."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-39e6ec50",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote says Chapter 2, not Chapter 4, for duties concerning high-risk systems."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-a8c91761",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The guide’s listed topics match, but the quote does not say it is offered by the EU."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-c3228542",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote says GPAI models with systemic risk, not EU models with systemic risk; “EU models” changes the qualifier."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-cdf5acbd",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The context supports the documentation details, but says GPAI model providers, not providers of EU AI models."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-98343377",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The context concerns GPAI providers; the claim generalizes this to EU model providers."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-dd9438af",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The exception and license/public-information conditions match, but the claim omits that the exception does not apply to models with systemic risks."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-c8bc6f10",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt says providers must make technical information available to downstream providers, including under Article 53(1)(b)."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-2009c8a8",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (51% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-937f54a5",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-5f9dad87",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (51% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-dee28e57",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-7ee50847",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (53% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-affdd0c9",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (52% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-939850aa",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (51% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-f3ec9021",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (49% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-6dc53451",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-a01dd166",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (48% best match)"
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-2e575c6d",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote requires a comprehensive overview and source descriptions, not publication of the full text of every training document."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-a24d825e",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote mentions reduced administrative burden and legal certainty, not a 50% reduction in AI Act fines."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-0d83c9f2",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says the Q&A is not an official Commission position and only the CJEU authoritatively interprets the Act."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-49f7ea70",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says the AI Office facilitates code development; it says nothing about renewal or a two-year period."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-1a827415",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote requires reporting without undue delay; it does not set a 72-hour deadline or say every incident."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-2ef12b26",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote specifies two tiers and does not establish a third tier or a 100-billion-parameter threshold."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-0422f0b7",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The date and enforcement roles are stated, but the text does not require submitting every decision to the AI Office for approval."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-238a1956",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote links the Code to systemic-risk safety and security obligations, but does not say signing exempts providers from adversarial testing."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-90486315",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The date and possible enforcement are supported, but the quote does not restrict enforcement to providers exceeding €100 million in revenue."
+    },
+    {
+      "fixture": "eu-ai-act",
+      "finding_id": "F-961592d5",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote mentions no quarterly penetration test or AI Office-approved auditor."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-e4980c38",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "No excerpt addresses when Chargebee's self-serve customer portal began."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-998e9287",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-91970656",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not address enterprise IoT contracts or Stripe's revenue-recognition and asset-lifecycle integrations."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-62b952e9",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "contradicted",
+      "caught_by": null,
+      "reason": "Two excerpts support a 0.7% Billing fee, but another describes it as roughly 0.5%; qualifiers are not shown."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-dd4a43fa",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on docs.stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-8c8f60ef",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on docs.stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-140962a2",
+      "kind": "genuine",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The page lists all six models as common subscription pricing models, but does not state that Recurly supports them."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-01b22631",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-a77fb8f4",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Zuora on zuora.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-d7aaccf3",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts mention native metering and usage support, but not limits in real-time tracking or complex metering."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-7809a091",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Invoicing on docs.stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-8d8d041e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Paddle on paddle.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-3a0252c3",
+      "kind": "genuine",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote lists pricing models, but does not establish that the page publishes no price for Chargebee Billing."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-fb85686b",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Invoicing on docs.stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-e1cf0206",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-9ed47d5f",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The comparison excerpt does not state customer counts for Stripe Billing or Zuora Billing."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-18e733fa",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "An excerpt says Zuora implementation takes months, but gives no 3–9 month range or professional-services engagement."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-83296f1b",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on docs.stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-17d117f5",
+      "kind": "genuine",
+      "reference": "unsupported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Chargebee on chargebee.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-73f80f31",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-38824460",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Recurly on docs.recurly.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-3ab06ddb",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not establish Zuora Revenue’s standalone capability or its design for complex automated recognition."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-e58e180c",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Checkout on docs.stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-048a6b2c",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Recurly on docs.recurly.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-fe7ef8b4",
+      "kind": "genuine",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote says Metronome is not included in Stripe Billing, but does not describe it as powering usage-based billing."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-bb26dadc",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Chargebee on chargebee.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-1cfc3497",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts discuss Stripe usage billing but do not address enforcing a customer balance before usage."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-65378790",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not address whether Stripe Price objects are immutable or how rate changes are migrated."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-9f409729",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Both excerpts state that Stripe retains the fixed fee on the original charge when a payment is refunded."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-1cd746c7",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not establish that Stripe supports the listed billing frequencies, discounts, trials, and scheduled subscription changes."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-dd1b29c6",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "An excerpt supports usage-based, tiered, and flat-fee-plus-overage pricing, but none addresses per-user pricing."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-b2cdb5b5",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts mention negotiated contracts and hybrid pricing, but do not address ramped contracts or manual tracking."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-069dc6e5",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "contradicted",
+      "caught_by": null,
+      "reason": "The excerpts date the acquisition to January 2026, not December 2025; Metronome handles 100,000+ events per second, not 1,000."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-3226b11e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: It supports March 2026 token billing and the described capabilities; the email invite is quoted, but availability to try is not explicitly stated."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-4c39f1e8",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Chargebee on chargebee.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-5f9de190",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on docs.stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-71226404",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Recurly on docs.recurly.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-9086f558",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Stripe Billing on stripe.com"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-a958efb8",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "contradicted",
+      "caught_by": null,
+      "reason": "The excerpt says Starter is free up to $250K in cumulative billing; the $100K/month Performance tier starts at $599."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-3398a3b3",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not state the additional currency-conversion fee for UK online transactions made with international cards."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-8cae1339",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The announcement details match, but the claim says April 22; the context dates it April 29, 2026."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-a8385fb5",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote reports $14 recovered per $1 spent, not $28."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-e2744f9c",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The page says $250K, not the claimed $500K cumulative billing threshold."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-c4a7a283",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote supports 130+ currencies, but states 125+ local payment methods, not more than 250."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-6b501661",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote says pricing was updated in 2026, not 2025; the volume-tiered annual-contract detail is supported."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-2190bcc7",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says 0.7%, not the claimed 0.9%."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-d74dfaa0",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The claim says 3.5%; the quote specifies 2.9% plus $0.30 per transaction."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-34d492f4",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The listed features and event limit match, but the claim says 0.9%; the quote says 0.7%."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-cddbd497",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote reports 99.999% uptime, not 119.999%."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-d3d0abbc",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The acquisition and approximate amount match, but the claim says January 2025 rather than January 2026."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-3e2f2ef8",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote is a Stripe changelog entry, not a Chargebee product update."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-f7890e28",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes Stripe, not Chargebee."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-76824bb1",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes Stripe, not Chargebee."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-c99a1b37",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The page describes Stripe subscription plans, not Chargebee Revenue Recognition."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-501da39d",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes Stripe’s Dahlia release, not Chargebee; it does not support the claimed company attribution."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-ae856672",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: Those capabilities are attributed to Metronome, not Stripe Billing."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-0586b97d",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes Stripe Billing, not Chargebee Billing."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-f4c3aea7",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The page compares Stripe Billing, Zuora, and Zenskar; it does not identify the per-transaction fees as Chargebee’s."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-aa3ede4f",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes Chargebee’s core, not Stripe Billing; the claim assigns it to a different product."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-cfa1cd63",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The page describes Zuora, not Stripe Billing; the claim assigns Zuora’s features to Stripe."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-2fa3f0f0",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (52% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-4e06b6a0",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (66% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-3e9b66dd",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (53% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-38dc5aa4",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (48% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-cdf5df87",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (53% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-0a7b79c6",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-d4823095",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (59% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-78f95485",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (56% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-a1fda17b",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-2c4dcb36",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (53% best match)"
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-253e2ac4",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The context says the live usage counter must be built by the team, not that the Customer Portal displays it."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-9b54a726",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says usage accumulates until the billing cycle ends and there is no immediate charge."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-2a526282",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The text mentions email sequences and does not say reminders are sent through WhatsApp or by default."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-f12d45d1",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote mentions test clocks but does not state they simulate ten years of renewals."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-f473073a",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote mentions annual subscription or pay-as-you-go pricing, not unlimited volume or no overage fees."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-4a41106b",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes a no-code rate card editor but says nothing about importing pricing tiers from CSV."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-8ede1480",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: Recurring Satispay support for subscriptions is stated, but support for payments in US dollars is not."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-399d460a",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote gives no 100,000-event monthly allowance or no-charge pricing."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-951d49c1",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says Stripe Billing typically needs a separate revenue-recognition tool above $5m ARR or when an audit is in scope; it does not say it includes one above $10 million."
+    },
+    {
+      "fixture": "stripe-billing",
+      "finding_id": "F-b283176a",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says up to 250 direct children, not 500; the claimed number contradicts it."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-15ad1a91",
+      "kind": "genuine",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The listed deployments and enterprise features match, but the text does not state the July 11, 2025 date."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-ead47cc9",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "Excerpts mention parallel workers and HNSW build costs, but do not address pgvector 0.6.0 or its release changes."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-b75677c4",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt explicitly says Premium includes SSO, private VPC links, a 99.9% SLA, and a minimum spend."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-6f675dcb",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Pinecone on pinecone.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-1aae9b94",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Qdrant on qdrant.tech"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-4dad8199",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "Excerpts describe Weaviate hybrid search but do not say it has no additional storage cost."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-ea561793",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-66061d76",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not describe Qdrant JSON filters or query-planner optimization."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-c03497e2",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Pinecone Inference on pinecone.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-b3460741",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not specify Weaviate Cloud Flex or Plus uptime SLAs or deployment types."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-1dbc7214",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not discuss ann-benchmarks.com or benchmarking Pinecone’s proprietary index."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-d1b650cd",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Pinecone BYOC on pinecone.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-c73c7cd8",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-63d16333",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Confirms Qdrant OSS is Apache 2.0; the excerpt does not address API consistency across deployment modes."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-f7d6fea2",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not identify this benchmark’s dataset, vector dimensions, or preloaded collection."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-9b975b37",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Qdrant on qdrant.tech"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-f1b19600",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Recommends benchmarking with production workloads, query patterns, and hardware rather than relying on leaderboards."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-4081ed02",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Weaviate Query Agent Search Mode on weaviate.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-0a4c3520",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The Weaviate excerpt discusses Binary Quantization, not Product Quantization or its storage reduction."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-3b973733",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "Confirms the free tier’s 0.5 vCPU, 1 GB RAM, and 4 GB disk; single-node and availability details are not addressed."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-195a99c0",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Pinecone on pinecone.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-6548ff07",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Weaviate on forum.weaviate.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-36a8ef21",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not report these production measurements or comparable results."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-e4393405",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Pinecone on pinecone.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-748eb7b8",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt says Qdrant’s open-source database is free to run anywhere and describes free self-hosting."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-67c2fa7d",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Pinecone on pinecone.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-e5ac8e4c",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not report the claimed 1-million-vector benchmark figures or Weaviate results."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-cf718a86",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Pinecone Nexus and KnowQL on pinecone.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-49ed820e",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "An excerpt mentions self-hosting on a 16GB DigitalOcean instance, but not its $96 monthly cost or capacity estimates."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-0d67dfcc",
+      "kind": "genuine",
+      "reference": "unsupported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Weaviate Cloud Explorer on docs.weaviate.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-ff8e0c51",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "The excerpt describes Pinecone storage charges alongside separately metered read units."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-2401fbee",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not address pgvector 0.8.0’s release date or iterative index scans."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-54d92bcc",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts discuss pricing and technical comparisons but do not state the page’s scope or redirect readers to other posts."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-95406713",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Weaviate on forum.weaviate.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-511204b8",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not address Pinecone’s BigANN 2023 performance on YFCC-10M."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-610c6280",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts discuss Weaviate pricing but do not address BM25 search billing."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-a52ba62f",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts do not describe Rivestack’s availability, backups, failover, pooling, or monitoring features."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-66a8b834",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "verified",
+      "caught_by": null,
+      "reason": "first-party: stated by Weaviate on weaviate.io"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-f777d55a",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts provide some pgvector benchmark figures but do not say Rivestack publishes reproducible benchmarks."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-765ffc43",
+      "kind": "genuine",
+      "reference": "supported",
+      "status": "single_source",
+      "caught_by": null,
+      "reason": "The excerpts describe Qdrant’s simplicity but do not compare its operational overhead with OpenSearch."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-3b1fae12",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: Financial Disclosure and General RAG match, but Clinical NLP is 20%, not the claimed 40%."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-d8980efa",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote says $20/month, not $40; it does support that Builder has no usage overages."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-2ee6b82c",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The isolation and performance claims match, but the quote dates launch to December 2025, not December 2024."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-0366e235",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says approximately 97%, not 194%; the claimed reduction percentage contradicts the text."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-a64126d2",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: Dedicated Cloud contact-sales pricing is stated, but Shared Cloud starts at $25, not the claimed $50."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-d5bb3736",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The reported reduction is 40% to 50%, not 80% to 50%."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-d1a5771f",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The architecture and billing details match, but the quote dates the change to 2025, not 2024."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-ce6cad9b",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The tier details match except the claim says 0.7 vCPU; the quote specifies 0.5 vCPU."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-d42608bd",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote estimates $30–60/month, not $30–120, for the specified 2GB RAM cluster."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-7065dac1",
+      "kind": "distorted_number",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The pricing model and no-metering claim match, but the starting price is $29, not $58."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-270608ec",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The page describes Qdrant’s benchmark datasets, not Weaviate’s."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-c77c7a20",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes Qdrant and Weaviate, not pgvector."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-32a2894c",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes pgvector, not Weaviate."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-4cbefa84",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says the author ran Weaviate locally with Docker, not Qdrant."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-7e4a89d0",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The Weaviate page says Weaviate ran the trials; it does not attribute them to Qdrant."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-be50b883",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes pgvector, not Weaviate; the product entity does not match."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-c1350961",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The page describes Pinecone’s Builder plan, not Weaviate’s."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-4f96dc5c",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote recommends Qdrant or Pinecone, not Weaviate or Pinecone."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-58365321",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The page describes Pinecone serverless, not Weaviate; the product entity does not match."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-682838b5",
+      "kind": "wrong_entity",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote describes Pinecone, not Weaviate."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-d7a3bf54",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-8011b1d0",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-cb698990",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (50% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-280abb34",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (54% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-57f7a016",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (47% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-98b6b73f",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (51% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-06a8f1dc",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (51% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-91156c4e",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (49% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-890ca339",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (47% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-a4cc061a",
+      "kind": "fabricated_quote",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "grounding",
+      "reason": "quote not found in source (53% best match)"
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-2bc519a7",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The text says hybrid search combines dense and sparse vectors; it does not say queries are automatically converted or that no embedding model is needed."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-c8ffcd52",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote mentions Qdrant Cloud but says nothing about three regions or automatic cross-region replication."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-845575c4",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote says the bill can reach $700 or more; it does not say Pinecone caps it at $700."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-a5dd99c6",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says Weaviate can run in both Docker and Kubernetes while paying only infrastructure costs."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-f29c6552",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says BYOC runs in AWS, GCP, or Azure accounts, not exclusively in AWS."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-02945aaf",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says algorithms cannot be customized; it does not say customers can upload replacement algorithms."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-d013cb71",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote gives Flex a 99.5% SLA, not 99.99%."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-4aca0a32",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "unsupported: The quote says 30x faster time-to-completion, not exactly 50% across every evaluated workflow."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-7663aebf",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The quote says alpha=0.5, not 0.9; it does support that the invoice ranked first."
+    },
+    {
+      "fixture": "vector-dbs",
+      "finding_id": "F-c672bf12",
+      "kind": "unsupported_claim",
+      "reference": "unsupported",
+      "status": "rejected",
+      "caught_by": "entailment",
+      "reason": "overstates its quote: The page favors managed Postgres for many projects below ~50M vectors, but does not recommend replacing it with Qdrant or cover every project."
+    }
+  ]
+}

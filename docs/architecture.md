@@ -153,6 +153,37 @@ cited sources). Asking for most relevant evidence raised that to 94 findings and
 attributions ("according to paddle.com"). With source sites shown, re-auditing the same report
 flagged 2 of 82 statements, both genuine nuances.
 
+## Evaluation
+
+`evals/` measures the Critic, and what it changes in the final report, on three frozen fixtures
+from real standard runs: Stripe billing, vector databases, and EU AI Act obligations. Full
+tables and caveats are in [evals/results/RESULTS.md](../evals/results/RESULTS.md).
+
+- **Fixtures** keep the run's sources, findings and verdicts, plus *evidence windows* (page
+  title plus about ±1,500 characters around each quote, with the heading trail) rather than
+  full page copies. All 214/214 and 288/289 real quotes still ground against the windows. The
+  one miss was also rejected by grounding in the live run.
+- **Planted fabrications:** 30 each of an invented quote, an invented claim with a real quote,
+  a distorted number or date, and a wrong company (26 valid). The reference judge confirmed 116
+  of 120 as false; the rest are excluded.
+- **Critic** (3 repeats): **97% of plants caught (range 97-98%), 3% of genuine findings wrongly
+  rejected (range 3-4%).** Grounding alone catches every invented quote (26% of plants) with
+  no LLM call, and entailment takes the rest to 98%. The misses are one distorted date, which
+  cross-reference still flagged as contradicted, and weak company swaps on regulatory text.
+- **Ablation** (same evidence, Critic off vs on, pooled): plants reaching the Writer
+  116 → 1, plants cited in the final report 4 → 0, unsupported statements 1% → 0%, not fully
+  supported 9% → 5%, judged by the strong model against source text. The per-layer funnel shows
+  the sentence auditor does not stop fabricated findings (every plant the outline picked
+  reached the report), because a fabricated finding supports its own sentence. The Critic is
+  the layer that stops them.
+- **LangSmith:** the results are also datasets with experiments: `critic-grounding-only` vs
+  `critic-grounding+entailment` vs `critic-full`, and `ablation-critic-off` vs
+  `ablation-critic-on`, for side-by-side comparison.
+- **A bug found on the way:** building fixtures exposed a bug in the grounding normaliser. A
+  truncated markdown link (`](https://...` with no closing parenthesis) swallowed everything up
+  to the next `)`, which could make the live Critic reject genuine quotes. Link targets are now
+  matched without whitespace, with a regression test.
+
 ## Long-running execution
 
 - **Concurrency limits:** separate semaphores for search, fetch and LLM calls (`config.py`).

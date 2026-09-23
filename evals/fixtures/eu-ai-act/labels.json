@@ -1,0 +1,446 @@
+{
+  "genuine_sample": [
+    "F-66a8ef83",
+    "F-f540b9e2",
+    "F-b7613f17",
+    "F-640364fa",
+    "F-528afc1a",
+    "F-3c52d9f1",
+    "F-2a8a3ee5",
+    "F-9d6fd60f",
+    "F-f1ca9483",
+    "F-bfb0fa53",
+    "F-0d69eb2e",
+    "F-7f2b8c1f",
+    "F-21289b5e",
+    "F-3e0ff5fd",
+    "F-836cf8f9",
+    "F-c8c57ebb",
+    "F-8052d758",
+    "F-55191dbf",
+    "F-723e31f8",
+    "F-6b8d135f",
+    "F-a43c96d0",
+    "F-98c9fde9",
+    "F-e1090f3e",
+    "F-dbe5df7d",
+    "F-a30448e7",
+    "F-c4cc2d8b",
+    "F-c04f4378",
+    "F-070ecb9e",
+    "F-0465d32a",
+    "F-db153fa5",
+    "F-2290de09",
+    "F-0ed761bc",
+    "F-37bc0796",
+    "F-1d910e65",
+    "F-7cced147",
+    "F-bf594643",
+    "F-414c2b82",
+    "F-dfd16f1e",
+    "F-45a93941",
+    "F-f7a78278"
+  ],
+  "labels": {
+    "F-66a8ef83": {
+      "finding_id": "F-66a8ef83",
+      "label": "supported",
+      "rationale": "The source lists all four obligations for providers of GPAI models with systemic risks and says they are not exempt."
+    },
+    "F-f540b9e2": {
+      "finding_id": "F-f540b9e2",
+      "label": "supported",
+      "rationale": "The source says providers who do not sign and adhere to the Code must justify their alternative compliance measures, for instance through a gap analysis against the assessed Code."
+    },
+    "F-b7613f17": {
+      "finding_id": "F-b7613f17",
+      "label": "supported",
+      "rationale": "The source identifies technical documentation covering training, testing, and evaluation results as an Article 53 obligation for GPAI model providers."
+    },
+    "F-640364fa": {
+      "finding_id": "F-640364fa",
+      "label": "supported",
+      "rationale": "The source identifies systemic risk assessment as an Article 55 obligation for GPAI models with systemic risk."
+    },
+    "F-528afc1a": {
+      "finding_id": "F-528afc1a",
+      "label": "supported",
+      "rationale": "The source states that providers of general-purpose AI models presenting systemic risks have additional obligations to assess and mitigate those risks."
+    },
+    "F-3c52d9f1": {
+      "finding_id": "F-3c52d9f1",
+      "label": "supported",
+      "rationale": "The source explicitly states that the Commission’s enforcement powers enter into application on 2 August 2026."
+    },
+    "F-2a8a3ee5": {
+      "finding_id": "F-2a8a3ee5",
+      "label": "supported",
+      "rationale": "The source states that GPAI obligations began applying on 2 August 2025."
+    },
+    "F-9d6fd60f": {
+      "finding_id": "F-9d6fd60f",
+      "label": "supported",
+      "rationale": "The source lists enhanced cybersecurity requirements among the additional obligations for GPAI models with systemic risk."
+    },
+    "F-f1ca9483": {
+      "finding_id": "F-f1ca9483",
+      "label": "supported",
+      "rationale": "The excerpt says models already on the market before 2 August 2025 must comply by 2 August 2027, in the context of GPAI models."
+    },
+    "F-bfb0fa53": {
+      "finding_id": "F-bfb0fa53",
+      "label": "supported",
+      "rationale": "The excerpt says every GPAI provider must keep current Annex XI technical documentation and make it available on request to the EU AI Office and national competent authorities."
+    },
+    "F-0d69eb2e": {
+      "finding_id": "F-0d69eb2e",
+      "label": "supported",
+      "rationale": "The excerpt requires providers of systemic-risk GPAI models to conduct model evaluations using state-of-the-art protocols and tools, including documented adversarial testing."
+    },
+    "F-7f2b8c1f": {
+      "finding_id": "F-7f2b8c1f",
+      "label": "supported",
+      "rationale": "The excerpt lists both providing information to AI-system providers intending to integrate the model and adopting a European copyright-compliance policy as obligations of general-purpose AI model providers."
+    },
+    "F-21289b5e": {
+      "finding_id": "F-21289b5e",
+      "label": "supported",
+      "rationale": "The excerpt says providers must publish a detailed summary of training content and data using a simple and effective AI Office template."
+    },
+    "F-3e0ff5fd": {
+      "finding_id": "F-3e0ff5fd",
+      "label": "unsupported",
+      "rationale": "The excerpt dates the start of enforcement powers to 2 August 2026, not the start of application of the security and safety rules."
+    },
+    "F-836cf8f9": {
+      "finding_id": "F-836cf8f9",
+      "label": "supported",
+      "rationale": "The excerpt explicitly says the AI Act rules on GPAI apply from 2 August 2025."
+    },
+    "F-c8c57ebb": {
+      "finding_id": "F-c8c57ebb",
+      "label": "supported",
+      "rationale": "The excerpt says providers of models presenting systemic risks must meet additional obligations, including notifying the Commission and ensuring model safety and security."
+    },
+    "F-8052d758": {
+      "finding_id": "F-8052d758",
+      "label": "supported",
+      "rationale": "The excerpt identifies those three sections of the training-content template and describes their contents."
+    },
+    "F-55191dbf": {
+      "finding_id": "F-55191dbf",
+      "label": "supported",
+      "rationale": "The excerpt assigns the rights-reservation policy requirement to Article 53(1)(c) for GPAI model providers covered by the AI Act."
+    },
+    "F-723e31f8": {
+      "finding_id": "F-723e31f8",
+      "label": "supported",
+      "rationale": "The excerpt says providers whose general-purpose AI models will be classified as having systemic risk must notify the AI Office without delay."
+    },
+    "F-6b8d135f": {
+      "finding_id": "F-6b8d135f",
+      "label": "supported",
+      "rationale": "The excerpt explicitly says the Article 53(2) exception does not apply to general-purpose AI models with systemic risks."
+    },
+    "F-a43c96d0": {
+      "finding_id": "F-a43c96d0",
+      "label": "supported",
+      "rationale": "The excerpt states that from August 2, providers must meet transparency and copyright obligations when placing GPAI models on the EU market."
+    },
+    "F-98c9fde9": {
+      "finding_id": "F-98c9fde9",
+      "label": "supported",
+      "rationale": "The excerpt states that systemic-risk GPAI providers must assess and mitigate Union-level systemic risks, including their sources and emergence along the AI value chain."
+    },
+    "F-e1090f3e": {
+      "finding_id": "F-e1090f3e",
+      "label": "supported",
+      "rationale": "The excerpt assigns the requirement to publish a sufficiently detailed training-content summary using the AI Office’s template to Article 53(1)(d)."
+    },
+    "F-dbe5df7d": {
+      "finding_id": "F-dbe5df7d",
+      "label": "supported",
+      "rationale": "The excerpt explicitly gives 2 August 2025 as the date the AI Act obligations for providers of general-purpose AI models enter into application."
+    },
+    "F-a30448e7": {
+      "finding_id": "F-a30448e7",
+      "label": "supported",
+      "rationale": "The excerpt states that GPAI enforcement powers started applying on 2 August 2026."
+    },
+    "F-c4cc2d8b": {
+      "finding_id": "F-c4cc2d8b",
+      "label": "supported",
+      "rationale": "The excerpt explicitly states both that providers may rely on Article 56 codes until harmonised standards are published and that compliance with published standards grants a presumption of conformity."
+    },
+    "F-c04f4378": {
+      "finding_id": "F-c04f4378",
+      "label": "supported",
+      "rationale": "The excerpt gives 2 August 2025 as the application date and says AI Office enforcement begins one year later for new models and two years later for existing models."
+    },
+    "F-070ecb9e": {
+      "finding_id": "F-070ecb9e",
+      "label": "supported",
+      "rationale": "The excerpt says the AI Office enforces rules for GPAI model providers, including those whose models may pose systemic risks."
+    },
+    "F-0465d32a": {
+      "finding_id": "F-0465d32a",
+      "label": "supported",
+      "rationale": "Under the systemic-risk obligations section, the excerpt says providers must maintain risk-assessment documentation and make it available to the AI Office on request."
+    },
+    "F-db153fa5": {
+      "finding_id": "F-db153fa5",
+      "label": "supported",
+      "rationale": "The excerpt requires ongoing risk assessments and lists all four categories named in the claim."
+    },
+    "F-2290de09": {
+      "finding_id": "F-2290de09",
+      "label": "supported",
+      "rationale": "The excerpt lists model evaluation using standardised protocols and tools, including adversarial testing, as a requirement for systemic-risk GPAI models."
+    },
+    "F-0ed761bc": {
+      "finding_id": "F-0ed761bc",
+      "label": "supported",
+      "rationale": "The excerpt explicitly says providers of GPAI models with systemic risks have additional obligations beyond those of other GPAI model providers."
+    },
+    "F-37bc0796": {
+      "finding_id": "F-37bc0796",
+      "label": "supported",
+      "rationale": "The excerpt states that a GPAI model reaches the Article 51(2) systemic-risk threshold when cumulative training compute exceeds 10^25 FLOP."
+    },
+    "F-1d910e65": {
+      "finding_id": "F-1d910e65",
+      "label": "supported",
+      "rationale": "The excerpt explicitly lists adversarial testing, serious-incident logging and reporting, and energy-efficiency disclosure to the EU AI Office and national supervisors for models posing systemic risk."
+    },
+    "F-7cced147": {
+      "finding_id": "F-7cced147",
+      "label": "supported",
+      "rationale": "The timeline says EU and national governance provisions and GPAI-model obligations began to apply on 2 August 2025."
+    },
+    "F-bf594643": {
+      "finding_id": "F-bf594643",
+      "label": "supported",
+      "rationale": "The excerpt says most remaining AI Act provisions became applicable on 2 August 2026, except Article 6(1)."
+    },
+    "F-414c2b82": {
+      "finding_id": "F-414c2b82",
+      "label": "supported",
+      "rationale": "The excerpt states that breaches including GPAI-model obligations may incur fines of up to €15 million or 3% of total worldwide annual turnover, whichever is higher."
+    },
+    "F-dfd16f1e": {
+      "finding_id": "F-dfd16f1e",
+      "label": "supported",
+      "rationale": "The excerpt defines a downstream provider as an AI-system provider integrating a model supplied either by itself or by another entity under contractual relations."
+    },
+    "F-45a93941": {
+      "finding_id": "F-45a93941",
+      "label": "supported",
+      "rationale": "The excerpt states that systemic-risk GPAI providers must track, document, and promptly report serious incidents and possible corrective measures to the AI Office and relevant national authorities."
+    },
+    "F-f7a78278": {
+      "finding_id": "F-f7a78278",
+      "label": "supported",
+      "rationale": "The excerpt assigns further detail on Article 53(1)(a)–(c) compliance to the Code of Practice and the required content for Article 53(1)(d) to the Commission’s public-summary template."
+    },
+    "F-747f8837": {
+      "finding_id": "F-747f8837",
+      "label": "unsupported",
+      "rationale": "The source gives 2 August 2026, not 4 August 2026, as the application date."
+    },
+    "F-091155ae": {
+      "finding_id": "F-091155ae",
+      "label": "unsupported",
+      "rationale": "The source cites Article 4(3) of the CDSM Directive for text-and-data-mining opt-outs, not Article 8(3)."
+    },
+    "F-6cdd1760": {
+      "finding_id": "F-6cdd1760",
+      "label": "unsupported",
+      "rationale": "The source gives a non-compliance fine of up to €15 million or 3% of global turnover, not €30 million or 3%."
+    },
+    "F-1516aa80": {
+      "finding_id": "F-1516aa80",
+      "label": "unsupported",
+      "rationale": "The source says the obligations take effect on August 2, 2025, not August 9, 2025."
+    },
+    "F-2070fb2c": {
+      "finding_id": "F-2070fb2c",
+      "label": "unsupported",
+      "rationale": "The source identifies Directive (EU) 2019/790, not Directive (EU) 2018/790."
+    },
+    "F-e0b1fd6b": {
+      "finding_id": "F-e0b1fd6b",
+      "label": "unsupported",
+      "rationale": "The source attributes the public training-data-summary requirement to Article 53(1)(d), not Article 106(1)(d)."
+    },
+    "F-0e09289a": {
+      "finding_id": "F-0e09289a",
+      "label": "unsupported",
+      "rationale": "The source lists partial application from 2 February 2025, not 4 February 2025."
+    },
+    "F-bd475125": {
+      "finding_id": "F-bd475125",
+      "label": "unsupported",
+      "rationale": "The source says GPAI obligations apply from August 2, 2025, not August 9, 2025."
+    },
+    "F-254a5601": {
+      "finding_id": "F-254a5601",
+      "label": "unsupported",
+      "rationale": "The source gives a maximum of 3% of global annual turnover, not 6%."
+    },
+    "F-39e6ec50": {
+      "finding_id": "F-39e6ec50",
+      "label": "unsupported",
+      "rationale": "The source refers to downstream providers’ Chapter 2 obligations, not Chapter 4 duties."
+    },
+    "F-a8c91761": {
+      "finding_id": "F-a8c91761",
+      "label": "unsupported",
+      "rationale": "The guide is listed as a Praxikon template, not as something offered by the EU."
+    },
+    "F-c3228542": {
+      "finding_id": "F-c3228542",
+      "label": "unsupported",
+      "rationale": "The source limits the chapter to providers of GPAI models with systemic risk, not providers of EU models generally."
+    },
+    "F-a85eb452": {
+      "finding_id": "F-a85eb452",
+      "label": "supported",
+      "rationale": "The source lists notification to the European Commission as an additional obligation for GPAI models with systemic risk."
+    },
+    "F-cdf5acbd": {
+      "finding_id": "F-cdf5acbd",
+      "label": "unsupported",
+      "rationale": "The source imposes this documentation requirement on GPAI model providers, not providers of EU AI models generally."
+    },
+    "F-98343377": {
+      "finding_id": "F-98343377",
+      "label": "unsupported",
+      "rationale": "In its GPAI context, the source describes this option for GPAI providers, not EU model providers generally."
+    },
+    "F-dd9438af": {
+      "finding_id": "F-dd9438af",
+      "label": "unsupported",
+      "rationale": "The source expressly excludes GPAI models with systemic risks from the open-source exception, a qualification the claim omits."
+    },
+    "F-c8bc6f10": {
+      "finding_id": "F-c8bc6f10",
+      "label": "unsupported",
+      "rationale": "The source places this obligation on providers of general-purpose AI models and says the information goes to providers of AI systems, not to or from the EU as the claim states."
+    },
+    "F-71fe61a9": {
+      "finding_id": "F-71fe61a9",
+      "label": "supported",
+      "rationale": "The source identifies three chapters and says Transparency and Copyright address all general-purpose AI model providers, while Safety and Security addresses a limited number of providers of the most advanced models."
+    },
+    "F-cccd1f55": {
+      "finding_id": "F-cccd1f55",
+      "label": "supported",
+      "rationale": "The source explicitly says the Code must be endorsed by EU member states and the Commission before providers can sign on."
+    },
+    "F-e98b3a47": {
+      "finding_id": "F-e98b3a47",
+      "label": "supported",
+      "rationale": "The source says the Commission and member states confirmed that the GPAI Code of Practice is an adequate voluntary tool for providers to demonstrate compliance with the AI Act."
+    },
+    "F-2009c8a8": {
+      "finding_id": "F-2009c8a8",
+      "label": "unsupported",
+      "rationale": "The excerpt does not state that the AI Act requires a machine-readable licence file in a model repository."
+    },
+    "F-937f54a5": {
+      "finding_id": "F-937f54a5",
+      "label": "unsupported",
+      "rationale": "The excerpt requires publicly available weights for the exemption but says nothing about hosting them on an EU-based server."
+    },
+    "F-5f9dad87": {
+      "finding_id": "F-5f9dad87",
+      "label": "unsupported",
+      "rationale": "The excerpt describes Code commitments but does not grant signatories a 90-day extension for technical documentation."
+    },
+    "F-dee28e57": {
+      "finding_id": "F-dee28e57",
+      "label": "unsupported",
+      "rationale": "The excerpt describes technical documentation obligations but specifies no 30-day update schedule regardless of model changes."
+    },
+    "F-7ee50847": {
+      "finding_id": "F-7ee50847",
+      "label": "unsupported",
+      "rationale": "The excerpt mentions seeking optional guidance from the AI Office in gray areas, not mandatory approval before offering every GPAI model in the EU."
+    },
+    "F-affdd0c9": {
+      "finding_id": "F-affdd0c9",
+      "label": "unsupported",
+      "rationale": "The excerpt describes Article 53 obligations and additional duties for systemic-risk models but states no annual registration fee."
+    },
+    "F-939850aa": {
+      "finding_id": "F-939850aa",
+      "label": "unsupported",
+      "rationale": "The excerpt defines general-purpose AI by its generality and range of tasks, without a ten-billion-parameter minimum."
+    },
+    "F-f3ec9021": {
+      "finding_id": "F-f3ec9021",
+      "label": "unsupported",
+      "rationale": "The excerpt says downstream providers remain responsible for Articles 9–15 when integrating an open-source model into a high-risk system."
+    },
+    "F-6dc53451": {
+      "finding_id": "F-6dc53451",
+      "label": "unsupported",
+      "rationale": "The excerpt requires copyright-compliance policies and respect for rights reservations, not written permission from every rights holder."
+    },
+    "F-a01dd166": {
+      "finding_id": "F-a01dd166",
+      "label": "unsupported",
+      "rationale": "The excerpt requires a sufficiently detailed public training-data summary but does not require URLs for every individual training item."
+    },
+    "F-2e575c6d": {
+      "finding_id": "F-2e575c6d",
+      "label": "unsupported",
+      "rationale": "The excerpt calls for an overview of training data, main collections and other sources, not the full text of every training document."
+    },
+    "F-a24d825e": {
+      "finding_id": "F-a24d825e",
+      "label": "unsupported",
+      "rationale": "The excerpt mentions reduced administrative burden and increased legal certainty for signatories, not a 50% reduction in fines."
+    },
+    "F-0d83c9f2": {
+      "finding_id": "F-0d83c9f2",
+      "label": "unsupported",
+      "rationale": "The source says the Q&A is not an official Commission position and that only the Court of Justice of the European Union can authoritatively interpret the AI Act."
+    },
+    "F-49f7ea70": {
+      "finding_id": "F-49f7ea70",
+      "label": "unsupported",
+      "rationale": "The source says the AI Office facilitates codes of practice but gives no requirement to renew them every two years."
+    },
+    "F-1a827415": {
+      "finding_id": "F-1a827415",
+      "label": "unsupported",
+      "rationale": "The source specifies reporting without undue delay and explicitly says the legal standard is not a fixed number of days."
+    },
+    "F-2ef12b26": {
+      "finding_id": "F-2ef12b26",
+      "label": "unsupported",
+      "rationale": "The source describes two tiers of GPAI obligations, not a third tier based on parameter count."
+    },
+    "F-0422f0b7": {
+      "finding_id": "F-0422f0b7",
+      "label": "unsupported",
+      "rationale": "The source assigns enforcement responsibilities to the AI Office and Member State authorities but does not require AI Office approval of every Member State enforcement decision."
+    },
+    "F-238a1956": {
+      "finding_id": "F-238a1956",
+      "label": "unsupported",
+      "rationale": "The source describes the code as a voluntary way to support compliance, not an exemption from adversarial testing."
+    },
+    "F-90486315": {
+      "finding_id": "F-90486315",
+      "label": "unsupported",
+      "rationale": "The source gives August 2, 2026 as the date the Commission may begin enforcement but states no €100 million revenue threshold."
+    },
+    "F-961592d5": {
+      "finding_id": "F-961592d5",
+      "label": "unsupported",
+      "rationale": "The source lists model evaluation and adversarial testing obligations but does not require quarterly penetration tests by AI Office-approved auditors."
+    }
+  }
+}

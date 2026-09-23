@@ -1,0 +1,2664 @@
+[
+  {
+    "finding_id": "F-65faba42",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The March entry supports the Trial Offers API claim, but the quoted context does not establish its public preview channel."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.33774834437085,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-7809a091",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The entry matches the feature and date but attributes it to Additional updates, not specifically Invoicing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-72b1ba00",
+    "status": "rejected",
+    "reasons": [
+      "unsupported: The quote is a March 2026 Revenue Recognition entry, not a September 2025 Stripe Billing feature."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-5704296a",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The page gives the 100K-events-per-second capability but does not attribute metering to Metronome."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-3a0252c3",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quoted passage gives no Chargebee Billing price, but does not establish that the page publishes none."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-541db28d",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: It supports customer self-service portals, but does not specify pause, swap, or upgrade features."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 95.95959595959596,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-fd735f48",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The comparison says Stripe usage billing is good for simple cases, but does not specifically say it supports usage tiers."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-10f849db",
+    "status": "rejected",
+    "reasons": [
+      "unsupported: The quote describes Stripe Billing, not Zuora; the finding’s entity names Zuora."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-70e9e727",
+    "status": "rejected",
+    "reasons": [
+      "unsupported: The quote lists comparison topics but says nothing about whether pricing is stated."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.72611464968153,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-e2890e1f",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The FAQ supports high fees and implementation costs, but this context does not establish pricing was unverified in product facts."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-9789b70a",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote identifies Stripe as a PSP but does not establish merchants remain responsible for tax compliance and chargebacks."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-140962a2",
+    "status": "rejected",
+    "reasons": [
+      "unsupported: The passage lists general subscription pricing models; it does not say Recurly supports them."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-1952c07d",
+    "status": "rejected",
+    "reasons": [
+      "unsupported: The passage describes what billing systems must do generally, not what Recurly's system supports."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-c3ea7b0c",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.45652173913044,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-668644dc",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.67532467532467,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d6ab8083",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4a9c4c74",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1bb96f1c",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b21bf3f4",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.24561403508771,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-623d8274",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.9795918367347,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5edb553c",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fb85686b",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Invoicing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a9481d09",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Invoicing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5f9de190",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dd4a43fa",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-97f44292",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e58e180c",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Checkout on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c629b7db",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-83296f1b",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8c8f60ef",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on docs.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0e8436be",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-835c3365",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fa6d9bff",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e1cf0206",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-73f80f31",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-01b22631",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e77acc45",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-60d48d2e",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5f0acc46",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2415bee4",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0e3647f6",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9086f558",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bbeb7c3b",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-69e2fec5",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7d5fcfb7",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-998e9287",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-10e7584d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Billing on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3b9cc115",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-75435bd4",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe on stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-99d8732c",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Revenue Recognition on support.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1d71b228",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Revenue Recognition on support.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-09860633",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Revenue Recognition on support.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-110ac426",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Revenue Recognition on support.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1472f275",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Revenue Recognition on support.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e66ac820",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Revenue Recognition on support.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-03231eb4",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Stripe Revenue Recognition on support.stripe.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-28a513d5",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee Billing on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ee81ad4b",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee Billing on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a5e2dff9",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee Billing on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d7caba69",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6b7b347b",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4c39f1e8",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bb26dadc",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d24c646d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1f06ebed",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a87656f0",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-17d117f5",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-30c9ea0d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Chargebee on chargebee.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8e677e33",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-800ea912",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e5492861",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c7e9a8c7",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-43582370",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3f9ad4fe",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a77fb8f4",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-444c40c4",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.66666666666667,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-65796c3f",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-07798ada",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora Revenue on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ee115550",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-75591112",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Zuora on zuora.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a7cec377",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2d3d9545",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ea189bf3",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3bbe72eb",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8d8d041e",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7eb3769a",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fa5856bc",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3b5efb11",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a122e63d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b786c458",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Paddle on paddle.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2ecdba45",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-19864166",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-38824460",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on docs.recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-71226404",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on docs.recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1e17d913",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on docs.recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-048a6b2c",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on docs.recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6d1ea57d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on docs.recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6bb7346d",
+    "status": "verified",
+    "reasons": [
+      "first-party: stated by Recurly on docs.recurly.com"
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": true,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fe7ef8b4",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss Stripe Billing metering and Metronome integrations, but do not establish whether Metronome is included in Stripe Billing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-331d94fd",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state Metronome's pay-as-you-go or custom pricing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bedb95f8",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts contain no statistics about SaaS adoption rates or when usage-based pricing was adopted."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-24757798",
+    "status": "single_source",
+    "reasons": [
+      "The comparison explicitly marks metered/usage-based pricing as supported by Chargebee."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-db6855c1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says Chargebee RevRec automates deferred-revenue calculations and generates journal entries."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-86475c9e",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not describe Chargebee's dunning schedules, email sequences, templates, or payment-method prompts."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3e769589",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts describe Chargebee as subscription billing with multi-gateway support, but do not name Stripe, Braintree, or Adyen."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a45ae9dd",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt states Chargebee Starter pricing or a $250K cumulative billing limit."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-04656c5a",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt states the Performance plan price or its monthly revenue limit."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2ea35641",
+    "status": "single_source",
+    "reasons": [
+      "No excerpt gives a Chargebee Performance price of $249 per month."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7ae1a716",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts discuss pricing models generally, but do not establish Chargebee supports this full set of models."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6c8589b4",
+    "status": "verified",
+    "reasons": [
+      "Excerpts identify Chargebee's native coupons and add-ons, and describe credits as part of its core offering."
+    ],
+    "corroborating_source_ids": [
+      "S-f4742dbf"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-69fcda49",
+    "status": "single_source",
+    "reasons": [
+      "Multiple gateways are supported, and Stripe and Braintree are mentioned, but GoCardless is not identified."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a958efb8",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt says the free Starter plan covers $250K in cumulative billing; the plan up to $100K monthly is paid."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-f4742dbf"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2607214a",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt gives a Performance platform-cost range of $599–$999/month, not $599–$899/month."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-f4742dbf"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-57307b54",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpts describe Stripe Billing at roughly 0.5%, not a 0.5%–0.8% tier-dependent cut."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-0162650f",
+      "S-f4742dbf"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7d130067",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpts describe Stripe Billing as a paid add-on at roughly 0.5% and cite a 0.5% billing fee."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-0162650f",
+      "S-f4742dbf"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5898cca9",
+    "status": "single_source",
+    "reasons": [
+      "Dunning and general tax support are mentioned, but recurring invoices and the named tax jurisdictions and connectors are not established."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a7f989bb",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss usage billing generally but do not state Chargebee's ingestion rate or schema and meter capabilities."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3d455bf1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address Chargebee prepaid-credit ledger, rollover, auto top-up, or overdraft-cap features."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e4980c38",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not establish when Chargebee's self-serve customer portal began."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-00ec9cac",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention account and plan features but do not state a direct-child limit."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-68ecf769",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address Chargebee e-invoicing networks, country coverage, or the stated total."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-128355a7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention Chargebee RevRec but do not establish separate contracting or pricing for the listed products."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-359a1326",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts compare other billing features but do not address wallets or prepaid credits."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d417f2c0",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts describe Stripe Revenue Recognition as a separate product and connect it to ASC 606 and IFRS 15 compliance."
+    ],
+    "corroborating_source_ids": [
+      "S-f4742dbf",
+      "S-0a2906e6"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-91970656",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address integrations needed for IoT revenue-recognition workflows or asset-lifecycle logic."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f27686d2",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts support Zuora’s hybrid and usage-billing capabilities but do not address enterprise hierarchies or multi-entity management."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cbd4d21b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not mention Zuora integrations with SAP, Oracle, or NetSuite."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f393360c",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address Trakkr product facts or guidance to confirm Zuora pricing and contract terms."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-18e733fa",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states Zuora typically requires a 3–9 month professional services engagement."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3ab06ddb",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not establish that Zuora Revenue is standalone-capable or designed for complex automated revenue recognition."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ff8c12d5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not describe Zuora orchestrating revenue while Stripe acts as its payment gateway."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ead6d197",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address whether the comparison verified pricing profiles for either product."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9ed47d5f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt gives Stripe Billing 3,593 customers and Zuora Billing 1,101 customers."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4c154b39",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt reports market shares of 7.41% for Stripe Billing and 2.27% for Zuora Billing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d0ebb933",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not give rankings in the Recurring Billing And Payments category."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-94e9705a",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe Zuora as enterprise-focused and targeting enterprises with standard subscription models; dedicated IT resources are not stated."
+    ],
+    "corroborating_source_ids": [
+      "S-d2b0a048"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-52089459",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says complex pricing often requires custom development."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8fd805b8",
+    "status": "contradicted",
+    "reasons": [
+      "Zuora describes extensive usage-billing support, including complex hybrid models, configurable with clicks rather than code."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-f9949e44"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-963bf419",
+    "status": "contradicted",
+    "reasons": [
+      "Zuora says it supports prepaid balances and credits, and configures usage models with clicks rather than code; native entitlements are not addressed."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-f9949e44"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f7f20369",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt describes complex usage models and revenue recognition support, not difficulty handling those arrangements."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-f9949e44"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a15d81a6",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention implementation-related business-process change, but give no typical implementation duration."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cf713399",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state Zuora pricing, a monthly starting price, or unpredictable price increases."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dc5f4584",
+    "status": "single_source",
+    "reasons": [
+      "An excerpt lists Stripe fees, but none describes a contrast with Zuora pricing or hidden fees."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-74cbd790",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt lists Stripe’s 2.9% plus $0.30 transaction fee and recurring-payment fees of 0.5% and 0.8%."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-baefa34f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says Stripe Tax calculates and collects tax in all US states and 100+ countries, but does not remit it."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ee0e8cda",
+    "status": "verified",
+    "reasons": [
+      "The excerpt notes extra-cost Stripe Radar, seller responsibility for tax remittance, and costs beyond the advertised transaction fee."
+    ],
+    "corroborating_source_ids": [
+      "S-1d54bb1a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5c306094",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address chargeback liability in a hybrid or PSP model."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b33e874d",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The learning-curve statement is present, but the surrounding context does not establish that this reviewer reported it on September 12."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-ab3ffc7f",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The fee statement matches, but the surrounding context dates that reviewer’s comment September 7, not September 12."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-dd1b29c6",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts support usage-based, tiered, and flat-fee pricing, but do not establish per-user pricing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-23010879",
+    "status": "verified",
+    "reasons": [
+      "Sources state Billing is priced at 0.7% of billing volume; one says payment fees are charged separately."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d7aaccf3",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt describes native metering through Billing Meters, rather than limited real-time usage tracking."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-0162650f"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e9ed212b",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state Stripe acquired Metronome in January 2026 for approximately $1 billion or completed the acquisition January 14."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896",
+      "S-94921a6d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ac73f315",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts mention credits and credit balances but do not establish prepaid drawdown, minimum commitments, or postpaid overages."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-55390cbe",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts say Revenue Recognition is separately priced, but do not specify an approximately $25 monthly starting price."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ef18492a",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states the free tier is up to $250K cumulative billing and Performance starts at $599/month."
+    ],
+    "corroborating_source_ids": [
+      "S-f4742dbf"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-19bb2c15",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not verify Zuora’s estimated annual cost, custom contracts, or lack of public pricing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b0bac133",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss usage metering but do not say usage is aggregated and invoiced at period end."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-345b6e9d",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address whether Stripe charges customers immediately when meter events are reported."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ba250097",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address synchronous acceptance confirmation for individual Stripe meter events."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4e2d45ee",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt describes hosted self-service for payment details, invoices, billing history, and subscription management."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e3166805",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe hosted self-service features and usage-billing limitations, but not the specified portal usage displays."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-65378790",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says Stripe Price objects are immutable and rate changes require creating a new Price and migrating subscriptions."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1cfc3497",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address enforcing a customer balance before usage or the need to build that logic."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c7b8163c",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention Metronome and usage capabilities, but not the claimed Sessions announcement or its specific integrations."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0755ac79",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says Stripe Billing billing credits were documented as public preview."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f693aaba",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state that the Meter Usage Analytics API was documented as public preview."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fb15f468",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not mention sandbox simulations or test clocks."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-62b952e9",
+    "status": "single_source",
+    "reasons": [
+      "Sources state a 0.7% rate, but do not establish that one-off invoices are excluded."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9888b45b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address usage repricing lookbacks, subscription backdating, or credit notes."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3fe635cc",
+    "status": "verified",
+    "reasons": [
+      "The excerpt confirms recognized and deferred reporting, period controls, and audit transparency for Revenue Recognition."
+    ],
+    "corroborating_source_ids": [
+      "S-40235cce"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-58a87809",
+    "status": "single_source",
+    "reasons": [
+      "Sources place the acquisition in January 2026 but do not specify January 14."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-119891df",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not mention the cited Capterra review or its reported limitations."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1369b706",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not mention a Capterra review, the stated date, or recurring invoices simplifying billing."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f3af9ece",
+    "status": "verified",
+    "reasons": [
+      "The excerpt gives Stripe Billing tiers of 0.5% and 0.8%; it does not address whether there is a platform fee."
+    ],
+    "corroborating_source_ids": [
+      "S-9bdb10a9"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5ac60979",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe Stripe usage-based billing and its metering APIs."
+    ],
+    "corroborating_source_ids": [
+      "S-8a2f67ee",
+      "S-c667e9a3"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6903839c",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes ramped pricing not modeled natively and hybrid plans combining base fees, usage, seats, and credits."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1f45016f",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe Revenue Recognition as a separate product with additional pricing."
+    ],
+    "corroborating_source_ids": [
+      "S-f4742dbf",
+      "S-0162650f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-eea558e8",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not estimate a one-to-two-week timeline for a simple metered Stripe Billing setup."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0d608d28",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state the 0.7% Billing fee and that it is charged in addition to payment processing fees."
+    ],
+    "corroborating_source_ids": [
+      "S-9bdb10a9",
+      "S-94921a6d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fc4cbf4a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention some included features, but do not establish the event limit or the full claimed feature bundle."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1c68b648",
+    "status": "verified",
+    "reasons": [
+      "The excerpt gives the custom portal domain price as $10/month; it does not address credit-grant pricing."
+    ],
+    "corroborating_source_ids": [
+      "S-9bdb10a9"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6c62d588",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe Metronome separately and announce integrations in April 2026, rather than general availability as a Billing offering."
+    ],
+    "corroborating_source_ids": [
+      "S-94921a6d",
+      "S-bcfd87fa"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2621d885",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss usage capacity generally but do not confirm or contradict these specific Stripe Billing limits."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-40cc13e5",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly describes Stripe's LLM token-billing launch in March 2026."
+    ],
+    "corroborating_source_ids": [
+      "S-9bdb10a9"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b2cdb5b5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address ramped contracts or whether Stripe requires manual tracking or multiple plans."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6086c2a6",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention multi-entity setup, usage metering, and credits, but not pooled team usage or parent-child billing with shared credits."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-19e2ca98",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state Stripe Billing charges 0.7% of billing volume."
+    ],
+    "corroborating_source_ids": [
+      "S-9bdb10a9",
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b28c79cc",
+    "status": "verified",
+    "reasons": [
+      "The excerpts say Starter and Scale were replaced by one 0.7% plan."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896",
+      "S-9bdb10a9"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-baeac377",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes usage-based models across Billing and Metronome and identifies Metronome as a separate product."
+    ],
+    "corroborating_source_ids": [
+      "S-94921a6d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-805d168a",
+    "status": "verified",
+    "reasons": [
+      "The excerpts support flat-fee, tiered, and usage-based pricing; one also gives a per-unit subscription example."
+    ],
+    "corroborating_source_ids": [
+      "S-69f749cb",
+      "S-c667e9a3"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1cd746c7",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts discuss subscriptions and custom billing, but do not state support for discounts, free trials, billing frequencies, or scheduled changes."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c3406d5b",
+    "status": "verified",
+    "reasons": [
+      "Excerpts describe Metronome integrations for usage-based billing and Stripe Billing’s usage-based billing support."
+    ],
+    "corroborating_source_ids": [
+      "S-94921a6d",
+      "S-c667e9a3"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ea96de9f",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts mention a 0.7% Billing rate but do not establish a UK plan or that it applies to recurring volume."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3b0f1b38",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts mention generic volume-tiered subscription plans, not the claimed UK price, volume allowance, or excess-volume rate."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-635bf94d",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts do not address SEPA Direct Debit or iDEAL fees or a June 1, 2024 start date."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-545df833",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts list differing US Instant Payout rates, but do not state the claimed 1% rate or £1 minimum."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3398a3b3",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpts specify a 1% currency-conversion fee, not 2%; international cards may also incur a separate 1.5% surcharge."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-38e7c505"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5aa9e0cb",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt lists a $15 dispute-received fee and says the separate countered fee is refunded if won; it does not support a £15 received fee being reimbursed."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-999b4e15"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-542d8b89",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes recurring, usage-based, and tiered billing, plus custom integrations and sales-negotiated contracts."
+    ],
+    "corroborating_source_ids": [
+      "S-69f749cb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ec778218",
+    "status": "verified",
+    "reasons": [
+      "The excerpts explicitly describe subscriptions or recurring billing and usage-based billing."
+    ],
+    "corroborating_source_ids": [
+      "S-c667e9a3",
+      "S-69f749cb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c6bdc905",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says there is no public minimum and pegs a useful Custom-plan threshold around $80,000 monthly, not over $100,000."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ebab07ee",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state the standard online card rate is 2.9% plus $0.30 per transaction."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9c087827",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states ACH Direct Debit costs 0.8% capped at $5."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9f409729",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Stripe keeps the original 30-cent fixed fee when a payment is refunded."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fbc3d4c6",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says disputes cost $15 and Stripe refunds the fee if the merchant wins."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4fd06b9b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention 0.7% of billing volume but do not confirm inclusion of off-Stripe revenue."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ba4f59a3",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not establish volume-tiered annual subscription plans or a 2026 pricing-area update."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-05669ce4",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not confirm that the pay-as-you-go offering includes the listed features."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3226b11e",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says Stripe shipped LLM token billing inside Billing in March 2026; it does not mention the email invitation."
+    ],
+    "corroborating_source_ids": [
+      "S-5b960896"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-997631e1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts give other Stripe prices but do not address whether token billing has a stated price."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-069dc6e5",
+    "status": "contradicted",
+    "reasons": [
+      "Both excerpts date the acquisition to January 2026, not December; they support the approximate $1 billion price and usage-capability gap."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-bcfd87fa",
+      "S-5b960896"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0093062e",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state Metronome integration pricing as contact-sales."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-50983066",
+    "status": "verified",
+    "reasons": [
+      "The excerpt gives Paddle’s all-in rate as 5% plus 50 cents and says it handles global tax compliance."
+    ],
+    "corroborating_source_ids": [
+      "S-1d54bb1a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  }
+]

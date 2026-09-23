@@ -1,0 +1,3236 @@
+[
+  {
+    "finding_id": "F-71a56a67",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote limits this to the most advanced or impactful systemic-risk models; the claim generalizes to all such providers."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-c8c57ebb",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote specifies the most advanced or impactful systemic-risk models; the claim omits that scope qualifier."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-3c5113d8",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote says it is not an official position and is without prejudice, but does not explicitly say it does not bind the Commission."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-ca7bf5bb",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly says the obligations enter into application on 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-e8727572"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-63d337b1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss the guidelines’ purpose and scope, but not whether they are binding or guide enforcement."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-98f08811",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not mention the EU SEND platform or document submission through it."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ba236c7b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention a template’s publication but do not establish that it was published on 24 July 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c72684cd",
+    "status": "verified",
+    "reasons": [
+      "The excerpts say providers must publicly share a training-content summary and that the template supports that Article 53 obligation."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25",
+      "S-e99375c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cf73258d",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe a generally comprehensive summary, including main data collections and a narrative explanation of other sources."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-e99375c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d7e9ff0f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states GPAI provider obligations enter into application on 2 August 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-376a674f",
+    "status": "verified",
+    "reasons": [
+      "The excerpts say the training-data summary and template facilitate legitimate-interest parties, including copyright holders, exercising rights under Union law."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-26e01179",
+    "status": "verified",
+    "reasons": [
+      "The recital says providers must make a sufficiently detailed training-content summary public; excerpted Article 53(1)(d) context is consistent."
+    ],
+    "corroborating_source_ids": [
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-836cf8f9",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly says GPAI model provider obligations apply from 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-e8727572"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-02caf029",
+    "status": "verified",
+    "reasons": [
+      "The excerpts address transparency requirements and copyright obligations for GPAI models."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dfd16f1e",
+    "status": "verified",
+    "reasons": [
+      "The excerpt gives the downstream-provider definition, including integrated models supplied internally or by another entity under contract."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-528afc1a",
+    "status": "verified",
+    "reasons": [
+      "This excerpt says providers with systemic-risk models must continuously assess and mitigate systemic risks."
+    ],
+    "corroborating_source_ids": [
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9e0cd278",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts mention safety and loss-of-control risks, but do not establish the full claim including fundamental rights."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7f2b8c1f",
+    "status": "verified",
+    "reasons": [
+      "This excerpt states providers must supply integration information and establish a Union copyright-compliance policy."
+    ],
+    "corroborating_source_ids": [
+      "S-7f856772"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dbe5df7d",
+    "status": "contradicted",
+    "reasons": [
+      "These excerpts say the relevant application or enforcement date is 2 August 2026, conflicting with 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-9b1da45a",
+      "S-2acc097b"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3338bf19",
+    "status": "verified",
+    "reasons": [
+      "This excerpt states GPAI-provider obligations apply from 2 August 2025, with special rules for earlier models."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-723e31f8",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt specifies notification no later than two weeks after requirements are met, not without delay."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-9b1da45a"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3c52d9f1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts state the Regulation’s general application date, but do not specify when the Commission’s enforcement powers apply."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ab62d7c8",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention special rules for pre-deadline models but do not state the 2 August 2027 compliance deadline."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d7af569d",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts describe GPAI models using the 10^23 FLOP threshold and language-generation capability."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a43c96d0",
+    "status": "verified",
+    "reasons": [
+      "One excerpt gives the 2 August 2025 application date; another identifies copyright and training-summary obligations."
+    ],
+    "corroborating_source_ids": [
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f1ca9483",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts refer to special rules for earlier models but do not give their compliance deadline."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7287e807",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says the Code was assessed as adequate and adherence can demonstrate compliance; it attributes assessment to the Commission and AI Board."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-784b515b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe adherence as a compliance route and alternatives, but do not state reduced burden or increased legal certainty."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b573d60b",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe the Code as detailing how GPAI providers may comply with AI Act obligations."
+    ],
+    "corroborating_source_ids": [
+      "S-e99375c8",
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-286ac4c7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss obligations and the Code’s subject matter, but do not confirm its three chapters or their provider scope."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-42dfdd82",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state providers can rely on codes to demonstrate compliance and that this Code details compliance with Articles 53 and 55."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-879fccd1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss demonstrating compliance through the Code or alternatives, but do not compare administrative burden or legal certainty."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c04f4378",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts confirm enforcement powers apply from 2 August 2026, but do not establish the claimed application date or new-versus-existing-model timelines."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6b479c9e",
+    "status": "verified",
+    "reasons": [
+      "Article 53 excerpts specify technical documentation, downstream information, a copyright policy, and a training-content summary."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d",
+      "S-7f856772"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f7a78278",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts address what codes should cover and the training summary, but do not mention the Code of Practice’s specific guidance or the Commission template."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4dbc1116",
+    "status": "verified",
+    "reasons": [
+      "Article 56 says codes should cover Article 55 obligations, including systemic-risk assessment and mitigation."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-7f856772"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-852eb458",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe a required adequacy assessment but do not report an assessment of the Code published on 10 July 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-00caaa81",
+    "status": "verified",
+    "reasons": [
+      "Recital 117 says providers may rely on codes to demonstrate compliance, while presumption of conformity is tied to harmonised standards."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f540b9e2",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts allow reliance on codes to demonstrate compliance but do not require justification or a gap analysis for alternative measures."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d2a57b8e",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts address binding commitments and enforcement, but not Code adherence as a monitoring consideration or fine mitigation."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a05e2820",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state when the AI Act entered into force."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6d7af9d3",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says the prohibitions and general provisions should apply from 2 February 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-47b23fec",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not identify a further phase of partial application beginning 2 August 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3bb40e5b",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states the Regulation should apply from 2 August 2026."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c37b9229",
+    "status": "single_source",
+    "reasons": [
+      "The Article 111 excerpts are truncated and do not establish a deadline under paragraph 3."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9f4dc7a5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts cite the Act’s publication date but do not state when it entered into force."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-20907e3a",
+    "status": "single_source",
+    "reasons": [
+      "An excerpt says GPAI obligations entered into application but does not specify August 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5b54e366",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe GPAI transparency obligations and copyright-related requirements for providers."
+    ],
+    "corroborating_source_ids": [
+      "S-83a91482",
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-64f858c6",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state that providers of GPAI models with systemic risks should assess and mitigate those risks."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-124a5fa3",
+    "status": "verified",
+    "reasons": [
+      "The excerpt gives the 2 August 2026 start for enforcement powers and identifies the authorities responsible for enforcement."
+    ],
+    "corroborating_source_ids": [
+      "S-2acc097b"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5c542828",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes model evaluations, requests for information and measures, and fines for specified non-compliance."
+    ],
+    "corroborating_source_ids": [
+      "S-2acc097b"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0c1923d0",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt says the Commission’s EU AI-model evaluation capacity is expected to be operational by 2027."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-253772b5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt gives 2 August 2025, not 2 August 2026, as the entry into application for GPAI provider rules."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cd7ec4e0",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt dates GPAI provider rules to 2 August 2025, not 2 August 2026; another excerpt mentions training-data transparency and copyright."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-e8727572"
+    ],
+    "grounding_score": 99.40119760479041,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3e0ff5fd",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss systemic-risk GPAI safety generally, but do not establish these rules apply from 2 August 2026."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.6923076923077,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bd325294",
+    "status": "verified",
+    "reasons": [
+      "The excerpts say the Code details how GPAI providers may comply with AI Act obligations."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25",
+      "S-e99375c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-414c2b82",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state a maximum fine of 3% of worldwide annual turnover or €15 million, whichever is higher."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d",
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.7878787878788,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-070ecb9e",
+    "status": "verified",
+    "reasons": [
+      "Excerpts describe AI Office monitoring and compliance cooperation, alongside obligations for GPAI providers with systemic risks."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e65d6d4c",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts support evaluations and access requests, but do not address asking providers to restrict public availability."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.68051118210862,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-541bf72f",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote confirms four simultaneous conditions, but does not state their specific content; the context only begins listing them."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-f0992573",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: Both systemic-risk tests are stated, but the quoted compute threshold is 1025, not 10^25."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-704b5b01",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The definition says putting an AI system, not a GPAI model, into service; the claim broadens that scope."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-2b6c69bc",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote supports the monetisation clause, but does not establish that systemic-risk GPAI models lack the exemptions."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-f131bd62",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote establishes universal baseline obligations, but does not enumerate the four duties claimed."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-cc1c2427",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote limits application to GPAI models made available in the EU; the claim omits that scope qualifier."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-d3aab2b7",
+    "status": "rejected",
+    "reasons": [
+      "overstates its quote: The quote concerns providers who cannot demonstrate Code compliance, not necessarily providers who do not follow the Code."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": "entailment"
+  },
+  {
+    "finding_id": "F-cbabc2d3",
+    "status": "verified",
+    "reasons": [
+      "The excerpts say the open-source exception removes technical-documentation and downstream-information duties, while copyright and training-summary duties remain."
+    ],
+    "corroborating_source_ids": [
+      "S-84fb2381",
+      "S-8278b35c",
+      "S-00fc25be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6b8d135f",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state the open-source exemption switches off, or systemic-risk obligations still apply, for systemic-risk GPAI models."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-227d3943",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention adversarial testing and added systemic-risk duties, but do not establish all four listed requirements."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-166d9975",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts address the systemic-risk limit on the open-source exception, but do not mention authorised representatives."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-97e1c09a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe the GPAI provider exemption but do not address downstream providers’ Articles 9–15 obligations."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1223d856",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe the four baseline Article 53 provider duties, including documentation, downstream information, copyright policy, and training-data summary."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-00fc25be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2696c4fc",
+    "status": "verified",
+    "reasons": [
+      "These excerpts state that the exemption covers technical and downstream-provider duties, while copyright and training-summary duties remain."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5cdad3c1",
+    "status": "verified",
+    "reasons": [
+      "The excerpts require a qualifying free-and-open-source licence and public weights, architecture, and usage information."
+    ],
+    "corroborating_source_ids": [
+      "S-f6d783a8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-68126b22",
+    "status": "verified",
+    "reasons": [
+      "The excerpts say the open-source exemption ends for systemic-risk models, including those classified under Article 51."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1ad40328",
+    "status": "verified",
+    "reasons": [
+      "These excerpts list evaluation, risk assessment and mitigation, incident monitoring or reporting, and cybersecurity duties."
+    ],
+    "corroborating_source_ids": [
+      "S-dab73555"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-aa5056f2",
+    "status": "verified",
+    "reasons": [
+      "The excerpts specify licence permissions and public availability of weights, architecture, and usage information."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-56c8664e",
+    "status": "verified",
+    "reasons": [
+      "These excerpts identify technical documentation and downstream-integration information as the two exempt duties."
+    ],
+    "corroborating_source_ids": [
+      "S-84fb2381",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-24c923fd",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says open-source GPAI models remain subject to all systemic-risk obligations."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0242eede",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address whether providers may restrict usage through intellectual-property rights or charge for use."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-480aea32",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address safety-oriented license terms or risk-based restrictions on model use."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d9cc11e0",
+    "status": "single_source",
+    "reasons": [
+      "One excerpt addresses prohibited systems, but the excerpts do not establish the claimed high-risk and interaction/content exceptions."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0dcafaf1",
+    "status": "verified",
+    "reasons": [
+      "One excerpt gives the statutory definition; another describes the research, development, or prototyping exception before market placement."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-96bf1363",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state that the GPAI provider regime, including Articles 53 and 55 obligations, applies from 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-a8a2a225"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1c80927e",
+    "status": "verified",
+    "reasons": [
+      "These excerpts describe model documentation, downstream-provider information, copyright compliance, and a published training-data summary."
+    ],
+    "corroborating_source_ids": [
+      "S-00fc25be",
+      "S-640b9e47"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0e7d1371",
+    "status": "verified",
+    "reasons": [
+      "They confirm the open-source exemption from the first two duties and identify the four baseline obligations."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-66a8ef83",
+    "status": "verified",
+    "reasons": [
+      "They describe systemic-risk evaluations and confirm the systemic-risk tier adds obligations to baseline duties."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-33fbc9eb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b4239d16",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe free access, use, modification, and redistribution, including permitted attribution and comparable terms."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ffd3646c",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states that GPAI provider obligations apply from 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3bad11d0",
+    "status": "single_source",
+    "reasons": [
+      "The definition is supported, but the excerpts do not address the claimed research, development, or prototyping exclusion."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-aa0ef777",
+    "status": "verified",
+    "reasons": [
+      "Article 53(1)(a) requires providers to keep technical documentation current, including training and testing processes and evaluation results."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d9a27b97",
+    "status": "verified",
+    "reasons": [
+      "Article 53(1)(b) requires documentation for integrating AI-system providers to explain model capabilities and limitations and support compliance."
+    ],
+    "corroborating_source_ids": [
+      "S-7f856772"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a90f3168",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states providers must establish a copyright-compliance policy, including identifying and respecting Article 4(3) reservations."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ae7e019c",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe a publicly available training-content summary and an AI Office template for preparing it."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d",
+      "S-fea607ca"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-49661a56",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Article 53(2)'s exemption for qualifying open-source models from both specified duties."
+    ],
+    "corroborating_source_ids": [
+      "S-84fb2381"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a43d194e",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state the open-source transparency exception does not cover models presenting systemic risk."
+    ],
+    "corroborating_source_ids": [
+      "S-8278b35c",
+      "S-9b1da45a",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bfb0fa53",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that providers must maintain Annex XI technical documentation and provide it to authorities upon request."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-125727ae",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe Annex XII downstream information and documentation, including information on model capabilities and limitations."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2ae204b8",
+    "status": "verified",
+    "reasons": [
+      "The excerpts confirm a copyright-compliance policy and honoring Article 4(3) opt-outs."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da",
+      "S-03d835c8",
+      "S-a8a2a225"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-987073be",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that providers must publish a sufficiently detailed training-content summary using the AI Office template."
+    ],
+    "corroborating_source_ids": [
+      "S-3f06d4c4",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-da83eadd",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states Article 53 baseline obligations apply from 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2d789746",
+    "status": "verified",
+    "reasons": [
+      "The excerpts confirm the open-source exemption covers documentation duties, but not copyright policy or training-data summary duties."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f",
+      "S-52e3d3da",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-265c5abc",
+    "status": "verified",
+    "reasons": [
+      "Sources state systemic-risk models retain systemic obligations and are not exempt from the relevant documentation duties."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d56b73ee",
+    "status": "verified",
+    "reasons": [
+      "Sources describe Article 55 evaluations, risk assessment and mitigation, incident reporting, and cybersecurity duties."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-03d835c8",
+      "S-33fbc9eb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b7613f17",
+    "status": "verified",
+    "reasons": [
+      "The source says providers must maintain technical documentation covering training, testing, and evaluation results."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9139b23e",
+    "status": "verified",
+    "reasons": [
+      "Sources describe downstream information duties and documentation of model interaction and integration requirements."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-640b9e47"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-632a654f",
+    "status": "verified",
+    "reasons": [
+      "Sources describe the copyright policy obligation and respecting Article 4(3) rights reservations."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-a8a2a225"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ec63d565",
+    "status": "single_source",
+    "reasons": [
+      "A sufficiently detailed training-content summary is supported, but the excerpts do not identify the template as an AI Office template."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-10a09eb1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts address Article 53 obligations but not their application across the model lifecycle."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-709b0439",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt confirms August 2025 and August 2026 dates, but does not establish the claimed August 2027 deadline."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-55191dbf",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states providers must identify and comply with rights reservations under Article 4(3) of the DSM Directive."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e1090f3e",
+    "status": "verified",
+    "reasons": [
+      "The excerpt requires a sufficiently detailed public training-content summary according to the AI Office template."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.35205183585313,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ae7bb13f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss pre-training and training content but not post-training coverage or operational inputs such as RAG."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c5d87bd5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt requires a public summary but does not address publication timing, distribution channels, or update requirements."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8052d758",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe the training-data summary generally but do not state the template’s provider, model, and data fields or data-processing section."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.21773142112124,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1b9d8fa7",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention copyright obligations but do not identify these measures as contents of the template’s relevant-data-processing section."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.6742671009772,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bf8e0957",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state this specific fine, threshold, or start date for penalties related to the template."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-257f7b9f",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says these obligations became applicable on 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-00fc25be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-800f7140",
+    "status": "verified",
+    "reasons": [
+      "The excerpts support documentation of model description, training and testing, evaluation, data sources, methods, and computational resources."
+    ],
+    "corroborating_source_ids": [
+      "S-640b9e47"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-784533e1",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says downstream-provider documentation must enable understanding of model capabilities and limitations."
+    ],
+    "corroborating_source_ids": [
+      "S-00fc25be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-179bf557",
+    "status": "verified",
+    "reasons": [
+      "Excerpts state providers must implement a copyright-compliance policy and respect Article 4(3) rights reservations; the opt-outs are described explicitly."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-659bbd73",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states providers must publicly make a sufficiently detailed training-content summary available using the AI Office template."
+    ],
+    "corroborating_source_ids": [
+      "S-3f06d4c4"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b7147578",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts give August 2, 2025 as the effective date and August 2, 2027 for models already on the market."
+    ],
+    "corroborating_source_ids": [
+      "S-3f06d4c4",
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b9defd87",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts confirm the fine ceiling but do not establish the AI Office has exclusive supervisory and enforcement competence."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d33cbf4a",
+    "status": "verified",
+    "reasons": [
+      "Excerpts describe Article 55 systemic-risk duties as additional to Article 53 baseline obligations."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-33fbc9eb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-211e4aa3",
+    "status": "verified",
+    "reasons": [
+      "Excerpts specify Annex XI documentation includes the model description, tasks, architecture, and parameter count."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d",
+      "S-17cb33be",
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-003a0e28",
+    "status": "verified",
+    "reasons": [
+      "The excerpt lists integration means, design and training choices, data provenance and processing, and bias-detection methods."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-59f73a6b",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly lists computational resources, training time, and known or estimated energy consumption."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1ddfe111",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss technical documentation and downstream obligations but do not directly state that providers must share this information."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-54b32523",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt lists the information described, but does not establish that it is specified in Annex XII."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c3d63329",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe a copyright-compliance policy and respecting rights reservations; one also specifies state-of-the-art technologies."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d",
+      "S-17cb33be",
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-21289b5e",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe a public training-content summary and state that the AI Office provides a template."
+    ],
+    "corroborating_source_ids": [
+      "S-a8a2a225",
+      "S-799d8b0d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a6237ad1",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts address corrective actions, authorities, and confidentiality, but not a general duty to provide information."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-63e37e54",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state that GPAI models trained above 10^25 FLOPs are presumed to present systemic risk."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-7741a882"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-3126e51f",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe high-impact capabilities and Commission designation based on additional or capability-and-reach criteria."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-e605da5e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-af3b02d4",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention voluntary notification to the AI Office, not a mandatory notification duty for systemic-risk providers."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d3dafc5d",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts require model evaluation and adversarial testing, but do not state that evaluations must be independent."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f97a142b",
+    "status": "verified",
+    "reasons": [
+      "The excerpts expressly require providers to assess and mitigate possible systemic risks."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-df0c8c92",
+    "status": "verified",
+    "reasons": [
+      "Sources require providers to track, document, and report serious incidents without undue delay."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9d6fd60f",
+    "status": "verified",
+    "reasons": [
+      "Sources expressly require adequate cybersecurity protection for systemic-risk GPAI models and infrastructure."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b1529794",
+    "status": "verified",
+    "reasons": [
+      "Source states Article 55 applies above the 10^25 FLOP threshold or when designated systemic-risk."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2ce9aa25",
+    "status": "verified",
+    "reasons": [
+      "Sources require state-of-the-art standardized evaluation protocols and documented adversarial testing."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f",
+      "S-e605da5e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-98c9fde9",
+    "status": "verified",
+    "reasons": [
+      "Sources confirm systemic-risk assessment and mitigation, including sources; the value-chain detail is not expressly stated."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-45a93941",
+    "status": "verified",
+    "reasons": [
+      "Sources require tracking, documenting, and reporting serious incidents and corrective measures without undue delay."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-19144dae",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that providers must ensure adequate cybersecurity protection for the model and its physical infrastructure."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-c4cc2d8b",
+    "status": "verified",
+    "reasons": [
+      "They support relying on codes of practice and presumption of conformity once a suitable harmonised standard is published."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-55cc2244",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says non-signatories may use alternative adequate measures and must justify their adequacy."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-32fc3805",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes Article 53 baseline obligations and additional Article 55 obligations for systemic-risk providers."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-37bc0796",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts identify exceeding 10^25 FLOPs as the quantitative presumption for systemic risk."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-50287a94",
+    "status": "verified",
+    "reasons": [
+      "The excerpts support Commission designation using additional criteria, including user numbers, capabilities, modalities, and market impact."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-33fbc9eb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0d69eb2e",
+    "status": "verified",
+    "reasons": [
+      "The excerpt requires state-of-the-art evaluations and conducting and documenting adversarial testing."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9c2292f3",
+    "status": "verified",
+    "reasons": [
+      "The excerpt requires assessing and mitigating systemic risks from development, market placement, or use."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-22629350",
+    "status": "verified",
+    "reasons": [
+      "The excerpt specifies tracking, documenting, and reporting serious incidents and corrective measures without undue delay."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-157995d6",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that providers should ensure cybersecurity for the model and its physical infrastructure."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-37968167",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention securing model weights and access controls, but not encryption, compute-provider supply-chain security, or vulnerability disclosure programmes."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7be61874",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts support the obligations and date, but do not establish that Article 53 baseline obligations apply to every GPAI provider."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-536b28ab",
+    "status": "verified",
+    "reasons": [
+      "Sources state that models exceeding 10^25 FLOPs are presumptively classified as systemic-risk GPAI models."
+    ],
+    "corroborating_source_ids": [
+      "S-7741a882",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-70150e94",
+    "status": "verified",
+    "reasons": [
+      "Sources support additional Commission designation based on reach, capabilities, autonomy, market impact, and related criteria."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-7741a882"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-acdc13bb",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts require model evaluations, adversarial testing, and systemic-risk mitigation."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-95d7eb45",
+    "status": "single_source",
+    "reasons": [
+      "Sources require tracking, documenting, and reporting serious incidents to the AI Office without undue delay."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-85ec51f8",
+    "status": "verified",
+    "reasons": [
+      "The excerpt requires cybersecurity protection and identifies model leakage, unauthorized releases, and circumvention of safeguards."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-db153fa5",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not specify ongoing assessments covering the listed misuse, capability changes, threat vectors, and downstream interactions."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0465d32a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention risk assessment and technical documentation, but not maintaining systemic-risk assessment documentation or providing it to the AI Office on request."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8b1ae0f4",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt says the GPAI provider regime under Articles 51–56 became enforceable in August 2025, not Articles 50–55."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-e605da5e"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6d12c8c3",
+    "status": "verified",
+    "reasons": [
+      "The excerpts identify high-impact capabilities and Commission designation as bases for systemic-risk classification."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-e605da5e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ef087f77",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt says compute above 10^25 FLOPs presumptively indicates systemic risk, not that the model has high-impact capabilities."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-7741a882"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-71316ef5",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state that Article 55 requires model evaluations and documented adversarial testing."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-640364fa",
+    "status": "verified",
+    "reasons": [
+      "The excerpts state that Article 55 requires providers to assess systemic risks and take mitigation measures."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ef0c5ee1",
+    "status": "verified",
+    "reasons": [
+      "Sources state systemic-risk GPAI providers must report serious incidents to the AI Office."
+    ],
+    "corroborating_source_ids": [
+      "S-33fbc9eb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-b32194aa",
+    "status": "verified",
+    "reasons": [
+      "Sources identify cybersecurity protection as an Article 55 obligation for systemic-risk GPAI models."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ca0bb275",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt specifies corrective measures and cybersecurity protection for the model and its physical infrastructure."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6478c27c",
+    "status": "verified",
+    "reasons": [
+      "Both sources say GPAI obligations apply from August 2, 2025; one notes a transition for earlier models."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-32b7a6c9",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss GPAI compliance topics but do not establish that Praxikon offers this guide."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-478fa26e",
+    "status": "verified",
+    "reasons": [
+      "The source describes codes as optional, providing a presumption of conformity and an interim path until harmonised standards."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.48979591836735,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-4d9eeb1d",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says the Commission and AI Board assessed the Code as adequate and that adherence can demonstrate compliance."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-77c78159",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not address enforcement focus or whether Code commitments may mitigate fines."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-75cc7352",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe transparency and copyright measures for GPAI providers and limit safety and security to systemic-risk models."
+    ],
+    "corroborating_source_ids": [
+      "S-7741a882",
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d4f23b7a",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt supports the 2026 enforcement and 2027 compliance dates, but does not establish that GPAI rules took effect on August 2, 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7f43e6e7",
+    "status": "verified",
+    "reasons": [
+      "The excerpts list systemic-risk duties including evaluations, risk mitigation, incident monitoring or reporting, and cybersecurity."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-33fbc9eb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 99.66996699669967,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8ececd98",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention a documentation form and technical information, but do not establish the full list of fields claimed."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0d323701",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says providers declining the Code must demonstrate compliance to the AI Office by other means."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d695bc41",
+    "status": "single_source",
+    "reasons": [
+      "Other excerpts describe the Code’s measures but do not independently state that adherence creates a presumption of conformity."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-58da69c6",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes the Code as bridging the period before harmonised GPAI standards are adopted."
+    ],
+    "corroborating_source_ids": [
+      "S-4bcf2403"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-57920f49",
+    "status": "verified",
+    "reasons": [
+      "Article 56 says the AI Office shall encourage and facilitate drawing up codes of practice."
+    ],
+    "corroborating_source_ids": [
+      "S-799d8b0d",
+      "S-17cb33be"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e1493a6a",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says the AI Office developed a template for the publicly available training-data summary."
+    ],
+    "corroborating_source_ids": [
+      "S-e99375c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6b3ec1a6",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe Annex XI documentation and templates, but do not say providers should use AI Office templates to prepare it."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-aaa3a9e3",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state the August 2, 2025 start date and the August 2, 2027 deadline for models already on the market."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da",
+      "S-3f06d4c4"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e3624c49",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly describes the Code as a voluntary tool."
+    ],
+    "corroborating_source_ids": [
+      "S-9016acd6"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0752c83d",
+    "status": "verified",
+    "reasons": [
+      "The excerpts describe commitments on transparency, copyright, and systemic-risk safety and security to support AI Act compliance."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da",
+      "S-4bcf2403",
+      "S-7741a882"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-890e3294",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says adherents may face fewer information requests; it does not address model evaluations."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cd25709f",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states approved-code commitments may be considered mitigating factors when fixing fines."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1d93aa10",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss compliance benefits and alternatives but do not attribute an “only safe harbour” characterization to Paul, Weiss."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 98.86363636363636,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fe7aa3d8",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt confirms the guidelines were issued but does not give a publication date."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-fceb82be",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says the Commission published the training-content summary template on 24 July 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-fea607ca"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-431ad525",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts support the August 2025 and August 2027 deadlines, but do not establish a requirement to publish a completed Template."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a6a52f7c",
+    "status": "verified",
+    "reasons": [
+      "The excerpt describes the Code as non-binding and says providers can adhere to it to demonstrate compliance."
+    ],
+    "corroborating_source_ids": [
+      "S-4bcf2403"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-cf0f5995",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts discuss compliance benefits, but do not attribute reduced administrative burden and increased legal certainty to the Commission."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-95c35e32",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says adherence demonstrates compliance but does not provide a presumption of conformity."
+    ],
+    "corroborating_source_ids": [
+      "S-c9f34d25"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-89e35bf2",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts mention technical documentation and information for authorities and downstream providers, but not a Code transparency chapter or Model Documentation Form."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f414235f",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that the Safety and Security chapter applies only to providers of GPAI models with systemic risk."
+    ],
+    "corroborating_source_ids": [
+      "S-4bcf2403"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d1da990a",
+    "status": "contradicted",
+    "reasons": [
+      "The press release says the Commission published the template on 24 July 2025, rather than leaving it unfinished."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-fea607ca"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5021d916",
+    "status": "single_source",
+    "reasons": [
+      "Excerpts discuss the Code and its signature, but do not say member states and the Commission had to endorse it before providers could sign."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d778878d",
+    "status": "verified",
+    "reasons": [
+      "Excerpts give enforcement from 2 August 2026 and a 2 August 2027 compliance deadline for models already on the market."
+    ],
+    "corroborating_source_ids": [
+      "S-3f06d4c4",
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5dcee1e2",
+    "status": "verified",
+    "reasons": [
+      "Excerpts describe technical-documentation, public training-summary, and copyright-policy obligations taking effect under the GPAI rules."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-640b9e47"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f27acc29",
+    "status": "verified",
+    "reasons": [
+      "Sources support technical documentation, a public training-data summary, downstream-provider information, and a copyright policy; they do not call it a model card."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-1db1192f",
+      "S-640b9e47"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-494233c6",
+    "status": "verified",
+    "reasons": [
+      "Sources confirm the 2 August 2027 transition deadline for models already on the market before 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-3f06d4c4",
+      "S-03d835c8",
+      "S-52e3d3da"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1d910e65",
+    "status": "verified",
+    "reasons": [
+      "Sources support systemic-risk model evaluations and serious-incident duties, though these excerpts do not substantiate the energy-efficiency disclosure detail."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-016db22e",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states that AI Office and national-authority enforcement powers apply from 2 August 2026."
+    ],
+    "corroborating_source_ids": [
+      "S-2acc097b"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-806956ac",
+    "status": "verified",
+    "reasons": [
+      "Sources confirm GPAI fines up to €15 million or 3% and prohibited-practice fines up to €35 million or 7%; enforcement starts in 2026."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-799d8b0d",
+      "S-dab73555"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1675cbc2",
+    "status": "verified",
+    "reasons": [
+      "Article 101 sets GPAI fines, and the excerpt says Commission enforcement began on 2 August 2026."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-799d8b0d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2a8a3ee5",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that GPAI obligations or Chapter V began applying on 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-a8a2a225",
+      "S-dab73555"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a30448e7",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts identify 2 August 2026 as the start of AI Office and Member State enforcement powers."
+    ],
+    "corroborating_source_ids": [
+      "S-2acc097b",
+      "S-40bdc44a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-f4aa7598",
+    "status": "verified",
+    "reasons": [
+      "Excerpts list Article 53 documentation, downstream information, copyright policy, and training summary duties, with open-source exemptions for some duties."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-00fc25be",
+      "S-1db1192f"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0ed761bc",
+    "status": "verified",
+    "reasons": [
+      "Excerpts describe additional Article 55 duties for systemic-risk GPAI models."
+    ],
+    "corroborating_source_ids": [
+      "S-1db1192f",
+      "S-dab73555",
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a3a6597a",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly says the Code’s safety and security chapter concerns only providers of systemic-risk GPAI models."
+    ],
+    "corroborating_source_ids": [
+      "S-4bcf2403"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1ad4ebc6",
+    "status": "contradicted",
+    "reasons": [
+      "The excerpt says enforcement is shared with the EDPS and national competent authorities, not solely the AI Office."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [
+      "S-2acc097b"
+    ],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-1322e1e7",
+    "status": "verified",
+    "reasons": [
+      "It states Chapter V applies from August 2, 2025 to GPAI models made available in the EU."
+    ],
+    "corroborating_source_ids": [
+      "S-dab73555"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-17111bc9",
+    "status": "verified",
+    "reasons": [
+      "It says enforcement of non-compliance is possible starting August 2, 2026."
+    ],
+    "corroborating_source_ids": [
+      "S-3f06d4c4"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-8c2a1943",
+    "status": "verified",
+    "reasons": [
+      "It states pre-August 2, 2025 models need not comply until August 2, 2027."
+    ],
+    "corroborating_source_ids": [
+      "S-3f06d4c4",
+      "S-7741a882"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bda77d9e",
+    "status": "verified",
+    "reasons": [
+      "It states Chapter V applies to GPAI models made available in the EU from August 2, 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-dab73555"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-6d442763",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts give the August 2, 2027 compliance deadline for models on the market before August 2, 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-52e3d3da",
+      "S-3f06d4c4"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a1ecd8aa",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts do not state when newly placed GPAI models must begin complying."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-ccb62e86",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt explicitly says the AI Office has exclusive competence to supervise and enforce GPAI model obligations."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-0c34c7a3",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt confirms the ceiling is 3% of global annual turnover or EUR 15 million, whichever is higher."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-27caed2d",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts describe baseline GPAI obligations and additional obligations for systemic-risk models."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-adcaeb49",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt states that models trained above 10^25 FLOPs are presumed to present systemic risk."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-2290de09",
+    "status": "verified",
+    "reasons": [
+      "The excerpts confirm systemic-risk providers must conduct model evaluations, including adversarial testing."
+    ],
+    "corroborating_source_ids": [
+      "S-e605da5e",
+      "S-33fbc9eb"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-e5d10a17",
+    "status": "single_source",
+    "reasons": [
+      "No other excerpt states that these GPAI rules began applying on 2 August 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bcb18ac2",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that pre-2 August 2025 GPAI models have until 2 August 2027 to comply."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-3f06d4c4"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-92fe987f",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says GPAI obligations apply from 2 August 2025 and distinguishes models already on the market before that date."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-5a771481",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts state that provisions on the governance structure apply from 2 August 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a",
+      "S-799d8b0d"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-a8cec608",
+    "status": "single_source",
+    "reasons": [
+      "The excerpts mention penalty rules but do not establish that Member States had to put penalty systems in place by 2 August 2025."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-bf594643",
+    "status": "single_source",
+    "reasons": [
+      "The excerpt sets 2 August 2026 as the general application date and identifies Article 6(1) as applying from 2 August 2027."
+    ],
+    "corroborating_source_ids": [],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-d4c45010",
+    "status": "verified",
+    "reasons": [
+      "The excerpt explicitly states Article 6(1) applies from 2 August 2027."
+    ],
+    "corroborating_source_ids": [
+      "S-9b1da45a"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-7cced147",
+    "status": "verified",
+    "reasons": [
+      "The excerpt states that GPAI model rules took effect on August 2, 2025."
+    ],
+    "corroborating_source_ids": [
+      "S-cf616aed"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-9b516a1f",
+    "status": "verified",
+    "reasons": [
+      "Both excerpts give providers of pre-August 2, 2025 GPAI models until August 2, 2027 to comply."
+    ],
+    "corroborating_source_ids": [
+      "S-03d835c8",
+      "S-3f06d4c4"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  },
+  {
+    "finding_id": "F-dba2790a",
+    "status": "verified",
+    "reasons": [
+      "The excerpt says the Digital Omnibus has been in force since July 27, 2026, and sets later high-risk deadlines."
+    ],
+    "corroborating_source_ids": [
+      "S-cf616aed"
+    ],
+    "contradicting_source_ids": [],
+    "grounding_score": 100.0,
+    "first_party": false,
+    "caught_by": null
+  }
+]

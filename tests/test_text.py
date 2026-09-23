@@ -92,6 +92,15 @@ def test_small_extraction_drift_still_grounds() -> None:
     assert quote_grounding_score(drifted, PAGE) >= 90
 
 
+def test_truncated_link_does_not_swallow_following_text() -> None:
+    source = (
+        "See [our newsletter](https://www.linkedin.com/newsletters/the-monetization-\n\n"
+        "Chargebee Billing supports hybrid pricing models without code changes (really)."
+    )
+    quote = "Chargebee Billing supports hybrid pricing models without code changes"
+    assert quote_grounding_score(quote, source) == 100.0
+
+
 def test_empty_quote_is_ungrounded() -> None:
     assert quote_grounding_score("   ", PAGE) == 0.0
 

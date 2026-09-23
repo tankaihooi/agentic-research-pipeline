@@ -1,0 +1,446 @@
+{
+  "genuine_sample": [
+    "F-e4980c38",
+    "F-998e9287",
+    "F-91970656",
+    "F-62b952e9",
+    "F-dd4a43fa",
+    "F-8c8f60ef",
+    "F-140962a2",
+    "F-01b22631",
+    "F-a77fb8f4",
+    "F-d7aaccf3",
+    "F-7809a091",
+    "F-8d8d041e",
+    "F-3a0252c3",
+    "F-fb85686b",
+    "F-e1cf0206",
+    "F-9ed47d5f",
+    "F-18e733fa",
+    "F-83296f1b",
+    "F-17d117f5",
+    "F-73f80f31",
+    "F-38824460",
+    "F-3ab06ddb",
+    "F-e58e180c",
+    "F-048a6b2c",
+    "F-fe7ef8b4",
+    "F-bb26dadc",
+    "F-1cfc3497",
+    "F-65378790",
+    "F-9f409729",
+    "F-1cd746c7",
+    "F-dd1b29c6",
+    "F-b2cdb5b5",
+    "F-069dc6e5",
+    "F-3226b11e",
+    "F-4c39f1e8",
+    "F-5f9de190",
+    "F-71226404",
+    "F-9086f558",
+    "F-a958efb8",
+    "F-3398a3b3"
+  ],
+  "labels": {
+    "F-e4980c38": {
+      "finding_id": "F-e4980c38",
+      "label": "supported",
+      "rationale": "The Chargebee section says its self-serve customer portal has existed since around 2016."
+    },
+    "F-998e9287": {
+      "finding_id": "F-998e9287",
+      "label": "supported",
+      "rationale": "The Stripe Billing section lists those pricing models and says support for coupons, free trials, prorations, and add-ons is built in."
+    },
+    "F-91970656": {
+      "finding_id": "F-91970656",
+      "label": "supported",
+      "rationale": "The Stripe Billing analysis states this qualification for enterprise IoT contracts bundling hardware leases, multiyear subscriptions, and variable usage."
+    },
+    "F-62b952e9": {
+      "finding_id": "F-62b952e9",
+      "label": "supported",
+      "rationale": "The excerpt gives Stripe Billing’s published pay-as-you-go price as 0.7% of qualifying Billing volume processed on and off Stripe, excluding one-off invoices."
+    },
+    "F-dd4a43fa": {
+      "finding_id": "F-dd4a43fa",
+      "label": "supported",
+      "rationale": "The 2026-05-27.dahlia changelog lists this addition under Billing."
+    },
+    "F-8c8f60ef": {
+      "finding_id": "F-8c8f60ef",
+      "label": "supported",
+      "rationale": "The 2026-05-27.dahlia changelog lists the addition of discount and discounts properties to pending subscription updates under Billing."
+    },
+    "F-140962a2": {
+      "finding_id": "F-140962a2",
+      "label": "unsupported",
+      "rationale": "The excerpt describes these as common subscription pricing models, not as models Recurly supports."
+    },
+    "F-01b22631": {
+      "finding_id": "F-01b22631",
+      "label": "supported",
+      "rationale": "The May 2025 changelog says Billing can put different subscription frequencies, including annual and monthly fees, on a single invoice."
+    },
+    "F-a77fb8f4": {
+      "finding_id": "F-a77fb8f4",
+      "label": "supported",
+      "rationale": "The Zuora page says it uses actual customer usage with machine learning to forecast usage and detect anomalies."
+    },
+    "F-d7aaccf3": {
+      "finding_id": "F-d7aaccf3",
+      "label": "supported",
+      "rationale": "The article says real-time or highly customized usage tracking may require extra setup or coding and that companies with complex metering typically outgrow Stripe Billing."
+    },
+    "F-7809a091": {
+      "finding_id": "F-7809a091",
+      "label": "supported",
+      "rationale": "The 2026-03-25.dahlia changelog lists decimal quantity support for invoice items and invoice line items under Invoicing."
+    },
+    "F-8d8d041e": {
+      "finding_id": "F-8d8d041e",
+      "label": "supported",
+      "rationale": "Paddle says its unified platform covers payments, billing, tax, compliance, fraud, retention, and buyer support."
+    },
+    "F-3a0252c3": {
+      "finding_id": "F-3a0252c3",
+      "label": "unsupported",
+      "rationale": "The excerpt describes Chargebee Billing’s pricing models but does not establish whether the page publishes a price."
+    },
+    "F-fb85686b": {
+      "finding_id": "F-fb85686b",
+      "label": "supported",
+      "rationale": "Under the 2026-03-25.dahlia heading, the Stripe documentation lists decimal quantity support for invoice items and invoice line items as an Invoicing update."
+    },
+    "F-e1cf0206": {
+      "finding_id": "F-e1cf0206",
+      "label": "supported",
+      "rationale": "The September 2025 Billing entry says the usage analytics API provides real-time aggregated usage data down to the customer level."
+    },
+    "F-9ed47d5f": {
+      "finding_id": "F-9ed47d5f",
+      "label": "supported",
+      "rationale": "The comparison states that Stripe Billing has 3,593 customers and Zuora Billing has 1,101 customers."
+    },
+    "F-18e733fa": {
+      "finding_id": "F-18e733fa",
+      "label": "supported",
+      "rationale": "The excerpt says Zuora typically requires a 3–9 month professional services engagement."
+    },
+    "F-83296f1b": {
+      "finding_id": "F-83296f1b",
+      "label": "supported",
+      "rationale": "The 2026-07-29.dahlia changelog lists item-level discount support for pending updates under Billing."
+    },
+    "F-17d117f5": {
+      "finding_id": "F-17d117f5",
+      "label": "unsupported",
+      "rationale": "The excerpt describes these ingestion and metering features as characteristics of great usage billing, not as capabilities Chargebee says it has."
+    },
+    "F-73f80f31": {
+      "finding_id": "F-73f80f31",
+      "label": "supported",
+      "rationale": "The October 2025 Billing entry states that the integration became generally available and lists the claimed tracking and reporting support."
+    },
+    "F-38824460": {
+      "finding_id": "F-38824460",
+      "label": "supported",
+      "rationale": "The Recurly plans excerpt lists fixed, ramp, and usage-based pricing models."
+    },
+    "F-3ab06ddb": {
+      "finding_id": "F-3ab06ddb",
+      "label": "supported",
+      "rationale": "The page’s Stripe Billing answer pattern describes Zuora Revenue as a dedicated, standalone-capable engine for complex automated revenue recognition."
+    },
+    "F-e58e180c": {
+      "finding_id": "F-e58e180c",
+      "label": "supported",
+      "rationale": "The 2026-06-24.dahlia changelog says Checkout made billing cycle anchor configuration available for Checkout Sessions in subscription mode."
+    },
+    "F-048a6b2c": {
+      "finding_id": "F-048a6b2c",
+      "label": "supported",
+      "rationale": "The Recurly plan-fields table describes a setup fee as a one-time charge collected when the subscription is created."
+    },
+    "F-fe7ef8b4": {
+      "finding_id": "F-fe7ef8b4",
+      "label": "unsupported",
+      "rationale": "The excerpt says Metronome is not included in Stripe Billing, but it does not describe Metronome as powering usage-based billing."
+    },
+    "F-bb26dadc": {
+      "finding_id": "F-bb26dadc",
+      "label": "supported",
+      "rationale": "The excerpt explicitly says Chargebee unifies usage metering, credits, hybrid pricing, billing, and revenue recognition in one system."
+    },
+    "F-1cfc3497": {
+      "finding_id": "F-1cfc3497",
+      "label": "supported",
+      "rationale": "The excerpt says Stripe has no built-in real-time balance check before the action happens and that teams must build that logic or accept the risk."
+    },
+    "F-65378790": {
+      "finding_id": "F-65378790",
+      "label": "supported",
+      "rationale": "The excerpt says Stripe Price objects are immutable and that changing the stated rate requires a new Price object and migration of every active subscription."
+    },
+    "F-9f409729": {
+      "finding_id": "F-9f409729",
+      "label": "supported",
+      "rationale": "The excerpt states that Stripe retains the $0.30 fixed fee from the original transaction on refunds."
+    },
+    "F-1cd746c7": {
+      "finding_id": "F-1cd746c7",
+      "label": "supported",
+      "rationale": "Under Stripe Billing, the excerpt lists setting billing frequencies, offering discounts and free trials, and scheduling future subscription changes."
+    },
+    "F-dd1b29c6": {
+      "finding_id": "F-dd1b29c6",
+      "label": "supported",
+      "rationale": "The excerpt explicitly lists flat-rate, per-user, usage-based, and tiered pricing models for Stripe Billing."
+    },
+    "F-b2cdb5b5": {
+      "finding_id": "F-b2cdb5b5",
+      "label": "supported",
+      "rationale": "The excerpt says Stripe does not model ramped contracts natively, so users must track the schedule manually or create multiple plans."
+    },
+    "F-069dc6e5": {
+      "finding_id": "F-069dc6e5",
+      "label": "supported",
+      "rationale": "The excerpt states that Stripe acquired Metronome in December 2025 for approximately $1 billion to address native Billing’s limitations, including metering above 1,000 events per second."
+    },
+    "F-3226b11e": {
+      "finding_id": "F-3226b11e",
+      "label": "supported",
+      "rationale": "The excerpt dates the token-billing feature to March 2026, describes metering, billing, and marking up LLM inference costs, and gives Stripe’s head of product’s email for trying it."
+    },
+    "F-4c39f1e8": {
+      "finding_id": "F-4c39f1e8",
+      "label": "supported",
+      "rationale": "The excerpt says qualifying Chargebee startups run free until $1 million in cumulative revenue, with free migration and support included."
+    },
+    "F-5f9de190": {
+      "finding_id": "F-5f9de190",
+      "label": "supported",
+      "rationale": "The 2026-05-27.dahlia Billing entry says it adds billing schedules to enable prebilling on subscriptions."
+    },
+    "F-71226404": {
+      "finding_id": "F-71226404",
+      "label": "supported",
+      "rationale": "The excerpt lists weekly, monthly, quarterly, annual, and custom plan billing intervals and says the interval cannot change after plan creation."
+    },
+    "F-9086f558": {
+      "finding_id": "F-9086f558",
+      "label": "supported",
+      "rationale": "Under billing metrics, the excerpt says users can view up-to-date data with under one-hour freshness."
+    },
+    "F-a958efb8": {
+      "finding_id": "F-a958efb8",
+      "label": "supported",
+      "rationale": "The page’s Chargebee pricing section reports a free tier for companies with less than $100,000 in monthly billings."
+    },
+    "F-3398a3b3": {
+      "finding_id": "F-3398a3b3",
+      "label": "supported",
+      "rationale": "Under UK online payments, the excerpt lists an additional 2% currency-conversion fee for international cards."
+    },
+    "F-8cae1339": {
+      "finding_id": "F-8cae1339",
+      "label": "unsupported",
+      "rationale": "The source dates the Stripe Sessions announcement to April 29, 2026, not April 22."
+    },
+    "F-a8385fb5": {
+      "finding_id": "F-a8385fb5",
+      "label": "unsupported",
+      "rationale": "The source reports $14 recovered for every $1 spent in 2025, not $28."
+    },
+    "F-e2744f9c": {
+      "finding_id": "F-e2744f9c",
+      "label": "unsupported",
+      "rationale": "The source says Chargebee’s Starter plan is free up to $250K in cumulative billing, not $500K."
+    },
+    "F-c4a7a283": {
+      "finding_id": "F-c4a7a283",
+      "label": "unsupported",
+      "rationale": "The source says Stripe supports 125+ local payment methods, not more than 250."
+    },
+    "F-6b501661": {
+      "finding_id": "F-6b501661",
+      "label": "unsupported",
+      "rationale": "The source says Stripe updated this pricing area in 2026, not 2025."
+    },
+    "F-2190bcc7": {
+      "finding_id": "F-2190bcc7",
+      "label": "unsupported",
+      "rationale": "The source lists Stripe Billing’s pay-as-you-go fee as 0.7% of billing volume, not 0.9%."
+    },
+    "F-d74dfaa0": {
+      "finding_id": "F-d74dfaa0",
+      "label": "unsupported",
+      "rationale": "The source gives Stripe’s standard online transaction fee as 2.9% plus $0.30, not 3.5% plus $0.30."
+    },
+    "F-34d492f4": {
+      "finding_id": "F-34d492f4",
+      "label": "unsupported",
+      "rationale": "The source says those Stripe Billing features are covered by a 0.7% fee, not a 0.9% fee."
+    },
+    "F-cddbd497": {
+      "finding_id": "F-cddbd497",
+      "label": "unsupported",
+      "rationale": "The source reports 99.999% uptime in 2025, not 119.999%."
+    },
+    "F-d3d0abbc": {
+      "finding_id": "F-d3d0abbc",
+      "label": "unsupported",
+      "rationale": "The source dates Stripe’s acquisition of Metronome to January 2026, not January 2025."
+    },
+    "F-3e2f2ef8": {
+      "finding_id": "F-3e2f2ef8",
+      "label": "unsupported",
+      "rationale": "The changelog attributes the credited-items update to Stripe Billing, not Chargebee Billing."
+    },
+    "F-f7890e28": {
+      "finding_id": "F-f7890e28",
+      "label": "unsupported",
+      "rationale": "The source says Stripe processes meter events asynchronously, not Chargebee."
+    },
+    "F-76824bb1": {
+      "finding_id": "F-76824bb1",
+      "label": "unsupported",
+      "rationale": "The source describes Stripe’s separate Revenue Recognition product, not Chargebee’s."
+    },
+    "F-c99a1b37": {
+      "finding_id": "F-c99a1b37",
+      "label": "unsupported",
+      "rationale": "The source discusses plan changes for Stripe Revenue Recognition, not Chargebee Revenue Recognition."
+    },
+    "F-501da39d": {
+      "finding_id": "F-501da39d",
+      "label": "unsupported",
+      "rationale": "The May 2026 Dahlia release describes Stripe’s prebilling feature, not Chargebee’s."
+    },
+    "F-ae856672": {
+      "finding_id": "F-ae856672",
+      "label": "unsupported",
+      "rationale": "The source attributes these capabilities to Metronome, which it describes as acquired by Stripe, rather than to Stripe Billing."
+    },
+    "F-0586b97d": {
+      "finding_id": "F-0586b97d",
+      "label": "unsupported",
+      "rationale": "The excerpt attributes those pricing models to Stripe Billing, not Chargebee Billing."
+    },
+    "F-f4c3aea7": {
+      "finding_id": "F-f4c3aea7",
+      "label": "unsupported",
+      "rationale": "The comparison attributes the per-transaction fees and module add-ons to Stripe Billing, not Chargebee Billing."
+    },
+    "F-aa3ede4f": {
+      "finding_id": "F-aa3ede4f",
+      "label": "unsupported",
+      "rationale": "The quoted capabilities appear under “What is Chargebee?” and describe Chargebee, not Stripe."
+    },
+    "F-cfa1cd63": {
+      "finding_id": "F-cfa1cd63",
+      "label": "unsupported",
+      "rationale": "The excerpt describes Zuora’s usage-based billing solution, not Stripe."
+    },
+    "F-2fa3f0f0": {
+      "finding_id": "F-2fa3f0f0",
+      "label": "unsupported",
+      "rationale": "The excerpt does not state that unused credit grants can expire automatically or that this was added in September 2025."
+    },
+    "F-4e06b6a0": {
+      "finding_id": "F-4e06b6a0",
+      "label": "unsupported",
+      "rationale": "The excerpt says Zuora’s pricing was not verified and gives no $499-per-month starting price."
+    },
+    "F-3e9b66dd": {
+      "finding_id": "F-3e9b66dd",
+      "label": "unsupported",
+      "rationale": "The excerpt mentions Chargebee coupons but gives no limit of five active coupons per subscription."
+    },
+    "F-38dc5aa4": {
+      "finding_id": "F-38dc5aa4",
+      "label": "unsupported",
+      "rationale": "The excerpt does not mention RevRec posting journal entries to Xero or a nightly schedule."
+    },
+    "F-cdf5df87": {
+      "finding_id": "F-cdf5df87",
+      "label": "unsupported",
+      "rationale": "The excerpt mentions Chargebee’s customer self-service portals but does not say customers can transfer subscriptions to another account."
+    },
+    "F-0a7b79c6": {
+      "finding_id": "F-0a7b79c6",
+      "label": "unsupported",
+      "rationale": "The excerpt says usage accumulates until the end of the billing cycle, not that Stripe invoices it every 24 hours."
+    },
+    "F-d4823095": {
+      "finding_id": "F-d4823095",
+      "label": "unsupported",
+      "rationale": "The excerpt does not attribute a native entitlements API or automatic feature provisioning when prepaid balances change to Zuora."
+    },
+    "F-78f95485": {
+      "finding_id": "F-78f95485",
+      "label": "unsupported",
+      "rationale": "The excerpt describes Zuora’s usage-based billing features but does not offer a 30-day self-service trial."
+    },
+    "F-a1fda17b": {
+      "finding_id": "F-a1fda17b",
+      "label": "unsupported",
+      "rationale": "The excerpt does not mention invoice previews in three currencies or a July 2026 release adding that feature."
+    },
+    "F-2c4dcb36": {
+      "finding_id": "F-2c4dcb36",
+      "label": "unsupported",
+      "rationale": "The excerpt discusses fields on every invoice generated by a subscription, not a different footer for each subscription item."
+    },
+    "F-253e2ac4": {
+      "finding_id": "F-253e2ac4",
+      "label": "unsupported",
+      "rationale": "The excerpt lists a live usage counter among the features customers must build themselves, rather than features the Stripe Customer Portal displays."
+    },
+    "F-9b54a726": {
+      "finding_id": "F-9b54a726",
+      "label": "unsupported",
+      "rationale": "The excerpt explicitly says meter events do not trigger an immediate charge and usage is collected at the end of the billing period."
+    },
+    "F-2a526282": {
+      "finding_id": "F-2a526282",
+      "label": "unsupported",
+      "rationale": "The source describes multi-step email sequences for Chargebee dunning, not WhatsApp reminders sent by default."
+    },
+    "F-f12d45d1": {
+      "finding_id": "F-f12d45d1",
+      "label": "unsupported",
+      "rationale": "The source mentions test clocks and renewal simulations but gives no ten-year duration or single-run capability."
+    },
+    "F-f473073a": {
+      "finding_id": "F-f473073a",
+      "label": "unsupported",
+      "rationale": "The source says Stripe Billing offers an annual subscription paid monthly but does not say it includes unlimited billing volume or no overage fees."
+    },
+    "F-4a41106b": {
+      "finding_id": "F-4a41106b",
+      "label": "unsupported",
+      "rationale": "The source mentions a preview no-code rate card editor but does not say it can import pricing tiers from CSV files."
+    },
+    "F-8ede1480": {
+      "finding_id": "F-8ede1480",
+      "label": "unsupported",
+      "rationale": "The source says recurring Satispay payments include subscriptions and invoices but does not specify US-dollar payments."
+    },
+    "F-399d460a": {
+      "finding_id": "F-399d460a",
+      "label": "unsupported",
+      "rationale": "The source says Metronome offers pay-as-you-go pricing but gives no free monthly allowance of usage events."
+    },
+    "F-951d49c1": {
+      "finding_id": "F-951d49c1",
+      "label": "unsupported",
+      "rationale": "The source says Stripe Billing typically needs a separate revenue-recognition tool above $5 million ARR or when an audit is in scope, not a built-in module above $10 million in annual revenue."
+    },
+    "F-b283176a": {
+      "finding_id": "F-b283176a",
+      "label": "unsupported",
+      "rationale": "The source states that Chargebee account hierarchies support up to 250 direct children, not 500."
+    }
+  }
+}

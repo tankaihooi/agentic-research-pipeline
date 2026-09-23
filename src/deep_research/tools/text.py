@@ -174,7 +174,9 @@ def clean_page_markdown(text: str) -> str:
 _QUOTE_CHARS = str.maketrans(
     {"\u2018": "'", "\u2019": "'", "\u201c": '"', "\u201d": '"', "\u2013": "-", "\u2014": "-"}
 )
-_MARKDOWN_NOISE = re.compile(r"[*_`#>|]|\[|\]\([^)]*\)|\]")
+# Link targets never contain whitespace: without that limit a truncated "](https://..." link
+# swallows everything up to the next ")", paragraphs away, and the quote with it.
+_MARKDOWN_NOISE = re.compile(r"[*_`#>|]|\[|\]\([^)\s]*\)|\]")
 _WHITESPACE = re.compile(r"\s+")
 SHORT_QUOTE_CHARS = 30
 

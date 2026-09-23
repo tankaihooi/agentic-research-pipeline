@@ -1,0 +1,562 @@
+[
+  {
+    "finding": {
+      "id": "F-8cae1339",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-94921a6d",
+      "claim": "At Stripe Sessions on April 22, 2026, Stripe announced customer-facing Metronome integrations for usage-based and hybrid pricing, including commits, multidimensional pricing, bespoke contracts, and direct Metronome management in the Stripe Dashboard.",
+      "quote": "At Stripe Sessions on April 29, 2026, Stripe announced customer-facing Metronome integrations for broader usage-based and hybrid pricing, including commits, multidimensional pricing structures, bespoke contracts, and direct Metronome management in the Stripe Dashboard.",
+      "entity": "Stripe Metronome",
+      "category": "launch"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-c7b8163c",
+    "note": "29 → 22"
+  },
+  {
+    "finding": {
+      "id": "F-a8385fb5",
+      "sub_query_id": "Q1",
+      "source_id": "S-c667e9a3",
+      "claim": "Stripe reported recovering $28 for every $1 spent in 2025.",
+      "quote": "$14 recovered for every $1 spent in 2025",
+      "entity": "Stripe Billing",
+      "category": "other"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-5f0acc46",
+    "note": "14 → 28"
+  },
+  {
+    "finding": {
+      "id": "F-e2744f9c",
+      "sub_query_id": "Q3",
+      "source_id": "S-f4742dbf",
+      "claim": "The page says Chargebee's Starter plan is free up to $500K in cumulative billing.",
+      "quote": "The Starter plan is free up to $250K in cumulative billing.",
+      "entity": "Chargebee",
+      "category": "pricing"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-a45ae9dd",
+    "note": "250 → 500"
+  },
+  {
+    "finding": {
+      "id": "F-c4a7a283",
+      "sub_query_id": "Q2",
+      "source_id": "S-69f749cb",
+      "claim": "Stripe supports more than 250 local payment methods and more than 130 currencies.",
+      "quote": "Increase conversion by offering customers' preferred payment methods. Stripe supports 125+ local payment methods and 130+ currencies.",
+      "entity": "Stripe",
+      "category": "feature"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-75435bd4",
+    "note": "125 → 250"
+  },
+  {
+    "finding": {
+      "id": "F-6b501661",
+      "sub_query_id": "Q2.g1",
+      "source_id": "S-9bdb10a9",
+      "claim": "Stripe Billing offers volume-tiered annual subscription plans, and the page says Stripe updated this pricing area in 2025.",
+      "quote": "Monthly subscription plans are available as volume-tiered annual contracts; see stripe.com/billing/pricing for current rates, since Stripe updated this area in 2026.",
+      "entity": "Stripe Billing",
+      "category": "pricing"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-ba4f59a3",
+    "note": "2026 → 2025"
+  },
+  {
+    "finding": {
+      "id": "F-2190bcc7",
+      "sub_query_id": "Q2.g1",
+      "source_id": "S-999b4e15",
+      "claim": "Stripe Billing charges 0.9% of billing volume on its pay-as-you-go plan.",
+      "quote": "**Stripe Billing:** 0.7 percent of billing volume on the pay-as-you-go plan",
+      "entity": "Stripe Billing",
+      "category": "pricing"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-19e2ca98",
+    "note": "0.7 → 0.9"
+  },
+  {
+    "finding": {
+      "id": "F-d74dfaa0",
+      "sub_query_id": "Q2.g1",
+      "source_id": "S-38e7c505",
+      "claim": "As of October 2025, Stripe’s standard online card fee is 3.5% plus $0.30 per transaction.",
+      "quote": "For online payments, Stripe’s standard transaction fee structure is 2.9% plus a fixed fee of $0.30 per transaction.",
+      "entity": "Stripe",
+      "category": "pricing"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-ebab07ee",
+    "note": "2.9 → 3.5"
+  },
+  {
+    "finding": {
+      "id": "F-34d492f4",
+      "sub_query_id": "Q2.g1",
+      "source_id": "S-5b960896",
+      "claim": "Stripe Billing’s 0.9% fee covers usage metering up to 100 million events per month, Smart Retries, dunning, quotes, and multi-phase subscription schedules.",
+      "quote": "The 0.7% covers recurring billing, usage metering up to 100 million events per month, Smart Retries, dunning, quotes, and multi-phase subscription schedules.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-fc4cbf4a",
+    "note": "0.7 → 0.9"
+  },
+  {
+    "finding": {
+      "id": "F-cddbd497",
+      "sub_query_id": "Q1",
+      "source_id": "S-c667e9a3",
+      "claim": "Stripe reported 119.999% uptime in 2025.",
+      "quote": "99.999%uptime in 2025",
+      "entity": "Stripe Billing",
+      "category": "other"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-2415bee4",
+    "note": "99.999 → 119.999"
+  },
+  {
+    "finding": {
+      "id": "F-d3d0abbc",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-bcfd87fa",
+      "claim": "The article says Stripe acquired Metronome in January 2025 for approximately $1 billion.",
+      "quote": "Metronome was acquired by Stripe in January 2026 for approximately $1B, making it the largest acquisition in the billing infrastructure space.",
+      "entity": "Stripe",
+      "category": "launch"
+    },
+    "type": "distorted_number",
+    "derived_from": "F-e9ed212b",
+    "note": "2026 → 2025"
+  },
+  {
+    "finding": {
+      "id": "F-3e2f2ef8",
+      "sub_query_id": "Q1",
+      "source_id": "S-750ad345",
+      "claim": "Chargebee Billing added credited-items information to invoice item proration details in the 2026-05-27.dahlia release.",
+      "quote": "Adds credited items information to invoice item proration details",
+      "entity": "Chargebee",
+      "category": "feature"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-97f44292",
+    "note": "Stripe → Chargebee"
+  },
+  {
+    "finding": {
+      "id": "F-f7890e28",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-8a2f67ee",
+      "claim": "Chargebee processes meter events asynchronously and does not synchronously confirm whether a specific event was accepted and will appear on the invoice.",
+      "quote": "Stripe processes meter events asynchronously. There is no synchronous confirmation that a specific event was accepted and will appear on the invoice.",
+      "entity": "Chargebee",
+      "category": "limitation"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-ba250097",
+    "note": "Stripe → Chargebee"
+  },
+  {
+    "finding": {
+      "id": "F-76824bb1",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-94921a6d",
+      "claim": "Chargebee offers Revenue Recognition as a separate product, with recognized and deferred revenue reporting, accounting period controls, financial statements, and audit trails from revenue amounts to underlying transactions.",
+      "quote": "Stripe offers Revenue Recognition as a separate product, with recognized and deferred revenue reporting, accounting period controls, financial statements, and audit trails from revenue amounts to underlying transactions.",
+      "entity": "Chargebee",
+      "category": "feature"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-3fe635cc",
+    "note": "Stripe → Chargebee"
+  },
+  {
+    "finding": {
+      "id": "F-c99a1b37",
+      "sub_query_id": "Q2",
+      "source_id": "S-0a2906e6",
+      "claim": "Chargebee Revenue Recognition lets businesses upgrade or downgrade their plan at any time without affecting the length of their current subscription term.",
+      "quote": "You can upgrade (or downgrade) at any time without affecting the length of your current subscription term.",
+      "entity": "Chargebee",
+      "category": "pricing"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-1472f275",
+    "note": "Stripe → Chargebee"
+  },
+  {
+    "finding": {
+      "id": "F-501da39d",
+      "sub_query_id": "Q1",
+      "source_id": "S-7fcca5a5",
+      "claim": "Chargebee added billing schedules for prebilling to the GA channel in May 2026.",
+      "quote": "The May release of Dahlia adds these features and changes to our GA channel:",
+      "entity": "Chargebee",
+      "category": "other"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-1bb96f1c",
+    "note": "Stripe → Chargebee"
+  },
+  {
+    "finding": {
+      "id": "F-ae856672",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-bcfd87fa",
+      "claim": "Stripe supports prepaid credits with drawdown tracking, minimum spend commitments, and postpaid overage billing.",
+      "quote": "The platform supports rate cards, matrix and dimensional pricing, prepaid credits with drawdown tracking, minimum spend commitments, postpaid overages, embeddable usage dashboards, and spend alerts.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-ac73f315",
+    "note": "Metronome → Stripe"
+  },
+  {
+    "finding": {
+      "id": "F-0586b97d",
+      "sub_query_id": "Q2.g1",
+      "source_id": "S-6ef18df9",
+      "claim": "The page states that Chargebee Billing supports recurring, tiered, usage-based, and custom billing cycles.",
+      "quote": "Support for Multiple Pricing Models: Recurring, tiered, usage-based, and custom billing cycles.",
+      "entity": "Chargebee",
+      "category": "feature"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-542d8b89",
+    "note": "Stripe → Chargebee"
+  },
+  {
+    "finding": {
+      "id": "F-f4c3aea7",
+      "sub_query_id": "Q4",
+      "source_id": "S-541b4d35",
+      "claim": "The page contrasts Chargebee Billing’s per-transaction fees and monthly module add-ons with Zuora’s high-cost enterprise pricing and hidden fees.",
+      "quote": "Per-transaction percentage fees plus monthly module add-ons; total cost compounds significantly at scale\n\nHigh-cost enterprise pricing with hidden fees; typically starts at $1,000+/month; total cost escalates unpredictably with scale",
+      "entity": "Chargebee",
+      "category": "pricing"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-dc5f4584",
+    "note": "Stripe → Chargebee"
+  },
+  {
+    "finding": {
+      "id": "F-aa3ede4f",
+      "sub_query_id": "Q3",
+      "source_id": "S-0162650f",
+      "claim": "Stripe supports recurring invoices, dunning, and tax, including native US and EU VAT, Australian GST, and connectors for Avalara and TaxJar.",
+      "quote": "Its core covers recurring invoices, dunning and tax: native US and EU VAT including OSS, Australian GST and withholding, plus Avalara and TaxJar connectors.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-5898cca9",
+    "note": "Chargebee → Stripe"
+  },
+  {
+    "finding": {
+      "id": "F-cfa1cd63",
+      "sub_query_id": "Q4",
+      "source_id": "S-f9949e44",
+      "claim": "Stripe provides configurable widgets, real-time threshold notifications, and detailed usage invoices to help customers monitor spending.",
+      "quote": "Configurable widgets, real-time threshold notifications, alongside detailed usage invoices give customers control over their spend, avoid surprise overages, and reduce billing disputes.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "wrong_entity",
+    "derived_from": "F-c7e9a8c7",
+    "note": "Zuora → Stripe"
+  },
+  {
+    "finding": {
+      "id": "F-2fa3f0f0",
+      "sub_query_id": "Q1",
+      "source_id": "S-0f4474f8",
+      "claim": "Stripe Billing added automatic expiration dates for unused credit grants in September 2025.",
+      "quote": "You can now set an expiration date when granting credits, so any remaining balance expires automatically.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-0e8436be",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-4e06b6a0",
+      "sub_query_id": "Q4",
+      "source_id": "S-2495c672",
+      "claim": "Trakkr verified Zuora's pricing at a starting price of $499 per month.",
+      "quote": "Product facts | Zuora pricing profile verified: plans start at $499 per month.",
+      "entity": "Zuora",
+      "category": "pricing"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-ead6d197",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-3e9b66dd",
+      "sub_query_id": "Q3",
+      "source_id": "S-c5a8f922",
+      "claim": "Chargebee limits each subscription to five active coupons.",
+      "quote": "Chargebee supports discounts and credits, but each subscription can have no more than five active coupons at a time.",
+      "entity": "Chargebee",
+      "category": "feature"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-6c8589b4",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-38dc5aa4",
+      "sub_query_id": "Q3",
+      "source_id": "S-f4742dbf",
+      "claim": "Chargebee RevRec automatically posts journal entries to Xero every night.",
+      "quote": "RevRec can sync completed journal entries to Xero on a nightly schedule, without a manual export.",
+      "entity": "Chargebee RevRec",
+      "category": "feature"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-db6855c1",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-cdf5df87",
+      "sub_query_id": "Q3",
+      "source_id": "S-f4742dbf",
+      "claim": "Chargebee's self-service portal lets customers transfer a subscription to another account.",
+      "quote": "Customers can transfer an active subscription to a different account directly from the hosted self-service portal.",
+      "entity": "Chargebee",
+      "category": "feature"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-541db28d",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-0a7b79c6",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-8a2f67ee",
+      "claim": "Stripe's metered billing invoices reported usage every 24 hours by default.",
+      "quote": "By default, Stripe closes out reported meter usage daily and creates a new invoice every 24 hours.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-b0bac133",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-d4823095",
+      "sub_query_id": "Q4",
+      "source_id": "S-541b4d35",
+      "claim": "Zuora includes a native entitlements API that automatically provisions features when a prepaid balance changes.",
+      "quote": "Zuora's built-in entitlements API updates customer feature access automatically as prepaid credits are consumed.",
+      "entity": "Zuora",
+      "category": "limitation"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-963bf419",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-78f95485",
+      "sub_query_id": "Q4",
+      "source_id": "S-f9949e44",
+      "claim": "Zuora offers a 30-day self-service trial of its usage-based billing software.",
+      "quote": "Start a 30-day usage-based billing trial online, with no sales call required.",
+      "entity": "Zuora",
+      "category": "pricing"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-444c40c4",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-a1fda17b",
+      "sub_query_id": "Q1",
+      "source_id": "S-7fcca5a5",
+      "claim": "Stripe's July 2026 release added support for previewing invoices in three currencies in a single API request.",
+      "quote": "Invoice previews now accept multiple currencies, so you can compare up to three currency totals in one request.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-b21bf3f4",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-2c4dcb36",
+      "sub_query_id": "Q1",
+      "source_id": "S-7fcca5a5",
+      "claim": "Stripe's June 2026 Subscriptions API update allowed a different invoice footer for each subscription item.",
+      "quote": "You can now set an invoice footer on individual subscription items, giving each line item its own footer text.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "fabricated_quote",
+    "derived_from": "F-668644dc",
+    "note": "invented claim and quote"
+  },
+  {
+    "finding": {
+      "id": "F-253e2ac4",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-8a2f67ee",
+      "claim": "Stripe Customer Portal displays a live usage counter for metered subscriptions.",
+      "quote": "* Live usage counter (images generated this period)\n* Current period cost estimate\n* Usage history and breakdown",
+      "entity": "Stripe Customer Portal",
+      "category": "limitation"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-e3166805",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-9b54a726",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-8a2f67ee",
+      "claim": "Stripe immediately charges a customer's saved payment method after each meter event is reported.",
+      "quote": "Usage accumulates until the billing cycle ends. There is no immediate charge.",
+      "entity": "Stripe Billing",
+      "category": "limitation"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-345b6e9d",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-2a526282",
+      "sub_query_id": "Q3",
+      "source_id": "S-f4742dbf",
+      "claim": "Chargebee's dunning system sends failed-payment reminders through WhatsApp by default.",
+      "quote": "**Chargebee** provides a full built-in dunning system with configurable retry schedules, multi-step email sequences, customizable templates, and automatic payment method update prompts.",
+      "entity": "Chargebee",
+      "category": "feature"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-86475c9e",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-f12d45d1",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-94921a6d",
+      "claim": "Stripe Billing test clocks can simulate ten years of subscription renewals in a single run.",
+      "quote": "Stripe Billing supports sandbox simulations and test clocks for subscription lifecycle scenarios, including plan changes, customer balances, invoice items, and renewals.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-fb15f468",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-f473073a",
+      "sub_query_id": "Q1",
+      "source_id": "S-c667e9a3",
+      "claim": "Stripe Billing's annual subscription includes unlimited billing volume without overage fees.",
+      "quote": "Stripe Billing can be purchased as an annual subscription paid monthly, or on a pay-as-you-go plan.",
+      "entity": "Stripe Billing",
+      "category": "pricing"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-0e3647f6",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-4a41106b",
+      "sub_query_id": "Q1",
+      "source_id": "S-0f4474f8",
+      "claim": "Stripe Billing's May 2025 rate card editor could import pricing tiers directly from a CSV file.",
+      "quote": "You can configure your usage-based business model with a no-code rate card editor in the Dashboard (preview).",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-e77acc45",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-8ede1480",
+      "sub_query_id": "Q1",
+      "source_id": "S-7fcca5a5",
+      "claim": "Stripe's recurring Satispay support includes subscription payments in US dollars.",
+      "quote": "You can now accept Satispay payments on a recurring basis, including for subscriptions and invoices.",
+      "entity": "Stripe Billing",
+      "category": "feature"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-4a9c4c74",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-399d460a",
+      "sub_query_id": "Q1",
+      "source_id": "S-c667e9a3",
+      "claim": "Metronome's pay-as-you-go plan includes the first 100,000 usage events each month at no charge.",
+      "quote": "For usage-based billing, you can get started with Metronome, a Stripe product, which also offers pay as you go, with custom pricing available for larger needs.",
+      "entity": "Metronome",
+      "category": "pricing"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-331d94fd",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-951d49c1",
+      "sub_query_id": "Q1.g1",
+      "source_id": "S-e8e4b9b5",
+      "claim": "Stripe Billing includes a built-in revenue-recognition module for companies with more than $10 million in annual revenue.",
+      "quote": "Stripe Billing, Orb, Metronome, and Lago typically need a separate revrec tool by that point (Maxio, Sage Intacct, Stripe Revenue Recognition).",
+      "entity": "Stripe Billing",
+      "category": "limitation"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-1f45016f",
+    "note": "invented claim, real quote"
+  },
+  {
+    "finding": {
+      "id": "F-b283176a",
+      "sub_query_id": "Q3",
+      "source_id": "S-0162650f",
+      "claim": "Chargebee account hierarchies allow up to 500 direct child accounts.",
+      "quote": "account hierarchy supports up to 250 direct children",
+      "entity": "Chargebee",
+      "category": "feature"
+    },
+    "type": "unsupported_claim",
+    "derived_from": "F-00ec9cac",
+    "note": "invented claim, real quote"
+  }
+]

@@ -1,0 +1,446 @@
+{
+  "genuine_sample": [
+    "F-15ad1a91",
+    "F-ead47cc9",
+    "F-b75677c4",
+    "F-6f675dcb",
+    "F-1aae9b94",
+    "F-4dad8199",
+    "F-ea561793",
+    "F-66061d76",
+    "F-c03497e2",
+    "F-b3460741",
+    "F-1dbc7214",
+    "F-d1b650cd",
+    "F-c73c7cd8",
+    "F-63d16333",
+    "F-f7d6fea2",
+    "F-9b975b37",
+    "F-f1b19600",
+    "F-4081ed02",
+    "F-0a4c3520",
+    "F-3b973733",
+    "F-195a99c0",
+    "F-6548ff07",
+    "F-36a8ef21",
+    "F-e4393405",
+    "F-748eb7b8",
+    "F-67c2fa7d",
+    "F-e5ac8e4c",
+    "F-cf718a86",
+    "F-49ed820e",
+    "F-0d67dfcc",
+    "F-ff8e0c51",
+    "F-2401fbee",
+    "F-54d92bcc",
+    "F-95406713",
+    "F-511204b8",
+    "F-610c6280",
+    "F-a52ba62f",
+    "F-66a8b834",
+    "F-f777d55a",
+    "F-765ffc43"
+  ],
+  "labels": {
+    "F-15ad1a91": {
+      "finding_id": "F-15ad1a91",
+      "label": "unsupported",
+      "rationale": "The excerpt lists those Qdrant deployments and enterprise features but does not establish the July 11, 2025 date."
+    },
+    "F-ead47cc9": {
+      "finding_id": "F-ead47cc9",
+      "label": "supported",
+      "rationale": "The 0.6.0 changelog lists parallel HNSW index builds and reduced memory usage and WAL generation for HNSW index builds."
+    },
+    "F-b75677c4": {
+      "finding_id": "F-b75677c4",
+      "label": "supported",
+      "rationale": "The excerpt says the Qdrant Cloud premium tier adds a 99.9% SLA, SSO, and private networking with a minimum spend requirement."
+    },
+    "F-6f675dcb": {
+      "finding_id": "F-6f675dcb",
+      "label": "supported",
+      "rationale": "The excerpt says Pinecone runs on AWS, Azure, and Google Cloud and can run inside a customer's own account on any of the three."
+    },
+    "F-1aae9b94": {
+      "finding_id": "F-1aae9b94",
+      "label": "supported",
+      "rationale": "The excerpt describes DejaPlay indexing embeddings in Qdrant with rich metadata filters and retrieving matches by vector similarity."
+    },
+    "F-4dad8199": {
+      "finding_id": "F-4dad8199",
+      "label": "supported",
+      "rationale": "The excerpt says Weaviate hybrid search combines BM25 and dense search and is included at no extra storage cost."
+    },
+    "F-ea561793": {
+      "finding_id": "F-ea561793",
+      "label": "supported",
+      "rationale": "The excerpt reports that Search Mode outperforms ColBERTv2’s Success @ 5 results across the four Lifestyle and Recreation test sets."
+    },
+    "F-66061d76": {
+      "finding_id": "F-66061d76",
+      "label": "supported",
+      "rationale": "The excerpt explicitly describes Qdrant's JSON-based filters, nested properties, multiple conditions, and query-planner optimization."
+    },
+    "F-c03497e2": {
+      "finding_id": "F-c03497e2",
+      "label": "supported",
+      "rationale": "The source explicitly says Pinecone Inference hosts embedding and reranking models next to the index."
+    },
+    "F-b3460741": {
+      "finding_id": "F-b3460741",
+      "label": "supported",
+      "rationale": "The plan breakdown lists Flex as shared with 99.5% uptime and Plus as shared/dedicated with 99.9% uptime."
+    },
+    "F-1dbc7214": {
+      "finding_id": "F-1dbc7214",
+      "label": "supported",
+      "rationale": "The source says ann-benchmarks.com lacks that always-current three-way managed-service comparison because Pinecone’s proprietary index cannot be benchmarked outside its managed API."
+    },
+    "F-d1b650cd": {
+      "finding_id": "F-d1b650cd",
+      "label": "supported",
+      "rationale": "The BYOC section says it deploys Pinecone fully managed within the customer’s cloud environment."
+    },
+    "F-c73c7cd8": {
+      "finding_id": "F-c73c7cd8",
+      "label": "supported",
+      "rationale": "The conclusion explicitly names query expansion, query decomposition, schema introspection, and reranking as Search Mode techniques."
+    },
+    "F-63d16333": {
+      "finding_id": "F-63d16333",
+      "label": "supported",
+      "rationale": "The source calls Qdrant’s core database Apache 2.0 open source and says its API is the same across every deployment mode."
+    },
+    "F-f7d6fea2": {
+      "finding_id": "F-f7d6fea2",
+      "label": "supported",
+      "rationale": "The methodology lists the English subset of the 1024-dimensional Cohere Wikipedia 2023-11 embeddings and queries against a preloaded 10-million-vector collection."
+    },
+    "F-9b975b37": {
+      "finding_id": "F-9b975b37",
+      "label": "supported",
+      "rationale": "The MemoryAtlas description says every memory lands in Qdrant as six named vectors under a single point ID."
+    },
+    "F-f1b19600": {
+      "finding_id": "F-f1b19600",
+      "label": "supported",
+      "rationale": "The evaluation section explicitly advises testing vector databases on actual data rather than vendor benchmarks."
+    },
+    "F-4081ed02": {
+      "finding_id": "F-4081ed02",
+      "label": "supported",
+      "rationale": "The Biology table lists nDCG @ 10 as 0.13 for Hybrid Search and 0.40 ± 0.011 for Search Mode."
+    },
+    "F-0a4c3520": {
+      "finding_id": "F-0a4c3520",
+      "label": "supported",
+      "rationale": "The page says Weaviate Product Quantization delivers a 4×–8× reduction in its discussion of storage savings."
+    },
+    "F-3b973733": {
+      "finding_id": "F-3b973733",
+      "label": "supported",
+      "rationale": "The free-tier summary specifies a single-node cluster with 1 GB RAM, 4 GB disk, 0.5 vCPU, and no high availability."
+    },
+    "F-195a99c0": {
+      "finding_id": "F-195a99c0",
+      "label": "supported",
+      "rationale": "The Pinecone multi-tenancy entry says it uses namespaces inside one index with no per-tenant provisioning."
+    },
+    "F-6548ff07": {
+      "finding_id": "F-6548ff07",
+      "label": "supported",
+      "rationale": "A forum participant congratulates another on merging Boost.decay and says it is now live."
+    },
+    "F-36a8ef21": {
+      "finding_id": "F-36a8ef21",
+      "label": "supported",
+      "rationale": "The production-measurements table gives the stated vector dimensions, corpus size, configurations, QPS figures, and p95 latencies."
+    },
+    "F-e4393405": {
+      "finding_id": "F-e4393405",
+      "label": "supported",
+      "rationale": "The Pinecone page explicitly says writes are acknowledged immediately and become queryable in seconds."
+    },
+    "F-748eb7b8": {
+      "finding_id": "F-748eb7b8",
+      "label": "supported",
+      "rationale": "The excerpt says self-hosting Qdrant OSS is always free and users pay only for the server they run it on."
+    },
+    "F-67c2fa7d": {
+      "finding_id": "F-67c2fa7d",
+      "label": "supported",
+      "rationale": "The Pinecone scaling-model entry says its on-demand tier scales automatically with no node count to choose."
+    },
+    "F-e5ac8e4c": {
+      "finding_id": "F-e5ac8e4c",
+      "label": "supported",
+      "rationale": "The excerpt attributes benchmarks on 1 million 768-dimensional vectors with an HNSW index at about 99% recall to Qdrant and lists the claimed QPS and p95 latency for both databases."
+    },
+    "F-cf718a86": {
+      "finding_id": "F-cf718a86",
+      "label": "supported",
+      "rationale": "The excerpt says early access to Pinecone Nexus and KnowQL is open to customers and partners building agent-native applications."
+    },
+    "F-49ed820e": {
+      "finding_id": "F-49ed820e",
+      "label": "supported",
+      "rationale": "The excerpt identifies the $96-per-month 16GB, 8-vCPU Droplet as infrastructure for self-hosted Qdrant or Weaviate and gives capacity estimates for different quantization settings."
+    },
+    "F-0d67dfcc": {
+      "finding_id": "F-0d67dfcc",
+      "label": "unsupported",
+      "rationale": "The excerpt describes semantic search in the Explorer tool but does not identify it as Weaviate Cloud’s Explorer tool."
+    },
+    "F-ff8e0c51": {
+      "finding_id": "F-ff8e0c51",
+      "label": "supported",
+      "rationale": "The excerpt says query-heavy Pinecone Serverless workloads pay more because reads are metered separately from storage."
+    },
+    "F-2401fbee": {
+      "finding_id": "F-2401fbee",
+      "label": "supported",
+      "rationale": "The changelog lists version 0.8.0 dated October 30, 2024, and says it added support for iterative index scans."
+    },
+    "F-54d92bcc": {
+      "finding_id": "F-54d92bcc",
+      "label": "supported",
+      "rationale": "The excerpt says the post operates exclusively through a financial lens and covers architecture features and benchmark comparisons in linked cluster posts."
+    },
+    "F-95406713": {
+      "finding_id": "F-95406713",
+      "label": "supported",
+      "rationale": "The forum excerpt says metadata has close to 50 properties and that search properties cannot be finalized because future use cases may require more filters."
+    },
+    "F-511204b8": {
+      "finding_id": "F-511204b8",
+      "label": "supported",
+      "rationale": "The excerpt gives Pinecone’s result as 74,000 QPS at 90% recall in BigANN 2023 using YFCC-10M under filtered-search conditions."
+    },
+    "F-610c6280": {
+      "finding_id": "F-610c6280",
+      "label": "supported",
+      "rationale": "The decision reference lists Weaviate Shared Cloud for semantic and keyword search in one query and says BM25 is included with no extra billing."
+    },
+    "F-a52ba62f": {
+      "finding_id": "F-a52ba62f",
+      "label": "supported",
+      "rationale": "The Rivestack description lists Patroni failover, PgBouncer pooling, daily backups with point-in-time recovery, and a monitoring dashboard as included."
+    },
+    "F-66a8b834": {
+      "finding_id": "F-66a8b834",
+      "label": "supported",
+      "rationale": "The excerpt says tokenization is set per property and lists word, lowercase, whitespace, and field as options."
+    },
+    "F-f777d55a": {
+      "finding_id": "F-f777d55a",
+      "label": "supported",
+      "rationale": "The Rivestack section explicitly says it publishes reproducible pgvector benchmarks rather than marketing numbers."
+    },
+    "F-765ffc43": {
+      "finding_id": "F-765ffc43",
+      "label": "supported",
+      "rationale": "In the OpenSearch section, the excerpt says purpose-built databases like Milvus or Qdrant have lower operational overhead for greenfield vector workloads."
+    },
+    "F-3b1fae12": {
+      "finding_id": "F-3b1fae12",
+      "label": "unsupported",
+      "rationale": "The source reports a 20% block rate for Clinical NLP at threshold 0.20, not 40%."
+    },
+    "F-d8980efa": {
+      "finding_id": "F-d8980efa",
+      "label": "unsupported",
+      "rationale": "The source says the Builder plan costs a flat $20 per month with no overages, not $40."
+    },
+    "F-2ee6b82c": {
+      "finding_id": "F-2ee6b82c",
+      "label": "unsupported",
+      "rationale": "The source dates the launch of Dedicated Read Nodes to December 2025, not December 2024."
+    },
+    "F-0366e235": {
+      "finding_id": "F-0366e235",
+      "label": "unsupported",
+      "rationale": "The source says Binary Quantization reduces dimension cost by approximately 97%, not 194%."
+    },
+    "F-a64126d2": {
+      "finding_id": "F-a64126d2",
+      "label": "unsupported",
+      "rationale": "The source lists Weaviate Shared Cloud as starting at $25 per month, not $50."
+    },
+    "F-d5bb3736": {
+      "finding_id": "F-d5bb3736",
+      "label": "unsupported",
+      "rationale": "The source reports a 40% to 50% reduction in downstream LLM token burn, not 80% to 50%."
+    },
+    "F-d1a5771f": {
+      "finding_id": "F-d1a5771f",
+      "label": "unsupported",
+      "rationale": "The source says Pinecone moved to serverless as its default architecture in 2025, not 2024."
+    },
+    "F-ce6cad9b": {
+      "finding_id": "F-ce6cad9b",
+      "label": "unsupported",
+      "rationale": "The source describes the permanent free tier as having 0.5 vCPU, not 0.7 vCPU."
+    },
+    "F-d42608bd": {
+      "finding_id": "F-d42608bd",
+      "label": "unsupported",
+      "rationale": "The source estimates $30–60 per month for that cluster, not $30–120."
+    },
+    "F-7065dac1": {
+      "finding_id": "F-7065dac1",
+      "label": "unsupported",
+      "rationale": "The source says Rivestack pricing starts at $29 per month, not $58."
+    },
+    "F-270608ec": {
+      "finding_id": "F-270608ec",
+      "label": "unsupported",
+      "rationale": "The benchmark datasets are presented as Qdrant’s, not Weaviate’s."
+    },
+    "F-c77c7a20": {
+      "finding_id": "F-c77c7a20",
+      "label": "unsupported",
+      "rationale": "The source describes Qdrant and Weaviate as open-source, self-hosted options, not pgvector."
+    },
+    "F-32a2894c": {
+      "finding_id": "F-32a2894c",
+      "label": "unsupported",
+      "rationale": "The 0.8.0 changelog describes improvements to pgvector, not Weaviate."
+    },
+    "F-4cbefa84": {
+      "finding_id": "F-4cbefa84",
+      "label": "unsupported",
+      "rationale": "The author says they ran Weaviate locally with Docker, not Qdrant."
+    },
+    "F-7e4a89d0": {
+      "finding_id": "F-7e4a89d0",
+      "label": "unsupported",
+      "rationale": "The three-trial Search Mode experiment is described on a Weaviate page, not as a Qdrant experiment."
+    },
+    "F-be50b883": {
+      "finding_id": "F-be50b883",
+      "label": "unsupported",
+      "rationale": "The source attributes indexed approximate nearest-neighbor search to pgvector, not Weaviate."
+    },
+    "F-c1350961": {
+      "finding_id": "F-c1350961",
+      "label": "unsupported",
+      "rationale": "The June 2026 release describes Pinecone’s Builder plan, not a Weaviate plan."
+    },
+    "F-4f96dc5c": {
+      "finding_id": "F-4f96dc5c",
+      "label": "unsupported",
+      "rationale": "The page recommends Qdrant or Pinecone for a first RAG prototype, not Weaviate or Pinecone."
+    },
+    "F-58365321": {
+      "finding_id": "F-58365321",
+      "label": "unsupported",
+      "rationale": "The usage-based pricing and idle-index statement concerns Pinecone serverless, not Weaviate."
+    },
+    "F-682838b5": {
+      "finding_id": "F-682838b5",
+      "label": "unsupported",
+      "rationale": "The retrieval-layer description refers to Pinecone, not Weaviate."
+    },
+    "F-d7a3bf54": {
+      "finding_id": "F-d7a3bf54",
+      "label": "unsupported",
+      "rationale": "The excerpt describes tests at 1,536 dimensions and cited Qdrant benchmarks at 768 dimensions, not a rerun of all four databases at 3,072 dimensions."
+    },
+    "F-8011b1d0": {
+      "finding_id": "F-8011b1d0",
+      "label": "unsupported",
+      "rationale": "The excerpt does not state a three-node license limit or a $199 annual per-node charge for self-hosted Qdrant."
+    },
+    "F-cb698990": {
+      "finding_id": "F-cb698990",
+      "label": "unsupported",
+      "rationale": "The excerpt does not state that Pinecone charges a $20 monthly reservation fee for each idle index."
+    },
+    "F-280abb34": {
+      "finding_id": "F-280abb34",
+      "label": "unsupported",
+      "rationale": "The source says filtering with approximate indexes is applied after the index is scanned, not before an HNSW scan."
+    },
+    "F-57f7a016": {
+      "finding_id": "F-57f7a016",
+      "label": "unsupported",
+      "rationale": "The source mentions sub-50ms ANN query response, not a 10ms maximum guarantee for every Shared Cloud query."
+    },
+    "F-98b6b73f": {
+      "finding_id": "F-98b6b73f",
+      "label": "unsupported",
+      "rationale": "The source says Pinecone hosts reranking models but does not say every dense-index query is reranked automatically or without an extra charge."
+    },
+    "F-06a8f1dc": {
+      "finding_id": "F-06a8f1dc",
+      "label": "unsupported",
+      "rationale": "The source estimates about $70 per month for Pinecone Serverless at 10 million vectors, not $18."
+    },
+    "F-91156c4e": {
+      "finding_id": "F-91156c4e",
+      "label": "unsupported",
+      "rationale": "The source describes $96 per month for a DigitalOcean 16GB Droplet but does not include a second failover Droplet."
+    },
+    "F-890ca339": {
+      "finding_id": "F-890ca339",
+      "label": "unsupported",
+      "rationale": "The source lists Qdrant’s free cluster as 1 GB, not 10 GB."
+    },
+    "F-a4cc061a": {
+      "finding_id": "F-a4cc061a",
+      "label": "unsupported",
+      "rationale": "The source says Flex starts at $45 per month and lists a 14-day sandbox trial, not a $25 minimum and 30-day trial."
+    },
+    "F-2bc519a7": {
+      "finding_id": "F-2bc519a7",
+      "label": "unsupported",
+      "rationale": "The source calls Qdrant’s hybrid search production-ready but does not say it automatically converts dense queries into sparse vectors without an embedding model."
+    },
+    "F-c8ffcd52": {
+      "finding_id": "F-c8ffcd52",
+      "label": "unsupported",
+      "rationale": "The source says Synthara uses Qdrant Cloud but does not mention deployment in three regions or automatic cross-region replication."
+    },
+    "F-845575c4": {
+      "finding_id": "F-845575c4",
+      "label": "unsupported",
+      "rationale": "The source says the bill can reach $700 or more per month, not that $700 is a cap."
+    },
+    "F-a5dd99c6": {
+      "finding_id": "F-a5dd99c6",
+      "label": "unsupported",
+      "rationale": "The source says self-hosted Weaviate runs in either Docker or Kubernetes with only infrastructure costs."
+    },
+    "F-f29c6552": {
+      "finding_id": "F-f29c6552",
+      "label": "unsupported",
+      "rationale": "The source says Pinecone Enterprise BYOC runs in AWS, GCP, or Azure accounts, not exclusively AWS."
+    },
+    "F-02945aaf": {
+      "finding_id": "F-02945aaf",
+      "label": "unsupported",
+      "rationale": "The source says Pinecone’s proprietary algorithms prevent customization rather than allowing customers to replace them."
+    },
+    "F-d013cb71": {
+      "finding_id": "F-d013cb71",
+      "label": "unsupported",
+      "rationale": "The source lists a 99.5% uptime SLA for Weaviate Shared Cloud Flex, not 99.99%."
+    },
+    "F-4aca0a32": {
+      "finding_id": "F-4aca0a32",
+      "label": "unsupported",
+      "rationale": "The source reports 30x faster time-to-completion, not an exact 50% reduction across every evaluated workflow."
+    },
+    "F-7663aebf": {
+      "finding_id": "F-7663aebf",
+      "label": "unsupported",
+      "rationale": "The source attributes the invoice’s first-place ranking to an alpha value of 0.5, not 0.9."
+    },
+    "F-c672bf12": {
+      "finding_id": "F-c672bf12",
+      "label": "unsupported",
+      "rationale": "The source says managed Postgres is often the simpler choice for many such projects, rather than recommending Qdrant for every project."
+    }
+  }
+}

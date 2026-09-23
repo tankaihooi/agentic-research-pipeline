@@ -1,0 +1,98 @@
+{
+  "name": "stripe-billing",
+  "source_run_id": "20260923-143516-give-me-a-competitive-analysis-o-6eef",
+  "prompt": "Give me a competitive analysis of Stripe's new billing features",
+  "depth": "standard",
+  "brief": "Analyze Stripe Billing features introduced or materially updated in 2025–2026, including what they do, who can use them, and their pricing. Compare Stripe’s capabilities and costs with Chargebee, Zuora, Paddle, and Recurly, distinguishing documented features from announced or limited-availability offerings.",
+  "primary_domains": [
+    "chargebee.com",
+    "paddle.com",
+    "recurly.com",
+    "stripe.com",
+    "zuora.com"
+  ],
+  "sub_queries": [
+    {
+      "id": "Q1",
+      "question": "Which Stripe Billing features were launched or materially updated in 2025–2026, and what are their documented capabilities, availability, and limitations for subscriptions, usage-based billing, billing credits, and revenue operations?",
+      "search_terms": [
+        "site:stripe.com billing changelog 2025 2026 usage credits subscriptions",
+        "Stripe Billing new features 2026 availability"
+      ],
+      "rationale": "Establishes precisely what is new before comparing Stripe with competitors.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q2",
+      "question": "What are Stripe Billing’s current published fees and relevant additional charges, and how do its pricing tiers or eligibility rules affect the cost of using its newer features?",
+      "search_terms": [
+        "site:stripe.com billing pricing usage based billing 2026",
+        "site:stripe.com billing pricing credits revenue recognition tax"
+      ],
+      "rationale": "Separates feature availability from total cost and identifies charges a buyer would need to consider.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q3",
+      "question": "How do Chargebee’s current subscription management, usage-based billing, and billing-credit capabilities and published pricing compare with Stripe Billing’s 2025–2026 features?",
+      "search_terms": [
+        "site:chargebee.com subscription billing usage billing credits pricing 2026",
+        "Chargebee Stripe Billing comparison 2026"
+      ],
+      "rationale": "Tests Stripe against a specialist subscription-billing competitor.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q4",
+      "question": "How do Zuora’s current usage-based billing, subscription, and enterprise revenue-operations capabilities and pricing model compare with Stripe Billing’s newer offerings?",
+      "search_terms": [
+        "site:zuora.com usage based billing subscription pricing 2026",
+        "Zuora Stripe Billing comparison 2026"
+      ],
+      "rationale": "Assesses whether Stripe’s new features narrow the gap with an enterprise billing platform.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q5",
+      "question": "How do Paddle Billing and Recurly differ from Stripe Billing on subscription and usage-based billing features, pricing, and merchant-of-record versus payment-processor responsibilities?",
+      "search_terms": [
+        "site:paddle.com billing pricing merchant of record usage 2026",
+        "site:recurly.com pricing usage based billing 2026"
+      ],
+      "rationale": "Covers two alternative buying models and highlights responsibilities that a feature-only comparison could miss.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q1.g1",
+      "question": "What independent 2025–2026 reporting, customer accounts, or analyst comparisons corroborate Stripe Billing’s recent feature launches and describe their practical availability or limitations for subscriptions, usage-based billing, credits, and revenue operations?",
+      "search_terms": [
+        "Stripe Billing 2025 2026 feature launches customer experience review",
+        "Stripe Billing usage-based billing credits 2026 product coverage"
+      ],
+      "rationale": "The findings are extensive but sourced only from Stripe. Independent coverage or customer experience can corroborate the launches and add practical context about availability and limitations; these searches avoid Stripe’s site.",
+      "origin": "gap",
+      "avoid_domains": [
+        "stripe.com"
+      ]
+    },
+    {
+      "id": "Q2.g1",
+      "question": "How do independent sources describe Stripe Billing’s actual costs, additional fees, and eligibility or tier constraints, particularly for newer features?",
+      "search_terms": [
+        "Stripe Billing fees pricing review additional charges 2025 2026",
+        "Stripe Billing pricing tiers feature eligibility customer comparison"
+      ],
+      "rationale": "Published pricing claims currently come solely from Stripe, and the available findings do not establish how add-on charges or eligibility affect real costs. Independent reviews and comparisons may provide that context; these searches avoid Stripe’s site.",
+      "origin": "gap",
+      "avoid_domains": [
+        "stripe.com"
+      ]
+    }
+  ],
+  "elapsed_s": 206.5
+}

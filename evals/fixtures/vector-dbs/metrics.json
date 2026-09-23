@@ -1,0 +1,117 @@
+{
+  "run_id": "20260923-150025-compare-the-leading-vector-datab-94ba",
+  "elapsed_s": 363.8,
+  "counts": {
+    "sub_queries": 8,
+    "sources": 33,
+    "sources_from_cache": 0,
+    "primary_sources": 15,
+    "findings": 289,
+    "errors": 0
+  },
+  "tokens": {
+    "raw_scraped": 270104,
+    "after_cleaning": 185231,
+    "distilled_findings": 19188,
+    "verified_for_writer": 18111,
+    "compression_ratio": 14.1
+  },
+  "critic": {
+    "verdicts": {
+      "verified": 122,
+      "single_source": 136,
+      "contradicted": 16,
+      "rejected": 15
+    },
+    "first_party": 69,
+    "rejected_by": {
+      "grounding": 1,
+      "entailment": 14,
+      "cross_reference": 0
+    },
+    "gap_loops": 1,
+    "stop_reason": "coverage met"
+  },
+  "report": {
+    "sections": 7,
+    "words": 4099,
+    "audit_rounds": [
+      {
+        "round": 1,
+        "sections_checked": 7,
+        "statements_checked": 115,
+        "flagged": 12
+      },
+      {
+        "round": 2,
+        "sections_checked": 6,
+        "statements_checked": 100,
+        "flagged": 2
+      }
+    ],
+    "unresolved_flags": 2,
+    "citation_problems": []
+  },
+  "usage": {
+    "planner": {
+      "calls": 1,
+      "input_tokens": 629,
+      "cached_input_tokens": 0,
+      "output_tokens": 859,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 11174.40966697177,
+      "cost_usd": 0.009848
+    },
+    "scraper": {
+      "calls": 49,
+      "input_tokens": 224151,
+      "cached_input_tokens": 0,
+      "output_tokens": 31275,
+      "embedding_calls": 35,
+      "embedding_tokens": 228411,
+      "latency_ms": 334565.25254191365,
+      "cost_usd": 0.042620820000000004
+    },
+    "critic": {
+      "calls": 76,
+      "input_tokens": 275678,
+      "cached_input_tokens": 0,
+      "output_tokens": 33082,
+      "embedding_calls": 2,
+      "embedding_tokens": 6092,
+      "latency_ms": 335886.0017492552,
+      "cost_usd": 0.04423064
+    },
+    "writer": {
+      "calls": 15,
+      "input_tokens": 60345,
+      "cached_input_tokens": 13401,
+      "output_tokens": 15744,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 278960.6494170148,
+      "cost_usd": 0.25400819999999996
+    },
+    "auditor": {
+      "calls": 13,
+      "input_tokens": 46601,
+      "cached_input_tokens": 0,
+      "output_tokens": 6083,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 65541.43391677644,
+      "cost_usd": 0.0077016
+    }
+  },
+  "total": {
+    "calls": 154,
+    "input_tokens": 607404,
+    "cached_input_tokens": 13401,
+    "output_tokens": 87043,
+    "embedding_calls": 37,
+    "embedding_tokens": 234503,
+    "latency_ms": 1026127.7472919319,
+    "cost_usd": 0.35840925999999995
+  }
+}

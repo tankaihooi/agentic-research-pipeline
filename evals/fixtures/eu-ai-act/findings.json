@@ -1,0 +1,2135 @@
+[
+  {
+    "id": "F-ca7bf5bb",
+    "sub_query_id": "Q1",
+    "source_id": "S-64b5d219",
+    "claim": "The EU AI Act obligations for providers of general-purpose AI models entered into application on 2 August 2025.",
+    "quote": "These obligations entered into application on 2 August 2025.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-63d337b1",
+    "sub_query_id": "Q1",
+    "source_id": "S-64b5d219",
+    "claim": "The European Commission’s guidelines on the scope of obligations for providers of general-purpose AI models are not legally binding but reflect the Commission’s interpretation and will guide enforcement.",
+    "quote": "These guidelines, though not legally binding, reflect the Commission's interpretation and will guide enforcement.",
+    "entity": "European Commission guidelines for providers of general-purpose AI models",
+    "category": "other"
+  },
+  {
+    "id": "F-98f08811",
+    "sub_query_id": "Q1",
+    "source_id": "S-64b5d219",
+    "claim": "Providers of general-purpose AI models must use the EU SEND platform to submit documents related to their obligations to the AI Office.",
+    "quote": "Providers of general-purpose AI models must use the **EU SEND platform** to submit documents related to their obligations to the AI Office.",
+    "entity": "EU SEND platform",
+    "category": "feature"
+  },
+  {
+    "id": "F-ba236c7b",
+    "sub_query_id": "Q2",
+    "source_id": "S-fea607ca",
+    "claim": "The Commission published a template on 24 July 2025 to help GPAI providers summarise the content used to train their models.",
+    "quote": "The Commission has published a template to help General-Purpose AI (GPAI) providers summarise the content used to train their model.",
+    "entity": "European Commission",
+    "category": "other"
+  },
+  {
+    "id": "F-c72684cd",
+    "sub_query_id": "Q2",
+    "source_id": "S-fea607ca",
+    "claim": "The Commission’s template is intended to help GPAI providers make a training-content summary publicly available in line with the AI Act.",
+    "quote": "This template is a simple, uniform and effective manner for GPAI providers to increase transparency in line with the AI Act, including making such a summary publicly available.",
+    "entity": "European Commission",
+    "category": "feature"
+  },
+  {
+    "id": "F-cf73258d",
+    "sub_query_id": "Q2",
+    "source_id": "S-fea607ca",
+    "claim": "The public training-data summary is intended to give a comprehensive overview of the data used, list main data collections, and explain other sources used.",
+    "quote": "The public summary will provide a comprehensive overview of the data used to train a model, list main data collections and explain other sources used.",
+    "entity": "GPAI providers",
+    "category": "feature"
+  },
+  {
+    "id": "F-d7e9ff0f",
+    "sub_query_id": "Q2",
+    "source_id": "S-fea607ca",
+    "claim": "The EU-wide rules for GPAI models were scheduled to take effect on 2 August 2025.",
+    "quote": "The template is part of a broader initiative linked to the EU-wide rules for general-purpose AI models kicking in on 2 August 2025.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-376a674f",
+    "sub_query_id": "Q2",
+    "source_id": "S-fea607ca",
+    "claim": "The Commission said the template would assist parties with legitimate interests, such as copyright holders, in exercising their rights under Union law.",
+    "quote": "This template will also assist parties with legitimate interests, such as copyright holders, in exercising their rights under Union law.",
+    "entity": "European Commission",
+    "category": "other"
+  },
+  {
+    "id": "F-26e01179",
+    "sub_query_id": "Q2",
+    "source_id": "S-e99375c8",
+    "claim": "Providers of general-purpose AI models are required by Article 53(1)(d) of the AI Act to make public a sufficiently detailed summary of their training data.",
+    "quote": "the AI Office also developped a template on the sufficiently detailed summary of training data that general-purpose AI model providers are required to make public according to Article 53(1)d) of the AI Act.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-836cf8f9",
+    "sub_query_id": "Q2",
+    "source_id": "S-e99375c8",
+    "claim": "The AI Act rules on general-purpose AI models apply from 2 August 2025.",
+    "quote": "The AI Act rules on GPAI apply from 2 August 2025.",
+    "entity": "AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-02caf029",
+    "sub_query_id": "Q2",
+    "source_id": "S-e99375c8",
+    "claim": "The AI Act’s rules for general-purpose AI models include transparency and copyright-related rules.",
+    "quote": "To ensure safe and transparent AI, the AI Act puts in place rules for providers of such models. This includes transparency and copyright-related rules.",
+    "entity": "AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-dfd16f1e",
+    "sub_query_id": "Q2",
+    "source_id": "S-7f856772",
+    "claim": "The EU AI Act defines a downstream provider as a provider of an AI system that integrates an AI model, whether the model is supplied by that provider or another entity under contractual relations.",
+    "quote": "‘downstream provider’ means a provider of an AI system, including a general-purpose AI system, which integrates an AI model, regardless of whether the AI model is provided by themselves and vertically integrated or provided by another entity based on contractual relations.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-528afc1a",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "Providers of general-purpose AI models presenting systemic risks are subject to additional obligations to assess and mitigate those systemic risks.",
+    "quote": "In addition, providers of the most advanced or most impactful general-purpose AI models, namely those presenting systemic risks, are subject to the additional obligations to assess and mitigate these systemic risks.",
+    "entity": "General-purpose AI models presenting systemic risks",
+    "category": "limitation"
+  },
+  {
+    "id": "F-9e0cd278",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "Systemic risks include risks to fundamental rights and safety, and risks related to loss of control over the model.",
+    "quote": "Systemic risks include risks to fundamental rights and safety, and risks related to loss of control over the model.",
+    "entity": "General-purpose AI models presenting systemic risks",
+    "category": "other"
+  },
+  {
+    "id": "F-7f2b8c1f",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "Providers of general-purpose AI models must give information to AI-system providers intending to integrate the model and put in place a policy to comply with European copyright law.",
+    "quote": "These obligations include giving information to providers of AI systems intending to integrate the model into their AI systems and putting in place a policy to comply with European copyright law.",
+    "entity": "Providers of general-purpose AI models",
+    "category": "other"
+  },
+  {
+    "id": "F-dbe5df7d",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "The AI Act obligations for providers of general-purpose AI models enter into application on 2 August 2025.",
+    "quote": "The AI Act obligations for providers of general-purpose AI models enter into application on 2 August 2025.",
+    "entity": "Providers of general-purpose AI models",
+    "category": "launch"
+  },
+  {
+    "id": "F-3338bf19",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "Providers placing general-purpose AI models on the market from 2 August 2025 must comply with their respective AI Act obligations from that date.",
+    "quote": "From that date onwards, providers placing general-purpose AI models on the market must comply with their respective AI Act obligations.",
+    "entity": "Providers of general-purpose AI models",
+    "category": "other"
+  },
+  {
+    "id": "F-723e31f8",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "Providers of general-purpose AI models classified as models with systemic risk must notify the AI Office without delay.",
+    "quote": "Providers of general-purpose AI models that will be classified as general-purpose AI models with systemic risk must notify the AI Office without delay.",
+    "entity": "Providers of general-purpose AI models with systemic risk",
+    "category": "other"
+  },
+  {
+    "id": "F-3c52d9f1",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "The Commission’s enforcement powers enter into application on 2 August 2026.",
+    "quote": "From 2 August 2026, the Commission’s enforcement powers enter into application.",
+    "entity": "European Commission",
+    "category": "launch"
+  },
+  {
+    "id": "F-ab62d7c8",
+    "sub_query_id": "Q3",
+    "source_id": "S-e8727572",
+    "claim": "Providers of general-purpose AI models already on the market before 2 August 2025 must comply with the relevant AI Act obligations by 2 August 2027.",
+    "quote": "Providers of general-purpose AI models already on the market before 2 August 2025 must comply with the relevant obligations under the AI Act by 2 August 2027.",
+    "entity": "Providers of general-purpose AI models already on the market before 2 August 2025",
+    "category": "other"
+  },
+  {
+    "id": "F-d7af569d",
+    "sub_query_id": "Q3",
+    "source_id": "S-83a91482",
+    "claim": "Under the Commission’s guidelines described on the page, GPAI models are defined as models trained with over 10^23 FLOP and capable of generating language.",
+    "quote": "GPAI models are defined as those trained with over 10^23 FLOP and capable of generating language.",
+    "entity": "GPAI models",
+    "category": "other"
+  },
+  {
+    "id": "F-71a56a67",
+    "sub_query_id": "Q3",
+    "source_id": "S-83a91482",
+    "claim": "Providers of the most advanced or impactful GPAI models presenting systemic risks are those with models exceeding 10^25 FLOP.",
+    "quote": "Providers of the most advanced or impactful models presenting systemic risks — i.e. those exceeding 10^25 FLOP — will need to meet additional obligations, such as notifying the Commission and ensuring the model's safety and security.",
+    "entity": "GPAI models presenting systemic risks",
+    "category": "other"
+  },
+  {
+    "id": "F-c8c57ebb",
+    "sub_query_id": "Q3",
+    "source_id": "S-83a91482",
+    "claim": "Providers of GPAI models presenting systemic risks must notify the Commission and ensure their models’ safety and security.",
+    "quote": "Providers of the most advanced or impactful models presenting systemic risks — i.e. those exceeding 10^25 FLOP — will need to meet additional obligations, such as notifying the Commission and ensuring the model's safety and security.",
+    "entity": "GPAI models presenting systemic risks",
+    "category": "other"
+  },
+  {
+    "id": "F-a43c96d0",
+    "sub_query_id": "Q3",
+    "source_id": "S-83a91482",
+    "claim": "From August 2, providers must comply with transparency and copyright obligations when placing GPAI models on the EU market.",
+    "quote": "From August 2, providers must comply with transparency and copyright obligations when placing GPAI models on the EU market.",
+    "entity": "GPAI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-f1ca9483",
+    "sub_query_id": "Q3",
+    "source_id": "S-83a91482",
+    "claim": "GPAI models already on the market before 2 August 2025 must comply by 2 August 2027.",
+    "quote": "Models already on the market before 2 August 2025 must ensure compliance by 2 August 2027.",
+    "entity": "GPAI models",
+    "category": "other"
+  },
+  {
+    "id": "F-7287e807",
+    "sub_query_id": "Q3",
+    "source_id": "S-83a91482",
+    "claim": "The Commission and Member States confirmed that the GPAI Code of Practice is an adequate voluntary tool for providers to demonstrate compliance with the AI Act.",
+    "quote": "The Commission and the Member States have also confirmed that the GPAI Code of Practice, developed by independent experts, is an adequate voluntary tool for providers of GPAI models to demonstrate compliance with the AI Act.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-784b515b",
+    "sub_query_id": "Q3",
+    "source_id": "S-83a91482",
+    "claim": "Providers who sign and adhere to the GPAI Code of Practice will benefit from reduced burden and increased legal certainty.",
+    "quote": "Providers who sign and adhere to the Code will benefit from reduced burden and increased legal certainty.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-b573d60b",
+    "sub_query_id": "Q4",
+    "source_id": "S-9016acd6",
+    "claim": "The European Commission’s General-Purpose AI Code of Practice is a voluntary tool designed to help industry comply with the AI Act’s rules for general-purpose AI.",
+    "quote": "The European Commission has received the final version of the General-Purpose AI Code of Practice, a voluntary tool developed by 13 independent experts, with input from over 1,000 stakeholders, including model providers, small and medium-sized enterprises, academics, AI safety experts, rightsholders, and civil society organisations.",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-286ac4c7",
+    "sub_query_id": "Q4",
+    "source_id": "S-9016acd6",
+    "claim": "The General-Purpose AI Code of Practice has three chapters: Transparency and Copyright for all GPAI model providers, and Safety and Security for a limited number of providers of the most advanced models.",
+    "quote": "The Code consists of three chapters: **Transparency** and **Copyright**, both addressing all providers of general-purpose AI models, and **Safety and Security**, relevant only to a limited number of providers of the most advanced models.",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "feature"
+  },
+  {
+    "id": "F-42dfdd82",
+    "sub_query_id": "Q4",
+    "source_id": "S-9016acd6",
+    "claim": "After Member States and the Commission endorse the Code, GPAI model providers that voluntarily sign it will be able to demonstrate compliance with relevant AI Act obligations by adhering to it.",
+    "quote": "Once the Code is endorsed by the Member States and the Commission, providers of general-purpose AI models who voluntarily sign the Code will be able to demonstrate compliance with the relevant AI Act obligations by adhering to the Code.",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-879fccd1",
+    "sub_query_id": "Q4",
+    "source_id": "S-9016acd6",
+    "claim": "The Commission says Code signatories will benefit from reduced administrative burden and increased legal certainty compared with providers that demonstrate compliance in other ways.",
+    "quote": "In doing so, signatories to the Code will benefit from a **reduced administrative burden** and **increased legal certainty** compared to providers that prove compliance in other ways.",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-c04f4378",
+    "sub_query_id": "Q4",
+    "source_id": "S-9016acd6",
+    "claim": "The AI Act’s GPAI rules enter into application on 2 August 2025, with AI Office enforcement beginning one year later for new models and two years later for existing models.",
+    "quote": "The rules become enforceable by the AI Office of the Commission one year later as regards new models and two years later as regards existing models.",
+    "entity": "AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-3c5113d8",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "The AI Office’s Q&A says it is not an official Commission position and does not bind the Commission.",
+    "quote": "This Q&A does not constitute an official position of the Commission, and it is without prejudice to any decision or position of the Commission.",
+    "entity": "European Commission AI Office Q&A",
+    "category": "other"
+  },
+  {
+    "id": "F-6b479c9e",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "The AI Act requires GPAI providers to prepare technical documentation for authorities and downstream providers, implement a copyright policy, and publish a sufficiently detailed training-content summary.",
+    "quote": "Providers of general-purpose AI models must document technical information about their models for the purpose of providing that information upon request to the AI Office and national competent authorities (Article 53(1)(a) AI Act) and making it available to downstream providers (Article 53(1)(b) AI Act). They must also put in place a policy to comply with Union law on copyright and related rights (Article 53(1)(c) AI Act) and draw up and make publicly available a sufficiently detailed summary about the content used for training the model (Article 53(1)(d) AI Act).",
+    "entity": "AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-f7a78278",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "The General-Purpose AI Code of Practice gives signatories further detail on compliance with Article 53(1)(a), (b), and (c), while the Commission’s public-summary template outlines the required content for Article 53(1)(d).",
+    "quote": "The General-Purpose AI Code of Practice provides signatories with further detail on how to ensure compliance with the obligations laid down in Article 53(1)(a), (b), and (c) in the chapters dealing with transparency and copyright (led by Working Group 1), and the Commission’s Template for the Public Summary of Training Content for General-Purpose AI models outlines the required content for Article 53(1)(d) of the AI Act.",
+    "entity": "General-Purpose AI Code of Practice and Commission Template for the Public Summary of Training Content",
+    "category": "feature"
+  },
+  {
+    "id": "F-4dbc1116",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "The Code of Practice provides signatories with further detail on compliance with the systemic-risk obligations in Article 55.",
+    "quote": "The General-Purpose AI Code of Practice provides signatories with further detail on how to ensure compliance with these obligations in the chapter dealing with systemic risk assessment, technical risk mitigation, and governance risk mitigation (led by Working Groups 2, 3, and 4 respectively).",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "feature"
+  },
+  {
+    "id": "F-852eb458",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "The Commission and AI Board assessed the Code of Practice published on 10 July 2025 as adequate.",
+    "quote": "The Commission and the AI Board have assessed the Code of Practice published on 10th July 2025 as adequate.",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-00caaa81",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "Adherence to the Code of Practice is a means to demonstrate AI Act compliance, but does not create a presumption of conformity; providers may instead use other means to demonstrate compliance.",
+    "quote": "Once assessed as adequate, adherence to the Code of Practice becomes a means to demonstrate compliance with the AI Act, while not providing a presumption of conformity with the AI Act. Providers may also demonstrate compliance with the AI Act in other ways.",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-f540b9e2",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "Providers that do not adhere to the Code of Practice must be able to justify why their alternative compliance measures are adequate, for example by conducting a gap analysis against the assessed Code.",
+    "quote": "Providers who do not sign and adhere to the Code of Practice must be able to justify why their proposed alternative means of compliance are adequate, for instance by carrying out a gap analysis compared to the Code of Practice that has been assessed as adequate.",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-d2a57b8e",
+    "sub_query_id": "Q4",
+    "source_id": "S-c9f34d25",
+    "claim": "The AI Office may consider Code adherence when monitoring compliance and may treat Code commitments as a mitigating factor when setting fines.",
+    "quote": "Based on the AI Act, additional legal effects of the Code of Practice are that the AI Office may take a provider’s adherence to the Code of Practice into account when monitoring its effective implementation and compliance with the AI Act (Article 89(1) AI Act) and may take into account commitments made in the Code of Practice as a mitigating factor when fixing the amount of fines depending on the specific circumstances (Article 101(1) AI Act).",
+    "entity": "General-Purpose AI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-a05e2820",
+    "sub_query_id": "Q5",
+    "source_id": "S-17cb33be",
+    "claim": "The EU AI Act entered into force on 1 August 2024.",
+    "quote": "Date of effect: 01/08/2024; Entry into force",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-6d7af9d3",
+    "sub_query_id": "Q5",
+    "source_id": "S-17cb33be",
+    "claim": "The EU AI Act began partial application on 2 February 2025.",
+    "quote": "Date of effect: 02/02/2025; Application Partial application See Art 113(a)",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-47b23fec",
+    "sub_query_id": "Q5",
+    "source_id": "S-17cb33be",
+    "claim": "The EU AI Act began a further phase of partial application on 2 August 2025.",
+    "quote": "Date of effect: 02/08/2025; Application Partial application See Art 113(b)",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-3bb40e5b",
+    "sub_query_id": "Q5",
+    "source_id": "S-17cb33be",
+    "claim": "The EU AI Act’s general application date is 2 August 2026.",
+    "quote": "Date of effect: 02/08/2026; Application See Art 113",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-c37b9229",
+    "sub_query_id": "Q5",
+    "source_id": "S-17cb33be",
+    "claim": "The EU AI Act has a deadline of 2 August 2027 under Article 111(3).",
+    "quote": "Deadline: 02/08/2027; See Art 111.3",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-9f4dc7a5",
+    "sub_query_id": "Q5",
+    "source_id": "S-40bdc44a",
+    "claim": "The EU AI Act entered into force on 1 August 2024.",
+    "quote": "The AI Act entered into force on 1 August 2024 and became applicable on 2 August 2026, with some exceptions:",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-20907e3a",
+    "sub_query_id": "Q5",
+    "source_id": "S-40bdc44a",
+    "claim": "The EU AI Act’s rules for GPAI models became effective in August 2025.",
+    "quote": "The AI Act rules on GPAI became effective in August 2025.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-5b54e366",
+    "sub_query_id": "Q5",
+    "source_id": "S-40bdc44a",
+    "claim": "The AI Act sets transparency and copyright rules for providers of GPAI models.",
+    "quote": "To ensure safe and trustworthy AI, the AI Act puts in place rules – e.g. on transparency and copyright – for providers of GPAI models.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-64f858c6",
+    "sub_query_id": "Q5",
+    "source_id": "S-40bdc44a",
+    "claim": "Providers of GPAI models that may pose systemic risks should assess and mitigate those risks.",
+    "quote": "For GPAI models that may pose systemic risks, providers should assess and mitigate those risks.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-124a5fa3",
+    "sub_query_id": "Q5",
+    "source_id": "S-40bdc44a",
+    "claim": "From 2 August 2026, the AI Office and Member State authorities are responsible for implementing, supervising, and enforcing the AI Act.",
+    "quote": "From 2 August 2026, the AI Office and authorities of the Member States are responsible for implementing, supervising and enforcing the AI Act.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-5c542828",
+    "sub_query_id": "Q5",
+    "source_id": "S-40bdc44a",
+    "claim": "The AI Office has enforcement powers over GPAI models, including requesting technical documentation, evaluating models, requiring corrective measures, and issuing fines for non-compliance.",
+    "quote": "The AI Office holds enforcement powers over GPAI models. It can request technical documentation, evaluate models, require corrective measures and issue fines for non-compliance.",
+    "entity": "AI Office",
+    "category": "feature"
+  },
+  {
+    "id": "F-0c1923d0",
+    "sub_query_id": "Q5",
+    "source_id": "S-40bdc44a",
+    "claim": "The Commission’s AI model evaluation capacity initiative is expected to be operational by 2027.",
+    "quote": "Expected to be operational by 2027, this will strengthen third-party assessment of AI capabilities and risks and contribute to the regulatory function of the AI Office.",
+    "entity": "European Commission",
+    "category": "launch"
+  },
+  {
+    "id": "F-253772b5",
+    "sub_query_id": "Q5",
+    "source_id": "S-2acc097b",
+    "claim": "The AI Act’s GPAI provider obligations become enforceable from 2 August 2026.",
+    "quote": "The enforcement powers of the AI Office and the national competent authorities of the Member States apply from 2 August 2026, when certain provisions of the AI Act become enforceable.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-cd7ec4e0",
+    "sub_query_id": "Q5",
+    "source_id": "S-2acc097b",
+    "claim": "From 2 August 2026, GPAI provider obligations include transparency rules for downstream providers and respect for copyright.",
+    "quote": "Obligations for providers GPAI models: These obligations include rules on transparency of GPAI models for downstream providers of AI systems and respect for copyright.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-3e0ff5fd",
+    "sub_query_id": "Q5",
+    "source_id": "S-2acc097b",
+    "claim": "From 2 August 2026, the Act applies security and safety rules to the most advanced GPAI models to protect against risks of large-scale harm.",
+    "quote": "They also include rules on security and safety for the most advanced GPAI models, which protect users against risks of large-scale harm (such as risks from chemical, biological, radiological, and nuclear incidents, loss of control, cyber offense, harmful manipulation and other systemic risks – including fundamental rights).",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-bd325294",
+    "sub_query_id": "Q5",
+    "source_id": "S-2acc097b",
+    "claim": "The GPAI Code of Practice operationalises the GPAI obligations described on the page.",
+    "quote": "The GPAI Code of Practice operationalises these obligations.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-414c2b82",
+    "sub_query_id": "Q5",
+    "source_id": "S-2acc097b",
+    "claim": "Breaches of GPAI model obligations may result in fines of up to €15 million or 3% of total worldwide annual turnover, whichever is higher.",
+    "quote": "Other breaches, including of the obligations for GPAI models, may result in fines of up to €15 million or 3% of total worldwide annual turnover, whichever is higher.",
+    "entity": "EU AI Act",
+    "category": "pricing"
+  },
+  {
+    "id": "F-070ecb9e",
+    "sub_query_id": "Q5",
+    "source_id": "S-2acc097b",
+    "claim": "The AI Office enforces the rules for providers of GPAI models, including models that may pose systemic risks.",
+    "quote": "The AI Office enforces the rules for:\n\n* Providers of general-purpose AI (GPAI) models, including the most advanced models which may pose systemic risks",
+    "entity": "AI Office",
+    "category": "feature"
+  },
+  {
+    "id": "F-e65d6d4c",
+    "sub_query_id": "Q5",
+    "source_id": "S-2acc097b",
+    "claim": "For GPAI models, the AI Office can evaluate models, request access for evaluations, and ask providers to take measures, including restricting public availability if necessary.",
+    "quote": "Perform model evaluations and issue requests for access (RFAs): The AI Office – or independent experts appointed by it – can require providers to grant access to their models in order to conduct evaluations.\n* Request providers to take measures, including, if necessary, restrict the public availability of a model.",
+    "entity": "AI Office",
+    "category": "feature"
+  },
+  {
+    "id": "F-cbabc2d3",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-f6d783a8",
+    "claim": "The EU AI Act’s open-source GPAI exemption removes the Article 53(1)(a) technical-documentation and Article 53(1)(b) downstream-provider-information obligations, while the copyright-policy and public-training-data-summary obligations remain.",
+    "quote": "Article 53(1) sets out four obligations for all GPAI providers. The exemption removes **two** of them. The other two apply to every provider — including open-source ones.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-541bf72f",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-f6d783a8",
+    "claim": "Under the EU AI Act, a GPAI model must meet all four stated conditions to qualify for the open-source exemption: an eligible free and open-source licence, permission for access, usage, modification and distribution, publicly available weights, and publicly available architecture and usage information.",
+    "quote": "Article 53(2) sets out four requirements that must all be satisfied at the same time. Miss one condition and the exemption does not apply.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-6b8d135f",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-f6d783a8",
+    "claim": "The EU AI Act’s open-source exception does not apply to GPAI models with systemic risks.",
+    "quote": "Article 53(2) ends with an explicit carve-out:*\"This exception shall not apply to general-purpose AI models with systemic risks.\"*",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-227d3943",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-f6d783a8",
+    "claim": "For a GPAI model with systemic risk, the EU AI Act requires adversarial testing, Union-level risk assessment, incident reporting, and cybersecurity in addition to the full Article 53 obligation set.",
+    "quote": "If your open-weights model was trained using more than**10²⁵ floating-point operations**, or the Commission designates it as systemic risk on capability grounds, the full Article 53 obligation set applies — including the Annex XI technical documentation and Annex XII downstream information obligations — plus all four additional Article 55 obligations: adversarial testing, Union-level risk assessment, incident reporting, and cybersecurity.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-166d9975",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-f6d783a8",
+    "claim": "The EU AI Act’s open-source exemption from appointing an authorised representative for non-EU GPAI providers is removed for open-source models that have systemic risk.",
+    "quote": "Article 54(6) removes this obligation for open-source GPAI providers — but with the same carve-out: the exemption is explicitly removed for open-source models that have systemic risk.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-97e1c09a",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-f6d783a8",
+    "claim": "The EU AI Act’s open-source GPAI exemption does not remove the downstream provider’s obligations under Articles 9–15 when the model is integrated into a high-risk AI system.",
+    "quote": "if a downstream provider integrates your model into a high-risk AI system, they are responsible for those obligations. The open-source status of your model is irrelevant to their compliance.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-1223d856",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-84fb2381",
+    "claim": "Article 53(1) of the EU AI Act requires every provider of a GPAI model placed on the EU market to maintain technical documentation, provide downstream-integration information, adopt a copyright-compliance policy, and publish a sufficiently detailed training-content summary.",
+    "quote": "Article 53(1) sets four baseline obligations for every provider of a general-purpose AI model placed on the EU market, open-source or not:\n\n* **(a) Technical documentation.** Draw up and keep current technical documentation — training and testing process, evaluation results — to the level of detail in Annex XI, for the AI Office and national authorities on request.\n* **(b) Downstream integration information.** Provide information and documentation (to the Annex XII level) to providers of AI systems who want to integrate the model, sufficient for them to understand its capabilities and limitations and meet their own obligations.\n* **(c) Copyright policy.** Put in place a policy to comply with EU copyright law, including honoring rights reservations under Article 4(3) of the 2019 Copyright Directive.\n* **(d) Training-content summary.** Publish a sufficiently detailed summary of the content used to train the model, using the AI Office’s template.",
+    "entity": "EU AI Act Article 53(1)",
+    "category": "feature"
+  },
+  {
+    "id": "F-2696c4fc",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-84fb2381",
+    "claim": "Article 53(2) of the EU AI Act exempts qualifying open-source GPAI providers from the technical-documentation and downstream-integration-information duties, but not from the copyright-policy or training-content-summary duties.",
+    "quote": "Only (a) and (b) are waived. The copyright-policy obligation (c) and the training-data summary obligation (d) still apply to open-source GPAI providers — the exemption does not touch either.",
+    "entity": "EU AI Act Article 53(2)",
+    "category": "limitation"
+  },
+  {
+    "id": "F-5cdad3c1",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-84fb2381",
+    "claim": "The Article 53(2) exemption requires a qualifying free and open-source licence and public availability of model weights, architecture information, and usage information.",
+    "quote": "The exemption is conditional on four things being true together: a free and open-source licence permitting access, use, modification, and distribution; publicly available model weights; publicly available architecture information; and publicly available usage information.",
+    "entity": "EU AI Act Article 53(2)",
+    "category": "limitation"
+  },
+  {
+    "id": "F-68126b22",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-84fb2381",
+    "claim": "Article 53(2) of the EU AI Act does not exempt a GPAI model classified as posing systemic risk under Article 51.",
+    "quote": "Article 53(2)’s last sentence means an open-source release does not shield a model from any of this. A provider that open-weights a model exceeding the Article 51 compute threshold, or that the Commission otherwise designates high-impact, owes the full Article 53(1) baseline and the Article 55 systemic-risk obligations — the same as a closed model at the same classification.",
+    "entity": "EU AI Act Article 53(2)",
+    "category": "limitation"
+  },
+  {
+    "id": "F-f0992573",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-84fb2381",
+    "claim": "Article 51 of the EU AI Act presumes systemic risk when a GPAI model’s cumulative training compute exceeds 10^25 floating-point operations, and the Commission may also designate a model as having high-impact capabilities.",
+    "quote": "Article 51 classifies a GPAI model as carrying systemic risk through either of two tests: a Commission determination that it has “high impact capabilities,” or a rebuttable presumption that triggers automatically once cumulative training compute exceeds 1025 floating-point operations.",
+    "entity": "EU AI Act Article 51",
+    "category": "other"
+  },
+  {
+    "id": "F-1ad40328",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-84fb2381",
+    "claim": "Article 55 of the EU AI Act adds model evaluation, systemic-risk assessment and mitigation, serious-incident reporting, and adequate cybersecurity obligations for GPAI models with systemic risk.",
+    "quote": "Classification adds four further obligations under Article 55 — model evaluation, systemic-risk assessment and mitigation, serious-incident reporting, and adequate cybersecurity protection.",
+    "entity": "EU AI Act Article 55",
+    "category": "feature"
+  },
+  {
+    "id": "F-aa5056f2",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-8278b35c",
+    "claim": "Under the EU AI Act, a free/open-source GPAI model is eligible for the GPAI exception only if its license allows access, usage, modification, and distribution and specified model information is publicly available.",
+    "quote": "In contrast, the AI Act provides an exception to GPAIMs released under free and open-source licenses that allow for the access, usage, modification, and distribution of the model, and whose parameters, including the weights, the information on the model architecture, and the information on model usage are made publicly available.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-56c8664e",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-8278b35c",
+    "claim": "The EU AI Act’s free/open-source GPAI exception applies only to the duties to draw up technical documentation and to provide certain information and documentation to AI-system providers intending to integrate the GPAI model.",
+    "quote": "This exception, however, only applies in relation to two obligations imposed on GPAIM providers: (i) drawing up technical documentation on the model, and (ii) making available certain information and documentation to providers of AI systems who intend to integrate the GPAIM into the system.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-24c923fd",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-8278b35c",
+    "claim": "The EU AI Act’s free/open-source GPAI exception is unavailable to GPAI models with systemic risk.",
+    "quote": "Other obligations remain intact. In addition, the exemption is not available for GPAIMs with systemic risk.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-0242eede",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-8278b35c",
+    "claim": "The European Commission’s GPAI provider guidelines interpret “usage” in the open-source context to mean that the original provider cannot use intellectual-property rights to restrict use of the model or charge for its use.",
+    "quote": "In its recently published guidelines relating to the Act’s GPAIM provider obligations, the Commission clarifies that it understands “usage” in the open-source context, “to mean that the license guarantees that the original provider will not use their intellectual property rights to restrict the use of the model, or charge for its use.”",
+    "entity": "European Commission",
+    "category": "other"
+  },
+  {
+    "id": "F-480aea32",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-8278b35c",
+    "claim": "The European Commission’s GPAI provider guidelines allow licensors to impose safety-oriented license terms that reasonably restrict use in applications or domains where use could pose significant risks to public interests such as health, security, and safety.",
+    "quote": "Significantly, the guidelines go on to allow for the possibility of some usage restrictions being imposed by GPAIM providers in their licenses. Specifically, licensors may include “safety-oriented” terms that “reasonably restrict usage in applications or domains” where model use could pose a significant risk to public interests like health, security and safety.",
+    "entity": "European Commission",
+    "category": "limitation"
+  },
+  {
+    "id": "F-d9cc11e0",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-8278b35c",
+    "claim": "The EU AI Act’s free/open-source exception for AI systems does not apply to systems placed on the EU market or put into service as prohibited or high-risk AI, or to systems that interact directly with individuals or expose them to AI-generated content.",
+    "quote": "However, this exception does not apply to AI systems placed on the market or put into service in the EU as Prohibited AI or High-Risk AI, or AI systems that otherwise interact directly with individuals or expose individuals to AI-generated content (Individual-User-Facing AI).",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-0dcafaf1",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "The EU AI Act defines a general-purpose AI model as an AI model with significant generality that can competently perform a wide range of distinct tasks and be integrated into various downstream systems or applications, excluding models used for research, development, or prototyping before market placement.",
+    "quote": "“‘General-purpose AI model’ means an AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications, except AI models that are used for research, development or prototyping activities before they are placed on the market.”",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-704b5b01",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "The EU AI Act defines a provider as a person or body that develops an AI system or GPAI model, or has one developed, and places it on the market or puts it into service under its own name or trademark, whether for payment or free of charge.",
+    "quote": "A natural or legal person, public authority, agency or other body that develops an AI system or a GPAI model or that has an AI system or a GPAI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-96bf1363",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "The EU AI Act’s GPAI-provider obligations under Articles 53 and 55 apply from 2 August 2025.",
+    "quote": "The AI Act specifies obligations of providers of GPAI models and GPAI models with systemic risks in Article 53 and Article 55, which apply on 2 August 2025.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-1c80927e",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "Providers of GPAI models must document the model, provide downstream integration information, adopt an EU Copyright Directive compliance policy, and publish a sufficiently detailed summary of training data.",
+    "quote": "Providers of GPAI models must comply with the following obligations:\n\n* Article 53(1a): Draw up and keep up-to-date model technical documentation, including training and testing process and the evaluation results.\n* Article 53(1b): Draw up, keep up-to-date and make available information and documentation to providers of AI systems who intend to integrate the general-purpose AI model into their AI systems, as per criteria in Annex XII.\n* Article 53(1c): Put in place a policy to comply with the EU Copyright Directive.\n* Article 53(1d): Draw up and make publicly available a sufficiently detailed summary about the training data of the general-purpose AI model, according to a template provided by the AI Office.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-0e7d1371",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "Providers of open-source GPAI models are exempt from the Article 53(1a) model-documentation and Article 53(1b) downstream-information duties, but remain subject to the copyright-policy and training-data-summary duties.",
+    "quote": "The providers of GPAI models released under free and open source licenses **are exempt from some but not all GPAI-specific obligations** in Article 53; specifically, they are exempt from the obligations prescribed in Article 53(1a) and (1b). However, providers **are not exempt** from putting in place a policy to comply with the Copyright Directive and publishing a sufficiently detailed summary of the training data.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-66a8ef83",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "Providers of GPAI models with systemic risks must perform model evaluations, assess and mitigate systemic risks, report serious incidents, and ensure adequate cybersecurity, and are not exempt from these obligations.",
+    "quote": "Providers of GPAI models with systemic risks must comply with the following obligations and **are not exempt** from any obligations:\n\n* Article 55(1a): Perform model evaluation in accordance with standardised protocols and tools reflecting the state of the art, including conducting and documenting adversarial testing of the model.\n* Article 55(1b): Assess and mitigate possible systemic risks, including their sources, that may stem from the development, the placing on the market, or the use of GPAI models with systemic risk.\n* Article 55(1c): Keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and take possible corrective measures.\n* Article 55(1d): Ensure adequate level of cybersecurity protection for GPAI model and its physical infrastructure.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-b4239d16",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "The free-and-open-source license definition requires that software, data, or models can be openly shared and freely accessed, used, modified, and redistributed, potentially subject to attribution and comparable distribution terms.",
+    "quote": "“Software and data, including models, released under a free and open-source licence that allows them to be openly shared and where users can freely access, use, modify and redistribute them or modified versions thereof, can contribute to research and innovation in the market and can provide significant growth opportunities for the Union economy … The licence should be considered to be free and open-source also when it allows users to run, copy, distribute, study, change and improve software and data, including models, under the condition that the original provider of the model is credited, the identical or comparable terms of distribution are respected.”",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-2b6c69bc",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-1db1192f",
+    "claim": "The EU AI Act’s open-source GPAI exemptions do not apply to GPAI models with systemic risks, and monetised AI components should not benefit from the free-and-open-source exemptions.",
+    "quote": "Recital 103 elaborates that AI components that are provided against a price or otherwise monetised should not benefit from the exemptions provided to free and open-source AI components.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-ffd3646c",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "Article 53 of the EU AI Act applies to providers of general-purpose AI models from 2 August 2025.",
+    "quote": "Comes into force 2 August 2025, according to Article 113(b)",
+    "entity": "EU AI Act Article 53",
+    "category": "launch"
+  },
+  {
+    "id": "F-3bad11d0",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "The EU AI Act defines a general-purpose AI model as an AI model displaying significant generality that can competently perform a wide range of distinct tasks and be integrated into a variety of downstream systems or applications, excluding models used for research, development, or prototyping before market placement.",
+    "quote": "general-purpose AI modelmeans an AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications, except AI models that are used for research, development or prototyping activities before they are placed on the marketArticle 3(63)",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-aa0ef777",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "Providers of general-purpose AI models must prepare and keep current technical documentation covering the model’s training and testing process and evaluation results.",
+    "quote": "draw up and keep up-to-date the technical documentation of the model, including its training and testing process and the results of its evaluation",
+    "entity": "Providers of general-purpose AI models under the EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-d9a27b97",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "Providers of general-purpose AI models must make information and documentation available to AI-system providers integrating their models, including material needed to understand model capabilities and limitations and comply with the Act.",
+    "quote": "draw up, keep up-to-date and make available information and documentation to providers of AI systems who intend to integrate the general-purpose AI modelgeneral-purpose AI modelmeans an AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications, except AI models that are used for research, development or prototyping activities before they are placed on the marketArticle 3(63) into their AI systems. Without prejudice to the need to observe and protect intellectual property rights and confidential business information or trade secrets in accordance with Union and national law, the information and documentation shall:",
+    "entity": "Providers of general-purpose AI models under the EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-a90f3168",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "Providers of general-purpose AI models must put in place a policy to comply with Union copyright and related-rights law, including identifying and complying with reservations of rights under Article 4(3) of Directive (EU) 2019/790.",
+    "quote": "put in place a policy to comply with Union law on copyright and related rights, and in particular to identify and comply with, including through state-of-the-art technologies, a reservation of rights expressed pursuant to Article 4(3) of Directive (EU) 2019/790;",
+    "entity": "Providers of general-purpose AI models under the EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-ae7e019c",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "Providers of general-purpose AI models must publicly provide a sufficiently detailed summary of the content used to train the model, following an AI Office template.",
+    "quote": "draw up and make publicly available a sufficiently detailed summary about the content used for training of the general-purpose AI modelgeneral-purpose AI modelmeans an AI model, including where such an AI model is trained with a large amount of data using self-supervision at scale, that displays significant generality and is capable of competently performing a wide range of distinct tasks regardless of the way the model is placed on the market and that can be integrated into a variety of downstream systems or applications, except AI models that are used for research, development or prototyping activities before they are placed on the marketArticle 3(63), according to a template provided by the AI Office",
+    "entity": "Providers of general-purpose AI models under the EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-49661a56",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "The EU AI Act exempts qualifying free-and-open-source model providers from the technical-documentation and downstream-information duties in Article 53(1)(a) and (b), if the license permits access, use, modification, and distribution and specified model information is public.",
+    "quote": "The obligations set out in paragraph 1, points (a) and (b), shall not apply to providers of AI models that are released under a free and open-source licence that allows for the access, usage, modification, and distribution of the model, and whose parameters, including the weights, the information on the model architecture, and the information on model usage, are made publicly available.",
+    "entity": "Providers of qualifying free-and-open-source AI models under the EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-a43d194e",
+    "sub_query_id": "Q1.g1",
+    "source_id": "S-12f75c71",
+    "claim": "The EU AI Act’s free-and-open-source exception does not apply to general-purpose AI models with systemic risks.",
+    "quote": "This exception shall not apply to general-purpose AI models with systemic risks.",
+    "entity": "Providers of general-purpose AI models with systemic risks under the EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-bfb0fa53",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "Every GPAI provider must keep current Annex XI technical documentation and make it available on request to the EU AI Office and national competent authorities.",
+    "quote": "**Technical documentation (Annex XI).** Keep current documentation of the model’s development and testing process and evaluation results, available on request to the EU AI Office and national competent authorities.",
+    "entity": "EU AI Act Article 53",
+    "category": "feature"
+  },
+  {
+    "id": "F-125727ae",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "GPAI providers must give downstream AI-system providers Annex XII information and documentation sufficient to understand the model’s capabilities and limitations.",
+    "quote": "**Downstream-provider documentation (Annex XII).** Provide information and documentation to any AI-system provider who integrates the GPAI model into their own system, sufficient for that downstream provider to understand the model’s capabilities and limitations.",
+    "entity": "EU AI Act Article 53",
+    "category": "feature"
+  },
+  {
+    "id": "F-2ae204b8",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "GPAI providers must have a policy for complying with EU copyright law, including honoring text-and-data-mining opt-outs reserved under Article 4(3) of Directive (EU) 2019/790.",
+    "quote": "**Copyright-compliance policy.** Put in place a policy for complying with EU copyright law, in particular Directive (EU) 2019/790, including honoring rightsholders’ opt-outs from text-and-data-mining reserved under Article 4(3) of that Directive.",
+    "entity": "EU AI Act Article 53",
+    "category": "feature"
+  },
+  {
+    "id": "F-987073be",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "GPAI providers must publish a sufficiently detailed summary of training content using a template provided by the AI Office.",
+    "quote": "**Training-data summary.** Draw up and publicly release a sufficiently detailed summary of the content used to train the model, using a template the AI Office provides.",
+    "entity": "EU AI Act Article 53",
+    "category": "feature"
+  },
+  {
+    "id": "F-da83eadd",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "Article 53 baseline obligations became applicable on 2 August 2025.",
+    "quote": "These requirements, set out in Chapter V, became applicable on 2 August 2025.",
+    "entity": "EU AI Act Article 53",
+    "category": "launch"
+  },
+  {
+    "id": "F-2d789746",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "GPAI models released under a qualifying free and open-source licence are exempt from technical-documentation and downstream-documentation obligations, but not from copyright-policy or training-data-summary duties.",
+    "quote": "Providers of GPAI models released under a genuinely free and open-source licence — one that allows access, use, modification, and redistribution, with model weights, architecture information, and usage information all made public — are exempt from the technical-documentation and downstream-documentation obligations above. This exemption does **not** extend to the copyright-policy or training-data-summary duties, both of which apply regardless of licensing model",
+    "entity": "EU AI Act Article 53",
+    "category": "limitation"
+  },
+  {
+    "id": "F-265c5abc",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "A GPAI model with systemic risk does not qualify for the open-source exemption described for the two documentation duties.",
+    "quote": "and it does not apply at all to a GPAI model classified as carrying systemic risk.",
+    "entity": "EU AI Act Article 53",
+    "category": "limitation"
+  },
+  {
+    "id": "F-d56b73ee",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-00fc25be",
+    "claim": "Providers of systemic-risk GPAI models have additional Article 55 duties, including evaluations, risk assessment and mitigation, serious-incident reporting, and cybersecurity protection.",
+    "quote": "Providers of a systemic-risk GPAI model face additional duties under Article 55 on top of the Article 53 baseline: state-of-the-art model evaluation including adversarial testing, systemic-risk assessment and mitigation, serious-incident reporting to the AI Office, and adequate cybersecurity protection for the model and its infrastructure.",
+    "entity": "EU AI Act Article 55",
+    "category": "feature"
+  },
+  {
+    "id": "F-b7613f17",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "Article 53 requires GPAI model providers to prepare and maintain documentation describing the model’s training and testing processes and evaluation results.",
+    "quote": "Technical Documentation: GPAI model providers must prepare and maintain documentation describing the model’s training and testing processes and evaluation results.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-9139b23e",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "Article 53 requires GPAI model providers to give downstream providers sufficient information to comply with their AI Act obligations, including documentation on model capabilities, limitations, and integration requirements.",
+    "quote": "Information for Downstream Providers: GPAI model providers must provide sufficient information to enable downstream providers to comply with their own AI Act obligations. This includes documentation on model capabilities, limitations, and integration requirements.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-632a654f",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "Article 53 requires GPAI model providers to adopt a policy to ensure compliance with EU copyright law, including respecting text-and-data-mining opt-outs under Article 4(3) of the CDSM Directive.",
+    "quote": "Copyright Compliance Policy: GPAI model providers must adopt a policy to ensure compliance with EU copyright law, including respect for opt-outs from the text and data mining otherwise permitted under Article 4(3) of Directive (EU) 2019/790 on copyright and related rights in the Digital Single Market (the CDSM Directive).",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-ec63d565",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "Article 53 requires GPAI model providers to publish a sufficiently detailed summary of the content used to train the model on an AI Office template.",
+    "quote": "Training Data Summary: GPAI model providers must publish a sufficiently detailed summary of the content used to train the model on a template from the AI Office.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-10a09eb1",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "The Article 53 obligations apply throughout a model’s lifecycle, which the Commission considers to begin with the large pre-training run and continue through subsequent development, deployment, and use.",
+    "quote": "These obligations apply throughout the model’s lifecycle. The Commission considers the lifecycle to begin with the large pre-training run and continue through all subsequent development, deployment, and use.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-709b0439",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "The compliance timeline described by Arnold & Porter sets August 2, 2025 for obligations to take effect for models not already on the EU market, August 2, 2026 for the start of possible enforcement, and August 2, 2027 for compliance by models already on the market on August 2, 2025.",
+    "quote": "* August 2, 2025: The AI Act obligations for GPAI model providers take effect for models not already on the EU market.\n* August 2, 2026: The Commission may begin enforcing AI Act obligations against GPAI model providers.\n* August 2, 2027: Providers of GPAI models already on the EU market as of August 2, 2025 must bring them into compliance.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-55191dbf",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "Under Article 53(1)(c) of the EU AI Act, providers of GPAI models must put in place a policy to identify and comply with rights reservations under the DSM Directive.",
+    "quote": "Articles 53(1)(c) and (d) of the AI Act require 'providers' of GPAI models who are caught by the AI Act: (i) to put in place a policy to identify and comply with reservation of rights expressed pursuant to the Directive on Copyright and Related Rights in the Digital Single Market (EU) 2019/790 (the \"DSM Directive\")",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-e1090f3e",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "Under Article 53(1)(d), providers must publish a sufficiently detailed summary of model training content using the AI Office’s template.",
+    "quote": "Articles 53(1)(c) and (d) of the AI Act require 'providers' of GPAI models who are caught by the AI Act: (i) to put in place a policy to identify and comply with reservation of rights expressed pursuant to the Directive on Copyright and Related Rights in the Digital Single Market (EU) 2019/790 (the \"DSM Directive\") and (ii) to publish a \"sufficiently detailed summary\" of the training contents for the model \"according to a template published by the AI Office\".",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-ae7bb13f",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "The training-content summary must cover data used at all training stages, from pre-training to post-training, and in principle excludes other input data used during model operation, such as retrieval-augmented-generation inputs.",
+    "quote": "The Explanatory Notice accompanying the Template published by the Commission specifies that the Summary should mandatorily cover data used in all stages of \"training\" (which encompasses pre-training to post-training, but in principle would exclude other input data used during the model's operation, for example, through retrieval augmented generation).",
+    "entity": "Template for the Public Summary of Training Content",
+    "category": "feature"
+  },
+  {
+    "id": "F-c5d87bd5",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "Providers must publish the training-content summary on their official website and public distribution channels no later than when the model is placed on the EU market, and update it after further training when an update is required.",
+    "quote": "It should be published on the provider's official website and all public distribution channels when the model is placed on the EU market at the latest. Moreover, the Summary should be updated when the provider conducts further training on data requiring such an update.",
+    "entity": "Template for the Public Summary of Training Content",
+    "category": "feature"
+  },
+  {
+    "id": "F-8052d758",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "The training-content template requires general information about the provider, model, and training data; a list of data sources; and relevant data-processing information.",
+    "quote": "The Template comprises three sections:\n\n* \"General information\" about the provider, model and training data (in particular, general characteristics and information on modalities and the size of those modalities, using broad ranges).\n* \"List of data sources\", including an identification of the main public and private datasets used for training (with differing levels of detail) and a narrative description of data scraped online and all other data sources used (including a summary of the main scraped domains; identified as those in the 10% of all domain names, determined by size of content scraped, with some particularities for SMEs).\n* \"Relevant data processing aspects\", to support rightsholders and other parties with legitimate interests in exercising their rights.",
+    "entity": "Template for the Public Summary of Training Content",
+    "category": "feature"
+  },
+  {
+    "id": "F-1b9d8fa7",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "The template’s relevant-data-processing section includes information about measures to identify and comply with rights reservations and measures to avoid or remove illegal content from training data.",
+    "quote": "\"Relevant data processing aspects\", to support rightsholders and other parties with legitimate interests in exercising their rights. This includes information on measures adopted to identify and comply with rights reservations and on measures taken to avoid or remove illegal content from the training data.",
+    "entity": "Template for the Public Summary of Training Content",
+    "category": "feature"
+  },
+  {
+    "id": "F-bf8e0957",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "The AI Office may fine providers for non-compliance with the training-content template by up to 3% of annual worldwide turnover in the preceding financial year or EUR 15 million, whichever is higher, starting on 2 August 2026.",
+    "quote": "The AI Office may verify whether the Template has been completed correctly and can sanction non-compliance with fines of up to 3% of the provider’s annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher; such enforcement powers will enter into force as of 2 August 2026.",
+    "entity": "AI Office",
+    "category": "pricing"
+  },
+  {
+    "id": "F-257f7b9f",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-a8a2a225",
+    "claim": "The copyright and training-summary obligations under Articles 53(1)(c) and (d) entered into force on 2 August 2025.",
+    "quote": "Among this second tranche are provisions that create specific IP-related obligations. Articles 53(1)(c) and (d) of the AI Act require 'providers' of GPAI models who are caught by the AI Act:",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-f131bd62",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The Glocert International guide says Article 53 establishes four baseline duties for all GPAI model providers: technical documentation, downstream-provider information, a copyright-compliance policy, and a public training-data summary.",
+    "quote": "Article 53 establishes the baseline obligations that apply to all GPAI model providers, regardless of whether the model presents systemic risk. These are the minimum requirements every GPAI model provider must meet.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-800f7140",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The guide says GPAI providers must document the model’s training and testing process and evaluation results, along with its description, intended tasks, provider contact details, external interactions, version and release date, input and output modalities, licence, training compute, and training, testing, and validation data.",
+    "quote": "Providers must draw up and keep up to date technical documentation of the GPAI model, including its training and testing process and the results of its evaluation. The documentation must contain, at a minimum:",
+    "entity": "GPAI model providers",
+    "category": "feature"
+  },
+  {
+    "id": "F-784533e1",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The guide says GPAI model providers must give downstream providers adequate information and documentation about model capabilities and limitations to enable them to understand the model and meet their AI Act obligations, including Chapter 2 duties for high-risk systems.",
+    "quote": "GPAI model providers must make available to downstream providers (those integrating the GPAI model into their own AI systems) adequate information and documentation to enable them to understand the capabilities and limitations of the GPAI model, and to comply with their own obligations under the AI Act. This includes information necessary for downstream providers to comply with Chapter 2 if they build high-risk AI systems on top of the GPAI model.",
+    "entity": "GPAI model providers",
+    "category": "feature"
+  },
+  {
+    "id": "F-179bf557",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The guide says GPAI model providers must establish a policy to comply with EU copyright law, particularly Directive (EU) 2019/790 and its Article 4 text-and-data-mining exception, and make a good-faith effort to respect rights holders’ opt-outs.",
+    "quote": "Providers must put in place a policy to comply with EU copyright law, in particular Directive (EU) 2019/790, including the text and data mining exception in Article 4. This requires a good-faith effort to identify and respect rights holders' opt-outs from text and data mining.",
+    "entity": "GPAI model providers",
+    "category": "feature"
+  },
+  {
+    "id": "F-659bbd73",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The guide says GPAI model providers must prepare and publicly release a sufficiently detailed summary of training content using an AI Office template.",
+    "quote": "Providers must draw up and make publicly available a sufficiently detailed summary about the content used for training the GPAI model. This summary is published according to a template provided by the AI Office and is intended to help copyright holders understand whether their content may have been used in training.",
+    "entity": "GPAI model providers",
+    "category": "feature"
+  },
+  {
+    "id": "F-b7147578",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The guide says GPAI obligations apply from August 2, 2025, while providers of models already on the market before that date have until August 2, 2027 to comply.",
+    "quote": "GPAI obligations apply from **August 2, 2025** — 12 months after the AI Act entered into force. This is an earlier deadline than the high-risk AI system requirements (August 2026), reflecting the urgency of addressing foundation model risks. Providers of GPAI models already on the market before August 2, 2025 have a transitional period until **August 2, 2027** to comply.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-b9defd87",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The guide says the AI Office has exclusive competence to supervise and enforce GPAI model obligations, and fines can reach 3% of global annual turnover or EUR 15 million, whichever is higher.",
+    "quote": "The **AI Office** (established within the European Commission) has exclusive competence to supervise and enforce GPAI model obligations. This centralised enforcement model differs from the decentralised approach used for high-risk AI systems, where national market surveillance authorities play the primary role. Fines for GPAI-related infringements can reach up to 3% of global annual turnover or EUR 15 million, whichever is higher.",
+    "entity": "AI Office",
+    "category": "other"
+  },
+  {
+    "id": "F-d33cbf4a",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The guide says GPAI models classified as presenting systemic risk must meet the Article 53 baseline duties plus additional Article 55 requirements.",
+    "quote": "GPAI models with systemic risk must comply with all Tier 1 obligations **plus** the following additional requirements under Article 55:",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-211e4aa3",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "Providers of general-purpose AI models must prepare technical documentation that includes at least the elements listed in Annex XI, including the model’s description, tasks, architecture, and number of parameters.",
+    "quote": "GPAI model providers must prepare detailed technical documentation that includes at least the elements listed in Annex XI. These contain a general description of the GPAI model, including its tasks, architecture and number of parameters.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-003a0e28",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "The technical documentation must describe integration requirements, design specifications and choices, training methodologies, data sources and curation methods, and bias-detection measures.",
+    "quote": "The documentation must also outline integration requirements, design specifications, training methodologies, key design choices (including their rationale and assumptions), and details on data sources, curation methods, and bias detection measures.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-59f73a6b",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "The technical documentation must include information about computational resources, training duration, and estimated or known energy consumption.",
+    "quote": "Additionally, it should include information computational resources used, training duration, and estimated or known energy consumption.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-1ddfe111",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "Providers must share downstream providers information intended to help them understand the model’s capabilities and limitations and fulfill their own obligations.",
+    "quote": "Providers of GPAI models are also required to share information with downstream providers. Downstream providers are providers of AI systems who want to integrate the model into their own AI system. Sharing information should help downstream providers to understand the model’s capabilities and limitations and enable them to fulfill their own obligations.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-54b32523",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "The downstream information specified in Annex XII includes integration requirements, design and training choices, data sources and processing methods, bias-detection measures, computational resources, training time, and estimated or known energy consumption.",
+    "quote": "Anex XII outlines the specific information to be provided, including integration requirements, design and training choices, data sources and processing methods, as well as bias detection measures. It must also include details on computational resources, training time, and estimated or known energy consumption.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-c3d63329",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "Providers must implement policies to comply with EU copyright and related-rights law, including using state-of-the-art technologies to identify and respect creators’ rights and explicitly expressed reservations.",
+    "quote": "Providers must implement policies to comply with EU law on copyright and related rights, including through state-of-the-art technologies to identify and respect content creator’s’ rights, including any reservations explicitly expressed.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-21289b5e",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "Providers must publish a detailed summary of content and data used to train the model, using a simple and effective template provided by the AI Office.",
+    "quote": "Providers are required to publish a detailed summary of content and data used to train the GPAI model, using a simple and effective template provided by the AI Office.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-a6237ad1",
+    "sub_query_id": "Q2.g1",
+    "source_id": "S-640b9e47",
+    "claim": "Providers must cooperate with the European Commission and relevant national authorities by providing necessary information.",
+    "quote": "GPAI providers must cooperate with the European Commission and relevant national authorities, by providing necessary information and ensuring such authorities to regulate the use of AI within the European Union.",
+    "entity": "General-purpose AI model providers",
+    "category": "other"
+  },
+  {
+    "id": "F-63e37e54",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "Under the AI Act, a GPAI model trained with computing power above 10^25 FLOPs is presumed to present systemic risk.",
+    "quote": "Models trained with computing power above 10^25 FLOPs are presumed to present systemic risk.",
+    "entity": "GPAI models",
+    "category": "other"
+  },
+  {
+    "id": "F-3126e51f",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "A GPAI model presents systemic risk if it has high-impact capabilities assessed using appropriate methodologies and technical tools, or if the European Commission designates it as such under Annex XIII criteria.",
+    "quote": "A GPAI model is deemed to present systemic risk if it has “high-impact capabilities, as assessed on the basis of appropriate methodologies and technical tools,” or if it is designated as such by the European Commission under the criteria set out in Annex XIII (Art. 51 AI Act).",
+    "entity": "GPAI models",
+    "category": "other"
+  },
+  {
+    "id": "F-af3b02d4",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "Providers of GPAI models with systemic risk must notify the European Commission.",
+    "quote": "Notification to the European Commission",
+    "entity": "GPAI models with systemic risk",
+    "category": "other"
+  },
+  {
+    "id": "F-d3dafc5d",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "Providers of GPAI models with systemic risk must conduct independent model evaluations, including red teaming tests.",
+    "quote": "Independent model evaluations (including red teaming tests)",
+    "entity": "GPAI models with systemic risk",
+    "category": "other"
+  },
+  {
+    "id": "F-f97a142b",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "Providers of GPAI models with systemic risk must undertake risk assessments and mitigation measures.",
+    "quote": "Risk assessment and mitigation measures",
+    "entity": "GPAI models with systemic risk",
+    "category": "other"
+  },
+  {
+    "id": "F-df0c8c92",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "Providers of GPAI models with systemic risk must monitor serious incidents.",
+    "quote": "Monitoring of serious incidents",
+    "entity": "GPAI models with systemic risk",
+    "category": "other"
+  },
+  {
+    "id": "F-9d6fd60f",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "Providers of GPAI models with systemic risk must meet enhanced cybersecurity requirements.",
+    "quote": "Enhanced cybersecurity requirements",
+    "entity": "GPAI models with systemic risk",
+    "category": "other"
+  },
+  {
+    "id": "F-cc1c2427",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-dab73555",
+    "claim": "The AI Act’s Chapter V requirements for GPAI models apply from August 2, 2025.",
+    "quote": "a new stage begins on August 2, 2025: the application of Chapter V to general-purpose AI models (GPAI) made available in the EU.",
+    "entity": "GPAI models",
+    "category": "launch"
+  },
+  {
+    "id": "F-b1529794",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Article 55 applies to providers of GPAI models exceeding the 10^25 FLOPs training-compute threshold or otherwise classified as presenting systemic risk under Article 51.",
+    "quote": "Article 55 sets out four additional obligations that apply exclusively to providers of GPAI models with systemic risk — those exceeding the 10^25 FLOPs training compute threshold or otherwise classified as systemic risk under Article 51.",
+    "entity": "EU AI Act Article 55",
+    "category": "market"
+  },
+  {
+    "id": "F-2ce9aa25",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Providers of GPAI models with systemic risk must conduct and document adversarial testing as part of model evaluation under standardised protocols.",
+    "quote": "Systemic-risk GPAI providers must perform model evaluation in accordance with standardised protocols — including conducting and documenting adversarial testing to identify and mitigate systemic risks",
+    "entity": "EU AI Act Article 55",
+    "category": "feature"
+  },
+  {
+    "id": "F-98c9fde9",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Providers of GPAI models with systemic risk must assess and mitigate possible systemic risks at Union level, including identifying their sources and how they might emerge along the AI value chain.",
+    "quote": "They must assess and mitigate possible systemic risks at Union level — including identifying the sources of those risks and how they might emerge along the AI value chain",
+    "entity": "EU AI Act Article 55",
+    "category": "feature"
+  },
+  {
+    "id": "F-45a93941",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Providers of GPAI models with systemic risk must track, document, and report serious incidents and possible corrective measures without undue delay to the AI Office and relevant national authorities.",
+    "quote": "They must track, document, and report without undue delay to the AI Office and relevant national authorities any serious incidents and possible corrective measures",
+    "entity": "EU AI Act Article 55",
+    "category": "feature"
+  },
+  {
+    "id": "F-19144dae",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Providers of GPAI models with systemic risk must ensure adequate cybersecurity protection for the model and its physical infrastructure.",
+    "quote": "They must ensure an adequate level of cybersecurity protection for both the model itself and its physical infrastructure",
+    "entity": "EU AI Act Article 55",
+    "category": "feature"
+  },
+  {
+    "id": "F-c4cc2d8b",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Providers may rely on Article 56 codes of practice to demonstrate compliance until harmonised standards are published, and compliance with published harmonised standards grants a presumption of conformity.",
+    "quote": "Providers may rely on codes of practice under Article 56 to demonstrate compliance until harmonised standards are published — compliance with published harmonised standards grants a presumption of conformity",
+    "entity": "EU AI Act Article 55",
+    "category": "other"
+  },
+  {
+    "id": "F-55cc2244",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Providers that neither adhere to an approved code of practice nor comply with harmonised standards must demonstrate alternative adequate means of compliance to the AI Office.",
+    "quote": "Providers who neither adhere to an approved code of practice nor comply with harmonised standards must demonstrate alternative adequate means of compliance to the AI Office",
+    "entity": "EU AI Act Article 55",
+    "category": "other"
+  },
+  {
+    "id": "F-32fc3805",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-a33639ea",
+    "claim": "Article 55 adds to the baseline GPAI obligations in Article 53 rather than replacing them.",
+    "quote": "Article 53 — Baseline GPAI obligations (Article 55 adds to these, not replaces them)",
+    "entity": "EU AI Act Article 55",
+    "category": "other"
+  },
+  {
+    "id": "F-37bc0796",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "Under Article 51(2), a GPAI model is classified as having systemic risk when its cumulative training compute exceeds 10^25 floating-point operations.",
+    "quote": "Article 51(2) sets the trigger as cumulative training compute exceeding **10^25 floating-point operations (FLOP)**.",
+    "entity": "EU AI Act",
+    "category": "market"
+  },
+  {
+    "id": "F-50287a94",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "The European Commission can designate a GPAI model as systemic-risk below the compute threshold based on criteria including users, modalities, complexity, market reach, or equivalent capabilities.",
+    "quote": "even if a model is below the threshold, the Commission can designate it as systemic-risk under Article 51(1)(b) based on a separate set of criteria: number of users, modalities, scientific or technical complexity, market reach, or capabilities equivalent to those of state-of-the-art GPAI models.",
+    "entity": "EU AI Act",
+    "category": "market"
+  },
+  {
+    "id": "F-0d69eb2e",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "Providers of systemic-risk GPAI models must conduct and document evaluations, including adversarial testing, using state-of-the-art protocols and tools.",
+    "quote": "Providers must perform model evaluation in accordance with state-of-the-art protocols and tools, including conducting and documenting adversarial testing of the model.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-9c2292f3",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "Providers of systemic-risk GPAI models must assess and mitigate possible systemic risks at Union level, including risks arising from model development, market placement, or use.",
+    "quote": "Providers must assess and mitigate possible systemic risks at the Union level, including their sources, that may stem from development, placing on the market, or use of GPAI models with systemic risk.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-22629350",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "Providers of systemic-risk GPAI models must track and document serious incidents and report relevant information and possible corrective measures without undue delay to the AI Office and, where appropriate, national competent authorities.",
+    "quote": "Providers must keep track of, document, and report without undue delay to the AI Office and, where appropriate, to national competent authorities, relevant information about **serious incidents** and possible corrective measures to address them.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-157995d6",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "Providers of systemic-risk GPAI models must ensure adequate cybersecurity protection for both the model and its physical infrastructure.",
+    "quote": "Providers must ensure an adequate level of cybersecurity protection for the GPAI model with systemic risk and the physical infrastructure of the model.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-37968167",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "The page identifies weight encryption, access controls, compute-provider supply-chain security, and vulnerability disclosure programmes as cybersecurity controls in the Code of Practice.",
+    "quote": "The Code of Practice translates this into specific controls: weight encryption, access controls, supply-chain security for compute providers, vulnerability disclosure programmes.",
+    "entity": "GPAI Code of Practice",
+    "category": "feature"
+  },
+  {
+    "id": "F-7be61874",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-e605da5e",
+    "claim": "The page states that Article 53 baseline obligations apply to every GPAI provider, while Article 55 obligations apply to systemic-risk GPAI providers, from 2 August 2025.",
+    "quote": "**Article 53 baseline obligations apply to every GPAI provider.** Technical documentation under Annex XI, downstream-provider information packs under Annex XII, copyright policy, and a public summary of training data per Article 53(1)(d).\n\n**Article 55 obligations apply to systemic-risk GPAI providers.** Model evaluations, risk assessment + mitigation, Article 55(1)(c) incident reporting, cybersecurity.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-536b28ab",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "A GPAI model is presumed to have systemic risk if it was trained using more than 10^25 floating point operations.",
+    "quote": "A GPAI model is presumed to carry systemic risk if it was trained with a computational capacity exceeding **10^25 floating point operations (FLOPs)**.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-70150e94",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "The European AI Office may designate additional GPAI models as having systemic risk based on factors including reach, societal dependence, capabilities, resources, and potential harms.",
+    "quote": "Art. 51(2) allows the European AI Office to designate additional models as having systemic risk based on:\n\n* The model's reach and number of users across the EU\n* Economic or societal dependence on the model\n* Multimodal capabilities (text, image, audio, code)\n* Access to exceptional resources, information, or capabilities\n* Potential for significant negative impact on public health, safety, security, or fundamental rights",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-acdc13bb",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "Providers of systemic-risk GPAI models must conduct model evaluations, including adversarial testing, to identify and mitigate systemic risks before and after market release.",
+    "quote": "Providers of systemic risk GPAI models must perform model evaluations, including **adversarial testing**, to identify and mitigate systemic risks before and after market release.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-95d7eb45",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "Systemic-risk GPAI providers must report serious incidents to the AI Office without undue delay.",
+    "quote": "Systemic risk GPAI providers must report **serious incidents** to the AI Office without undue delay.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-85ec51f8",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "Systemic-risk GPAI providers must take appropriate technical and organizational measures to protect against model theft, unauthorized access, and adversarial manipulation.",
+    "quote": "Systemic risk GPAI providers must implement appropriate technical and organizational measures to protect against model theft, unauthorized access, and adversarial manipulation of the model itself.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-db153fa5",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "Systemic-risk GPAI providers must conduct ongoing risk assessments covering foreseeable misuse, capability changes, new threat vectors, and downstream-use interactions.",
+    "quote": "Providers must conduct **ongoing** risk assessments — not a one-time pre-deployment exercise. This mirrors the continuous nature of high-risk AI system risk management under Art. 9, applied to GPAI at the model level.\n\nRisk assessments must cover:\n\n* Foreseeable misuses and their potential for systemic harm\n* Capability evolution as the model is fine-tuned or updated\n* New threat vectors identified through incident reports or external research\n* Interaction effects with downstream use cases",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-0465d32a",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "Systemic-risk GPAI providers must maintain risk-assessment documentation and make it available to the AI Office on request.",
+    "quote": "Documentation of these assessments must be maintained and made available to the AI Office on request.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-8b1ae0f4",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-33fbc9eb",
+    "claim": "The page states that GPAI obligations under Articles 50–55 applied from August 2025.",
+    "quote": "The GPAI obligations under Art. 50–55 applied from **August 2025** — 12 months after the AI Act's entry into force.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-6d12c8c3",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "Under Article 51, a GPAI model may be classified as having systemic risk because of high-impact capabilities or Commission designation.",
+    "quote": "A GPAI model can be classified as a model with systemic risk when it has high-impact capabilities or is designated by the Commission.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-ef087f77",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "The EU AI Act presumes that a GPAI model has high-impact capabilities when its training compute exceeds 10^25 floating point operations.",
+    "quote": "The AI Act includes a presumption at more than 10^25 floating point operations of training compute.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-71316ef5",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "Article 55 requires providers of GPAI models with systemic risk to conduct model evaluation and adversarial testing.",
+    "quote": "Article 55 then adds obligations for model evaluation, adversarial testing, systemic risk assessment, incident reporting to the AI Office and cybersecurity.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-640364fa",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "Article 55 requires providers of GPAI models with systemic risk to assess systemic risk.",
+    "quote": "Article 55 then adds obligations for model evaluation, adversarial testing, systemic risk assessment, incident reporting to the AI Office and cybersecurity.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-ef0c5ee1",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "Article 55 requires providers of GPAI models with systemic risk to report incidents to the AI Office.",
+    "quote": "Article 55 then adds obligations for model evaluation, adversarial testing, systemic risk assessment, incident reporting to the AI Office and cybersecurity.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-b32194aa",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "Article 55 requires cybersecurity measures for GPAI models with systemic risk.",
+    "quote": "Article 55 then adds obligations for model evaluation, adversarial testing, systemic risk assessment, incident reporting to the AI Office and cybersecurity.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-ca0bb275",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "The guide says Article 55-related measures include corrective measures and protection of the model and infrastructure.",
+    "quote": "Incidents, corrective measures and protection of model and infrastructure.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-6478c27c",
+    "sub_query_id": "Q3.g1",
+    "source_id": "S-69c955df",
+    "claim": "GPAI provider obligations have applied since 2 August 2025, according to the guide.",
+    "quote": "GPAI provider obligations have applied since 2 August 2025.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-32b7a6c9",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-a5cb1649",
+    "claim": "Praxikon offers a GPAI Compliance Guide for GPAI providers that covers model cards, copyright, systemic risk, and the Code of Practice.",
+    "quote": "Compliance guide for GPAI providers (Art. 51-53): model cards, copyright, systemic risk, Code of Practice.",
+    "entity": "Praxikon",
+    "category": "other"
+  },
+  {
+    "id": "F-478fa26e",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "The GPAI Code of Practice is not legally binding, but providers can use it to demonstrate compliance with Articles 53 and 55 until European standards are developed.",
+    "quote": "While not legally binding, GPAI model providers can rely on the Code of Practice to demonstrate compliance with GPAI model provider obligations in Articles 53 and 55 until standards are developed.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-4d9eeb1d",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "The Commission and the EU AI Board confirmed the Code of Practice as an adequate voluntary tool for GPAI providers to demonstrate compliance with the AI Act.",
+    "quote": "The Commission and the EU AI Board have confirmed that the GPAI Code is an adequate voluntary tool for providers of GPAI models to demonstrate compliance with the AI Act.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-77c78159",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "For Code signatories, the Commission will focus enforcement on monitoring adherence to the Code and may treat Code commitments as mitigating factors when setting fines.",
+    "quote": "For signatories, the Commission will focus their enforcement activities on monitoring adherence to the Code, show these increased trust, and may take commitments to the Code into account as mitigating factors when fixing the amount of fines.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-d3aab2b7",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "Providers that do not follow the Code must demonstrate compliance to the Commission by alternative means, which may be more burdensome and time-consuming.",
+    "quote": "Providers who do not demonstrate compliance with the Code of Practice will have to prove compliance to the above obligations to the Commission by alternative, possibly more burdensome and time-consuming means.",
+    "entity": "GPAI Code of Practice",
+    "category": "limitation"
+  },
+  {
+    "id": "F-75cc7352",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "The Code’s Transparency and Copyright chapters apply to all GPAI model providers, while its Safety and Security chapter applies only to providers of GPAI models with systemic risk.",
+    "quote": "The first two, Transparency and Copyright, apply to all GPAI model providers. The third, Safety and Security chapter, only applies to providers of GPAI models with systemic risk.",
+    "entity": "GPAI Code of Practice",
+    "category": "feature"
+  },
+  {
+    "id": "F-d4f23b7a",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "The page says GPAI rules took effect on 2 August 2025, Commission enforcement actions are to begin on 2 August 2026, and models released before 2 August 2025 have until 2 August 2027 to comply.",
+    "quote": "The GPAI rules took effect on 2 August 2, 2025, meaning all new models released from that date must comply. However, the Commission’s enforcement actions – such as requests for information, access to models, or model recalls – will only begin a year later, on 2 August 2, 2026. This grace period gives providers time to work with the AI Office to ensure they meet the standards. For models released before 2 August 2, 2025, providers have until 2 August 2, 2027 to bring them into compliance.",
+    "entity": "EU AI Act GPAI rules",
+    "category": "launch"
+  },
+  {
+    "id": "F-7f43e6e7",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "The page says systemic-risk GPAI providers have additional duties covering model evaluations, risk assessment and mitigation, serious-incident reporting, and cybersecurity protection.",
+    "quote": "For GPAI models with systemic risk (models trained above the threshold of 10^25 floating point operations, or FLOP), further obligations include: * State of the art model evaluations * Risk assessment and mitigation * Serious incident reporting, including corrective measures * Adequate cybersecurity protection",
+    "entity": "Providers of GPAI models with systemic risk",
+    "category": "feature"
+  },
+  {
+    "id": "F-8ececd98",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-4bcf2403",
+    "claim": "The Code’s Transparency chapter calls for documentation following a standardized Model Documentation Form, covering licensing, technical specifications, use cases, datasets, compute, and energy usage.",
+    "quote": "This documentation must follow a standardized Model Documentation Form, detailing licensing, technical specs, use cases, datasets, compute and energy usage, and more.",
+    "entity": "GPAI Code of Practice",
+    "category": "feature"
+  },
+  {
+    "id": "F-0d323701",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-03d835c8",
+    "claim": "GPAI model providers may choose not to follow a code of practice, but must then demonstrate compliance through other evidence.",
+    "quote": "Not mandatory: Providers may choose alternative means of demonstrating compliance, but must then prove compliance through other evidence",
+    "entity": "GPAI codes of practice",
+    "category": "other"
+  },
+  {
+    "id": "F-d695bc41",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The page says adherence to a GPAI code of practice creates a presumption of conformity with the corresponding obligations.",
+    "quote": "Adherence to a code of practice creates a **presumption** that the provider complies with the corresponding obligations — similar to how harmonised standards work for high-risk AI systems",
+    "entity": "GPAI codes of practice",
+    "category": "other"
+  },
+  {
+    "id": "F-58da69c6",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The page describes codes of practice as an interim compliance pathway until harmonised standards for GPAI models are published.",
+    "quote": "Interim compliance pathway: Codes of practice fill the gap until harmonised standards for GPAI models are published, which may take several years",
+    "entity": "GPAI codes of practice",
+    "category": "other"
+  },
+  {
+    "id": "F-57920f49",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The AI Office facilitates development of codes of practice to operationalise GPAI obligations.",
+    "quote": "Article 56 tasks the AI Office with facilitating the development of codes of practice that operationalise the GPAI obligations.",
+    "entity": "AI Office",
+    "category": "other"
+  },
+  {
+    "id": "F-e1493a6a",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The page says the AI Office provides a template for the publicly available GPAI training-data summary.",
+    "quote": "Providers must draw up and make publicly available a sufficiently detailed summary about the content used for training the GPAI model. This summary is published according to a template provided by the AI Office",
+    "entity": "AI Office training data summary template",
+    "category": "feature"
+  },
+  {
+    "id": "F-6b3ec1a6",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The page says GPAI model providers should use AI Office templates where available when preparing Annex XI technical documentation.",
+    "quote": "Prepare Annex XI technical documentation: Begin compiling the required technical documentation. Use the AI Office templates where available",
+    "entity": "AI Office templates",
+    "category": "other"
+  },
+  {
+    "id": "F-aaa3a9e3",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The page says GPAI model obligations apply from August 2, 2025, with providers of models already on the market given until August 2, 2027 to comply.",
+    "quote": "GPAI obligations apply from **August 2, 2025** — 12 months after the AI Act entered into force. This is an earlier deadline than the high-risk AI system requirements (August 2026), reflecting the urgency of addressing foundation model risks. Providers of GPAI models already on the market before August 2, 2025 have a transitional period until **August 2, 2027** to comply.",
+    "entity": "GPAI model providers",
+    "category": "launch"
+  },
+  {
+    "id": "F-e3624c49",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "The European Commission’s Code of Practice for General Purpose AI is voluntary.",
+    "quote": "In the Guidelines the Commission has made clear that, although the Code is voluntary, those who do not sign-up to the Code’s obligations",
+    "entity": "European Commission Code of Practice for General Purpose AI",
+    "category": "other"
+  },
+  {
+    "id": "F-0752c83d",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "The Code’s commitments are intended to help signatories comply with GPAI obligations concerning copyright, model documentation, and safety and security for GPAI models with systemic risk.",
+    "quote": "which seek to enable signatories to comply with their AI Act GPAI obligations with respect to copyright, model documentation, and safety and security (for GPAI with systemic risk)",
+    "entity": "European Commission Code of Practice for General Purpose AI",
+    "category": "other"
+  },
+  {
+    "id": "F-890e3294",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "The Commission may subject GPAI providers that do not sign the Code to enhanced scrutiny, including more information requests and model evaluations than Code signatories face.",
+    "quote": "may be subject to enhanced scrutiny, including a larger number of requests for information and access to conduct model evaluations than signatories of the Code.",
+    "entity": "European Commission Code of Practice for General Purpose AI",
+    "category": "other"
+  },
+  {
+    "id": "F-cd25709f",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "The Commission may take commitments implemented in line with an approved code of practice into account as mitigating factors when setting fines.",
+    "quote": "The Commission may also take into account commitments implemented in line with an approved code of practice as mitigating factors when fixing amounts of fines.",
+    "entity": "European Commission Code of Practice for General Purpose AI",
+    "category": "other"
+  },
+  {
+    "id": "F-1d93aa10",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "Paul, Weiss characterizes the Code as the only safe harbour for GPAI providers.",
+    "quote": "although with the cautionary warning that the Code is the only safe harbour that exists.",
+    "entity": "European Commission Code of Practice for General Purpose AI",
+    "category": "other"
+  },
+  {
+    "id": "F-fe7aa3d8",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "The European Commission published non-binding Guidelines on the scope of GPAI model obligations on July 18, 2025.",
+    "quote": "On July 18, 2025, the European Commission (the “Commission”) published its non-binding Guidelines on the scope of the obligations for general-purpose AI (“GPAI”) models",
+    "entity": "European Commission Guidelines on the scope of GPAI model obligations",
+    "category": "other"
+  },
+  {
+    "id": "F-fceb82be",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "The European Commission published a template on July 24, 2025, for GPAI providers to use in publicly summarizing their models’ training content.",
+    "quote": "which was followed on July 24, 2025 by publication of its template document for use by GPAI providers in publicly summarising their models’ training content (the “Template”).",
+    "entity": "European Commission training content summary Template",
+    "category": "other"
+  },
+  {
+    "id": "F-431ad525",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-3f06d4c4",
+    "claim": "GPAI providers must publish a completed training-content Template when placing a model on the EU market from August 2, 2025, while providers of models already on the market before that date have until August 2, 2027.",
+    "quote": "The publication is timely seeing as providers of GPAI models first placed on the market in the EU from August 2, 2025 will have an immediate obligation (upon placing the model on the market) to publish a completed Template (with existing providers having until August 2, 2027 to complete and publish their Templates).",
+    "entity": "European Commission training content summary Template",
+    "category": "pricing"
+  },
+  {
+    "id": "F-a6a52f7c",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "The HWG LLP article says the GPAI Code of Practice is voluntary and that providers can adopt it to achieve compliance with the AI Act.",
+    "quote": "On July 10, 2025, the European Commission’s AI Office published its General-Purpose AI Code of Practice, a set of voluntary measures focused on transparency, copyright protection, and safety and security that providers of general-purpose artificial intelligence (“GPAI”) models can adopt to achieve compliance with the AI Act",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-cf0f5995",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "The HWG LLP article says signing the Code can bring reduced administrative burden and increased legal certainty, according to the Commission.",
+    "quote": "While optional, providers who sign on to the Code will benefit from a “reduced administrative burden” and “increased legal certainty” compared to those who do not sign, according to the Commission.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-95c35e32",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "Signing the Code is one method of demonstrating compliance with the AI Act, but implementing it does not provide a presumption of conformity.",
+    "quote": "Signing onto the Code of Practice is one method of demonstrating compliance with the Act, although the AI Office notes that implementing the Code does not provide “a presumption of conformity with the AI Act.”",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-89e35bf2",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "The Code’s transparency chapter offers a Model Documentation Form for compiling information that providers must provide to the AI Office and downstream AI-system providers.",
+    "quote": "This chapter offers a Model Documentation Form that providers can use to compile the information that the AI Act requires them to provide to the AI Office and to providers of AI systems that use these GPAI models.",
+    "entity": "GPAI Code of Practice",
+    "category": "feature"
+  },
+  {
+    "id": "F-f414235f",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "The Code’s safety and security chapter applies only to providers of GPAI models with systemic risk.",
+    "quote": "The most extensive of the Code’s three chapters, this chapter applies only to providers of GPAI models with systemic risk.",
+    "entity": "GPAI Code of Practice",
+    "category": "limitation"
+  },
+  {
+    "id": "F-d1da990a",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "The article says the AI Office was developing a template for training-data summaries but had not finalized it.",
+    "quote": "Notably, the Code of Practice does not address the Act’s requirement that providers publish summaries of their training data.25 The AI Office is developing a template but has yet to finalize it.26",
+    "entity": "European Commission AI Office",
+    "category": "other"
+  },
+  {
+    "id": "F-5021d916",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "The article says the Code had to be endorsed by EU member states and the Commission before GPAI model providers could sign it.",
+    "quote": "The Code must still be officially endorsed by the EU member states and the Commission before providers can sign on.",
+    "entity": "GPAI Code of Practice",
+    "category": "other"
+  },
+  {
+    "id": "F-d778878d",
+    "sub_query_id": "Q4.g1",
+    "source_id": "S-7741a882",
+    "claim": "The article says enforcement of GPAI provisions was scheduled to begin August 2, 2026 for new models and August 2, 2027 for existing models.",
+    "quote": "The AI Office will begin enforcing the AI Act GPAI provisions on August 2, 2026 for new models (i.e., models placed on the market after August 2, 2025) and August 2, 2027 for existing models.",
+    "entity": "EU AI Act GPAI provisions",
+    "category": "launch"
+  },
+  {
+    "id": "F-5dcee1e2",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "GPAI providers have been required since 2 August 2025 to provide technical documentation, publish a public summary of training content, and take measures to comply with EU copyright rules.",
+    "quote": "On **Aug 2nd, 2025** the second implementation phase took place, meaning that general purpose AI (GPAI) models have to abide by a specific set of rules. Including technical documentation and a public summary of training content (using the Commission template), alongside measures to comply with EU copyright rules.",
+    "entity": "GPAI providers",
+    "category": "launch"
+  },
+  {
+    "id": "F-f27acc29",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "Since 2 August 2025, GPAI providers must keep a private dossier about how a model was built and tested, publish a summary of copyrighted training material, provide customers with a model card, and demonstrate respect for EU copyright rules.",
+    "quote": "As of Aug 2nd, 2025, every GPAI provider must keep a private “black-box” dossier that shows regulators exactly how the model was built and tested; publish a short, public summary of the copyrighted material used for training; give customers a compact “model card” that spells out what the model is (and isn’t) meant to do; and prove that EU copyright rules are respected, whether by licences, opt-outs, or clear attribution.",
+    "entity": "GPAI providers",
+    "category": "feature"
+  },
+  {
+    "id": "F-494233c6",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "GPAI models already on the market have a transition period until 2 August 2027, and their providers must show they are taking necessary steps toward full conformity during that period.",
+    "quote": "While GPAI models already on the market get a two-year transition window, until 2 August 2027, providers must still show they are taking necessary steps toward full conformity, guided by the Commission’s Code of Practice released earlier this year.",
+    "entity": "GPAI models already on the market",
+    "category": "limitation"
+  },
+  {
+    "id": "F-1d910e65",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "Models classified as posing systemic risk must undergo adversarial testing, log and report serious incidents, and disclose energy-efficiency metrics to the EU AI Office and national supervisors.",
+    "quote": "In addition, models classed as posing systemic risk must also perform adversarial testing, log and report serious incidents, and disclose energy-efficiency metrics to the newly operational EU AI Office and national supervisors.",
+    "entity": "GPAI models posing systemic risk",
+    "category": "feature"
+  },
+  {
+    "id": "F-016db22e",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "The AI Office’s enforcement powers over GPAI providers took effect on 2 August 2026.",
+    "quote": "On **Aug 2nd, 2026**, the Act’s main transparency duties (including Article 50) took effect as originally scheduled, and the AI Office’s enforcement powers over GPAI providers became active.",
+    "entity": "AI Office",
+    "category": "launch"
+  },
+  {
+    "id": "F-806956ac",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "From 2 August 2026, GPAI model providers face administrative fines of up to €15 million or 3% of global turnover for non-compliance, and up to €35 million or 7% for prohibited practices.",
+    "quote": "From that date, non-compliance attracts administrative fines of up to €15 million or 3% of global turnover (rising to €35 million / 7% for prohibited practices).",
+    "entity": "GPAI model providers",
+    "category": "pricing"
+  },
+  {
+    "id": "F-1675cbc2",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "The article states that Article 101 EU-level fines for GPAI providers apply from 2 August 2026.",
+    "quote": "Yes. The rules for general-purpose AI (GPAI) models took effect on Aug 2nd 2025, but the powers for enforcing those rules, Article 101 EU-level fines  for GPAI providers, only apply from Aug 2nd 2026.",
+    "entity": "GPAI providers",
+    "category": "launch"
+  },
+  {
+    "id": "F-2a8a3ee5",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "The EU AI Act’s GPAI obligations started applying on 2 August 2025.",
+    "quote": "GPAI obligations from 2 August 2025",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-a30448e7",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-cf616aed",
+    "claim": "The EU AI Act’s GPAI enforcement powers started applying on 2 August 2026.",
+    "quote": "GPAI enforcement powers from 2 August 2026",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-f4aa7598",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "GPAI model providers must meet the AI Act’s Article 53 obligations, including technical documentation, downstream-provider information, a copyright-compliance policy, and a training-data summary, unless the model qualifies for the open-source exemption from the first two obligations.",
+    "quote": "If your company qualifies as a GPAI model provider under the AI Act, your company must comply with the four obligations in Article 53 of the AI Act (unless the model qualifies for the open-source exemption from the first two):\n\n1. Technical Documentation: GPAI model providers must prepare and maintain documentation describing the model’s training and testing processes and evaluation results.\n\n2. Information for Downstream Providers: GPAI model providers must provide sufficient information to enable downstream providers to comply with their own AI Act obligations. This includes documentation on model capabilities, limitations, and integration requirements.\n\n3. Copyright Compliance Policy: GPAI model providers must adopt a policy to ensure compliance with EU copyright law, including respect for opt-outs from the text and data mining otherwise permitted under Article 4(3) of Directive (EU) 2019/790 on copyright and related rights in the Digital Single Market (the CDSM Directive).\n\n4. Training Data Summary: GPAI model providers must publish a sufficiently detailed summary of the content used to train the model on a template from the AI Office.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-0ed761bc",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "Providers of GPAI models with systemic risk have additional obligations beyond those of other GPAI model providers.",
+    "quote": "The AI Act classifies some GPAI models as having systemic risk because they are particularly powerful. Providers of GPAI models with systemic risks have additional obligations beyond those of other GPAI model providers.",
+    "entity": "EU AI Act",
+    "category": "feature"
+  },
+  {
+    "id": "F-a3a6597a",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "The GPAI Code of Practice’s safety and security chapter applies only to GPAI models with systemic risk.",
+    "quote": "The Code of Practice includes chapters on:\n\n* Transparency measures, including a model documentation form\n* Copyright compliance\n* Safety and security practices (this chapter applies only to GPAI models with systemic risk)",
+    "entity": "GPAI Code of Practice",
+    "category": "feature"
+  },
+  {
+    "id": "F-1ad4ebc6",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "The AI Office is the sole enforcer of the AI Act obligations governing GPAI model providers.",
+    "quote": "However, the Commission’s answers do matter because its Artificial Intelligence Office (AI Office) is the sole enforcer of the AI Act’s obligations governing GPAI model providers.",
+    "entity": "AI Office",
+    "category": "other"
+  },
+  {
+    "id": "F-1322e1e7",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "GPAI obligations take effect on August 2, 2025, for models not already on the EU market.",
+    "quote": "August 2, 2025: The AI Act obligations for GPAI model providers take effect for models not already on the EU market.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-17111bc9",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "The Commission may begin enforcing AI Act obligations against GPAI model providers on August 2, 2026.",
+    "quote": "August 2, 2026: The Commission may begin enforcing AI Act obligations against GPAI model providers.",
+    "entity": "European Commission",
+    "category": "other"
+  },
+  {
+    "id": "F-8c2a1943",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-52e3d3da",
+    "claim": "Providers must bring GPAI models already on the EU market as of August 2, 2025 into compliance by August 2, 2027.",
+    "quote": "August 2, 2027: Providers of GPAI models already on the EU market as of August 2, 2025 must bring them into compliance.",
+    "entity": "EU AI Act",
+    "category": "other"
+  },
+  {
+    "id": "F-bda77d9e",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "GPAI model obligations under Chapter V apply from August 2, 2025.",
+    "quote": "GPAI obligations apply from **August 2, 2025** — 12 months after the AI Act entered into force.",
+    "entity": "EU AI Act GPAI obligations",
+    "category": "launch"
+  },
+  {
+    "id": "F-6d442763",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "Providers of GPAI models already on the market before August 2, 2025 have until August 2, 2027 to comply.",
+    "quote": "Providers of GPAI models already on the market before August 2, 2025 have a transitional period until **August 2, 2027** to comply.",
+    "entity": "Providers of GPAI models already on the market",
+    "category": "launch"
+  },
+  {
+    "id": "F-a1ecd8aa",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "New GPAI models placed on the market after August 2, 2025 must comply from the outset.",
+    "quote": "New models placed on the market after August 2, 2025 must comply from the outset.",
+    "entity": "New GPAI models",
+    "category": "launch"
+  },
+  {
+    "id": "F-ccb62e86",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "The AI Office has exclusive competence to supervise and enforce GPAI model obligations.",
+    "quote": "The **AI Office** (established within the European Commission) has exclusive competence to supervise and enforce GPAI model obligations.",
+    "entity": "AI Office",
+    "category": "other"
+  },
+  {
+    "id": "F-0c34c7a3",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "GPAI-related infringement fines can reach up to 3% of global annual turnover or EUR 15 million, whichever is higher.",
+    "quote": "Fines for GPAI-related infringements can reach up to 3% of global annual turnover or EUR 15 million, whichever is higher.",
+    "entity": "EU AI Act GPAI enforcement",
+    "category": "pricing"
+  },
+  {
+    "id": "F-27caed2d",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "All GPAI model providers must meet core transparency and documentation obligations, while models classified as presenting systemic risk face additional obligations.",
+    "quote": "The regulatory approach creates two tiers of obligations:\n\n1. **Tier 1 — All GPAI models:** Core transparency and documentation obligations that apply to every GPAI model placed on the EU market (Articles 53-54)\n2. **Tier 2 — GPAI models with systemic risk:** Additional obligations for GPAI models classified as presenting systemic risk, on top of the Tier 1 requirements (Article 55)",
+    "entity": "EU AI Act GPAI framework",
+    "category": "feature"
+  },
+  {
+    "id": "F-adcaeb49",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "GPAI models trained with more than 10^25 FLOPs are presumed to present systemic risk.",
+    "quote": "A GPAI model is **presumed** to present systemic risk if the cumulative amount of compute used for its training is greater than **10^25 floating point operations (FLOPs)**.",
+    "entity": "GPAI models",
+    "category": "other"
+  },
+  {
+    "id": "F-2290de09",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-03d835c8",
+    "claim": "Systemic-risk GPAI models must perform model evaluation using standardised protocols and tools, including adversarial testing.",
+    "quote": "Perform **model evaluation** using standardised protocols and tools, including adversarial (red-teaming) testing, to identify and mitigate systemic risks",
+    "entity": "GPAI models with systemic risk",
+    "category": "feature"
+  },
+  {
+    "id": "F-e5d10a17",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-e6f94949",
+    "claim": "Under the EU AI Act, GPAI model rules, including the regime for certain models presenting systemic risk, began to apply on 2 August 2025.",
+    "quote": "2 August 2025: Rules for General-Purpose AI (GPAI) models begin to apply, including the regime for certain general-purpose AI models presenting systemic risk.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-bcb18ac2",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-e6f94949",
+    "claim": "Providers of GPAI models placed on the market before 2 August 2025 must take the necessary steps to comply by 2 August 2027.",
+    "quote": "Providers of GPAI models placed on the market before 2 August 2025 must take the necessary steps to comply by 2 August 2027.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-92fe987f",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-e6f94949",
+    "claim": "New GPAI models entering the market must comply immediately from 2 August 2025.",
+    "quote": "New GPAI models entering the market must comply immediately.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-5a771481",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-e6f94949",
+    "claim": "The EU AI Office governance rules became applicable on 2 August 2025.",
+    "quote": "Governance structures (like the EU AI Office) must be set up. By this date, the governance rules also become applicable.",
+    "entity": "EU AI Office",
+    "category": "launch"
+  },
+  {
+    "id": "F-a8cec608",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-e6f94949",
+    "claim": "EU Member States had to have their AI Act penalty and fine systems in place by 2 August 2025.",
+    "quote": "Member States must have their penalty/fine systems in place.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-bf594643",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-e6f94949",
+    "claim": "Most remaining EU AI Act rules became applicable on 2 August 2026, except Article 6(1).",
+    "quote": "2 August 2026: Most of the remaining rules in the Act become active. Most of the remaining provisions of the AI Act become applicable, except Article 6(1).",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-d4c45010",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-e6f94949",
+    "claim": "Article 6(1) becomes applicable on 2 August 2027.",
+    "quote": "2 August 2027: Stricter rules apply to AI used as safety components in products already regulated by the EU (like toys or medical devices). Article 6(1) becomes applicable.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-7cced147",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-08860584",
+    "claim": "The EU AI Act’s governance provisions and obligations for general-purpose AI models began to apply on 2 August 2025.",
+    "quote": "2 August 2025\n\n## Governance and GPAI obligations\n\nEU and national governance provisions and obligations for general-purpose AI models began to apply.",
+    "entity": "EU AI Act",
+    "category": "launch"
+  },
+  {
+    "id": "F-9b516a1f",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-08860584",
+    "claim": "Providers of GPAI models placed on the market before 2 August 2025 must meet the applicable obligations by 2 August 2027.",
+    "quote": "2 August 2027\n\n## Existing GPAI model transition ends\n\nProviders of GPAI models placed on the market before 2 August 2025 must meet the applicable obligations.",
+    "entity": "EU AI Act",
+    "category": "limitation"
+  },
+  {
+    "id": "F-dba2790a",
+    "sub_query_id": "Q5.g1",
+    "source_id": "S-08860584",
+    "claim": "The AI Omnibus entered into force on 27 July 2026 and extended the high-risk implementation schedule.",
+    "quote": "27 July 2026\n\n## AI Omnibus entered into force\n\nThe amending regulation extended the high-risk implementation schedule and introduced targeted simplifications.",
+    "entity": "AI Omnibus",
+    "category": "other"
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "name": "vector-dbs",
+  "source_run_id": "20260923-150025-compare-the-leading-vector-datab-94ba",
+  "prompt": "Compare the leading vector databases for production RAG in 2026: Pinecone, Qdrant, Weaviate and pgvector, covering features, performance claims and pricing",
+  "depth": "standard",
+  "brief": "Compare Pinecone, Qdrant, Weaviate, and pgvector for production retrieval-augmented generation (RAG) as of 2026. The report should distinguish documented capabilities from vendor performance claims, compare pricing models and deployment costs, and assess benchmark results in light of workload and measurement differences.",
+  "primary_domains": [
+    "github.com",
+    "pinecone.io",
+    "postgresql.org",
+    "qdrant.tech",
+    "weaviate.io"
+  ],
+  "sub_queries": [
+    {
+      "id": "Q1",
+      "question": "What production RAG features, deployment options, published performance claims, and current pricing tiers does Pinecone offer in 2026?",
+      "search_terms": [
+        "site:pinecone.io 2026 vector database hybrid search filtering performance pricing",
+        "site:docs.pinecone.io 2026 pricing serverless dedicated read units"
+      ],
+      "rationale": "Establish Pinecone’s capabilities and costs using its documentation and pricing disclosures.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q2",
+      "question": "What production RAG features, deployment options, published performance claims, and current cloud or self-hosted pricing does Qdrant offer in 2026?",
+      "search_terms": [
+        "site:qdrant.tech 2026 hybrid search filtering benchmarks cloud pricing",
+        "site:qdrant.tech/documentation 2026 cloud pricing deployment"
+      ],
+      "rationale": "Capture Qdrant’s technical and commercial trade-offs on the same dimensions as Pinecone.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q3",
+      "question": "What production RAG features, deployment options, published performance claims, and current pricing does Weaviate offer in 2026?",
+      "search_terms": [
+        "site:weaviate.io 2026 hybrid search filtering vector benchmarks pricing",
+        "site:docs.weaviate.io 2026 cloud pricing deployment"
+      ],
+      "rationale": "Document Weaviate’s retrieval capabilities, performance assertions, and managed-versus-self-hosted costs.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q4",
+      "question": "What features and performance characteristics does pgvector provide for production RAG in 2026, and what costs must a PostgreSQL operator account for compared with managed vector databases?",
+      "search_terms": [
+        "site:github.com/pgvector/pgvector 2026 HNSW IVFFlat filtering iterative scans performance",
+        "site:postgresql.org pgvector extension PostgreSQL self hosted operating costs 2026"
+      ],
+      "rationale": "Assess pgvector as a PostgreSQL extension without mistaking free software for free production infrastructure.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q5",
+      "question": "What independent 2025–2026 benchmarks compare these four options on RAG-relevant recall, latency, throughput, and filtered or hybrid retrieval, and which workload differences limit direct performance or cost comparisons?",
+      "search_terms": [
+        "2025 2026 independent benchmark Pinecone Qdrant Weaviate pgvector recall latency filtering",
+        "2026 vector database benchmark methodology Pinecone Qdrant Weaviate pgvector hybrid search cost"
+      ],
+      "rationale": "Put vendor claims in context and identify where benchmark conditions prevent an apples-to-apples ranking.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q1.g1",
+      "question": "What do independent reviews, analyst coverage, or customer reports say about Pinecone’s production RAG capabilities, deployment options, performance, and pricing?",
+      "search_terms": [
+        "Pinecone vector database independent review performance deployment pricing 2026",
+        "Pinecone customer experience BYOC pricing comparison vector database"
+      ],
+      "rationale": "The available evidence is entirely from Pinecone’s own site. Independent coverage can corroborate product and performance claims and add customer or comparative context without searching Pinecone’s site again.",
+      "origin": "gap",
+      "avoid_domains": [
+        "pinecone.io"
+      ]
+    },
+    {
+      "id": "Q2.g1",
+      "question": "What do independent reviews, benchmarks, and customer reports say about Qdrant’s production RAG capabilities, deployment options, performance, and cloud or self-hosted pricing?",
+      "search_terms": [
+        "Qdrant vector database independent benchmark review cloud pricing",
+        "Qdrant self hosted customer experience pricing comparison vector database"
+      ],
+      "rationale": "The current findings rely on Qdrant’s site and project examples. Independent benchmarks, coverage, and customer experience can provide outside validation and comparative pricing context.",
+      "origin": "gap",
+      "avoid_domains": [
+        "qdrant.tech"
+      ]
+    },
+    {
+      "id": "Q3.g1",
+      "question": "What do independent reviews, benchmarks, and customer reports say about Weaviate’s production RAG capabilities, deployment options, performance, and pricing?",
+      "search_terms": [
+        "Weaviate vector database independent benchmark review pricing deployment",
+        "Weaviate customer experience cloud pricing comparison vector database"
+      ],
+      "rationale": "The evidence is sourced only from Weaviate. Independent reporting and user or comparative evidence can help validate its performance claims and clarify deployment and pricing experience.",
+      "origin": "gap",
+      "avoid_domains": [
+        "weaviate.io"
+      ]
+    }
+  ],
+  "elapsed_s": 363.7
+}

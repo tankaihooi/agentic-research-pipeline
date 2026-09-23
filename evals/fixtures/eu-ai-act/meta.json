@@ -1,0 +1,133 @@
+{
+  "name": "eu-ai-act",
+  "source_run_id": "20260923-150634-what-obligations-does-the-eu-ai-98a2",
+  "prompt": "What obligations does the EU AI Act place on providers of general-purpose AI models, and what is the compliance timeline through 2027?",
+  "depth": "standard",
+  "brief": "The report should explain which EU AI Act requirements apply to providers of general-purpose AI (GPAI) models, distinguishing baseline duties from the additional duties for models with systemic risk. It should set out the compliance and enforcement timeline through 2027, including treatment of models already on the market.",
+  "primary_domains": [
+    "europa.eu"
+  ],
+  "sub_queries": [
+    {
+      "id": "Q1",
+      "question": "How does the EU AI Act define a GPAI model and its provider, when do its GPAI provisions apply, and which obligations are excepted for qualifying free and open-source models?",
+      "search_terms": [
+        "site:eur-lex.europa.eu Regulation 2024/1689 general-purpose AI model provider Article 3 Article 53 open source",
+        "site:digital-strategy.ec.europa.eu GPAI guidelines scope provider open source 2025"
+      ],
+      "rationale": "Establishing scope and exceptions is necessary before describing what a provider must do.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q2",
+      "question": "What baseline obligations does Article 53 impose on GPAI model providers regarding technical documentation, information for downstream providers, copyright policy, and public training-content summaries?",
+      "search_terms": [
+        "site:eur-lex.europa.eu AI Act Article 53 Annex XI Annex XII GPAI obligations",
+        "site:digital-strategy.ec.europa.eu GPAI training content summary template copyright 2025"
+      ],
+      "rationale": "These are the core duties applicable to providers irrespective of systemic-risk designation.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q3",
+      "question": "How are GPAI models classified as presenting systemic risk under Articles 51–52, and what additional assessment, testing, risk-mitigation, incident-reporting, and cybersecurity obligations does Article 55 impose on their providers?",
+      "search_terms": [
+        "site:eur-lex.europa.eu AI Act Articles 51 52 55 systemic risk notification 10^25 FLOPs",
+        "site:digital-strategy.ec.europa.eu GPAI systemic risk obligations 2025 2026"
+      ],
+      "rationale": "Systemic-risk designation triggers a distinct, more demanding set of provider duties.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q4",
+      "question": "What practical compliance mechanisms has the European Commission issued for GPAI providers—including the GPAI Code of Practice, guidance, and documentation or summary templates—and what is their legal status relative to the Act?",
+      "search_terms": [
+        "site:digital-strategy.ec.europa.eu general-purpose AI Code of Practice final 2025 compliance",
+        "site:digital-strategy.ec.europa.eu GPAI guidelines templates code of practice 2025 2026"
+      ],
+      "rationale": "The report should distinguish binding statutory requirements from the tools providers can use to demonstrate compliance.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q5",
+      "question": "What are the key application, transition, supervision, and penalty dates for GPAI provider obligations from the Act’s entry into force through 2027, especially for models placed on the market before 2 August 2025?",
+      "search_terms": [
+        "site:eur-lex.europa.eu Regulation 2024/1689 Articles 111 113 general-purpose AI 2 August 2025 2027 penalties",
+        "site:digital-strategy.ec.europa.eu AI Act GPAI timeline existing models enforcement 2026 2027"
+      ],
+      "rationale": "A date-by-date account separates the start of obligations from transitional deadlines and enforcement.",
+      "origin": "plan",
+      "avoid_domains": []
+    },
+    {
+      "id": "Q1.g1",
+      "question": "What do independent legal analyses say about the AI Act’s definitions of a general-purpose AI model and its provider, the GPAI rules’ application dates, and the scope of the free/open-source exception?",
+      "search_terms": [
+        "AI Act GPAI definition provider open-source exception application date legal analysis law firm",
+        "EU AI Act GPAI open source exception Article 53 legal commentary"
+      ],
+      "rationale": "The current findings are sparse and rely only on Commission sources. Independent legal commentary can corroborate the definitions, timing, and precise limits of the exception.",
+      "origin": "gap",
+      "avoid_domains": [
+        "europa.eu"
+      ]
+    },
+    {
+      "id": "Q2.g1",
+      "question": "How do independent legal or industry sources explain the four Article 53 baseline duties and what providers must include in technical documentation and downstream information?",
+      "search_terms": [
+        "EU AI Act Article 53 GPAI provider obligations technical documentation copyright policy independent legal analysis",
+        "Article 53 GPAI training data summary Annex XII compliance analysis"
+      ],
+      "rationale": "The existing evidence is all from europa.eu; independent legal or industry analysis can verify the duties and clarify their practical scope.",
+      "origin": "gap",
+      "avoid_domains": [
+        "europa.eu"
+      ]
+    },
+    {
+      "id": "Q3.g1",
+      "question": "How do independent sources explain the systemic-risk classification thresholds and the additional assessments, mitigations, incident reporting, and cybersecurity measures required by Article 55?",
+      "search_terms": [
+        "AI Act Article 51 systemic risk 10^25 FLOPs GPAI Article 55 obligations law firm analysis",
+        "EU GPAI systemic risk classification incident reporting cybersecurity independent analysis"
+      ],
+      "rationale": "All current evidence comes from europa.eu. Independent analysis can corroborate the classification criteria and distinguish the specific Article 55 duties.",
+      "origin": "gap",
+      "avoid_domains": [
+        "europa.eu"
+      ]
+    },
+    {
+      "id": "Q4.g1",
+      "question": "What do independent legal and industry sources say about the GPAI Code of Practice and Commission guidance or templates, including whether they are voluntary, binding, or a route to demonstrating compliance?",
+      "search_terms": [
+        "EU GPAI Code of Practice legal status voluntary compliance independent analysis law firm",
+        "AI Act GPAI code practice guidelines templates provider compliance analysis"
+      ],
+      "rationale": "The current findings are exclusively from europa.eu. Independent commentary can assess the instruments’ legal status and their practical role in demonstrating compliance.",
+      "origin": "gap",
+      "avoid_domains": [
+        "europa.eu"
+      ]
+    },
+    {
+      "id": "Q5.g1",
+      "question": "What timeline do independent legal or business sources report for GPAI obligations, legacy-model transition, AI Office supervision, and penalties through 2027?",
+      "search_terms": [
+        "EU AI Act GPAI transition timeline 2 August 2025 2027 legacy models legal analysis",
+        "AI Act GPAI enforcement supervision penalties timeline independent law firm"
+      ],
+      "rationale": "All current evidence comes from europa.eu. Independent timeline summaries can corroborate the transition and enforcement dates, particularly for models already on the market.",
+      "origin": "gap",
+      "avoid_domains": [
+        "europa.eu"
+      ]
+    }
+  ],
+  "elapsed_s": 248.4
+}
