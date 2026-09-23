@@ -120,6 +120,39 @@ go to Methodology & Limitations).
   brought in Forrester, Gartner coverage, Orb, Lago, Trustpilot and Reddit. A standard run
   took about 105s and $0.05.
 
+## The Writer and the auditor
+
+- **Outline (strong tier).** Sees one line per usable finding (id, entity, category, status,
+  claim; no quotes) and assigns findings to 4-7 sections. Unknown ids and empty sections are
+  dropped in code.
+- **Sections in parallel (`Send`, strong tier).** Each writer sees only its own findings, now
+  with quote, source and verification status, plus the brief and the other section titles.
+  Status drives wording: first-party claims are attributed to the vendor, single-source claims
+  to their site, and contradictions are stated as disagreements. Every factual sentence cites
+  finding ids (`[F-1a2b3c4d]`). In the live run each writer received 0.7k-1.8k tokens of
+  evidence, so a ~3,000-word report never needs a large prompt.
+- **Sentence audit (fast tier).** Each section is split into statements (sentences, list items,
+  table rows). Two checks are deterministic: a figure without a citation, and a citation to an
+  unknown id. The rest go to a judge that sees each statement next to its cited findings'
+  claims, quotes and source sites, and marks it supported, overstated or unsupported. Flagged
+  sections get one revision round and are re-audited. Anything still flagged is marked † in the
+  report rather than silently kept or dropped.
+- **Finalize.** Executive summary bullets may only cite ids the body cites. Finding ids are
+  renumbered to source references in order of first citation, citations are moved inside their
+  sentence, and a linter checks that every `[n]` resolves and every reference is cited.
+  **Methodology & limitations is generated in code from run state,** so every count in it is
+  exact.
+- **`research rewrite <run_id>`** forks the run's LangGraph thread from the checkpoint just
+  before `writer_outline` and re-runs only the writing stage on the stored research. The
+  previous report is archived. This made writer iterations cost about $0.18 instead of a full
+  run.
+
+**What live runs showed:** the first outline prompt used only 58 of 199 usable findings (18
+cited sources). Asking for most relevant evidence raised that to 94 findings and 24 sources
+(3,136 words, 7 sections). The first auditor lacked source information and falsely flagged
+attributions ("according to paddle.com"). With source sites shown, re-auditing the same report
+flagged 2 of 82 statements, both genuine nuances.
+
 ## Long-running execution
 
 - **Concurrency limits:** separate semaphores for search, fetch and LLM calls (`config.py`).
@@ -156,6 +189,7 @@ go to Methodology & Limitations).
 | LangSmith region via `LANGSMITH_ENDPOINT` | keys are region-bound (US/EU/APAC); `research doctor` makes an authenticated call so a mismatch fails up front instead of silently dropping traces | one more env var |
 | Official-source preference in URL selection | search relevance is not authority; vendor docs, pricing and changelogs outrank SEO listicles (a live run went from 2/9 to 7/9 primary sources after this and per-company planning) | fewer independent third-party views per question |
 | Coverage = volume **and** site diversity | vendor docs alone are authoritative but one-sided; independent views are what make a competitive analysis | an extra loop on most standard runs (~15s, ~$0.01) |
+| Methodology written by code, not the model | counts, rejection reasons and audit results must be exact; a model summarising its own verification is exactly where hallucination would hurt most | less flexible prose |
 | Two model tiers | high-volume calls (extraction, critique) on the cheap tier, synthesis on the strong tier | two models to evaluate |
 
 ## Build phases

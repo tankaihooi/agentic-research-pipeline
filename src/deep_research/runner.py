@@ -1,6 +1,7 @@
 """Execute (or resume) one research run: stream events, checkpoint, and write run artefacts.
 
 runs/<run_id>/
+  report.md       the briefing
   run.json        prompt, depth, status, LangSmith trace links
   events.jsonl    every AgentEvent, for replay
   sources/        cleaned page text the agents read
@@ -21,6 +22,8 @@ from pathlib import Path
 from typing import Any
 from uuid import uuid4
 
+from langchain_core.runnables import RunnableConfig
+from langgraph.graph.state import CompiledStateGraph
 from pydantic import BaseModel, Field
 
 from deep_research.config import PRESETS, Depth, Settings
@@ -77,7 +80,13 @@ async def execute(
     resume: bool,
     on_event: EventSink,
     deps: Deps | None = None,
+    rewind_to: str | None = None,
 ) -> ResearchState:
+    """Run, resume, or re-run a finished run from an earlier node (`rewind_to`).
+
+    Rewinding forks the thread from the last checkpoint taken just before `rewind_to` ran, so
+    for example the Writer can be re-run on stored research without scraping again.
+    """
     run_dir = settings.runs_dir / info.run_id
     run_dir.mkdir(parents=True, exist_ok=True)
     owns_deps = deps is None
@@ -98,10 +107,14 @@ async def execute(
             config = run_config(
                 info.run_id, root_trace, info.prompt, info.depth, settings, resumed=resume
             )
+            start_config = config
+            if rewind_to:
+                start_config = await _checkpoint_before(graph, config, rewind_to)
+                _archive_report(run_dir)
             sink(_orchestrator_event("run.resume" if resume else "run.start", info, resume))
             stream = graph.astream(
-                None if resume else initial_state(info),
-                config,
+                None if resume or rewind_to else initial_state(info),
+                start_config,
                 context=deps,
                 stream_mode=["custom", "updates"],
                 subgraphs=True,  # events emitted inside the scraper subgraph
@@ -110,7 +123,7 @@ async def execute(
             async for _namespace, mode, chunk in stream:
                 if mode == "custom" and (event := event_from_stream_chunk(chunk)):
                     sink(event)
-            snapshot = await graph.aget_state(config)
+            snapshot = await graph.aget_state(config)  # latest checkpoint of the thread
             state: ResearchState = snapshot.values  # type: ignore[assignment]
             info.status = "interrupted" if snapshot.next else "complete"
     except BaseException:
@@ -127,6 +140,24 @@ async def execute(
         info.traces[-1] = url
         info.save(run_dir)
     return state
+
+
+async def _checkpoint_before(
+    graph: CompiledStateGraph[ResearchState, Deps, ResearchState, ResearchState],
+    config: RunnableConfig,
+    node: str,
+) -> RunnableConfig:
+    async for snapshot in graph.aget_state_history(config):  # newest first
+        if node in snapshot.next:
+            return {**config, "configurable": dict(snapshot.config.get("configurable", {}))}
+    thread = config.get("configurable", {}).get("thread_id")
+    raise ValueError(f"No checkpoint before '{node}' in run {thread}")
+
+
+def _archive_report(run_dir: Path) -> None:
+    report = run_dir / "report.md"
+    if report.exists():
+        report.rename(run_dir / f"report.{datetime.now():%Y%m%d-%H%M%S}.md")
 
 
 def _orchestrator_event(kind: str, info: RunInfo, resume: bool) -> AgentEvent:
@@ -180,6 +211,15 @@ def metrics(state: ResearchState) -> dict[str, Any]:
             "gap_loops": state.get("gap_loops", 0),
             "stop_reason": state.get("stop_reason"),
         },
+        "report": {
+            "sections": len(state.get("sections", [])),
+            "words": len(state.get("report_md", "").split()),
+            "audit_rounds": [r.model_dump() for r in state.get("audit_rounds", [])],
+            "unresolved_flags": len(state.get("audit_flags", []))
+            if len(state.get("audit_rounds", [])) > 1
+            else 0,
+            "citation_problems": state.get("citation_problems", []),
+        },
         "usage": {agent.value: u.model_dump() for agent, u in usage.by_agent.items()},
         "total": usage.total.model_dump(),
     }
@@ -195,4 +235,7 @@ def write_artefacts(run_dir: Path, state: ResearchState) -> None:
     dump("findings.json", list(state.get("findings", [])))
     dump("errors.json", list(state.get("errors", [])))
     dump("verdicts.json", list(state.get("verdicts", {}).values()))
+    dump("audit_flags.json", list(state.get("audit_flags", [])))
+    if report := state.get("report_md"):
+        (run_dir / "report.md").write_text(report, encoding="utf-8")
     (run_dir / "metrics.json").write_text(json.dumps(metrics(state), indent=2), encoding="utf-8")

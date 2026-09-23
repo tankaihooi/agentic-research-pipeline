@@ -5,12 +5,15 @@ from itertools import pairwise
 import pytest
 
 from deep_research.tools.text import (
+    audit_units,
     chunk_text,
     cited_finding_ids,
     clean_page_markdown,
     count_tokens,
     heading_trail,
+    is_uncited_figure,
     lint_citations,
+    mark_unit,
     quote_grounding_score,
     renumber_citations,
 )
@@ -216,3 +219,40 @@ def test_heading_trail_finds_the_date_and_product_above_a_line() -> None:
 
 def test_heading_trail_empty_when_quote_absent() -> None:
     assert heading_trail("completely unrelated sentence about llamas", CHANGELOG) == []
+
+
+# ------------------------------------------------------------------ audit units
+
+SECTION = """## Pricing
+
+Stripe Billing costs 0.7% of billing volume [F-aaaaaaaa]. It offers meters. [F-bbbbbbbb] \
+Chargebee is free below $250K [F-cccccccc, F-dddddddd].
+
+- Usage-based pricing with meters [F-bbbbbbbb]
+- Launched in 2026
+
+| Vendor | Fee |
+|---|---|
+| Stripe | 0.7% [F-aaaaaaaa] |
+"""
+
+
+def test_audit_units_split_sentences_items_and_rows() -> None:
+    units = audit_units(SECTION)
+    assert units == [
+        "Stripe Billing costs 0.7% of billing volume [F-aaaaaaaa].",
+        "It offers meters. [F-bbbbbbbb]",  # trailing citation reattached to its sentence
+        "Chargebee is free below $250K [F-cccccccc, F-dddddddd].",
+        "- Usage-based pricing with meters [F-bbbbbbbb]",
+        "- Launched in 2026",
+        "| Vendor | Fee |",
+        "| Stripe | 0.7% [F-aaaaaaaa] |",
+    ]
+
+
+def test_uncited_figures_and_marking() -> None:
+    assert is_uncited_figure("- Launched in 2026")
+    assert not is_uncited_figure("Costs 0.7% [F-aaaaaaaa].")
+    assert not is_uncited_figure("No numbers here.")
+    marked = mark_unit(SECTION, "- Launched in 2026")
+    assert "- Launched in 2026 †" in marked

@@ -316,3 +316,49 @@ def lint_citations(markdown: str, n_references: int) -> list[str]:
         f"reference [{n}] is never cited" for n in range(1, n_references + 1) if n not in cited
     )
     return problems
+
+
+# ---------------------------------------------------------------------------- audit units
+
+_TABLE_SEPARATOR = re.compile(r"^\|?\s*:?-{2,}")
+_LEADING_CITATIONS = re.compile(rf"^((?:\[\s*{FINDING_ID}(?:\s*[,;]\s*{FINDING_ID})*\s*\]\s*)+)")
+_UNIT_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z(\[\"'])")
+_FIGURE = re.compile(r"\d")
+
+
+def audit_units(markdown: str) -> list[str]:
+    """Split a section into auditable statements: sentences, list items and table rows.
+
+    Headings and table separators are skipped. A citation group that lands at the start of the
+    next sentence ("…volume. [F-1a2b3c4d] Next…") is reattached to the sentence it belongs to.
+    Every unit is an exact substring of `markdown`, so it can be located again for marking.
+    """
+    units: list[str] = []
+    for line in markdown.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#") or _TABLE_SEPARATOR.match(stripped):
+            continue
+        if stripped.startswith("|"):
+            units.append(stripped)
+            continue
+        for piece in _UNIT_SENTENCE_SPLIT.split(stripped):
+            if units and (lead := _LEADING_CITATIONS.match(piece)) and units[-1] in stripped:
+                units[-1] = f"{units[-1]} {lead.group(1).strip()}"
+                piece = piece[lead.end() :].strip()
+            if piece:
+                units.append(piece)
+    return [u for u in units if u in markdown or _rejoinable(u, markdown)]
+
+
+def _rejoinable(unit: str, markdown: str) -> bool:
+    return " ".join(unit.split()) in " ".join(markdown.split())
+
+
+def is_uncited_figure(unit: str) -> bool:
+    """A statement with a number but no citation: in a briefing that is always a defect."""
+    return not cited_finding_ids(unit) and bool(_FIGURE.search(unit)) and not unit.startswith("|")
+
+
+def mark_unit(markdown: str, unit: str, mark: str = " †") -> str:
+    """Append a marker to a unit in place (used for statements still flagged after revision)."""
+    return markdown.replace(unit, unit.rstrip() + mark, 1) if unit in markdown else markdown

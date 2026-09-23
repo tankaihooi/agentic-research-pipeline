@@ -132,7 +132,15 @@ class AuditFlag(BaseModel):
     section_id: str
     sentence: str
     cited_finding_ids: list[str]
+    verdict: Literal["overstated", "unsupported", "uncited"]
     problem: str
+
+
+class AuditRound(BaseModel):
+    round: int
+    sections_checked: int
+    statements_checked: int
+    flagged: int
 
 
 class RunError(BaseModel):

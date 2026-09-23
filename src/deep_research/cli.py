@@ -58,10 +58,31 @@ def resume(
     _execute(RunInfo.load(run_dir), resume=True)
 
 
-def _execute(info: RunInfo, *, resume: bool) -> None:
+@app.command()
+def rewrite(
+    run_id: Annotated[str, typer.Argument(help="Run id of a finished run.")],
+) -> None:
+    """Re-run only the writing stage on a finished run's stored research (no new scraping)."""
+    settings = get_settings()
+    run_dir = settings.runs_dir / run_id
+    if not (run_dir / "run.json").exists():
+        console.print(f"[red]No run found at {run_dir}[/]")
+        raise typer.Exit(1)
+    _execute(RunInfo.load(run_dir), resume=False, rewind_to="writer_outline")
+
+
+def _execute(info: RunInfo, *, resume: bool, rewind_to: str | None = None) -> None:
     settings = get_settings()
     try:
-        state = asyncio.run(execute(settings, info, resume=resume, on_event=EventPrinter(console)))
+        state = asyncio.run(
+            execute(
+                settings,
+                info,
+                resume=resume,
+                on_event=EventPrinter(console),
+                rewind_to=rewind_to,
+            )
+        )
     except KeyboardInterrupt:
         # Ctrl-C reaches both `uv` and Python, so a second SIGINT can land during shutdown.
         signal.signal(signal.SIGINT, signal.SIG_IGN)
@@ -109,8 +130,16 @@ def _summary(info: RunInfo, state: ResearchState, run_dir: object) -> None:
             f"{usage['output_tokens']:,} out · {usage['embedding_tokens']:,} embedded · "
             f"${usage['cost_usd']:.4f}",
         )
+    report = m["report"]
+    if report["words"]:
+        rounds = " → ".join(f"{r['flagged']} flagged" for r in report["audit_rounds"])
+        table.add_row(
+            "Report",
+            f"{report['sections']} sections · {report['words']:,} words · audit: {rounds or 'n/a'}"
+            f" · {len(report['citation_problems'])} citation issue(s)",
+        )
     table.add_row("Total cost", f"${total['cost_usd']:.4f}")
-    table.add_row("Output", str(run_dir))
+    table.add_row("Output", f"{run_dir}/report.md" if report["words"] else str(run_dir))
     if info.traces and info.traces[-1].startswith("http"):
         table.add_row("Trace", info.traces[-1])
     console.print(table)

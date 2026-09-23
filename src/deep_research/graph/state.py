@@ -12,6 +12,7 @@ from typing import Annotated, Protocol, Required, TypedDict
 from deep_research.config import Depth
 from deep_research.models import (
     AuditFlag,
+    AuditRound,
     Finding,
     OutlineSection,
     RunError,
@@ -50,7 +51,7 @@ def merge_usage(current: Usage | None, update: Usage | None) -> Usage:
     return (current or Usage()) + (update or Usage())
 
 
-def append(current: list[RunError] | None, update: list[RunError] | None) -> list[RunError]:
+def append[T](current: Sequence[T] | None, update: Sequence[T] | None) -> list[T]:
     return [*(current or []), *(update or [])]
 
 
@@ -76,10 +77,13 @@ class ResearchState(TypedDict, total=False):
     gap_loops: int
     stop_reason: str  # why research stopped: coverage met, loops exhausted, or budget
 
+    report_title: str
     outline: list[OutlineSection]
     sections: Annotated[list[Section], upsert_by_id]
-    audit_flags: list[AuditFlag]
+    audit_flags: list[AuditFlag]  # flags from the latest audit round
+    audit_rounds: Annotated[list[AuditRound], append]
     report_md: str
+    citation_problems: list[str]
 
     usage: Annotated[Usage, merge_usage]
     errors: Annotated[list[RunError], append]

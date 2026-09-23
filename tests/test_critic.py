@@ -11,6 +11,7 @@ import pytest
 from qdrant_client import AsyncQdrantClient
 
 from deep_research.agents import critic
+from deep_research.agents.auditor import audit_section
 from deep_research.agents.critic import (
     CrossRefBatch,
     CrossRefJudgment,
@@ -31,6 +32,7 @@ from deep_research.models import (
     AgentUsage,
     Finding,
     FindingCategory,
+    Section,
     Source,
     Stage,
     SubQuery,
@@ -343,3 +345,24 @@ async def test_expired_deadline_skips_gap_loop_even_when_coverage_is_weak(fx: Fi
 def test_constants_are_consistent() -> None:
     assert 0 < critic.GAP_TIME_FRACTION < 1
     assert critic.MIN_VERIFIED_PER_QUERY <= critic.MIN_USABLE_PER_QUERY
+
+
+# ------------------------------------------------------------------ auditor (deterministic part)
+
+
+async def test_auditor_flags_uncited_figures_and_unknown_ids_without_llm(fx: Fixture) -> None:
+    f = _finding(fx.stripe, "Stripe Billing costs 0.7%.", "costs 0.7%", "Stripe")
+    section = Section(
+        id="sec-1",
+        order=0,
+        title="Pricing",
+        markdown="## Pricing\n\nIt launched in 2026. It is cheap [F-deadbeef].",
+    )
+    llm = FakeLLM(dims=32)  # any LLM call would raise
+    flags, checked, _ = await audit_section(llm, section, {f.id: f})
+    assert [(fl.verdict, fl.sentence) for fl in flags] == [
+        ("uncited", "It launched in 2026."),
+        ("unsupported", "It is cheap [F-deadbeef]."),
+    ]
+    assert checked == 1  # the uncited figure; the unknown-id statement never reaches the judge
+    assert llm.calls == []

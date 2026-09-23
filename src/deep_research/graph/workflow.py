@@ -14,8 +14,16 @@ from langgraph.graph import END, START, StateGraph
 from langgraph.graph.state import CompiledStateGraph
 from langgraph.types import RetryPolicy, Send
 
+from deep_research.agents.auditor import audit_sections, route_after_audit
 from deep_research.agents.critic import critic_assess, critic_verify
 from deep_research.agents.planner import plan
+from deep_research.agents.writer import (
+    fan_out_sections,
+    finalize,
+    revise_section,
+    write_section,
+    writer_outline,
+)
 from deep_research.config import PRESETS, Depth
 from deep_research.deps import Deps
 from deep_research.events import emit
@@ -54,8 +62,8 @@ def fan_out_research(state: ResearchState) -> list[Send]:
 
 
 def route_after_critic(state: ResearchState) -> list[Send] | str:
-    """Gap queries go back to the scrapers; otherwise research is finished."""
-    return fan_out_research(state) or END
+    """Gap queries go back to the scrapers; otherwise research is finished and writing starts."""
+    return fan_out_research(state) or "writer_outline"
 
 
 def join_research(state: ResearchState) -> dict:
@@ -88,11 +96,26 @@ def build_graph(
     builder.add_node("join_research", join_research)
     builder.add_node("critic_verify", critic_verify, retry_policy=RetryPolicy(max_attempts=2))
     builder.add_node("critic_assess", critic_assess, retry_policy=RetryPolicy(max_attempts=2))
+    llm_retry = RetryPolicy(max_attempts=2)
+    builder.add_node("writer_outline", writer_outline, retry_policy=llm_retry)
+    builder.add_node("write_section", write_section, retry_policy=llm_retry)
+    builder.add_node("audit_sections", audit_sections, retry_policy=llm_retry)
+    builder.add_node("revise_section", revise_section, retry_policy=llm_retry)
+    builder.add_node("finalize", finalize, retry_policy=llm_retry)
 
     builder.add_edge(START, "planner")
     builder.add_conditional_edges("planner", fan_out_research, ["research"])
     builder.add_edge("research", "join_research")
     builder.add_edge("join_research", "critic_verify")
     builder.add_edge("critic_verify", "critic_assess")
-    builder.add_conditional_edges("critic_assess", route_after_critic, ["research", END])
+    builder.add_conditional_edges(
+        "critic_assess", route_after_critic, ["research", "writer_outline"]
+    )
+    builder.add_conditional_edges("writer_outline", fan_out_sections, ["write_section"])
+    builder.add_edge("write_section", "audit_sections")
+    builder.add_conditional_edges(
+        "audit_sections", route_after_audit, ["revise_section", "finalize"]
+    )
+    builder.add_edge("revise_section", "audit_sections")
+    builder.add_edge("finalize", END)
     return builder.compile(checkpointer=checkpointer, name="deep_research")

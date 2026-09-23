@@ -10,6 +10,7 @@ import httpx
 import pytest
 from qdrant_client import AsyncQdrantClient
 
+from deep_research.agents.auditor import AuditBatch, StatementJudgment
 from deep_research.agents.critic import (
     CrossRefBatch,
     CrossRefJudgment,
@@ -20,6 +21,7 @@ from deep_research.agents.critic import (
 )
 from deep_research.agents.extractor import ExtractedFinding, Extraction
 from deep_research.agents.planner import PlannedQuery, ResearchPlan
+from deep_research.agents.writer import ExecSummary, OutlineDraft, ReportOutline, SectionDraft
 from deep_research.config import Depth, Settings
 from deep_research.deps import Deps
 from deep_research.graph.scraper_graph import ScrapeState, select
@@ -135,6 +137,53 @@ def _gaps(_: str, text: str) -> GapPlan:
     )
 
 
+def _outline(_: str, text: str) -> ReportOutline:
+    ids = re.findall(r"^(F-[0-9a-f]{8}) \|", text, re.M)
+    half = len(ids) // 2
+    return ReportOutline(
+        title="Stripe Billing: a competitive briefing",
+        sections=[
+            OutlineDraft(title="Capabilities", goal="What shipped?", finding_ids=ids[:half]),
+            OutlineDraft(title="Market", goal="How does it compare?", finding_ids=ids[half:]),
+            OutlineDraft(title="Empty", goal="dropped", finding_ids=["F-00000000"]),
+        ],
+    )
+
+
+OVERSTATED = "Stripe dominates every billing segment worldwide"
+
+
+def _section(_: str, text: str) -> SectionDraft:
+    """Drafts cite every finding plus one overstated sentence; revisions delete that sentence."""
+    claims = re.findall(r"^\[(F-[0-9a-f]{8})\] (.+)$", text, re.M)
+    if "Flagged statements:" in text:
+        current = text.split("Section:\n", 1)[1].split("\n\nFlagged statements:", 1)[0]
+        return SectionDraft(markdown=current.replace(f"{OVERSTATED} [{claims[0][0]}]. ", ""))
+    title = re.search(r"^This section: (.+)$", text, re.M)
+    body = " ".join(f"{claim.rstrip('.')} [{fid}]." for fid, claim in claims)
+    heading = title.group(1) if title else "Section"
+    return SectionDraft(markdown=f"## {heading}\n\n{OVERSTATED} [{claims[0][0]}]. {body}")
+
+
+def _summary(_: str, text: str) -> ExecSummary:
+    first = re.search(r"\[(F-[0-9a-f]{8})\]", text)
+    assert first
+    return ExecSummary(bullets=[f"Stripe shipped new billing features [{first.group(1)}]."])
+
+
+def _audit(_: str, text: str) -> AuditBatch:
+    return AuditBatch(
+        judgments=[
+            StatementJudgment(
+                index=int(i),
+                verdict="overstated" if OVERSTATED in statement else "supported",
+                problem="generalises beyond the quote" if OVERSTATED in statement else "",
+            )
+            for i, statement in re.findall(r"^\((\d+)\) (.+)$", text, re.M)
+        ]
+    )
+
+
 @pytest.fixture
 def llm() -> FakeLLM:
     return FakeLLM(
@@ -144,6 +193,10 @@ def llm() -> FakeLLM:
             EntailmentBatch: _entail,
             CrossRefBatch: _xref,
             GapPlan: _gaps,
+            ReportOutline: _outline,
+            SectionDraft: _section,
+            ExecSummary: _summary,
+            AuditBatch: _audit,
         }
     )
 
@@ -187,7 +240,28 @@ async def test_full_research_phase_offline(tmp_path: Path, llm: FakeLLM) -> None
         "scrape.extract",
         "research.done",
     } <= kinds
+    # critic judged every finding; quick depth allows no gap loop, so research closes
+    assert set(state["verdicts"]) == {f.id for f in state["findings"]}
+    assert state["gap_loops"] == 0
+    assert state["stop_reason"].startswith("gap-loop limit")
+    assert {"critic.summary", "critic.coverage", "critic.done"} <= kinds
+    # writer: the empty outline section is dropped; both sections were revised once
+    assert [s.title for s in state["outline"]] == ["Capabilities", "Market"]
+    assert {s.id: s.revision for s in state["sections"]} == {"sec-1": 1, "sec-2": 1}
+    # auditor: round 1 flagged the overstated sentence in each section, round 2 found none
+    assert [(r.round, r.flagged) for r in state["audit_rounds"]] == [(1, 2), (2, 0)]
+    assert {"writer.draft", "audit.flag", "writer.revise", "writer.done"} <= kinds
+    # final report: numbered citations, deterministic methodology, references
+    report = state["report_md"]
+    assert report.startswith("# Stripe Billing: a competitive briefing")
+    assert "[F-" not in report and "[1]" in report
+    assert OVERSTATED not in report and "†" not in report
+    for heading in ("## Executive summary", "## Methodology & limitations", "## References"):
+        assert heading in report
+    assert "2 were flagged and revised. None remained flagged after revision." in report
+    assert state["citation_problems"] == []
     # artefacts
+    assert (settings.runs_dir / "test-run" / "report.md").read_text() == report
     assert RunInfo.load(run_dir).status == "complete"
     assert len(json.loads((run_dir / "findings.json").read_text())) == 9
     metrics = json.loads((run_dir / "metrics.json").read_text())
@@ -324,3 +398,25 @@ def test_gap_query_avoids_the_site_that_dominated() -> None:
         "primary_domains": ["stripe.com"],
     }
     assert [h.url for h in select(state)["hits"]] == ["https://review.example.com/stripe"]
+
+
+async def test_rewrite_reruns_only_the_writing_stage(tmp_path: Path, llm: FakeLLM) -> None:
+    search = FakeSearch(results={t: _hits(t) for t in TERMS})
+    settings, deps = _deps(tmp_path, search, llm)
+    await deps.store.setup()
+    info = RunInfo(run_id="test-run", prompt="Stripe billing", depth=Depth.QUICK)
+    await execute(settings, info, resume=False, on_event=lambda e: None, deps=deps)
+    before = {schema: len(llm.calls_for(schema)) for schema in (ResearchPlan, Extraction)}
+    searches = len(search.calls)
+
+    state = await execute(
+        settings, info, resume=False, on_event=lambda e: None, deps=deps, rewind_to="writer_outline"
+    )
+
+    # no planning, searching or extraction happened again; the writer ran a second time
+    assert {s: len(llm.calls_for(s)) for s in before} == before
+    assert len(search.calls) == searches
+    assert len(llm.calls_for(ReportOutline)) == 2
+    run_dir = settings.runs_dir / "test-run"
+    assert state["report_md"] == (run_dir / "report.md").read_text()
+    assert len(list(run_dir.glob("report.*.md"))) == 1  # the first report was archived
