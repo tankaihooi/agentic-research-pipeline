@@ -102,6 +102,9 @@ Rules:
   - contradicted: say that sources disagree and give the note.
 - Keep qualifiers such as "up to", "beta", "in some regions", and dates.
 - Do not cover what belongs to the other sections listed.
+- Write for the reader, not about your inputs: never mention "findings", "the supplied/provided
+  evidence", "excerpts" or "the sources given". To report a gap, say so plainly, e.g. "No
+  published price was found in the sources reviewed."
 """
 
 EXEC_INSTRUCTIONS = """\
@@ -109,6 +112,9 @@ Write the executive summary of this briefing: 5-7 bullets for a decision-maker, 
 covering the most important conclusions across all sections. Use only facts stated in the
 sections, and end each bullet with the finding-id citations of the sentences it summarises, in
 the same [F-xxxxxxxx] format. Bullets are plain sentences, without a leading dash.
+- Write for the reader, not about your inputs: never mention "findings", "the supplied/provided
+  evidence", "excerpts" or "the sources given". To report a gap, say so plainly, e.g. "No
+  published price was found in the sources reviewed."
 """
 
 REVISE_INSTRUCTIONS = """\
@@ -116,6 +122,9 @@ You are the Writer revising one section after an audit. Fix ONLY the flagged sta
 each so it says exactly what its cited findings support (restore qualifiers, attribute claims,
 correct the citation), or delete it if no finding supports it. Leave every other sentence,
 the heading and the citation format unchanged. Return the full revised section.
+- Write for the reader, not about your inputs: never mention "findings", "the supplied/provided
+  evidence", "excerpts" or "the sources given". To report a gap, say so plainly, e.g. "No
+  published price was found in the sources reviewed."
 """
 
 

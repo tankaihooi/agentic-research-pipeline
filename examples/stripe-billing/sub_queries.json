@@ -1,0 +1,109 @@
+[
+  {
+    "id": "Q1",
+    "question": "Which Stripe Billing capabilities were launched or materially updated in 2025\u20132026, particularly for usage-based pricing, subscription management, and revenue recovery, and when did they become available?",
+    "search_terms": [
+      "site:stripe.com billing 2025 2026 new features changelog",
+      "Stripe Billing 2026 usage-based billing subscription recovery releases"
+    ],
+    "rationale": "Establishes what is actually new before comparing Stripe with established alternatives.",
+    "origin": "plan",
+    "avoid_domains": []
+  },
+  {
+    "id": "Q2",
+    "question": "What are Stripe Billing\u2019s current fees, eligibility requirements, integration dependencies, and documented limitations for its newer billing capabilities?",
+    "search_terms": [
+      "site:stripe.com billing pricing usage-based billing 2026",
+      "site:docs.stripe.com billing feature availability limitations 2026"
+    ],
+    "rationale": "Determines the cost and implementation trade-offs behind Stripe\u2019s feature claims.",
+    "origin": "plan",
+    "avoid_domains": []
+  },
+  {
+    "id": "Q3",
+    "question": "How do Chargebee\u2019s 2025\u20132026 billing capabilities and pricing compare with Stripe\u2019s for usage-based subscriptions, customer self-service, and payment recovery?",
+    "search_terms": [
+      "site:chargebee.com pricing usage-based billing subscription management 2026",
+      "site:chargebee.com 2025 2026 billing product updates recovery"
+    ],
+    "rationale": "Tests Stripe\u2019s offering against a subscription-billing specialist.",
+    "origin": "plan",
+    "avoid_domains": []
+  },
+  {
+    "id": "Q4",
+    "question": "How do Recurly\u2019s 2025\u20132026 billing capabilities and pricing compare with Stripe\u2019s for metered billing, subscription lifecycle management, and churn reduction?",
+    "search_terms": [
+      "site:recurly.com pricing usage-based billing 2026",
+      "site:recurly.com 2025 2026 product updates subscription recovery"
+    ],
+    "rationale": "Provides a second specialist benchmark, especially for retention and recovery.",
+    "origin": "plan",
+    "avoid_domains": []
+  },
+  {
+    "id": "Q5",
+    "question": "How do Paddle\u2019s 2025\u20132026 billing capabilities, merchant-of-record model, and pricing compare with Stripe\u2019s for SaaS subscriptions and usage-based charging?",
+    "search_terms": [
+      "site:paddle.com pricing billing merchant of record 2026",
+      "site:paddle.com 2025 2026 usage-based billing subscriptions updates"
+    ],
+    "rationale": "Captures a commercially distinct alternative where tax and compliance responsibilities affect the overall comparison.",
+    "origin": "plan",
+    "avoid_domains": []
+  },
+  {
+    "id": "Q2.g1",
+    "question": "What do independent technology reviewers, payment-industry analysts, and merchants report about Stripe Billing\u2019s newer features, actual fees, eligibility restrictions, integration requirements, and limitations?",
+    "search_terms": [
+      "independent Stripe Billing pricing feature limitations review usage based billing",
+      "Stripe Billing integration requirements customer experience comparison"
+    ],
+    "rationale": "The existing evidence is entirely from Stripe. Independent reviews and customer or analyst coverage can corroborate costs, availability constraints, dependencies, and practical limitations.",
+    "origin": "gap",
+    "avoid_domains": [
+      "stripe.com"
+    ]
+  },
+  {
+    "id": "Q3.g1",
+    "question": "How do independent reviewers and merchants compare Chargebee with Stripe on 2025\u20132026 usage-based subscriptions, self-service, payment recovery, and pricing?",
+    "search_terms": [
+      "Chargebee Stripe comparison usage based billing pricing customer reviews 2025 2026",
+      "Chargebee subscription management payment recovery independent review"
+    ],
+    "rationale": "The available findings are few and all come from Chargebee. Independent comparisons and user reviews may add evidence on pricing and how the capabilities work in practice.",
+    "origin": "gap",
+    "avoid_domains": [
+      "chargebee.com"
+    ]
+  },
+  {
+    "id": "Q4.g1",
+    "question": "What do independent reviewers, analysts, and subscription businesses report when comparing Recurly with Stripe on metered billing, lifecycle tools, churn reduction, and pricing?",
+    "search_terms": [
+      "Recurly Stripe comparison metered billing pricing independent review 2025 2026",
+      "Recurly customer reviews subscription lifecycle churn management"
+    ],
+    "rationale": "All current evidence comes from Recurly. Independent comparisons and customer experience sources can validate feature availability, limitations, and relative pricing.",
+    "origin": "gap",
+    "avoid_domains": [
+      "recurly.com"
+    ]
+  },
+  {
+    "id": "Q5.g1",
+    "question": "How do independent analysts, reviewers, and SaaS merchants compare Paddle\u2019s merchant-of-record fees, tax and compliance coverage, subscription tools, and usage-based charging with Stripe?",
+    "search_terms": [
+      "Paddle Stripe merchant of record pricing comparison independent review 2025 2026",
+      "Paddle Billing usage based subscriptions customer experience comparison"
+    ],
+    "rationale": "The evidence is entirely from Paddle. Independent coverage can assess the practical tradeoffs of its merchant-of-record model, pricing, and billing capabilities against Stripe.",
+    "origin": "gap",
+    "avoid_domains": [
+      "paddle.com"
+    ]
+  }
+]

@@ -76,15 +76,17 @@ def rewrite(
 
 @app.command()
 def replay(
-    run_id: Annotated[str, typer.Argument(help="Run id to replay from its events.jsonl.")],
+    run: Annotated[
+        str, typer.Argument(help="Run id, or a folder such as examples/stripe-billing.")
+    ],
     speed: Annotated[float, typer.Option(help="Playback speed multiplier.")] = 8.0,
     max_gap: Annotated[float, typer.Option(help="Longest pause between events, seconds.")] = 1.5,
     hold: Annotated[float, typer.Option(help="Seconds to hold the final frame.")] = 4.0,
     plain: PlainOption = False,
 ) -> None:
     """Re-render a recorded run at a chosen speed (for demos and the time-lapse video)."""
-    info = _load_run(run_id)
-    run_dir = get_settings().runs_dir / run_id
+    run_dir = _run_dir(run)
+    info = _load_run(run)
     events = EventLog.read(run_dir / "events.jsonl")
 
     async def play() -> None:
@@ -105,9 +107,13 @@ def replay(
 
 
 @app.command()
-def show(run_id: Annotated[str, typer.Argument(help="Run id whose report to display.")]) -> None:
+def show(
+    run: Annotated[
+        str, typer.Argument(help="Run id, or a folder such as examples/stripe-billing.")
+    ],
+) -> None:
     """Render a run's report in the terminal."""
-    report = get_settings().runs_dir / run_id / "report.md"
+    report = _run_dir(run) / "report.md"
     if not report.exists():
         console.print(f"[red]No report at {report}[/]")
         raise typer.Exit(1)
@@ -119,8 +125,14 @@ def show(run_id: Annotated[str, typer.Argument(help="Run id whose report to disp
         console.print(markdown)
 
 
-def _load_run(run_id: str) -> RunInfo:
-    run_dir = get_settings().runs_dir / run_id
+def _run_dir(run: str) -> Path:
+    """A run id under runs/, or a path to any folder holding a run (e.g. examples/...)."""
+    path = Path(run)
+    return path if (path / "run.json").exists() else get_settings().runs_dir / run
+
+
+def _load_run(run: str) -> RunInfo:
+    run_dir = _run_dir(run)
     if not (run_dir / "run.json").exists():
         console.print(f"[red]No run found at {run_dir}[/]")
         raise typer.Exit(1)

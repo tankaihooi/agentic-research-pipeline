@@ -1,0 +1,117 @@
+{
+  "run_id": "20260923-155755-give-me-a-competitive-analysis-o-3b63",
+  "elapsed_s": 246.4,
+  "counts": {
+    "sub_queries": 9,
+    "sources": 35,
+    "sources_from_cache": 23,
+    "primary_sources": 14,
+    "findings": 258,
+    "errors": 0
+  },
+  "tokens": {
+    "raw_scraped": 254059,
+    "after_cleaning": 152629,
+    "distilled_findings": 13330,
+    "verified_for_writer": 11986,
+    "compression_ratio": 19.1
+  },
+  "critic": {
+    "verdicts": {
+      "verified": 122,
+      "single_source": 106,
+      "contradicted": 3,
+      "rejected": 27
+    },
+    "first_party": 88,
+    "rejected_by": {
+      "grounding": 0,
+      "entailment": 27,
+      "cross_reference": 0
+    },
+    "gap_loops": 1,
+    "stop_reason": "coverage met"
+  },
+  "report": {
+    "sections": 7,
+    "words": 3702,
+    "audit_rounds": [
+      {
+        "round": 1,
+        "sections_checked": 7,
+        "statements_checked": 98,
+        "flagged": 6
+      },
+      {
+        "round": 2,
+        "sections_checked": 4,
+        "statements_checked": 58,
+        "flagged": 3
+      }
+    ],
+    "unresolved_flags": 3,
+    "citation_problems": []
+  },
+  "usage": {
+    "planner": {
+      "calls": 1,
+      "input_tokens": 605,
+      "cached_input_tokens": 0,
+      "output_tokens": 774,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 11553.19549998967,
+      "cost_usd": 0.00895
+    },
+    "scraper": {
+      "calls": 47,
+      "input_tokens": 189210,
+      "cached_input_tokens": 0,
+      "output_tokens": 22750,
+      "embedding_calls": 20,
+      "embedding_tokens": 91237,
+      "latency_ms": 298787.8846640233,
+      "cost_usd": 0.03212074
+    },
+    "critic": {
+      "calls": 63,
+      "input_tokens": 190529,
+      "cached_input_tokens": 0,
+      "output_tokens": 26776,
+      "embedding_calls": 2,
+      "embedding_tokens": 3306,
+      "latency_ms": 309326.4649998164,
+      "cost_usd": 0.032507020000000005
+    },
+    "writer": {
+      "calls": 13,
+      "input_tokens": 41958,
+      "cached_input_tokens": 0,
+      "output_tokens": 12851,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 149537.5666640466,
+      "cost_usd": 0.21242600000000003
+    },
+    "auditor": {
+      "calls": 11,
+      "input_tokens": 34953,
+      "cached_input_tokens": 0,
+      "output_tokens": 5017,
+      "embedding_calls": 0,
+      "embedding_tokens": 0,
+      "latency_ms": 62458.653084991965,
+      "cost_usd": 0.0060038
+    }
+  },
+  "total": {
+    "calls": 135,
+    "input_tokens": 457255,
+    "cached_input_tokens": 0,
+    "output_tokens": 68168,
+    "embedding_calls": 22,
+    "embedding_tokens": 94543,
+    "latency_ms": 831663.7649128679,
+    "cost_usd": 0.29200756000000005
+  }
+}
