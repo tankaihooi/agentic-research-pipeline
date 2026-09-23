@@ -1,0 +1,62 @@
+[project]
+name = "deep-research"
+version = "0.1.0"
+description = "Multi-agent deep research system: Planner, Scraper, Critic and Writer agents orchestrated with LangGraph, producing cited Markdown briefings."
+readme = "README.md"
+authors = [
+    { name = "joshuatannn", email = "joshuatan.kaihooi@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "langgraph>=1.2.12",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "langsmith>=0.14.0",
+    "openai>=3.19.0",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "python-dotenv>=1.2.3",
+    "qdrant-client>=1.19.1",
+    "rapidfuzz>=3.14.6",
+    "rich>=15.0.0",
+    "tavily-python>=0.8.4",
+    "tenacity>=9.1.4",
+    "tiktoken>=0.14.0",
+    "trafilatura>=2.2.0",
+    "typer>=0.27.2",
+]
+
+[project.scripts]
+research = "deep_research.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.414",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "ruff>=0.16.8",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF", "ASYNC"]
+
+[tool.pyright]
+include = ["src", "tests", "scripts"]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+venvPath = "."
+venv = ".venv"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+filterwarnings = ["ignore:langsmith.wrappers._openai_agents is deprecated:DeprecationWarning"]
