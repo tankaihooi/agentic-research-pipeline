@@ -11,7 +11,7 @@ web pages, a **Critic** rejects any claim its source does not support and sends 
 back when evidence is one-sided, a **Writer** drafts the sections in parallel, and an
 **Auditor** checks every sentence against what it cites.
 
-https://github.com/user-attachments/assets/19695237-23cd-4a3d-808d-29b7627946eb
+https://github.com/user-attachments/assets/ee4bf0f5-b5f6-44ef-87f6-644e1970f206
 
 *A real run of the Stripe prompt, replayed from its event log at 4× with waits over 3 s trimmed.
 Nothing is staged or re-run. [How it was recorded](docs/video.md).*
